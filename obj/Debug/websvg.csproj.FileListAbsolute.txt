@@ -1,6 +1,0 @@
-D:\projects\git\MyProject\tag\webRender3D\websvg\websvg\websvg\bin\TypeScriptHTMLApp1.dll.config
-D:\projects\git\MyProject\tag\webRender3D\websvg\websvg\websvg\bin\TypeScriptHTMLApp1.dll
-D:\projects\git\MyProject\tag\webRender3D\websvg\websvg\websvg\bin\TypeScriptHTMLApp1.pdb
-D:\projects\git\MyProject\tag\webRender3D\websvg\websvg\websvg\obj\Debug\TypeScriptHTMLApp1.dll
-D:\projects\git\MyProject\tag\webRender3D\websvg\websvg\websvg\obj\Debug\TypeScriptHTMLApp1.pdb
-D:\projects\git\MyProject\tag\webRender3D\websvg\websvg\websvg\obj\Debug\websvg.csprojResolveAssemblyReference.cache
