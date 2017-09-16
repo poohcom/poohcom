@@ -24,8 +24,11 @@ class FileWriter {
         }
         return FileWriter._instance;
     }
-    save(content) {
-        saveAs(content, "example.jpg");
+    //public save(content): void {
+    //    saveAs(content, "example.jpg");
+    //}
+    save(fileName, content) {
+        saveAs(content, fileName);
     }
 }
 FileWriter._instance = null;

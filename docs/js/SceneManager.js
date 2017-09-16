@@ -18,31 +18,43 @@ class SceneManager {
     init() {
         if (!Detector.webgl)
             Detector.addGetWebGLMessage();
+        this.selectPack = new BoxPack();
         var menu = new Menu();
         menu.init();
         this.canvas = document.getElementById('sceneCanvas');
-        this.camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 100000);
-        this.camera.position.z = 5000;
-        this.camera.position.y = 1000;
+        this.camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 100, 100000);
+        //this.camera.up = new THREE.Vector3(0, 0, -1);
+        this.camera.position.z = -10000;
+        this.camera.position.y = -1000;
         this.scene = new THREE.Scene();
+        this.scene.rotateX(Math.PI);
+        //this.scene.rotateY(Math.PI);
+        //this.camera.position.z = 5000;
+        //this.camera.position.y = 1000;
+        ////////////////////////////////////////
         var object;
-        //this.scene.add(new THREE.AmbientLight(0x777777));
-        this.scene.add(new THREE.AmbientLight(0xffffff));
+        this.scene.add(new THREE.AmbientLight(0x777777));
+        //this.scene.add(new THREE.AmbientLight(0xcccccc));
         this.light = new THREE.DirectionalLight(0xffffff);
-        this.light.position.set(-100, -50, 100);
+        this.light.position.set(100, 50, 100);
         this.scene.add(this.light);
-        object = new THREE.ArrowHelper(new THREE.Vector3(0, 1, 0), new THREE.Vector3(0, 0, 0), 50);
-        object.position.set(400, 0, -200).normalize();
+        object = new THREE.ArrowHelper(new THREE.Vector3(0, 1, 0), new THREE.Vector3(0, 0, 0), 100);
+        //object.position.set(400, 0, -200).normalize();
+        this.scene.add(object);
+        object = new THREE.ArrowHelper(new THREE.Vector3(1, 0, 0), new THREE.Vector3(0, 0, 0), 50);
+        this.scene.add(object);
+        object = new THREE.ArrowHelper(new THREE.Vector3(0, 0, 1), new THREE.Vector3(0, 0, 0), 150);
         this.scene.add(object);
         //
         this.renderer = new THREE.WebGLRenderer({
-            canvas: this.canvas,
+            //canvas: this.canvas,
             antialias: true
         });
         //this.renderer.setClearColor(0xffffff);
         this.renderer.setPixelRatio(window.devicePixelRatio);
         this.renderer.setSize(window.innerWidth, window.innerHeight);
         //this.container.appendChild(this.renderer.domElement);
+        document.body.appendChild(this.renderer.domElement);
         this.controls = new THREE.TrackballControls(this.camera, this.renderer.domElement);
         this.controls.rotateSpeed = 1.0;
         this.controls.zoomSpeed = 1.2;
@@ -51,8 +63,11 @@ class SceneManager {
         this.controls.noPan = false;
         this.controls.staticMoving = true;
         this.controls.dynamicDampingFactor = 0.3;
-        var helper = new THREE.GridHelper(10000, 50, 0xFF4444, 0x404040);
-        this.scene.add(helper);
+        // x,y 폄연 핼퍼
+        var helperXY = new THREE.GridHelper(10000, 50, 0xFF4444, 0x404040);
+        helperXY.rotateX(Math.PI / 2.0);
+        helperXY.position.z = -1;
+        this.scene.add(helperXY);
         //this.stats = new Stats();
         //this.container.appendChild(this.stats.dom);
         //
@@ -66,99 +81,53 @@ class SceneManager {
             THIS.controls.handleResize();
         }
         this.animate();
+        this.raycaster = new THREE.Raycaster();
+        //document.addEventListener('mousedown', onDocumentMouseDown, false);
+        this.renderer.domElement.addEventListener('mousedown', onDocumentMouseDown, false);
+        function onDocumentMouseDown(e) {
+            SceneManager.instance().click(e);
+        }
     }
-    addTexture(map) {
-        map.wrapS = map.wrapT = THREE.RepeatWrapping;
-        map.anisotropy = 16;
-        this.svgmap = map;
-        this.changeMaterialMap();
+    click(e) {
+        e.preventDefault();
+        var mouseVector = new THREE.Vector3();
+        mouseVector.x = 2 * (e.clientX / window.innerWidth) - 1;
+        mouseVector.y = 1 - 2 * (e.clientY / window.innerHeight);
+        this.raycaster.setFromCamera(mouseVector, this.camera);
+        var intersects = this.raycaster.intersectObjects(SceneManager.instance().selectPack.getNode());
+        if (intersects.length > 0) {
+            console.log("down intersects.length" + intersects.length);
+            SceneManager.instance().selectPack.selectItem(intersects[0].object);
+        }
+        else {
+            SceneManager.instance().selectPack.selectItem(null);
+        }
+        //if (intersects.length > 0) {
+        //    if (INTERSECTED != intersects[0].object) {
+        //        if (INTERSECTED) INTERSECTED.material.emissive.setHex(INTERSECTED.currentHex);
+        //        INTERSECTED = intersects[0].object;
+        //        INTERSECTED.currentHex = INTERSECTED.material.emissive.getHex();
+        //        INTERSECTED.material.emissive.setHex(0xff0000);
+        //    }
+        //} else {
+        //    if (INTERSECTED) INTERSECTED.material.emissive.setHex(INTERSECTED.currentHex);
+        //    INTERSECTED = null;
+        //}
     }
     //
     animate() {
         requestAnimationFrame(SceneManager.instance().animate);
         SceneManager.instance().render();
-        //SceneManager.instance().stats.update();
     }
     render() {
         this.controls.update();
         this.renderer.render(this.scene, this.camera);
-        //this.light.position.set(-100, -50, 100);
-        //var timer = Date.now() * 0.00025;
-        //this.light.position.x = Math.sin(timer * 7) * 300;
-        //this.light.position.y = Math.cos(timer * 5) * 400;
-        //this.light.position.z = Math.cos(timer * 3) * 300;
-    }
-    addSVG(svgDoc) {
-        var list = this.scene.children;
-        for (var i = list.length - 1; i >= 0; i--) {
-            if (list[i] instanceof THREE.Mesh) {
-                this.scene.remove(list[i]);
-            }
-        }
-        var svg = new SVGBox();
-        svg.init(svgDoc);
-    }
-    addFace(faceMap, w, h) {
-        var map = new THREE.TextureLoader().load('textures/UV_Grid_Sm2.jpg');
-        map.wrapS = map.wrapT = THREE.RepeatWrapping;
-        map.anisotropy = 16;
-        this.svgmap = map;
-        var count = 0;
-        for (var key of faceMap.keys()) {
-            var list = faceMap.get(key).list.split(",");
-            var shape = new THREE.Shape();
-            for (var i = 0; i < list.length / 2 - 1; i++) {
-                if (i == 0) {
-                    shape.moveTo(parseFloat(list[0]) / w, -parseFloat(list[1]) / h);
-                }
-                else {
-                    shape.lineTo(parseFloat(list[i * 2]) / w, -parseFloat(list[i * 2 + 1]) / h);
-                }
-            }
-            var geometry = new THREE.ShapeGeometry(shape);
-            var mesh = new THREE.Mesh(geometry);
-            mesh.position.set(0, h, 0);
-            mesh.scale.set(w, h, 100);
-            this.scene.add(mesh);
-        }
-        this.changeMaterial();
+        AnimationManager.instance().update();
     }
     changeMaterial() {
-        var list = this.scene.children;
-        var alpha = 0.5;
-        var beta = 1;
-        var gamma = 0.5;
-        var specularShininess = Math.pow(2, alpha * 10);
-        var specularColor = new THREE.Color(beta * 0.2, beta * 0.2, beta * 0.2);
-        var diffuseColor = new THREE.Color().setHSL(alpha, 0.5, gamma * 0.5).multiplyScalar(1 - beta * 0.2);
-        var bumpScale = 10;
-        var material = new THREE.MeshPhongMaterial({
-            map: this.svgmap,
-            bumpMap: this.svgmap,
-            bumpScale: bumpScale,
-            color: diffuseColor.getHex(),
-            specular: specularColor.getHex(),
-            reflectivity: beta,
-            shininess: specularShininess,
-            shading: THREE.SmoothShading,
-            side: THREE.DoubleSide
-        });
-        for (var i = 0; i < list.length; i++) {
-            if (list[i] instanceof THREE.Mesh) {
-                list[i].material = material;
-            }
-        }
+        this.updateMaterialParams(Menu.instance().materialParams);
     }
-    changeMaterialMap() {
-        var list = this.scene.children;
-        for (var i = 0; i < list.length; i++) {
-            if (list[i] instanceof THREE.Mesh) {
-                list[i].material.map = this.svgmap;
-                list[i].material.bumpMap = this.svgmap;
-            }
-        }
-    }
-    updateParams(params) {
+    updateMaterialParams(params) {
         var colorValue = params.lightColor.replace('#', '');
         function hexToRgb(hex) {
             var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
@@ -176,27 +145,14 @@ class SceneManager {
         var reflectivity = params.reflectivity;
         var gamma = params.gamma;
         var specularShininess = Math.pow(2, alpha * 10);
-        //var specularColor = new THREE.Color(reflectivity * 0.2, reflectivity * 0.2, reflectivity * 0.2);
         var specularColor = new THREE.Color(reflectivity, reflectivity, reflectivity);
         var diffuseColor = new THREE.Color().setHSL(alpha, 0.5, gamma * 0.5).multiplyScalar(1 - reflectivity * 0.2);
         var bumpScale = params.bumpScale;
-        var list = this.scene.children;
-        var material = new THREE.MeshPhongMaterial({
-            map: this.svgmap,
-            bumpMap: this.svgmap,
-            bumpScale: bumpScale,
-            color: diffuseColor.getHex(),
-            specular: specularColor.getHex(),
-            reflectivity: reflectivity,
-            shininess: specularShininess,
-            shading: THREE.SmoothShading,
-            side: THREE.DoubleSide
-        });
-        for (var i = 0; i < list.length; i++) {
-            if (list[i] instanceof THREE.Mesh) {
-                list[i].material = material;
-            }
-        }
+        this.selectPack.updateMaterialBox(bumpScale, diffuseColor.getHex(), specularColor.getHex(), reflectivity, specularShininess);
+    }
+    addBox3D(box3D) {
+        this.changeMaterial();
+        AnimationManager.instance().addAnimate(box3D);
     }
 }
 SceneManager._instance = null;

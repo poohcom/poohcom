@@ -1,4 +1,6 @@
-﻿window.onload = () => {
+﻿
+
+window.onload = () => {
 
     SceneManager.instance().init();
 };

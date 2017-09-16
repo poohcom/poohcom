@@ -368,7 +368,7 @@ THREE.MTLLoader.MaterialCreator.prototype = {
 
 			var texParams = scope.getTextureParams( value, params );
 			var map = scope.loadTexture( resolveURL( scope.baseUrl, texParams.url ) );
-
+			
 			map.repeat.copy( texParams.scale );
 			map.offset.copy( texParams.offset );
 

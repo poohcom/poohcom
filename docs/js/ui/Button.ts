@@ -18,8 +18,8 @@ class Button extends createjs.Container
         var text = new createjs.Text(buttontext, "12px Arial", color);
         var b = text.getBounds();
 
-        console.log("w:" + b.width);
-        console.log("h:" + b.height);
+        //console.log("w:" + b.width);
+        //console.log("h:" + b.height);
         text.x = (w - b.width) / 2;
         text.y = (h - b.height) / 2;
 

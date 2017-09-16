@@ -1,4 +1,8 @@
 ﻿/// <reference path="../scripts/typings/createjs/createjs.d.ts" />
+/// <reference path="../scripts/typings/jszip/index.d.ts" />
+/// <reference path="../scripts/typings/three/index.d.ts" />
+
+
 
 class Menu
 {
@@ -10,11 +14,47 @@ class Menu
     settingPanel: createjs.Container;
     fileApiAvailable: boolean;
 
-    constructor() {
+    public gui: dat.GUI;
+    public isLock: boolean = false;
+
+    public materialParams = {
+        specularShininess: 0.5,
+        reflectivity: 1.0,
+        gamma: 0.5,
+        bumpScale: 10,
+        lightColor: "#ffffff"
+    };
+
+    public viewParams = {
+        isPlay: true,
+        speed: 1,
+        time: 0.0
+    };
+
+    public timeGUI: dat.GUIController;
+    public editFolder: dat.GUI;
+
+    private static _instance: Menu = null;
+
+    private uiHeightIndex: number = 0;
+    private nextHeight():number
+    {
+        return 20 * this.uiHeightIndex++;
     }
 
-    //public addButton()
+    public static instance(): Menu {
+        if (Menu._instance === null) {
+            Menu._instance = new Menu();
+        }
+        return Menu._instance;
+    }
 
+    constructor() {
+        if (Menu._instance) {
+            throw new Error("Error: Config instead of new.");
+        }
+        Menu._instance = this;
+    }
     public init(): void {
 
 
@@ -51,12 +91,13 @@ class Menu
             THIS.filePanel.visible = false;
         });
 
+        
         stage.addChild(this.filePanel);
 
         var button = new Button();
         button.init(100, 20, "파일", "#000000");
         button.x = 0;
-        button.y = 0;
+        button.y = this.nextHeight();
         
         button.addEventListener("click", function (event: Event) {
             THIS.filePanel.visible = true;
@@ -66,14 +107,57 @@ class Menu
 
 
         var button = new Button();
+        button.init(100, 20, "zip 파일 읽기", "#000000");
+        button.x = 0;
+        button.y = this.nextHeight();
+        button.addEventListener("click", function (event: Event) {
+
+            console.log("파일 오픈");
+            var elemFileInput: HTMLInputElement = <HTMLInputElement>document.getElementById('fileUploadInput');
+            elemFileInput.accept = ".zip";
+            elemFileInput.multiple = false;
+            elemFileInput.click();
+        });
+        this.filePanel.addChild(button);
+
+
+        var button: Button = new Button();
+        button.init(100, 20, "zip 파일 저장", "#000000");
+        button.x = 0;
+        button.y = this.nextHeight();
+        button.addEventListener("click", function (event: Event) {
+
+            SceneManager.instance().selectPack.saveZip();
+        });
+
+        this.filePanel.addChild(button);
+
+
+        var button = new Button();
+        button.init(100, 20, "pack 파일 읽기", "#000000");
+        button.x = 0;
+        button.y = this.nextHeight();
+        button.addEventListener("click", function (event: Event) {
+
+            console.log("파일 오픈");
+            var elemFileInput: HTMLInputElement = <HTMLInputElement>document.getElementById('fileUploadInput');
+            elemFileInput.accept = ".pack";
+            elemFileInput.multiple = false;
+            elemFileInput.click();
+        });
+        this.filePanel.addChild(button);
+
+
+        var button = new Button();
         button.init(100, 20, "SVG 파일 읽기", "#000000");
         button.x = 0;
-        button.y = 20;
+        button.y = this.nextHeight();
         button.addEventListener("click", function (event: Event) {
 
             console.log("파일 오픈");
             var elemFileInput: HTMLInputElement = <HTMLInputElement>document.getElementById('fileUploadInput');
             elemFileInput.accept = ".svg";
+            elemFileInput.multiple = true;
             elemFileInput.click();
         });
         this.filePanel.addChild(button);
@@ -82,182 +166,324 @@ class Menu
         var button = new Button();
         button.init(100, 20, "jpg 파일 읽기", "#000000");
         button.x = 0;
-        button.y = 40;
+        button.y = this.nextHeight();
         button.addEventListener("click", function (event: Event) {
 
             console.log("jpg 파일 오픈");
 
             var elemFileInput: HTMLInputElement = <HTMLInputElement> document.getElementById('fileUploadInput');
-            elemFileInput.accept = ".jpg";
+            elemFileInput.accept = ".jpg,.png";
+            elemFileInput.multiple = true;
             elemFileInput.click();
         });
 
         this.filePanel.addChild(button);
 
-        var button = new Button();
+        var button: Button = new Button();
+        button.init(100, 20, "mtl 파일 읽기", "#000000");
+        button.x = 0;
+        button.y = this.nextHeight();
+        button.addEventListener("click", function (event: Event) {
+
+            console.log("mtl 파일 오픈");
+            var elemFileInput: HTMLInputElement = <HTMLInputElement>document.getElementById('fileUploadInput');
+            elemFileInput.accept = ".mtl";
+            elemFileInput.multiple = true;
+            elemFileInput.click();
+
+        });
+
+        this.filePanel.addChild(button);
+
+
+        var button: Button = new Button();
         button.init(100, 20, "obj 파일 읽기", "#000000");
         button.x = 0;
-        button.y = 60;
+        button.y = this.nextHeight();
         button.addEventListener("click", function (event: Event) {
 
             console.log("obj 파일 오픈");
             var elemFileInput: HTMLInputElement = <HTMLInputElement>document.getElementById('fileUploadInput');
             elemFileInput.accept = ".obj";
+            elemFileInput.multiple = true;
             elemFileInput.click();
 
         });
-
-
         
         this.filePanel.addChild(button);
 
-        var params = {
-            specularShininess: 0.5,
-            reflectivity: 1.0,
-            gamma: 0.5,
-            bumpScale: 10,
-            lightColor : "#ffffff"
-        };
-        // Init gui
-        var gui = new dat.GUI();
-        gui.add(params, "specularShininess", 0.0, 1.0).onChange(function (value) {
-            SceneManager.instance().updateParams(params);
-            
-        });
+        this.createGUI();  
+        document.getElementById('fileUploadInput').addEventListener('change', this.readMultiFile, false);
+    }
 
-        gui.add(params, "reflectivity", 0.0, 1.0).onChange(function (value) {
-            SceneManager.instance().updateParams(params);
-        });
-        gui.add(params, "gamma", 0.0, 1.0).onChange(function (value) {
-            SceneManager.instance().updateParams(params);
-        });
-        gui.add(params, "bumpScale", 0, 10).onChange(function (value) {
-            SceneManager.instance().updateParams(params);
-        });
-        
-        var lightColor = gui.addColor(params, 'lightColor');
-        
-        lightColor.onChange(function (colorValue) {
-            //the return value by the chooser is like as: #ffff
-            //colorValue = colorValue.replace('#', '');
-            //function hexToRgb(hex) {
-            //    var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
-            //    return result ? {
-            //        r: parseInt(result[1], 16),
-            //        g: parseInt(result[2], 16),
-            //        b: parseInt(result[3], 16)
-            //    } : null;
-            //}
-            //var rgba = hexToRgb(colorValue);
+    // 정리
+    public refreshEditFolder(nodeList: Array<XMLNode>): void {
+        this.createGUI();
+        for (var i: number = 0; i < nodeList.length; i++) {
 
-            //var color = outlinePass.visibleEdgeColor;
-            //color.r = rgba.r / 255;
-            //color.g = rgba.g / 255;
-            //color.b = rgba.b / 255;
-
-            SceneManager.instance().updateParams(params);
-
-        });
-
-
-
-        //class FizzyText {
-
-        //    public message: string = 'dat.gu문서';
-        //    public speed: Number = 0.8;
-        //    public displayOutline: boolean = true;
-        //    public explode = function () { };
-        
-        //}
-
-        //var FizzyText2 = function () {
-        //    this.message = 'dat.gui2';
-        //    this.speed = 0.8;
-        //    this.displayOutline = false;
-        //    this.explode = function () { };
-        //    // Define render logic ...
-        //};
-
-        //var text = new FizzyText();
-        ////var gui = new dat.GUI({ autoPlace: false, closeOnTop: true, name: "test", closed: false });
-        ////var gui = new dat.GUI({ autoPlace: false});
-        //var gui = new dat.GUI();
-
-        //gui.add(text, 'message');
-        //gui.add(text, 'speed', -5, 5);
-        //gui.add(text, 'displayOutline');
-        //gui.add(text, 'explode');
-        
-        
-
-        //var customContainer = document.getElementById('uiCanvas');
-        //customContainer.appendChild(gui.domElement);
-        
-        function readSingleFile(e) {
-            var file = e.target.files[0];
-            
-
-            if (!file) {
-                return;
-            }
-
-            var files = e.target.files;
-            
-            for (var i = 0, file; file = files[i]; i++)
+            if (nodeList[i].type != XMLNodeType.VBOX)
             {
-
-                if (file.name.indexOf('\.svg') > 0)
-                {
-
-                    var reader = new FileReader();
-                    reader.onload = function(e)
-                    {
-                        var parser: DOMParser = new DOMParser();
-                        var xmlDoc: Document = parser.parseFromString(reader.result, "text/xml");
-                        
-                        //console.log(xmlDoc.getElementsByTagName("svg")[0].getAttribute("width"));
-                        //console.log(xmlDoc.getElementsByTagName("svg")[0].getAttribute("height"));
-                        //var lines = xmlDoc.getElementsByTagName("line");
-                        
-                        SceneManager.instance().addSVG(xmlDoc);
-                    };
-
-                    reader.readAsText(file);
-                }
-
-                if (file.name.indexOf('\.jpg') > 0)
-                {
-                    var reader = new FileReader();
-                    reader.onload = function(e) {
-
-
-                        var img = new Image();
-                        img.src = reader.result;
-
-                        SceneManager.instance().addTexture(new THREE.TextureLoader().load(reader.result));
-
-                        //var blob = new Blob(["Hello, world!"], { type: "text/plain;charset=utf-8" });
-                        //var bytes = new Uint8Array(reader.result);
-                        //var blob = new Blob([bytes], { type: 'image/jpeg' });
-
-
-                        //FileWriter.instance().save(blob);
-                    };
-
-                    reader.readAsDataURL(file);
-
-
-                }
+                this.addNode(nodeList[i]);
             }
-
-
         }
+    }
 
-        
+    public createGUI(): void
+    {
 
-        document.getElementById('fileUploadInput').addEventListener('change', readSingleFile, false);
+
+        if (this.gui!=null) {
+            this.gui.destroy();
+        }
+        this.gui = new dat.GUI();
+
+        var lightFolder = this.gui.addFolder('Material and Light');
+
+        var viewFolder: dat.GUI = this.gui.addFolder('View');
+        this.editFolder = this.gui.addFolder('Edit');
+
+        lightFolder.add(this.materialParams, "specularShininess", 0.0, 1.0).onChange(function (value) {
+            SceneManager.instance().changeMaterial();
+        });
+
+
+        lightFolder.add(this.materialParams, "reflectivity", 0.0, 1.0).onChange(function (value) {
+            SceneManager.instance().changeMaterial();
+        });
+        lightFolder.add(this.materialParams, "gamma", 0.0, 1.0).onChange(function (value) {
+            SceneManager.instance().changeMaterial();
+        });
+        lightFolder.add(this.materialParams, "bumpScale", 0, 10).onChange(function (value) {
+            SceneManager.instance().changeMaterial();
+        });
+
+        var lightColor = lightFolder.addColor(this.materialParams, 'lightColor');
+
+        lightColor.onChange(function (colorValue) {
+            SceneManager.instance().changeMaterial();
+        });
+
+        viewFolder.add(this.viewParams, "speed", [1, 0.5, 0.2, 0.1]).onChange(function (value) {
+            AnimationManager.instance().speed = value;
+        });
+
+        viewFolder.add(this.viewParams, "isPlay", ).onChange(function (value) {
+            AnimationManager.instance().isPlay = value;
+        });
+
+
+        // 시간 컨트롤러
+        //this.timeGUI = viewFolder.add(this.viewParams, "time", 0, 100).step(1);
+        this.timeGUI = viewFolder.add(this.viewParams, "time", 0, 100).listen();
+        this.timeGUI.onChange(function (value) {
+            //AnimationManager.instance().updateTime(value);
+        });
+    }
+
+    private addNode(node: XMLNode):void
+    {
+        var nodeFolder: dat.GUI = this.editFolder.addFolder(node.id);
+
+        var viewParams = {
+            isVisible: true
+        };
+
+        nodeFolder.add(viewParams, "isVisible").onChange(function (value) {
+            node.updateVisible(value);
+        });
     }
 
 
+    public fileList: FileList;
+    public fileIndex: number = 0;
+    public fileZipListIndex: number = 0;
 
+    public readMultiFile(e: any): void {
+        var file = e.target.files[0];
+
+        if (!file) {
+            return;
+        }
+        Menu.instance().fileList = e.target.files;
+        Menu.instance().fileIndex = 0;
+
+        Menu.instance().readFile();
+    }
+
+    // 집파일 리스트 순서대로 로딩용
+    public zipList: Array<JSZipObject>;
+
+    public readFileZipList(): void
+    {
+        if (this.fileZipListIndex >= this.zipList.length )
+        {
+            SceneManager.instance().selectPack.refresh();
+            return;
+        }
+
+        var zipFile: JSZipObject = this.zipList[this.fileZipListIndex++];
+
+        if (zipFile.name.indexOf('\.pack') > 0) {
+            zipFile.async('string').then(function (txt) {
+                console.log("the content:", zipFile.name);
+                SceneManager.instance().selectPack.addFilePack(zipFile.name, txt);
+                Menu.instance().readFileZipList();
+            });
+        } else
+        if (zipFile.name.indexOf('\.jpg') > 0
+            ||
+            zipFile.name.indexOf('\.png') > 0
+        )
+        {
+            zipFile.async('blob').then(function (raw) {
+                console.log("the content:", zipFile.name);
+                SceneManager.instance().selectPack.addFileImageForZip(zipFile.name, raw);
+            });
+
+        }else if (zipFile.name.indexOf('\.mtl') > 0) {
+
+            zipFile.async('string').then(function (txt) {
+                console.log("the content:", zipFile.name);
+                SceneManager.instance().selectPack.addFileMtl(zipFile.name, txt);
+                Menu.instance().readFileZipList();
+            });
+        }else if (zipFile.name.indexOf('\.obj') > 0) {
+
+            zipFile.async('string').then(function (txt) {
+                console.log("the content:", zipFile.name);
+                SceneManager.instance().selectPack.addFileObj(zipFile.name, txt);
+                Menu.instance().readFileZipList();
+            });
+
+        } else if (zipFile.name.indexOf('\.svg') > 0) {
+            zipFile.async('string').then(function (txt) {
+                console.log("the content:", zipFile.name);
+                SceneManager.instance().selectPack.addFileSvg(zipFile.name, txt);
+                Menu.instance().readFileZipList();
+            });
+
+
+        } else 
+        {
+            Menu.instance().readFileZipList();
+        }
+
+    }
+
+    public readFile(): void
+    {
+        var file = this.fileList[this.fileIndex++];
+        this.zipList = new Array<JSZipObject>();
+        this.fileZipListIndex = 0;
+        if (!file) {
+            SceneManager.instance().selectPack.refresh();
+            return;
+        }
+
+        if (file.name.indexOf('\.zip') > 0) {
+            var new_zip: JSZip = new JSZip();
+            new_zip.loadAsync(file).then(function (content) {
+                console.log("new_zip:", content);
+
+                var jpgList: JSZipObject[] = content.file(new RegExp("[\x21-\x7E]*.jpg"));
+                var pngList: JSZipObject[] = content.file(new RegExp("[\x21-\x7E]*.png"));
+                var mtlList: JSZipObject[] = content.file(new RegExp("[\x21-\x7E]*.mtl"));
+                var objList: JSZipObject[] = content.file(new RegExp("[\x21-\x7E]*.obj"));
+                var svgList: JSZipObject[] = content.file(new RegExp("[\x21-\x7E]*.svg"));
+                var packList: JSZipObject[] = content.file(new RegExp("[\x21-\x7E]*.pack"));
+
+                for (var i: number = 0; i < packList.length; i++) {
+                    Menu.instance().zipList.push(packList[i]);
+                }
+
+                for (var i: number = 0; i < jpgList.length; i++) {
+                    Menu.instance().zipList.push(jpgList[i]);
+                }
+
+                for (var i: number = 0; i < pngList.length; i++) {
+                    Menu.instance().zipList.push(pngList[i]);
+                }
+
+                for (var i: number = 0; i < svgList.length; i++) {
+                    Menu.instance().zipList.push(svgList[i]);
+                }
+
+
+                for (var i: number = 0; i < mtlList.length; i++) {
+                    Menu.instance().zipList.push(mtlList[i]);
+                }
+
+
+                for (var i: number = 0; i < objList.length; i++) {
+                    Menu.instance().zipList.push(objList[i]);
+                }
+                
+                Menu.instance().readFileZipList();
+            });
+        }
+
+        if (file.name.indexOf('\.svg') > 0) {
+            var reader = new FileReader();
+            var fileName: string = file.name;
+            reader.onload = function (e) {
+                SceneManager.instance().selectPack.addFileSvg(fileName, reader.result);
+                Menu.instance().readFile();
+            };
+
+            reader.readAsText(file);
+        }
+
+        if (file.name.indexOf('\.jpg') > 0) {
+
+            var reader = new FileReader();
+
+            var fileName: string = file.name;
+            var f: any = file;
+            reader.onload = function (e) {
+                SceneManager.instance().selectPack.addFileImage(fileName, f, reader.result);
+                Menu.instance().readFile();
+            };
+
+            reader.readAsArrayBuffer(file); // 저장되나 이미지가 안되고
+        }
+
+        if (file.name.indexOf('\.png') > 0) {
+
+            var reader = new FileReader();
+
+            var fileName: string = file.name;
+            var f: any = file;
+            reader.onload = function (e) {
+                SceneManager.instance().selectPack.addFileImage(fileName, f, reader.result);
+                Menu.instance().readFile();
+            };
+
+            reader.readAsArrayBuffer(file); // 저장되나 이미지가 안되고
+        }
+
+        if (file.name.indexOf('\.mtl') > 0) {
+            var reader = new FileReader();
+            var fileName: string = file.name;
+            reader.onload = function (e) {
+                SceneManager.instance().selectPack.addFileMtl(fileName, reader.result);
+                Menu.instance().readFile();
+            };
+
+            reader.readAsText(file);
+        }
+
+        if (file.name.indexOf('\.obj') > 0) {
+            var reader = new FileReader();
+            var fileName: string = file.name;
+            reader.onload = function (e) {
+
+                SceneManager.instance().selectPack.addFileObj(fileName, reader.result);
+                Menu.instance().readFile();
+            };
+
+            reader.readAsText(file);
+        }
+
+
+    }
 }

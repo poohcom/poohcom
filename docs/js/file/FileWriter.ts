@@ -33,10 +33,15 @@ class FileWriter {
         //    });
 
     }
-    
-    public save(content):void
+
+    //public save(content): void {
+    //    saveAs(content, "example.jpg");
+    //}
+
+
+    public save(fileName:string, content:Blob):void
     {
-        saveAs(content, "example.jpg");
+        saveAs(content, fileName);
     }
     
 
