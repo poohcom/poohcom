@@ -48,7 +48,10 @@ var Menu = (function () {
         this.createGUI();
         this.zipList = new Array();
         //JSZipUtils.getBinaryContent('/sample/AppleBox.zip', function (err, data) {
-        JSZipUtils.getBinaryContent('https://poohcom.github.io/poohcom/ver2/sample/AppleBox.zip', function (err, data) {
+        if (this.filename == "")
+            return;
+        //JSZipUtils.getBinaryContent('https://poohcom.github.io/poohcom/ver2/sample/AppleBox.zip', function (err, data) {
+        JSZipUtils.getBinaryContent(this.filename, function (err, data) {
             if (err) {
                 console.log("err:" + err);
             }
