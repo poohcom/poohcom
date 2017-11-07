@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>svg 3D</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <style>
+        body {
+            font-family: Monospace;
+            background-color: #000;
+            color: #fff;
+            margin: 0 0 0 0;
+            padding: 0 0 0 0;
+            border: none;
+            cursor: default;
+        }
+
+        #uiCanvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-Index: 1;
+        }
+
+
+        #desc {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin: auto;
+            border: 3px solid yellow;
+            padding: 10px;
+            width: auto;
+            z-Index: 300;
+            color: black;
+            background-color: #eee;
+            visibility: hidden;
+            transform: translate(-50%, -50%)
+        }
+
+        #desctextarea {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin: auto;
+            border: 3px solid red;
+            padding: 10px;
+            width: auto;
+            z-Index: 300;
+            color: black;
+            background-color: #eee;
+            visibility: hidden;
+            transform: translate(-50%, -50%)
+        }
+
+        #dat {
+            user-select: none;
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-Index: 200;
+        }
+
+        #fileUploadInput {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    
+    <script src="lib/easeljs-0.8.2.min.js" type="text/javascript"></script>
+
+    <script src="lib/Detector.js" type="text/javascript"></script>
+    <script src="lib/three.js" type="text/javascript"></script>
+    <script src="lib/jszip/jszip.js" type="text/javascript"></script>
+    <script src="lib/jszip/jszip-utils.js" type="text/javascript" ></script>
+    <!--
+    Mandatory in IE 6, 7, 8 and 9.
+    -->
+    <!--[if IE]>
+    <script src="lib/jszip/jszip-utils-ie.js" type="text/javascript"></script>
+    <![endif]-->
+
+
+    <script src="lib/controls/TrackballControls.js"></script>
+    <script src="lib/controls/OrbitControls.js"></script>
+    
+    <script src="lib/loaders/MTLLoader2.js"></script>
+    <script src="lib/libs/dat.gui.min.js"></script>
+    
+    <script src="lib/loaders/OBJLoader.js"></script>
+
+    <script src="lib/stats.js" type="text/javascript"></script>
+    <script src="lib/Tween.js" type="text/javascript"></script>
+    <script src="lib/FileSaver.min.js" type="text/javascript"></script>
+    <script src="js/util/Dictionary.js" type="text/javascript"></script>
+    <script src="js/file/FileWriter.js" type="text/javascript"></script>
+    <script src="js/ui/Button.js" type="text/javascript"></script>
+    <script src="js/ui/AnimationManager.js" type="text/javascript"></script>
+
+    <script src="js/model/Animation.js" type="text/javascript"></script>
+    <script src="js/model/Box3D.js" type="text/javascript"></script>
+    <script src="js/model/BoxFace3D.js" type="text/javascript"></script>
+
+    <script src="js/modenbox/XMLNode.js" type="text/javascript"></script>
+    <script src="js/modenbox/BoxBaseline.js" type="text/javascript"></script>
+    <script src="js/modenbox/BoxPoint.js" type="text/javascript"></script>
+    <script src="js/modenbox/BoxLine.js" type="text/javascript"></script>
+    <script src="js/modenbox/BoxFace.js" type="text/javascript"></script>
+    <script src="js/modenbox/BoxPack.js" type="text/javascript"></script>
+
+    
+    <script src="js/modenbox/SVGBox.js" type="text/javascript"></script>
+
+    <script src="js/SceneManager.js" type="text/javascript"></script>
+    <script src="js/Menu.js" type="text/javascript"></script>
+
+    <script src="app.js"></script>
+
+    <textarea id="desctextarea" rows="4" cols="50"></textarea>    
+    <div id="desc"></div>
+    
+
+
+    <input id="fileUploadInput" type="file" name="files[]" accept=".zip,.obj,.mtl,.jpg" multiple />
+
+
+
+    <canvas id="uiCanvas" width="200" height="200"></canvas>
+    <div id="container"></div>
+
+</body>
+</html>
