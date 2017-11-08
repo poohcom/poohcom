@@ -42,8 +42,10 @@ var AnimationManager = (function () {
     };
     AnimationManager.prototype.getMeshes = function (array) {
         for (var i = 0; i < this.box3DList.length; i++) {
-            this.box3DList[i].updateMatrixWorld(true);
-            this.box3DList[i].getMeshes(array);
+            if (this.box3DList[i].root.visible == true) {
+                this.box3DList[i].updateMatrixWorld(true);
+                this.box3DList[i].getMeshes(array);
+            }
         }
     };
     AnimationManager.prototype.sortAnimation = function () {
