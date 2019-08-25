@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127769031-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-127769031-1');
+</script>
+<meta charset="UTF-8">
+<title>BATTLE FORCE SEOUL ART BATTLE</title>
+<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<style>
+* {margin:0; padding:0; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box}
+* {outline:0}
+html, body {width:100%; height:100%; min-width:900px; background:url('images/bg_body.jpg') no-repeat 50%; background-size:100% 100%}
+body {min-width:900px}
+#battlewrap {position:absolute; left:50%; top:50%; width:829px; height:520px; margin:-260px 0 0 -415px; background:url('images/bg_bodycontents.png') no-repeat 50%}
+#battlewrap fieldset {width:100%; height:100%; padding:45px 0 0 0; margin:0; text-align:center; border:0}
+#battlewrap fieldset legend {display:none}
+#battlewrap fieldset h1 {margin:0 0 30px 0}
+#battlewrap fieldset h2 {margin:0 0 40px 0}
+#battlewrap fieldset .inpbox {width:369px; height:66px; padding:3px; margin:0 auto 30px; background:url('images/bg_inpbox_on.jpg') no-repeat 0 0}
+#battlewrap fieldset .inpbox input {width:363px; height:60px; padding:0 20px; text-align:center; background-color:#fff; background-image:url('images/txt_inpbox.jpg'); background-repeat:no-repeat; background-position:50%; overflow:hidden; border:0; font-family:tahoma; font-weight:bold; font-size:21px; color:#e93225}
+#battlewrap fieldset button {width:230px; height:65px; background:#383838 url('images/txt_confirm.jpg') no-repeat 50%; border:0; font-size:0; text-indent:-99999px}
+@media screen and (max-width:1600px){	
+	html, body {background-size:cover 100%}
+}
+@media screen and (max-width:900px){	
+	#battlewrap {position:relative; left:0; top:130px; margin:0 auto 0}
+}
+</style>
+</head>
+<body>
+
+<div id="battlewrap">
+	<fieldset>
+		<legend>캠페인참여 휴대전화번호 입력</legend>
+		<h1><img src="images1/logo.png" alt="BATTLE FORCE SEOUL ART BATTLE" /></h1>
+		<h2><img src="images1/txt_campaign.png" alt="해당 캠페인은 모바일로만 참여할 수 있습니다 하단에 휴대 전화번호를 입력하고 발급받은 URL을 통해 모바일에서 캠페인 사이트에 입장에 해주세요." /></h2>
+		<p class="inpbox"><input type="text" title="휴대폰번호입력" /></p>
+		<button type="button" onclick="send_sms();">확인</button>
+	</fieldset>
+</div>
+
+<script>
+var title = '';
+var message = "나이키 AF1 캠페인에 참여해주셔서 감사합니다.\n아래의 링크로 접속하여 참여 바랍니다.\nwww.battleforce-art.co.kr";
+var regExp = /^01([0|1|6|7|8|9]?)-?([0-9]{3,4})-?([0-9]{4})$/;
+
+function send_sms() {
+	var phone_number = $("fieldset .inpbox input").val();
+	phone_number = phone_number.replace('-', '');
+	phone_number = phone_number.replace(' ', '');
+	if (!regExp.test(phone_number)) {
+	    alert("형식에 맞지 않는 번호입니다.\n다시 입력해주세요.");
+	} else {
+		$.ajax({
+		  type: "POST",
+		  url: 'send_sms1.php',
+		  data: {'phone_number': phone_number},
+		  success: function() {
+			  alert('휴대폰으로 URL이 전송되었습니다\n해당 링크를 눌러 이벤트에 참여하세요');
+			  location.reload();
+		  },
+		  error: function() {
+			  alert('URL전송이 실패하였습니다.');
+		  }
+		});
+	}
+}
+
+$("fieldset .inpbox input").focus(function() {
+	if(this.value == this.defaultValue) {
+		this.value = "";
+		$("fieldset .inpbox input").css("background-image", "none");
+	}
+}).blur(function() {
+	if(!this.value.length) {
+		this.value = this.defaultValue;
+		$("fieldset .inpbox").addClass("on");
+	}
+});
+</script>
+</body>
+</html>
