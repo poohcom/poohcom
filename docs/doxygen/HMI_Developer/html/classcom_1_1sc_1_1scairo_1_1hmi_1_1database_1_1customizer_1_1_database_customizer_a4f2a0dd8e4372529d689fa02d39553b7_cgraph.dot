@@ -1,0 +1,27 @@
+digraph "com.sc.scairo.hmi.database.customizer.DatabaseCustomizer.actionPerformed"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="com.sc.scairo.hmi.database.customizer.\lDatabaseCustomizer.actionPerformed",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="com.sc.scairo.hmi.database.customizer.\lDatabaseCustomizer.connectionTest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1database_1_1customizer_1_1_database_customizer.html#a0a492ad894eea4b1b8fd4dbf28c1f4ca",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="com.sc.scairo.hmi.database.\lMessages.getString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1database_1_1_messages.html#ad6d0c98f02adf2539b233fa5f52c0426",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="com.sc.scairo.hmi.database.customizer.\lDatabaseCustomizer.createSchema",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1database_1_1customizer_1_1_database_customizer.html#acf7b47c59e30de64359998b7868d31e2",tooltip=" "];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="com.sc.scairo.hmi.database.customizer.\lDatabaseCustomizer.createDummyConnection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1database_1_1customizer_1_1_database_customizer.html#aaa6fe01e09a5a619e4ce0e8da6f8e538",tooltip=" "];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="com.sc.scairo.hmi.database.customizer.\lDatabaseCustomizer.getDbmsType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1database_1_1customizer_1_1_database_customizer.html#aa0c273518b867ca94776ca5fc78f067a",tooltip=" "];
+  Node4 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="com.sc.scairo.hmi.database.customizer.\lDatabaseCustomizer.dropSchema",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1database_1_1customizer_1_1_database_customizer.html#a1d54c75bc27d2d42cac76e51cf177b5a",tooltip=" "];
+  Node7 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="com.sc.scairo.hmi.database.customizer.\lDatabaseCustomizer.setRedundancyCheck",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1database_1_1customizer_1_1_database_customizer.html#acc274cc7b24a968a897f72ded3c69468",tooltip=" "];
+}

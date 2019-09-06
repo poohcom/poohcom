@@ -1,0 +1,10 @@
+<map id="com.sc.scairo.hmi.net.ControlData.getMessage" name="com.sc.scairo.hmi.net.ControlData.getMessage">
+<area shape="rect" id="node1" title=" " alt="" coords="1028,39,1224,80"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_control_data.html#ad4aeed4547188ce2f453da768b22af06" title=" " alt="" coords="784,5,980,47"/>
+<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_control_data.html#aaa8745e60f83d0a718c0657568b3ffd9" title=" " alt="" coords="784,71,980,112"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1runtime_1_1_control_logger.html#a12c856342931cb87b5cce880c386fd0c" title="간략한 설명 작성" alt="" coords="556,5,736,47"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1runtime_1_1_tag_control_manager.html#a536f336e23bf45273e42262a3d8004d0" title="간략한 설명 작성" alt="" coords="285,5,467,47"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1runtime_1_1_tag_control_manager.html#a2722e543320ba6a3e6a9b1dd3674e61e" title="간략한 설명 작성" alt="" coords="5,5,196,47"/>
+<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1runtime_1_1_tag_control_manager.html#a26a0ca9283773929b93ffff76170f055" title="간략한 설명 작성" alt="" coords="11,71,191,112"/>
+<area shape="rect" id="node8" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1runtime_1_1_tag_control_manager.html#aec595e33ff67ca2cf4ae8f1c55c388f5" title="간략한 설명 작성" alt="" coords="244,71,508,112"/>
+</map>

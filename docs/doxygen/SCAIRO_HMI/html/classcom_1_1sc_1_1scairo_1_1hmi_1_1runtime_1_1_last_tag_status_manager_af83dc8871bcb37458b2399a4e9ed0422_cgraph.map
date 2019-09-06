@@ -1,0 +1,17 @@
+<map id="com.sc.scairo.hmi.runtime.LastTagStatusManager.LastTagStatusManager" name="com.sc.scairo.hmi.runtime.LastTagStatusManager.LastTagStatusManager">
+<area shape="rect" id="node1" title=" " alt="" coords="5,246,249,302"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1_tag_dictionary.html#a50c59a2b5a0f08cf48c5d31f532070a1" title=" " alt="" coords="335,5,542,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1runtime_1_1_h_sql_d_b_logger.html#a8203558257bbbf25cd1d8a59bb3994b8" title=" " alt="" coords="349,71,529,112"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1common_1_1_system_resource_manager.html#a8be54ff1042e555eec7409e4df4f0746" title=" " alt="" coords="317,136,560,177"/>
+<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_tag.html#a634a7cc0481df65de4a9cfd5a32817ca" title=" " alt="" coords="328,202,549,229"/>
+<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1common_1_1_system_resource_manager.html#a484554eea0478f92fa1fef81542b4043" title=" " alt="" coords="297,253,580,295"/>
+<area shape="rect" id="node8" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_data_tag.html#a976ee74dc3659b3a96e7f5fefebd0294" title=" " alt="" coords="347,319,530,360"/>
+<area shape="rect" id="node9" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_data_tag.html#a367911634bb3aee231c3f1857f786174" title=" " alt="" coords="347,384,530,425"/>
+<area shape="rect" id="node10" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1runtime_1_1_last_tag_status_manager.html#adad1a11f0ffb5ddd6002df71c6434c50" title="간략한 설명 작성" alt="" coords="315,449,562,491"/>
+<area shape="rect" id="node15" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1runtime_1_1_h_sql_d_b_logger.html#a079bb0626e13c8074992420f3af130e1" title="간략한 설명 작성" alt="" coords="341,515,537,556"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1runtime_1_1_h_sql_d_b_logger.html#a693f5204314ee3e55949aefc6b0cc6f0" title=" " alt="" coords="645,71,841,112"/>
+<area shape="rect" id="node11" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1runtime_1_1_h_sql_d_b_logger.html#a99d273ec13e15b769ef07ab80c8267a3" title="간략한 설명 작성" alt="" coords="653,351,833,392"/>
+<area shape="rect" id="node12" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1runtime_1_1dbresult_1_1_last_status_result_record.html#afc26c4ecf206838388096a6050854211" title=" " alt="" coords="628,416,859,457"/>
+<area shape="rect" id="node13" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_tag.html#a5b1e460e7f21dd19097730f396f37ca4" title=" " alt="" coords="644,481,843,523"/>
+<area shape="rect" id="node14" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_data_tag.html#a5de170b5a16e9b98eede7d09da467a02" title="간략한 설명 작성" alt="" coords="652,547,835,588"/>
+</map>

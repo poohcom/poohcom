@@ -1,0 +1,10 @@
+<map id="com.sc.scairo.hmi.tag.util.TagFields.getAlarm" name="com.sc.scairo.hmi.tag.util.TagFields.getAlarm">
+<area shape="rect" id="node1" title=" " alt="" coords="5,217,181,258"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1_boundary_group_alarm.html#a7862d77eaaf77cd105602ee2e33cd914" title=" " alt="" coords="239,5,462,61"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1_boundary_tag_alarm.html#acb4b93a2f03c2605f8799e952f81af60" title=" " alt="" coords="229,86,472,127"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1_analog_tag_alarm.html#a68633f88be40e4e21bcc6524c2c2874b" title=" " alt="" coords="252,151,449,193"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1_alarm.html#a866284825239ae8ffdeb2b2a668e3659" title=" " alt="" coords="266,217,435,258"/>
+<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1_alarm.html#acc20bbfaa370267e4336bd245eb6d140" title=" " alt="" coords="265,282,436,323"/>
+<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1_tag_alarm.html#a261f6e355c801194c6e4c32c5337e2d4" title=" " alt="" coords="257,347,445,389"/>
+<area shape="rect" id="node8" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1_alarm.html#a3692ba61218db1d9566bc33e0e453e3f" title=" " alt="" coords="266,413,435,454"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="com.sc.scairo.hmi.security.User" name="com.sc.scairo.hmi.security.User">
+<area shape="rect" id="node1" title=" " alt="" coords="1121,312,1332,339"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,43,95,69"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1security_1_1_u_m_s_property.html" title=" " alt="" coords="812,239,995,281"/>
+<area shape="rect" id="node6" href="$interfacecom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1_i_alarm_filter.html" title=" " alt="" coords="144,145,313,186"/>
+<area shape="rect" id="node3" title=" " alt="" coords="11,261,89,288"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1filter_1_1_alarm_group_filter.html" title=" " alt="" coords="465,163,663,205"/>
+<area shape="rect" id="node7" title=" " alt="" coords="178,211,279,237"/>
+<area shape="rect" id="node8" title=" " alt="" coords="179,93,279,120"/>
+<area shape="rect" id="node9" title=" " alt="" coords="861,363,945,389"/>
+<area shape="rect" id="node10" title=" " alt="" coords="823,413,983,440"/>
+</map>

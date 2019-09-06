@@ -1,0 +1,17 @@
+digraph "com.sc.scairo.hmi.collection.customizer.ChangeDataCollectionCustomizer.ChangeDataCollectionCustomizer"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="com.sc.scairo.hmi.collection.customizer.\lChangeDataCollectionCustomizer.ChangeData\lCollectionCustomizer",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="com.sc.scairo.hmi.collection.customizer.\lMessages.getString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1customizer_1_1_messages.html#ab00a138220a965db06922f89afc27bcf",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="com.sc.scairo.hmi.collection.customizer.\lChangeDataCollectionCustomizer.initialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1customizer_1_1_change_data_collection_customizer.html#a5bb3ff1fbcbfbcbad8dc4d936538cf2a",tooltip=" "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="com.sc.scairo.hmi.collection.customizer.\lChangeDataCollectionCustomizer.getCenterPanel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1customizer_1_1_change_data_collection_customizer.html#ae673d7d9cbb0d623ad4694da95c51748",tooltip=" "];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="com.sc.scairo.hmi.collection.customizer.\lChangeDataCollectionCustomizer.getNamePanel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1customizer_1_1_change_data_collection_customizer.html#a5924f53b6c6a612853e4084293889279",tooltip=" "];
+  Node4 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,7 @@
+<map id="com.sc.scairo.hmi.common.SystemResourceManager.showWaitingDialog" name="com.sc.scairo.hmi.common.SystemResourceManager.showWaitingDialog">
+<area shape="rect" id="node1" title="간략한 설명 작성" alt="" coords="321,97,572,153"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1script_1_1functions_1_1object_1_1_web_sql_object.html#a6bd969faed5a20f6f0c00ba8cfb7b3bc" title=" " alt="" coords="5,5,273,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1script_1_1functions_1_1object_1_1_sql_object.html#a4fec5fe8531eb40e9d80aff8e49e698f" title=" " alt="" coords="7,71,271,112"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1script_1_1functions_1_1object_1_1_web_sql_object.html#a77d6eb336c1d95284bb219501de934b5" title=" " alt="" coords="7,136,271,177"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1script_1_1functions_1_1object_1_1_sql_object.html#a8f831fa70492c01d4e3151ec81b8e3f8" title=" " alt="" coords="7,201,271,243"/>
+</map>

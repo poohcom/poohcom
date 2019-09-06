@@ -1,0 +1,14 @@
+digraph "com.sc.scairo.hmi.editors.script.ScriptTreeModel.clear"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="com.sc.scairo.hmi.editors.script.\lScriptTreeModel.clear",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="com.sc.scairo.hmi.editors.script.\lScriptDictionaryEditor.setScriptDictionaryEditor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1script_1_1_script_dictionary_editor.html#a881bc5bef1f7ed5ee9e2467b8897b80e",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="com.sc.scairo.hmi.editors.script.\lScriptDictionaryEditor.projectChanged",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1script_1_1_script_dictionary_editor.html#adc22d3c5216d723aae581782f436743c",tooltip=" "];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="com.sc.scairo.hmi.editors.script.\lScriptDictionaryEditor.ScriptDictionaryEditor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1script_1_1_script_dictionary_editor.html#abbe205481982200d2d0379d6763d8322",tooltip=" "];
+}

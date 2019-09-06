@@ -1,0 +1,16 @@
+digraph "com.sc.scairo.hmi.editors.script.ScriptDictionaryEditor.removeTabItem"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="com.sc.scairo.hmi.editors.script.\lScriptDictionaryEditor.removeTabItem",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="com.sc.scairo.hmi.editors.script.\lScriptDictionaryEditor.initialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1script_1_1_script_dictionary_editor.html#a13855ce85b7416c6ca79a98de5a7a03a",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="com.sc.scairo.hmi.editors.script.\lScriptDictionaryEditor.ScriptDictionaryEditor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1script_1_1_script_dictionary_editor.html#ac3b9480980e3c4a99e3456f686b33154",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="com.sc.scairo.hmi.editors.script.\lScriptTreeModel.propertyChange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1script_1_1_script_tree_model.html#a7deee7e8f52ba91c7de69d06898250ce",tooltip=" "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="com.sc.scairo.hmi.editors.script.\lScriptTreeModel.scriptRemoved",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1script_1_1_script_tree_model.html#adc187bc611b1f233781a575a1e2d0b01",tooltip=" "];
+}

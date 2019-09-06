@@ -1,0 +1,22 @@
+digraph "com.sc.scairo.hmi.developer.DeveloperEditorFactory.actionDelegation"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="com.sc.scairo.hmi.developer.\lDeveloperEditorFactory.actionDelegation",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="com.sc.scairo.hmi.developer.\lDeveloperActionFactory.getFactory",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1developer_1_1_developer_action_factory.html#af5a63ca2b51ba3eb74d3dd62ca1db7c1",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="com.sc.scairo.hmi.developer.\lDeveloperActionFactory.mappingDelegator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1developer_1_1_developer_action_factory.html#a6d9b3066b934f8c62c48f31c7e2bd762",tooltip=" "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="com.sc.scairo.hmi.developer.action.\lPageSetupAction.getAction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1developer_1_1action_1_1_page_setup_action.html#a75ad98432f40929a12934c0ef84207bc",tooltip=" "];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="com.sc.scairo.hmi.developer.action.\lPageSetupAction.PageSetupAction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1developer_1_1action_1_1_page_setup_action.html#a9ff9d8bfcf78bec48b3dd0d845390409",tooltip=" "];
+  Node3 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="com.sc.scairo.hmi.developer.\lDeveloperActionFactory.getDeveloper",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1developer_1_1_developer_action_factory.html#afd91d60f459ccf64c021cf25480c2765",tooltip=" "];
+  Node3 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="com.sc.scairo.hmi.developer.action.\lDelegateAction.setDelegateAction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1developer_1_1action_1_1_delegate_action.html#a2b884339d154f6ee61ee2c0df18d29ff",tooltip=" "];
+  Node3 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="com.sc.scairo.hmi.developer.action.\lPageSetupAction.setEditor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1developer_1_1action_1_1_page_setup_action.html#a6c97787a3fe74a34a3685bd0c9c2db7d",tooltip=" "];
+}

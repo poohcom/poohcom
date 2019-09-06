@@ -1,0 +1,12 @@
+digraph "com.sc.scairo.hmi.tag.customizer.TagCustomizer.setAreaNames"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="com.sc.scairo.hmi.tag.customizer.\lTagCustomizer.setAreaNames",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="com.sc.scairo.hmi.tag.customizer.\lDevicePanel.setAddressDDEOPCSNMPMode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1customizer_1_1_device_panel.html#a9c6aa50a9a911633a1badc694e92ee7c",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="com.sc.scairo.hmi.tag.customizer.\lDevicePanel.setInitAreaCombo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1customizer_1_1_device_panel.html#aab00e2c4078863ae3fae1b6bd1b30ffb",tooltip=" "];
+}

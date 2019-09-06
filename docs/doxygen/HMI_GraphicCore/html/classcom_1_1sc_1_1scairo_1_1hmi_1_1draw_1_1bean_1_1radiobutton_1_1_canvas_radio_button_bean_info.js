@@ -1,0 +1,4 @@
+var classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1radiobutton_1_1_canvas_radio_button_bean_info =
+[
+    [ "getBeanDescriptor", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1radiobutton_1_1_canvas_radio_button_bean_info.html#aa0aac33a393fa84436e872f14630c1ca", null ]
+];

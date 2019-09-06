@@ -1,0 +1,16 @@
+digraph "com.sc.scairo.hmi.editors.window.WindowEditorActionFactory.getFigurePopup"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="com.sc.scairo.hmi.editors.window.\lWindowEditorActionFactory.getFigurePopup",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="com.sc.scairo.hmi.editors.window.\lWindowEditor.getFigurePopupMenu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1_window_editor.html#a9fbdbe703b2e9bd966f4c921a7ab8372",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="com.sc.scairo.hmi.editors.window.tool.\lHMISelectionTool.showObjectPopup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1tool_1_1_h_m_i_selection_tool.html#a25de269d7aa6e339fec305b250c55671",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="com.sc.scairo.hmi.editors.window.tool.\lHMISelectionTool.handlePopupMenu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1tool_1_1_h_m_i_selection_tool.html#abf91f5a4d9b3a5496b6a62ad2e9da0cd",tooltip=" "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="com.sc.scairo.hmi.editors.window.tool.\lHMISelectionTool.mouseReleased",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1tool_1_1_h_m_i_selection_tool.html#a36954b0859073a1343134d29e263a91c",tooltip=" "];
+}

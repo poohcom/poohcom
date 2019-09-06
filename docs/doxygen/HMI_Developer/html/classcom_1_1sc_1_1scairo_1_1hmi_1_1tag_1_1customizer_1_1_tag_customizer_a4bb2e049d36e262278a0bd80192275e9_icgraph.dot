@@ -1,0 +1,14 @@
+digraph "com.sc.scairo.hmi.tag.customizer.TagCustomizer.setDeviceConfiguration"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="com.sc.scairo.hmi.tag.customizer.\lTagCustomizer.setDeviceConfiguration",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="com.sc.scairo.hmi.tag.customizer.\lTagCustomizerDialog.setDeviceInformation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1customizer_1_1_tag_customizer_dialog.html#abda67d6ebf860ce229d1e840931ec7bc",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="com.sc.scairo.hmi.editors.tag.action.\lTagCreateAction.actionPerformed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1tag_1_1action_1_1_tag_create_action.html#a0bbf37a48587a7fb0e5a82b644d33193",tooltip=" "];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="com.sc.scairo.hmi.editors.tag.action.\lTagEditAction.actionPerformed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1tag_1_1action_1_1_tag_edit_action.html#ab0703eb046e1354cbb64e21f3813e236",tooltip=" "];
+}

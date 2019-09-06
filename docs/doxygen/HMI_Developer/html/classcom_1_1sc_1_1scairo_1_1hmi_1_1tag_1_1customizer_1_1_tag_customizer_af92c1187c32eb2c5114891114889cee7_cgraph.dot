@@ -1,0 +1,42 @@
+digraph "com.sc.scairo.hmi.tag.customizer.TagCustomizer.setDeviceSelect"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="com.sc.scairo.hmi.tag.customizer.\lTagCustomizer.setDeviceSelect",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="com.sc.scairo.hmi.tag.customizer.\lTagCustomizer.clearDeviceComboBox",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1customizer_1_1_tag_customizer.html#af80b9a4f275e9d5714fa2b180bd68466",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="com.sc.scairo.hmi.tag.customizer.\lDevicePanel.clearDeviceComboBox",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1customizer_1_1_device_panel.html#ac06bebf5ad437fcb85a500a37da7d0cc",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="com.sc.scairo.hmi.tag.customizer.\lTagCustomizer.getDeviceConnectionList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1customizer_1_1_tag_customizer.html#a3680f27d75655332555395aebedc8c86",tooltip=" "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="com.sc.scairo.hmi.tag.customizer.\lTagCustomizerDialog.getResourceManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1customizer_1_1_tag_customizer_dialog.html#a401ba109284d99e795d22340425f2261",tooltip=" "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="com.sc.scairo.hmi.tag.customizer.\lDevicePanel.setAddressDDEOPCSNMPMode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1customizer_1_1_device_panel.html#a9c6aa50a9a911633a1badc694e92ee7c",tooltip=" "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="com.sc.scairo.hmi.tag.customizer.\lDevicePanel.setDeviceNames",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1customizer_1_1_device_panel.html#ac549a215c93765916eb0ff61a365a72e",tooltip=" "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="com.sc.scairo.hmi.tag.customizer.\lDevicePanel.setInitAreaCombo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1customizer_1_1_device_panel.html#aab00e2c4078863ae3fae1b6bd1b30ffb",tooltip=" "];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="com.sc.scairo.hmi.tag.customizer.\lAnalogAlarmPanel.setNewAction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1customizer_1_1_analog_alarm_panel.html#afc4b422322045f7faf95740b11089f65",tooltip=" "];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="com.sc.scairo.hmi.tag.customizer.\lAnalogBoundaryPanel.setNewAction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1customizer_1_1_analog_boundary_panel.html#a2b360ec6a7b550ddaa30f8e9b471f04e",tooltip=" "];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="com.sc.scairo.hmi.tag.customizer.\lAnalogBoundaryHiLoAlarmPanel.setNewAction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1customizer_1_1_analog_boundary_hi_lo_alarm_panel.html#a1d74ac8516d5e5075c605dd102d3f5c1",tooltip=" "];
+  Node10 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="com.sc.scairo.hmi.tag.customizer.\lAnalogBoundaryPanel.setSelectUseCheck",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1customizer_1_1_analog_boundary_panel.html#a3f53a9849cb7d864c989aa15c38b0f98",tooltip=" "];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="com.sc.scairo.hmi.tag.customizer.\lAnalogBoundaryHiLoAlarmPanel.setUse\lCheckBoxAction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1customizer_1_1_analog_boundary_hi_lo_alarm_panel.html#abc42a3bd983b6b033ecbfbd1d464066d",tooltip=" "];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="com.sc.scairo.hmi.tag.customizer.\lDigitalAlarmPanel.setNewAction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1customizer_1_1_digital_alarm_panel.html#a6abbb549453be36757a157ace54db135",tooltip=" "];
+  Node14 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="com.sc.scairo.hmi.tag.customizer.\lDigitalAlarmPanel.setSelectComponent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1customizer_1_1_digital_alarm_panel.html#a95ae750dc52b04df64a05829e372fa27",tooltip=" "];
+  Node1 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="com.sc.scairo.hmi.tag.customizer.\lAnalogAlarmPanel.setUseEnable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1customizer_1_1_analog_alarm_panel.html#a6b0b1bd4553bfd27c338c8d59ab147d6",tooltip=" "];
+  Node16 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="com.sc.scairo.hmi.tag.customizer.\lAnalogBoundaryPanel.setUseEnable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1customizer_1_1_analog_boundary_panel.html#a59582fec5cd08795fc0d62ef0644d487",tooltip=" "];
+  Node1 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="com.sc.scairo.hmi.tag.customizer.\lDigitalAlarmPanel.setUseEnable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1customizer_1_1_digital_alarm_panel.html#a3f7257fe1799caf3ca39cda583f2819d",tooltip=" "];
+}

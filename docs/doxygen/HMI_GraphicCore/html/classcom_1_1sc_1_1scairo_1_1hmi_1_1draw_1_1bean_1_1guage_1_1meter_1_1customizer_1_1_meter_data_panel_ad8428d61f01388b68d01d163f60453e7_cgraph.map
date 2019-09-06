@@ -1,0 +1,14 @@
+<map id="com.sc.scairo.hmi.draw.bean.guage.meter.customizer.MeterDataPanel.getObject" name="com.sc.scairo.hmi.draw.bean.guage.meter.customizer.MeterDataPanel.getObject">
+<area shape="rect" id="node1" title=" " alt="" coords="5,332,345,373"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1guage_1_1meter_1_1_meter_info.html#a98364e5fa70743f1b5851b56a36bcaa3" title=" " alt="" coords="427,5,699,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1guage_1_1meter_1_1_meter_data_info.html#a7f0cc8020abef5dd567c94ff45d798b0" title=" " alt="" coords="427,71,699,112"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1guage_1_1meter_1_1customizer_1_1_meter_data_panel.html#adda2bad5abf3519369a91f60a1b133b1" title=" " alt="" coords="393,136,733,177"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1guage_1_1meter_1_1_meter_data_info.html#a91cb2e171fdedc0fd716d43b4a52a0d2" title=" " alt="" coords="427,201,699,243"/>
+<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1guage_1_1meter_1_1_meter_data_info.html#a08bf37d2895954cedd6d4836926641d4" title=" " alt="" coords="427,267,699,308"/>
+<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1guage_1_1meter_1_1_meter_data_info.html#af43ad6e0f893263086a2cbb5210a8232" title=" " alt="" coords="427,332,699,373"/>
+<area shape="rect" id="node8" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1guage_1_1meter_1_1_meter_data_info.html#a37597ff4fcdac2ec66eba0f55c8bff5a" title=" " alt="" coords="427,397,699,439"/>
+<area shape="rect" id="node9" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1guage_1_1meter_1_1_meter_data_info.html#a5e9943863afe3377233182e8b25f2f39" title=" " alt="" coords="427,463,699,504"/>
+<area shape="rect" id="node10" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1guage_1_1meter_1_1_meter_data_info.html#a33253c4b55b1fbbada4e1c34e7b77c4e" title=" " alt="" coords="427,528,699,569"/>
+<area shape="rect" id="node11" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1guage_1_1meter_1_1_meter_data_info.html#a9bfaf10912b0e8971f25dbdf676f253c" title=" " alt="" coords="427,593,699,635"/>
+<area shape="rect" id="node12" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1guage_1_1meter_1_1_meter_data_info.html#a01935557d13200970465d0fc618d3842" title=" " alt="" coords="427,659,699,700"/>
+</map>

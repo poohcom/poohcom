@@ -1,0 +1,30 @@
+digraph "com.sc.scairo.hmi.device.customizer.DriverInformationPanel.getObject"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="com.sc.scairo.hmi.device.customizer.\lDriverInformationPanel.getObject",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="com.sc.scairo.hmi.device.customizer.\lTcpUdpCommInfoPanel.getObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1_tcp_udp_comm_info_panel.html#a90f039428f7591e95feb51ae2b03e5e2",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="com.sc.scairo.hmi.device.customizer.\lDdeCommInfoPanel.getObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1_dde_comm_info_panel.html#a24809b79d126a5c0156cc6d161f7fb09",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="com.sc.scairo.hmi.device.customizer.\lOpcCommInfoPanel.getObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1_opc_comm_info_panel.html#a918c8a3408a98315b4e2529e42ed93e7",tooltip=" "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="com.sc.scairo.hmi.device.customizer.\lSnmpCommInfoPanel.getObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1_snmp_comm_info_panel.html#a4cc18f9b567acac1c1a4d4dbfc1b1b2c",tooltip=" "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="com.sc.scairo.hmi.device.customizer.\lDriverSerialPanel.getObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1_driver_serial_panel.html#ac3f4cb9873b85787ab83406c48832052",tooltip=" "];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="com.sc.scairo.hmi.device.customizer.\lDriverSerialPanel.getDataBit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1_driver_serial_panel.html#a748b6a86404433ee24fc7f17ad9d59c9",tooltip=" "];
+  Node6 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="com.sc.scairo.hmi.device.customizer.\lDriverSerialPanel.getFlowControl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1_driver_serial_panel.html#af77bf4cc4f7879aeb29ec1b860e02304",tooltip=" "];
+  Node6 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="com.sc.scairo.hmi.device.customizer.\lDriverSerialPanel.getModemKind",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1_driver_serial_panel.html#aaaf3112a11b866084a5e9a605e85b4f0",tooltip=" "];
+  Node6 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="com.sc.scairo.hmi.device.customizer.\lDriverSerialPanel.getModemType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1_driver_serial_panel.html#a7ed5fdeb2896320394062698ada70c56",tooltip=" "];
+  Node6 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="com.sc.scairo.hmi.device.customizer.\lDriverSerialPanel.getParityBit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1_driver_serial_panel.html#a02e0758d6e9a8c9c9c4a7f5ca18c7007",tooltip=" "];
+  Node6 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="com.sc.scairo.hmi.device.customizer.\lDriverSerialPanel.getStopBit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1_driver_serial_panel.html#a948ba432844b684e875ee8c7bcd03ee3",tooltip=" "];
+}

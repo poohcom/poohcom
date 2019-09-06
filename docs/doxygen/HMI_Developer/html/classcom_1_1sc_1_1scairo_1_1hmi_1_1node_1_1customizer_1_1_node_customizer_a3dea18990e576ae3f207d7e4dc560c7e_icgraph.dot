@@ -1,0 +1,18 @@
+digraph "com.sc.scairo.hmi.node.customizer.NodeCustomizer.setTabItem"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="com.sc.scairo.hmi.node.customizer.\lNodeCustomizer.setTabItem",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="com.sc.scairo.hmi.node.customizer.\lNodeCustomizer.actionPerformed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1node_1_1customizer_1_1_node_customizer.html#a03005fe1aa748cf291dc2f918d65624b",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="com.sc.scairo.hmi.node.customizer.\lNodeCustomizer.setRole",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1node_1_1customizer_1_1_node_customizer.html#a2e5bf26d97aeb42a25f28176c842b723",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="com.sc.scairo.hmi.node.customizer.\lNodeCustomizer.setObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1node_1_1customizer_1_1_node_customizer.html#a4037feb55a362c5992d369d2d3d16685",tooltip=" "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="com.sc.scairo.hmi.node.customizer.\lNodeCustomizerDialog.setNode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1node_1_1customizer_1_1_node_customizer_dialog.html#a0599f0737c8562fd247c0e00682f1748",tooltip=" "];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="com.sc.scairo.hmi.node.customizer.\lNodeCustomizerDialog.NodeCustomizerDialog",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1node_1_1customizer_1_1_node_customizer_dialog.html#aa7b0ea31e5f4669018da2d33f00f6912",tooltip=" "];
+}

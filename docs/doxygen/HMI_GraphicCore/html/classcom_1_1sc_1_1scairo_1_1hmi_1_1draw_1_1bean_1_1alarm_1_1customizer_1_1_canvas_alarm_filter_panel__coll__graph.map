@@ -1,0 +1,11 @@
+<map id="com.sc.scairo.hmi.draw.bean.alarm.customizer.CanvasAlarmFilterPanel" name="com.sc.scairo.hmi.draw.bean.alarm.customizer.CanvasAlarmFilterPanel">
+<area shape="rect" id="node1" title=" " alt="" coords="263,189,563,399"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,67,83"/>
+<area shape="rect" id="node3" title=" " alt="" coords="101,5,168,83"/>
+<area shape="rect" id="node4" title=" " alt="" coords="193,5,306,83"/>
+<area shape="rect" id="node5" title=" " alt="" coords="330,5,497,83"/>
+<area shape="rect" id="node6" title=" " alt="" coords="521,5,636,83"/>
+<area shape="rect" id="node7" title=" " alt="" coords="660,5,719,83"/>
+<area shape="rect" id="node8" title=" " alt="" coords="743,5,863,83"/>
+<area shape="rect" id="node9" title=" " alt="" coords="887,5,1003,83"/>
+</map>

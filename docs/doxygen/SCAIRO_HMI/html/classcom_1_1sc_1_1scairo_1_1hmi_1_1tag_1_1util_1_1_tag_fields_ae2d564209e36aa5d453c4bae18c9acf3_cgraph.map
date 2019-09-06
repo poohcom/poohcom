@@ -1,0 +1,13 @@
+<map id="com.sc.scairo.hmi.tag.util.TagFields.setAlarm" name="com.sc.scairo.hmi.tag.util.TagFields.setAlarm">
+<area shape="rect" id="node1" title="간략한 설명 작성" alt="" coords="5,267,181,308"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1_boundary_tag_alarm.html#acb4b93a2f03c2605f8799e952f81af60" title=" " alt="" coords="251,5,493,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1_analog_tag_alarm.html#a68633f88be40e4e21bcc6524c2c2874b" title=" " alt="" coords="273,71,471,112"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1_alarm.html#a866284825239ae8ffdeb2b2a668e3659" title=" " alt="" coords="287,136,457,177"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1_alarm.html#acc20bbfaa370267e4336bd245eb6d140" title=" " alt="" coords="287,201,457,243"/>
+<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1common_1_1_system_resource_manager.html#a8be54ff1042e555eec7409e4df4f0746" title=" " alt="" coords="251,267,493,308"/>
+<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1common_1_1_system_resource_manager.html#a292b953d0b6cb96dd4b687b451715e38" title=" " alt="" coords="229,332,515,373"/>
+<area shape="rect" id="node9" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1_boundary_tag_alarm.html#a310082a2ba37857e1e76abc8f6ba434d" title=" " alt="" coords="251,397,493,439"/>
+<area shape="rect" id="node10" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1_alarm.html#a86db435571e6a75268426fd3dae7fa8e" title=" " alt="" coords="287,463,457,504"/>
+<area shape="rect" id="node11" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1_alarm.html#a575aa098109b7161092a7002711e3975" title=" " alt="" coords="287,528,457,569"/>
+<area shape="rect" id="node8" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1_alarm_configuration.html#ab961e3729b3cdca4f35601cee59229d1" title=" " alt="" coords="563,332,807,373"/>
+</map>

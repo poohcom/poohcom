@@ -1,0 +1,13 @@
+<map id="com.sc.scairo.hmi.tag.DataTag.setSaveLastStatus" name="com.sc.scairo.hmi.tag.DataTag.setSaveLastStatus">
+<area shape="rect" id="node1" title=" " alt="" coords="1229,104,1412,145"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1io_1_1csv_1_1_string_tag_c_s_v_converter.html#a1f1749c39478705a9eaff6808001ab79" title="간략한 설명 작성" alt="" coords="960,5,1163,47"/>
+<area shape="rect" id="node9" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1io_1_1csv_1_1_digital_tag_c_s_v_converter.html#a1fb463a72b2fa960589dd551d191edd2" title="간략한 설명 작성" alt="" coords="959,71,1164,112"/>
+<area shape="rect" id="node10" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1io_1_1csv_1_1_analog_tag_c_s_v_converter.html#a59fc94de84ffcddd0df8ff6173624b16" title="간략한 설명 작성" alt="" coords="957,136,1166,177"/>
+<area shape="rect" id="node11" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1undo_1_1_tag_undo_properties.html#abf2b5667a55fc0ae709c40ab09daa9fc" title=" " alt="" coords="941,201,1181,243"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1io_1_1csv_1_1_tag_c_s_v_converter.html#a22dcb15fe0ce64982ffa18501bf11df4" title="간략한 설명 작성" alt="" coords="701,71,893,112"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1io_1_1_csv_tag_in_out_list.html#a2ed8f439b3dfab31b5db224c7c4f6302" title=" " alt="" coords="471,12,641,53"/>
+<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1io_1_1_csv_tag_in_out_list.html#a16fddcffb349d7b74af1193063c5424c" title=" " alt="" coords="233,103,402,144"/>
+<area shape="rect" id="node8" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1io_1_1_csv_tag_in_out_list.html#ab0c823539d56479ccc42f4e81d68f0b0" title="간략한 설명 작성" alt="" coords="459,129,653,171"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1io_1_1_tag_importer.html#ab9bc254b7109df5bc8f18b8b8c341815" title="간략한 설명 작성" alt="" coords="224,12,411,53"/>
+<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1io_1_1_tag_importer.html#a33b94917fd4c008cd8f622206efb3c49" title="간략한 설명 작성" alt="" coords="5,103,176,144"/>
+</map>

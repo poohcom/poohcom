@@ -1,0 +1,5 @@
+var namespacecom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1collection_1_1action =
+[
+    [ "CollectionCreateAction", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1collection_1_1action_1_1_collection_create_action.html", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1collection_1_1action_1_1_collection_create_action" ],
+    [ "CollectionEditAction", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1collection_1_1action_1_1_collection_edit_action.html", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1collection_1_1action_1_1_collection_edit_action" ]
+];

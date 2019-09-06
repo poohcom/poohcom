@@ -1,0 +1,8 @@
+<map id="com.sc.scairo.hmi.draw.action.FontSizeChangeAction.stateChanged" name="com.sc.scairo.hmi.draw.action.FontSizeChangeAction.stateChanged">
+<area shape="rect" id="node1" title=" " alt="" coords="5,136,244,177"/>
+<area shape="rect" id="node2" href="$classorg_1_1jhotdraw_1_1draw_1_1action_1_1_attribute_action.html#a5da1b8e5a57b319fc0c641d2273acdb4" title=" " alt="" coords="328,5,535,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1action_1_1_abstract_attribute_action.html#a696dc45c4a846ed7fbcd4dee9577e0df" title=" " alt="" coords="317,71,545,112"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1action_1_1_abstract_attribute_action.html#a8fe637f88e7c258fa1b54b6d1e664f2a" title=" " alt="" coords="325,136,538,177"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1action_1_1_abstract_attribute_action.html#a1e5b015152d7947ebb510219a5b604c6" title=" " alt="" coords="315,201,548,243"/>
+<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1action_1_1_font_size_change_action.html#aa853e3701d7cc358772d43a4c594fa3a" title=" " alt="" coords="292,267,571,308"/>
+</map>

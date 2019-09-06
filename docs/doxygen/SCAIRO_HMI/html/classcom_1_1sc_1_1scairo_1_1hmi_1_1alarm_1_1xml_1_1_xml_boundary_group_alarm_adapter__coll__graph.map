@@ -1,0 +1,4 @@
+<map id="com.sc.scairo.hmi.alarm.xml.XmlBoundaryGroupAlarmAdapter" name="com.sc.scairo.hmi.alarm.xml.XmlBoundaryGroupAlarmAdapter">
+<area shape="rect" id="node1" title=" " alt="" coords="275,20,487,61"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,227,76"/>
+</map>

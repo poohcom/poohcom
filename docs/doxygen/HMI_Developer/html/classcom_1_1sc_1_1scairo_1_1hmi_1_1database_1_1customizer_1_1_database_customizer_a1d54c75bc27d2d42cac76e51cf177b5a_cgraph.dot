@@ -1,0 +1,14 @@
+digraph "com.sc.scairo.hmi.database.customizer.DatabaseCustomizer.dropSchema"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="com.sc.scairo.hmi.database.customizer.\lDatabaseCustomizer.dropSchema",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="com.sc.scairo.hmi.database.customizer.\lDatabaseCustomizer.createDummyConnection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1database_1_1customizer_1_1_database_customizer.html#aaa6fe01e09a5a619e4ce0e8da6f8e538",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="com.sc.scairo.hmi.database.customizer.\lDatabaseCustomizer.getDbmsType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1database_1_1customizer_1_1_database_customizer.html#aa0c273518b867ca94776ca5fc78f067a",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="com.sc.scairo.hmi.database.\lMessages.getString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1database_1_1_messages.html#ad6d0c98f02adf2539b233fa5f52c0426",tooltip=" "];
+}

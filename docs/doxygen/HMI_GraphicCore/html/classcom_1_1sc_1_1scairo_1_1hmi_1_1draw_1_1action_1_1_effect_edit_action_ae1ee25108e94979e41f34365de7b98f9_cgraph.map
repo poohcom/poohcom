@@ -1,0 +1,10 @@
+<map id="com.sc.scairo.hmi.draw.action.EffectEditAction.updateEnabledState" name="com.sc.scairo.hmi.draw.action.EffectEditAction.updateEnabledState">
+<area shape="rect" id="node1" title=" " alt="" coords="5,169,241,211"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1_group_effects.html#a81fc963d832c9dfdb556c0e1a7517ad5" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="307,5,505,47"/>
+<area shape="rect" id="node4" href="$classorg_1_1jhotdraw_1_1draw_1_1_attribute_key.html#a4aaf5a4a491ff5deb10d4d2b99b0c955" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="318,71,494,112"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing_effects.html#a1c8963a2bf2ed2ff2c94633d8c8c8d17" title="Gets the. @LastUpdate 2019." alt="" coords="289,136,523,177"/>
+<area shape="rect" id="node6" href="$interfacecom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1figure_1_1_h_m_i_figure.html#ab961bd5821a09bd324c77ef42fb5f1fa" title=" " alt="" coords="307,201,505,243"/>
+<area shape="rect" id="node7" href="$interfacecom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1figure_1_1_h_m_i_figure.html#a5d7f0238ce0a9b04a10d10132b75d82c" title=" " alt="" coords="307,267,505,308"/>
+<area shape="rect" id="node8" href="$interfacecom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1figure_1_1_h_m_i_figure.html#a8f59c38fd2fa976840b261157daaa125" title=" " alt="" coords="307,332,505,373"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1_group_effects.html#a8adc3f8b14267d77feaa4280a7d1e298" title=" " alt="" coords="571,5,769,47"/>
+</map>

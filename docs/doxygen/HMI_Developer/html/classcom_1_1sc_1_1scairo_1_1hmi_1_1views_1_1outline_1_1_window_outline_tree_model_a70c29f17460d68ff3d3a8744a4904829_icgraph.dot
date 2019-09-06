@@ -1,0 +1,24 @@
+digraph "com.sc.scairo.hmi.views.outline.WindowOutlineTreeModel.fireTreeStructureChanged"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="com.sc.scairo.hmi.views.outline.\lWindowOutlineTreeModel.fireTreeStructure\lChanged",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="com.sc.scairo.hmi.views.outline.\lWindowOutlineTreeModel.attributeChanged",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1views_1_1outline_1_1_window_outline_tree_model.html#a3c3a36625c8f8a3414a8bb38a7c5768b",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="com.sc.scairo.hmi.views.outline.\lWindowOutlineTreeModel.figureAdded",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1views_1_1outline_1_1_window_outline_tree_model.html#adcb7e61a612066b38c52fb20ca964a0a",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="com.sc.scairo.hmi.views.outline.\lWindowOutlineTreeModel.figureRemoved",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1views_1_1outline_1_1_window_outline_tree_model.html#a3eb3f6dcd7ace6a6e7ab2e1c2377bfc8",tooltip=" "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="com.sc.scairo.hmi.views.outline.\lWindowOutlineTreeModel.propertyChange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1views_1_1outline_1_1_window_outline_tree_model.html#a8640c6146e1042abfa099f08dbcc326c",tooltip=" "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="com.sc.scairo.hmi.views.outline.\lWindowOutlineTreeModel.reload",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1views_1_1outline_1_1_window_outline_tree_model.html#a8acd3c50adcb4d40a16cf8103c794581",tooltip=" "];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="com.sc.scairo.hmi.views.outline.\lOutlineView.selectionChanged",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1views_1_1outline_1_1_outline_view.html#adac1907fe63078373b5025c412ac33bd",tooltip=" "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="com.sc.scairo.hmi.views.outline.\lWindowOutlineTreeModel.setOutlineTree",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1views_1_1outline_1_1_window_outline_tree_model.html#a80c43c780725de61045546ddc5b1409a",tooltip=" "];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="com.sc.scairo.hmi.views.outline.\lOutlineView.propertyChange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1views_1_1outline_1_1_outline_view.html#ac3ae98f5792486b0029ce735f7f53615",tooltip=" "];
+}

@@ -1,0 +1,16 @@
+digraph "com.sc.scairo.hmi.node.customizer.NodeHistoryPanel.setDatabaseConfiguration"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="com.sc.scairo.hmi.node.customizer.\lNodeHistoryPanel.setDatabaseConfiguration",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="com.sc.scairo.hmi.node.customizer.\lNodeCustomizer.setDatabaseConfiguration",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1node_1_1customizer_1_1_node_customizer.html#a7631236abb9866c76794a4f98dd31f6d",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="com.sc.scairo.hmi.node.customizer.\lNodeCustomizerDialog.setDatabaseConfiguration",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1node_1_1customizer_1_1_node_customizer_dialog.html#a8c4609eb2dc6369afc9505bfc9d8920d",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="com.sc.scairo.hmi.developer.action.\lNodeCreateAction.actionPerformed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1developer_1_1action_1_1_node_create_action.html#ab66c7d830a088a6531ac1825087fe9c1",tooltip=" "];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="com.sc.scairo.hmi.developer.action.\lNodeEditAction.actionPerformed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1developer_1_1action_1_1_node_edit_action.html#a6f166e8295cfb5c607fc0567a3e8cf78",tooltip=" "];
+}

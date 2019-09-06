@@ -1,0 +1,28 @@
+var classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1_trend_data_collection =
+[
+    [ "TrendDataCollection", "classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1_trend_data_collection.html#aca3726bd157db9fcb952b4e7f796c997", null ],
+    [ "getLogSamplingFilePath", "classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1_trend_data_collection.html#a9d8757bf2bd5664dc2f0392d34c673c9", null ],
+    [ "getMeanMethod", "classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1_trend_data_collection.html#af0e72ecb5f093e2233ce68a940913b2a", null ],
+    [ "getMode", "classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1_trend_data_collection.html#a9e1e305b697f160a8f739cb74858b485", null ],
+    [ "getSamplingCycle", "classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1_trend_data_collection.html#ad5c3690cb086ac46db26ac38db34f806", null ],
+    [ "getSamplingCycleUnit", "classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1_trend_data_collection.html#a43c43ab9a2f6da2cb02f4f788daa470e", null ],
+    [ "getTrendCycle", "classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1_trend_data_collection.html#a6923c59d03bcaa6e4e3a0a0c668e279f", null ],
+    [ "getTrendCycleUnit", "classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1_trend_data_collection.html#ae42b7c1c26ad198ed6588652d5470188", null ],
+    [ "isLogSampling", "classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1_trend_data_collection.html#a462efe98d7f913c0d3b85382130f1367", null ],
+    [ "setLogSampling", "classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1_trend_data_collection.html#a059732a72d1ed781af63061a6c1ddc5e", null ],
+    [ "setLogSamplingFilePath", "classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1_trend_data_collection.html#af72d7fbf8fc520a37e82ed24a4e2fcd1", null ],
+    [ "setMeanMethod", "classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1_trend_data_collection.html#a6523d049f310b742c59ff358580c3c28", null ],
+    [ "setMode", "classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1_trend_data_collection.html#a2acd4cfbc60774fecfe14ee1e80256fe", null ],
+    [ "setSamplingCycle", "classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1_trend_data_collection.html#a5f9ecb1f635d7a81ed23ebb5854b96b0", null ],
+    [ "setSamplingCycleUnit", "classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1_trend_data_collection.html#adda03c11b5b84f8f0ba47149fa721f60", null ],
+    [ "setTrendCycle", "classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1_trend_data_collection.html#a6303ad93aba0d46b74193012ba26a0ef", null ],
+    [ "setTrendCycleUnit", "classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1_trend_data_collection.html#ab0bca45053fed1f6c4668c3f7a9039c0", null ],
+    [ "logSampling", "classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1_trend_data_collection.html#a54bf4ad91d9a4a7cd0690d875d81fccf", null ],
+    [ "logSamplingFilePath", "classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1_trend_data_collection.html#a0204a90a55aac16264a5012806f18883", null ],
+    [ "meanMethod", "classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1_trend_data_collection.html#adddf247cacadec90928c3dc82ab5c773", null ],
+    [ "mode", "classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1_trend_data_collection.html#a09a6decc09160ba4a55bb4a28c9bb3f8", null ],
+    [ "samplingCycle", "classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1_trend_data_collection.html#a656f2c71a5f0896f50b15873222f56d3", null ],
+    [ "samplingCycleUnit", "classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1_trend_data_collection.html#ad2e0a931b615576c12193b47ba803cf5", null ],
+    [ "trendCycle", "classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1_trend_data_collection.html#a92094899cb57dcfd90bb9db5246f25cc", null ],
+    [ "trendCycleUnit", "classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1_trend_data_collection.html#aeb3f41cd6662634e6304d534d0aeea27", null ]
+];

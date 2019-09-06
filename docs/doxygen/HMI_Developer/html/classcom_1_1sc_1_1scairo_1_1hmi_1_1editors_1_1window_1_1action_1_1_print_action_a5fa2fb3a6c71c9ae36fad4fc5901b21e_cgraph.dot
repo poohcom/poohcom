@@ -1,0 +1,12 @@
+digraph "com.sc.scairo.hmi.editors.window.action.PrintAction.actionPerformed"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="com.sc.scairo.hmi.editors.window.action.\lPrintAction.actionPerformed",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="com.sc.scairo.hmi.editors.window.action.\lAbstractWindowEditorAction.getWindowEditor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1action_1_1_abstract_window_editor_action.html#ab528af4867ef8e0f1ca0da43b80ee41d",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="com.sc.scairo.hmi.editors.window.\lWindowEditor.print",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1_window_editor.html#a9c754acbcadb7cbafb92eca447e43b14",tooltip=" "];
+}

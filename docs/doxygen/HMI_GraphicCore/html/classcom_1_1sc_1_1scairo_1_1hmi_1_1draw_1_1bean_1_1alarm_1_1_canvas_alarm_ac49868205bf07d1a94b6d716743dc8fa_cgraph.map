@@ -1,0 +1,9 @@
+<map id="com.sc.scairo.hmi.draw.bean.alarm.CanvasAlarm.alarmDataRemoved" name="com.sc.scairo.hmi.draw.bean.alarm.CanvasAlarm.alarmDataRemoved">
+<area shape="rect" id="node1" title=" " alt="" coords="5,136,237,177"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1alarm_1_1_canvas_alarm.html#a15c72e483abc7ff5502806c95d954525" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="285,5,517,47"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1alarm_1_1_canvas_alarm_info.html#a2847f6b0bee26b932ecc6632eb6ef3ac" title=" " alt="" coords="285,71,517,112"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1alarm_1_1_canvas_alarm_info.html#a9736d661c7ec82c4b3275439e5a0ec45" title=" " alt="" coords="285,136,517,177"/>
+<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1alarm_1_1_canvas_alarm_info.html#a10561da217098ad13541c7a1d42fd192" title="getter, setter" alt="" coords="285,201,517,243"/>
+<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1alarm_1_1_canvas_alarm_info.html#a48a03bd713738e609ec41067e28663a4" title=" " alt="" coords="285,267,517,308"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1alarm_1_1_canvas_alarm_table_model.html#aa1b9c92d77a5e76f414d1bdadbfea921" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="565,5,836,47"/>
+</map>

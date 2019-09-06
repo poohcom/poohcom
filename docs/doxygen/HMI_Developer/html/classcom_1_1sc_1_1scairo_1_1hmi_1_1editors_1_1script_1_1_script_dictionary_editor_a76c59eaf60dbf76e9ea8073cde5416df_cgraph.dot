@@ -1,0 +1,12 @@
+digraph "com.sc.scairo.hmi.editors.script.ScriptDictionaryEditor.canRedo"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="com.sc.scairo.hmi.editors.script.\lScriptDictionaryEditor.canRedo",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="com.sc.scairo.hmi.editors.script.\lScriptEditorPanel.canRedo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1script_1_1_script_editor_panel.html#a2413d0e2c6fb21695f7fbcc1d9e9412f",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="com.sc.scairo.hmi.editors.script.\lScriptEditorPanel.isChanged",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1script_1_1_script_editor_panel.html#a368c8c2764db97807842aed82f303574",tooltip=" "];
+}

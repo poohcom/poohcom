@@ -1,0 +1,10 @@
+<map id="com.sc.scairo.hmi.net.AlarmUpdator" name="com.sc.scairo.hmi.net.AlarmUpdator">
+<area shape="rect" id="node1" title=" " alt="" coords="771,131,960,172"/>
+<area shape="rect" id="node2" title=" " alt="" coords="367,5,621,47"/>
+<area shape="rect" id="node3" title=" " alt="" coords="399,71,589,112"/>
+<area shape="rect" id="node4" title=" " alt="" coords="84,69,145,95"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1runtime_1_1_alarm_data_queue.html" title=" " alt="" coords="404,175,584,216"/>
+<area shape="rect" id="node6" title=" " alt="" coords="5,120,224,161"/>
+<area shape="rect" id="node7" title=" " alt="" coords="49,185,181,227"/>
+<area shape="rect" id="node8" title=" " alt="" coords="77,261,152,287"/>
+</map>

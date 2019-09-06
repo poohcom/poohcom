@@ -1,0 +1,5 @@
+<map id="com.sc.scairo.hmi.common.layout.ColumnLayout.SegmentLayout" name="com.sc.scairo.hmi.common.layout.ColumnLayout.SegmentLayout">
+<area shape="rect" id="node1" title=" " alt="" coords="5,95,232,136"/>
+<area shape="rect" id="node2" title=" " alt="" coords="27,5,87,32"/>
+<area shape="rect" id="node3" title=" " alt="" coords="137,5,225,32"/>
+</map>

@@ -1,0 +1,12 @@
+digraph "com.sc.scairo.hmi.common.HmiImportDialog.actionPerformed"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="com.sc.scairo.hmi.common.\lHmiImportDialog.actionPerformed",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="com.sc.scairo.hmi.common.\lHmiImportDialog.perforemdBrowser\lButton",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1common_1_1_hmi_import_dialog.html#added1c2ece5d6760e4f52a0a55e3a257",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="com.sc.scairo.hmi.common.\lHmiImportDialog.perforemdOkButton",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1common_1_1_hmi_import_dialog.html#afa7073ac75a1edc81895af33199cac81",tooltip=" "];
+}

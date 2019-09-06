@@ -1,0 +1,10 @@
+<map id="com.sc.scairo.hmi.net.AlarmData.getAlarmData" name="com.sc.scairo.hmi.net.AlarmData.getAlarmData">
+<area shape="rect" id="node1" title=" " alt="" coords="5,121,195,163"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_alarm_data.html#a2ff91c23965a914950a560f83cf6b2a8" title=" " alt="" coords="480,5,669,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_alarm_data.html#a4380af93a125ad6b891962453be84e21" title=" " alt="" coords="243,88,432,129"/>
+<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_i18n_converter.html#aa0eb35033f92fdc74afebfb971106565" title=" " alt="" coords="248,153,427,195"/>
+<area shape="rect" id="node8" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_alarm_data.html#a2df2ae79b547f9c4886b988d5ded3131" title=" " alt="" coords="243,219,432,260"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_alarm_data.html#a3a2bc65b10521cab35e423a5ce609672" title=" " alt="" coords="480,71,669,112"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_alarm_data.html#adb217ea269461cd88efa6d5bbec90e3f" title=" " alt="" coords="480,136,669,177"/>
+<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_alarm_data.html#abe9b5f5901bd2e4e79123e47dba0e1a4" title=" " alt="" coords="480,201,669,243"/>
+</map>

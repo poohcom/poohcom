@@ -1,0 +1,18 @@
+digraph "com.sc.scairo.hmi.security.customizer.UserUmsPanel.setAllowedGroupList"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="com.sc.scairo.hmi.security.customizer.\lUserUmsPanel.setAllowedGroupList",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="com.sc.scairo.hmi.security.customizer.\lUserUmsPanel.setAlarmConfiguration",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1security_1_1customizer_1_1_user_ums_panel.html#a98ef189b173d73a5a9746459d832a942",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="com.sc.scairo.hmi.security.customizer.\lUserCustomizer.setAlarmConfiguration",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1security_1_1customizer_1_1_user_customizer.html#aaf9c20834d5bf3051135b6082b274fef",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="com.sc.scairo.hmi.security.customizer.\lUserCustomizerDialog.setAlarmConfiguration",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1security_1_1customizer_1_1_user_customizer_dialog.html#ace1c0c669db71f23a4d1bea3512c6244",tooltip=" "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="com.sc.scairo.hmi.editors.security.action.\lUserCreateAction.actionPerformed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1security_1_1action_1_1_user_create_action.html#af66e868d62989869ebd117b343db1869",tooltip=" "];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="com.sc.scairo.hmi.editors.security.action.\lUserEditAction.actionPerformed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1security_1_1action_1_1_user_edit_action.html#a9f43af047dce819526d11930ab056af9",tooltip=" "];
+}

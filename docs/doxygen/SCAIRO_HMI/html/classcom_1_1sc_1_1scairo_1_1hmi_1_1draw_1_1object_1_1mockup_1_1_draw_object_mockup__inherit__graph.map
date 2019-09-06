@@ -1,0 +1,8 @@
+<map id="com.sc.scairo.hmi.draw.object.mockup.DrawObjectMockup" name="com.sc.scairo.hmi.draw.object.mockup.DrawObjectMockup">
+<area shape="rect" id="node1" title=" " alt="" coords="256,104,509,145"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1object_1_1mockup_1_1_date_picker_mockup.html" title=" " alt="" coords="557,5,811,47"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1object_1_1mockup_1_1_draw_text_object_mockup.html" title=" " alt="" coords="557,71,811,112"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1object_1_1mockup_1_1_historical_trend_mockup.html" title=" " alt="" coords="557,136,811,177"/>
+<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1object_1_1mockup_1_1_real_trend_mockup.html" title=" " alt="" coords="557,201,811,243"/>
+<area shape="rect" id="node2" href="$interfacecom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1object_1_1_i_draw_object.html" title=" " alt="" coords="5,104,208,145"/>
+</map>

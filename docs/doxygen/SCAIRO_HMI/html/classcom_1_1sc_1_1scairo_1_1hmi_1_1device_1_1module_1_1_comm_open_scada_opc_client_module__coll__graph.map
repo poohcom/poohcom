@@ -1,0 +1,15 @@
+<map id="com.sc.scairo.hmi.device.module.CommOpenScadaOpcClientModule" name="com.sc.scairo.hmi.device.module.CommOpenScadaOpcClientModule">
+<area shape="rect" id="node1" title=" " alt="" coords="423,224,649,265"/>
+<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1module_1_1_opc_access_state_listener.html" title=" " alt="" coords="847,292,1065,333"/>
+<area shape="rect" id="node9" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1listeners_1_1_open_scada_auto_connect_listener.html" title=" " alt="" coords="843,156,1069,197"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1module_1_1_comm_module.html" title=" " alt="" coords="7,5,226,47"/>
+<area shape="rect" id="node3" href="$interfacecom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1info_1_1_i_device_driver_constants.html" title=" " alt="" coords="18,71,215,112"/>
+<area shape="rect" id="node4" title=" " alt="" coords="51,136,182,177"/>
+<area shape="rect" id="node5" title=" " alt="" coords="69,202,165,229"/>
+<area shape="rect" id="node7" title=" " alt="" coords="465,343,607,370"/>
+<area shape="rect" id="node8" title=" " alt="" coords="51,253,182,295"/>
+<area shape="rect" id="node10" title=" " alt="" coords="457,129,615,155"/>
+<area shape="rect" id="node11" title=" " alt="" coords="5,319,228,375"/>
+<area shape="rect" id="node12" title=" " alt="" coords="33,399,200,426"/>
+<area shape="rect" id="node13" title=" " alt="" coords="87,450,146,477"/>
+</map>

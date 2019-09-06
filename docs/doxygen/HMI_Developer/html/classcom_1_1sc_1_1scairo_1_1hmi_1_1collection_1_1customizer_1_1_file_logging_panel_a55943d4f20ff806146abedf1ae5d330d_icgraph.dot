@@ -1,0 +1,40 @@
+digraph "com.sc.scairo.hmi.collection.customizer.FileLoggingPanel.getFileLoggingType"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="com.sc.scairo.hmi.collection.customizer.\lFileLoggingPanel.getFileLoggingType",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="com.sc.scairo.hmi.collection.customizer.\lFileLoggingPanel.getObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1customizer_1_1_file_logging_panel.html#a04b060bb29c6ff6186efb4408cb862e4",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="com.sc.scairo.hmi.collection.customizer.\lOperationDataCollectionCustomizer.getObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1customizer_1_1_operation_data_collection_customizer.html#aa5ca6d546ea6c7a83b7b2a36d06b3fb8",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="com.sc.scairo.hmi.collection.customizer.\lOperationDataCollectionCustomizer.save",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1customizer_1_1_operation_data_collection_customizer.html#a4c95a1dc24df3cb116419781c3ab5994",tooltip=" "];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="com.sc.scairo.hmi.collection.customizer.\lChangeDataCollectionCustomizer.getObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1customizer_1_1_change_data_collection_customizer.html#aa9af93b706676d8dd43a1971d5b39ed4",tooltip=" "];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="com.sc.scairo.hmi.collection.customizer.\lChangeDataCollectionCustomizer.save",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1customizer_1_1_change_data_collection_customizer.html#a48850982383c255fc3ebba2960ab7ac4",tooltip=" "];
+  Node2 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="com.sc.scairo.hmi.collection.customizer.\lAlarmDataCollectionCustomizer.getObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1customizer_1_1_alarm_data_collection_customizer.html#a13dc82f4251d366d5fbf056555a1c033",tooltip=" "];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="com.sc.scairo.hmi.collection.customizer.\lAlarmDataCollectionCustomizer.save",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1customizer_1_1_alarm_data_collection_customizer.html#a9c0378ebe26b8957cebf1fad1d194842",tooltip=" "];
+  Node2 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="com.sc.scairo.hmi.collection.customizer.\lTrendDataCollectionCustomizer.getObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1customizer_1_1_trend_data_collection_customizer.html#a2f8879c47bc574e5cf436f0529fa29ce",tooltip=" "];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="com.sc.scairo.hmi.collection.customizer.\lTrendDataCollectionCustomizer.save",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1customizer_1_1_trend_data_collection_customizer.html#a9d304f560ef018682c6bf672c05ca9e8",tooltip=" "];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="com.sc.scairo.hmi.collection.customizer.\lFileLoggingPanel.isChanged",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1customizer_1_1_file_logging_panel.html#a839033f857522b3d1c009607e8820d2d",tooltip=" "];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="com.sc.scairo.hmi.collection.customizer.\lChangeDataCollectionCustomizer.isChanged",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1customizer_1_1_change_data_collection_customizer.html#a19e6cacd4a8eab05e8b09968f6332cbd",tooltip=" "];
+  Node12 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="com.sc.scairo.hmi.collection.customizer.\lAlarmDataCollectionCustomizer.isChanged",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1customizer_1_1_alarm_data_collection_customizer.html#ae8118353b08838ea06e885c0db07c6f9",tooltip=" "];
+  Node13 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="com.sc.scairo.hmi.collection.customizer.\lOperationDataCollectionCustomizer.isChanged",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1customizer_1_1_operation_data_collection_customizer.html#a4fc0f2e957c1e723a02f6b245c10f655",tooltip=" "];
+  Node14 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="com.sc.scairo.hmi.collection.customizer.\lTrendDataCollectionCustomizer.isChanged",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1customizer_1_1_trend_data_collection_customizer.html#af83988963c3fcfb0db0b010e8346898d",tooltip=" "];
+  Node15 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,16 @@
+<map id="com.sc.scairo.hmi.tag.Tag.getGroup" name="com.sc.scairo.hmi.tag.Tag.getGroup">
+<area shape="rect" id="node1" title=" " alt="" coords="776,300,975,341"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1io_1_1csv_1_1_group_tag_c_s_v_converter.html#a239200b331f0f6eb06adba0955826e9e" title="간략한 설명 작성" alt="" coords="506,5,710,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1io_1_1csv_1_1_string_tag_c_s_v_converter.html#a1ecd2fe6b271a10defc23216be6a79aa" title="간략한 설명 작성" alt="" coords="507,71,709,112"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1io_1_1csv_1_1_digital_tag_c_s_v_converter.html#ad2f62be19e2d692cbc958be8866c3e5c" title="간략한 설명 작성" alt="" coords="505,136,711,177"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1io_1_1csv_1_1_analog_tag_c_s_v_converter.html#a7b721607c1d50eb911df93a4744ad03c" title="간략한 설명 작성" alt="" coords="503,201,713,243"/>
+<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1undo_1_1_tag_undo_properties.html#ab452144cd028a0f0a49635d3cb831eb9" title=" " alt="" coords="488,267,728,308"/>
+<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1_tag_dictionary.html#a53425453bd724320f3d37a9bcfe7c1aa" title=" " alt="" coords="520,332,696,373"/>
+<area shape="rect" id="node8" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1_tag_dictionary.html#aaa6ecbb210d14786b45ff9455e04bfd0" title="간략한 설명 작성" alt="" coords="520,397,696,439"/>
+<area shape="rect" id="node9" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1loader_1_1_h_m___t_a_g___d_i_c___loader.html#af720b0d36673852f937a6c11dee3570c" title="간략한 설명 작성" alt="" coords="501,463,715,504"/>
+<area shape="rect" id="node12" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_operation_data.html#a9943b35c6886ebe78ec69b20c382f9c0" title=" " alt="" coords="503,528,713,569"/>
+<area shape="rect" id="node14" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1util_1_1_tag_list_window_dialog.html#a8740c75e1f0bde571eb5c28bf155f693" title=" " alt="" coords="513,593,703,635"/>
+<area shape="rect" id="node10" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1_project_loader.html#a0a7fa690fb70615bbc661be8f6ec0e50" title="간략한 설명 작성" alt="" coords="247,463,423,504"/>
+<area shape="rect" id="node11" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1_project.html#afd323779a37647ca5b9e15fe0e240a6a" title="간략한 설명 작성" alt="" coords="5,463,181,504"/>
+<area shape="rect" id="node13" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_operation_data.html#a0b351c0097bdcd58d1425eb0a7875923" title=" " alt="" coords="229,528,440,569"/>
+</map>

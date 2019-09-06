@@ -1,0 +1,5 @@
+<map id="com.sc.scairo.hmi.device.map.PlcDataMap.getArea" name="com.sc.scairo.hmi.device.map.PlcDataMap.getArea">
+<area shape="rect" id="node1" title=" " alt="" coords="507,5,709,47"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1map_1_1_plc_data_map.html#a8249f4c184546907cc0b410c6a971db9" title="간략한 설명 작성" alt="" coords="256,5,459,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1map_1_1_map_factory.html#add6a31098d519c80fe0d1d66d8ec1527" title="간략한 설명 작성" alt="" coords="5,5,208,47"/>
+</map>

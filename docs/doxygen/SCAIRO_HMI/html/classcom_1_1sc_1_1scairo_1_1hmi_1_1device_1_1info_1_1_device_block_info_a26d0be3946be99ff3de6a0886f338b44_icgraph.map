@@ -1,0 +1,25 @@
+<map id="com.sc.scairo.hmi.device.info.DeviceBlockInfo.getBlockArea" name="com.sc.scairo.hmi.device.info.DeviceBlockInfo.getBlockArea">
+<area shape="rect" id="node1" title=" " alt="" coords="360,720,557,761"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1info_1_1_device_info.html#acfdae6dc9ddd9768a3b358ed606d0bdc" title="간략한 설명 작성" alt="" coords="56,5,261,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1info_1_1_device_info.html#a7d84b000f7dd484a7217f931a5db8b9d" title="간략한 설명 작성" alt="" coords="49,71,269,112"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1info_1_1_device_info.html#a0f68143049abb5abd1df2e8e30af22fe" title="간략한 설명 작성" alt="" coords="60,136,257,177"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1info_1_1_device_info.html#a2b53387d04a1d24c509c7605879d3e13" title="간략한 설명 작성" alt="" coords="53,201,264,243"/>
+<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1protocol_1_1_melsec_q_c_p_u___q_j71_c24___check_s_u_m___serial.html#addc07ed1fd7a3ad5a4fda563b0d56498" title=" " alt="" coords="41,267,276,323"/>
+<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1protocol_1_1_cimon_plc_ethernet.html#aebb26b9fc80d926f4bad06e96a8ba55c" title=" " alt="" coords="27,348,291,389"/>
+<area shape="rect" id="node8" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1protocol_1_1_glofa_enet_protocol.html#afbae8a5a68e8074b02b2f341b15c3e6f" title=" " alt="" coords="27,413,291,455"/>
+<area shape="rect" id="node9" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1protocol_1_1_glofa_cnet_protocol.html#a60ed9e53076f5302666c107dc4e63001" title=" " alt="" coords="27,479,291,520"/>
+<area shape="rect" id="node10" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1protocol_1_1_m_a_s_t_e_r___k___c_n_e_t.html#a75c8851073fb4f9a10cbcb441b341e3f" title=" " alt="" coords="23,544,294,585"/>
+<area shape="rect" id="node11" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1protocol_1_1_pony_dcs_gateway.html#a3f7a19d97cc42ae76bcf5882ff464f2b" title=" " alt="" coords="27,609,290,651"/>
+<area shape="rect" id="node12" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1protocol_1_1_modbus_serial_mode_protocol.html#a5e451e88b19135e7734cc07d581460b2" title=" " alt="" coords="26,675,291,731"/>
+<area shape="rect" id="node13" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1protocol_1_1_modbus_t_c_p_protocol.html#acca4079e4cf677b0430ff52e5323f0cb" title=" " alt="" coords="19,756,298,797"/>
+<area shape="rect" id="node14" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1protocol_1_1_wooritns_modbus_tcp.html#a91f70c2dfd67032aad197519a0f2b2e5" title=" " alt="" coords="19,821,298,863"/>
+<area shape="rect" id="node15" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1protocol_1_1_hmi_editable_protocol.html#ab916a37ac5a69e03a9476bcbf81f0aed" title=" " alt="" coords="20,887,297,928"/>
+<area shape="rect" id="node16" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1protocol_1_1_siemens___s7___enet_loader.html#afea03f86f8f426bd6fbc7084bcf89ecb" title=" " alt="" coords="5,952,312,993"/>
+<area shape="rect" id="node17" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1protocol_1_1_allen_bradley___serial___d_f1___full_duplex.html#a556d4c4ccac426d016690b0609270f8a" title=" " alt="" coords="31,1018,287,1074"/>
+<area shape="rect" id="node18" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1map_1_1_block.html#a1c5f3f660070acf7283f6b3859254668" title="간략한 설명 작성" alt="" coords="57,1099,260,1140"/>
+<area shape="rect" id="node19" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1protocol_1_1_protocol_read_frame.html#af2260878223a545426de64feabff2d01" title=" " alt="" coords="31,1164,287,1205"/>
+<area shape="rect" id="node20" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1info_1_1_device_info.html#a5de9e5ae5f7066a40ac1014532a16e90" title="간략한 설명 작성" alt="" coords="46,1229,271,1271"/>
+<area shape="rect" id="node21" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1info_1_1_device_info.html#a532f01a17a0bfd3f22d81a5330547302" title="간략한 설명 작성" alt="" coords="39,1295,279,1336"/>
+<area shape="rect" id="node22" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1info_1_1_device_info.html#a21c093d27e6d1fd72ca869c79641d2d0" title="간략한 설명 작성" alt="" coords="51,1360,267,1401"/>
+<area shape="rect" id="node23" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1info_1_1_device_info.html#a537a5ad9263b48c14aef3746a40fa7ba" title="간략한 설명 작성" alt="" coords="43,1425,274,1467"/>
+</map>

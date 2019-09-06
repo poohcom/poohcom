@@ -1,0 +1,5 @@
+<map id="com.sc.scairo.hmi.script.functions.object.ISqlObject.disconnect" name="com.sc.scairo.hmi.script.functions.object.ISqlObject.disconnect">
+<area shape="rect" id="node1" title="간략한 설명 작성" alt="" coords="328,39,592,80"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1script_1_1functions_1_1mockup_1_1_sql_function_mockup.html#adb0a137b9a753bd3548766517e4a5d57" title=" " alt="" coords="5,5,280,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1script_1_1functions_1_1impl_1_1_sql_function_impl.html#a82e2441cf08b970ebdda62122eaf8c51" title=" " alt="" coords="16,71,269,112"/>
+</map>

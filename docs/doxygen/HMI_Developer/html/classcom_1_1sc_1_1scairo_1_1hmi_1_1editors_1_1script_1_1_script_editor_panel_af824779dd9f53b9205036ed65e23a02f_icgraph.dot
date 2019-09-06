@@ -1,0 +1,14 @@
+digraph "com.sc.scairo.hmi.editors.script.ScriptEditorPanel.getUndoManager"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="com.sc.scairo.hmi.editors.script.\lScriptEditorPanel.getUndoManager",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="com.sc.scairo.hmi.editors.script.\lScriptDictionaryEditor.addUndoableEdit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1script_1_1_script_dictionary_editor.html#a449f21ef64ddc8a7d858bf08b256d603",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="com.sc.scairo.hmi.editors.script.\lScriptDictionaryEditor.clearUndo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1script_1_1_script_dictionary_editor.html#a781260387c83b42c9e76ec73bb4d2aea",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="com.sc.scairo.hmi.editors.script.\lScriptDictionaryEditor.getUndoManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1script_1_1_script_dictionary_editor.html#af18d28bb31329130048205c8091e7dd9",tooltip=" "];
+}

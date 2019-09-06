@@ -1,0 +1,27 @@
+var classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_text_data =
+[
+    [ "TextData", "classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_text_data.html#a6d41a51ad2400a9981ba749b2a052161", null ],
+    [ "TextData", "classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_text_data.html#ac26d40f67b483b303f4f80f778c21306", null ],
+    [ "free", "classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_text_data.html#ad0baf727910c3d11c40d95e2e1b1ea83", null ],
+    [ "getBytes", "classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_text_data.html#a0803aa14fff588cdf4439b5490d30366", null ],
+    [ "getBytes", "classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_text_data.html#a0aef4b8ceae305dfc4d4b6fdec439374", null ],
+    [ "getCSVHeader", "classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_text_data.html#a705a78fcb7e30c87507fcaa1cc0200e8", null ],
+    [ "getCSVLog", "classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_text_data.html#aa56f6809922ce1c2253f8ec36acb332b", null ],
+    [ "getCSVText", "classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_text_data.html#a29e42e2eedaaa69e9987ad28f4b5a066", null ],
+    [ "getQuery", "classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_text_data.html#a28862c2595ffcd86e500db7eae651e70", null ],
+    [ "getSize", "classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_text_data.html#a4172f222dbb0fe327fe160250d7ba6f3", null ],
+    [ "getText", "classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_text_data.html#aaf1324adee34bc0711875c4deb5dc9a9", null ],
+    [ "getTextData", "classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_text_data.html#aa47c7e70901feb0674a0427cc3e44af5", null ],
+    [ "getXMLLog", "classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_text_data.html#ad658c0bf933bf6f5eacd86b866a0aba1", null ],
+    [ "getXMLText", "classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_text_data.html#aa92b4066d87e7e618c498c1f093b963b", null ],
+    [ "isValid", "classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_text_data.html#addbc7a9921bf46ec1ec200c0686b73a3", null ],
+    [ "newInstance", "classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_text_data.html#a229b02ef4894faa6bba5dfc32cdae009", null ],
+    [ "readExternal", "classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_text_data.html#ad0a3bdc9e4a48895e1ac980770e09d99", null ],
+    [ "setBytes", "classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_text_data.html#a3a35c396ffd7346d832fb93f2c5ea398", null ],
+    [ "setText", "classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_text_data.html#a16c36349fb7d45c623cee4db126b5170", null ],
+    [ "writeExternal", "classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_text_data.html#ad136cf9373e3f411888ae9ca3ecfc86b", null ],
+    [ "CSV_HEADER", "classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_text_data.html#a3ec2949a65fd3356b6e32daee1eee844", null ],
+    [ "text", "classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_text_data.html#a92fb18a9b03c4ff2c480134180a3e387", null ],
+    [ "XML_MSG_ATTR", "classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_text_data.html#a0cc7cc9a0cbe647f6564c7065eff714b", null ],
+    [ "XML_NAME_TAG", "classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_text_data.html#a398a52b5e2798663391033a692f65d57", null ]
+];

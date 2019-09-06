@@ -1,0 +1,12 @@
+<map id="com.sc.scairo.hmi.tag.DataTag.getBitValue" name="com.sc.scairo.hmi.tag.DataTag.getBitValue">
+<area shape="rect" id="node1" title=" " alt="" coords="523,249,705,291"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_trend_data.html#ab453affc0164696f4f940c8b5a1d75e9" title=" " alt="" coords="268,87,455,128"/>
+<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_trend_sampling_data.html#a79366914ac17b9b1b649bdbabce2ffd9" title=" " alt="" coords="268,184,455,225"/>
+<area shape="rect" id="node8" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1_tag_alarm.html#aef7f167b5fa2e83ac5d9015c56c54560" title=" " alt="" coords="277,249,446,291"/>
+<area shape="rect" id="node9" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1condition_1_1_tag_value_condition.html#ae33ca345734a3f5113f9024dad19eb66" title=" " alt="" coords="248,315,475,356"/>
+<area shape="rect" id="node10" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1_tag_alarm.html#af1f93aab47fdbe2d1ebce9194e66cd7b" title=" " alt="" coords="277,380,446,421"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_hour_trend_data.html#a74aa50eeb5c672b7bf63d1efaab52c60" title="간략한 설명 작성" alt="" coords="11,5,194,47"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_day_trend_data.html#a786f6ca60ea719f327d1cde6ff944b43" title="간략한 설명 작성" alt="" coords="13,71,192,112"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_minute_trend_data.html#a9c1e9d47d0b4f24c636e0de0d1abc1f8" title="간략한 설명 작성" alt="" coords="5,136,200,177"/>
+<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_trend_sampling_data.html#a120ef2a039a08ec7c9215d73b5085cc5" title="간략한 설명 작성" alt="" coords="9,201,196,243"/>
+</map>

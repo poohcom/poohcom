@@ -1,0 +1,5 @@
+var namespacecom_1_1sc_1_1scairo_1_1hmi_1_1database_1_1customizer =
+[
+    [ "DatabaseCustomizer", "classcom_1_1sc_1_1scairo_1_1hmi_1_1database_1_1customizer_1_1_database_customizer.html", "classcom_1_1sc_1_1scairo_1_1hmi_1_1database_1_1customizer_1_1_database_customizer" ],
+    [ "DatabaseCustomizerDialog", "classcom_1_1sc_1_1scairo_1_1hmi_1_1database_1_1customizer_1_1_database_customizer_dialog.html", "classcom_1_1sc_1_1scairo_1_1hmi_1_1database_1_1customizer_1_1_database_customizer_dialog" ]
+];

@@ -1,0 +1,12 @@
+<map id="com.sc.scairo.hmi.alarm.RateOfChangeTagAlarm" name="com.sc.scairo.hmi.alarm.RateOfChangeTagAlarm">
+<area shape="rect" id="node1" title=" " alt="" coords="314,348,483,389"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1_analog_tag_alarm.html" title=" " alt="" coords="314,259,483,300"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1_tag_alarm.html" title=" " alt="" coords="314,169,483,211"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1_alarm.html" title=" " alt="" coords="190,80,359,121"/>
+<area shape="rect" id="node5" title=" " alt="" coords="5,5,109,32"/>
+<area shape="rect" id="node6" title=" " alt="" coords="134,5,213,32"/>
+<area shape="rect" id="node7" title=" " alt="" coords="237,5,313,32"/>
+<area shape="rect" id="node8" title=" " alt="" coords="337,5,498,32"/>
+<area shape="rect" id="node9" href="$interfacecom_1_1sc_1_1scairo_1_1hmi_1_1listeners_1_1_tag_value_change_listener.html" title=" " alt="" coords="431,80,617,121"/>
+<area shape="rect" id="node10" title=" " alt="" coords="522,5,622,32"/>
+</map>

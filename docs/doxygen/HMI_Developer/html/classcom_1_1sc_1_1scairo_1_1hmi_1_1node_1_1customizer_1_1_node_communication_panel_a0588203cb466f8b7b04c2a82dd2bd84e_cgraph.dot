@@ -1,0 +1,26 @@
+digraph "com.sc.scairo.hmi.node.customizer.NodeCommunicationPanel.setAddButton"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="com.sc.scairo.hmi.node.customizer.\lNodeCommunicationPanel.setAddButton",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="com.sc.scairo.hmi.node.customizer.\lNodeCommunicationPanel.addRow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1node_1_1customizer_1_1_node_communication_panel.html#ac9d0dc765f2e1ecb30d45d3a29fc6848",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="com.sc.scairo.hmi.node.customizer.\lNodeCommunicationTableModel.addRow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1node_1_1customizer_1_1_node_communication_table_model.html#a29694b1a39356878188e2c90f8751d01",tooltip=" "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="com.sc.scairo.hmi.node.customizer.\lNodeCommunicationTableModel.setKeyIndex",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1node_1_1customizer_1_1_node_communication_table_model.html#ac4f7ed1e5c8cc6cf03f4764ccf1f9080",tooltip=" "];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="com.sc.scairo.hmi.node.Messages.get\lString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1node_1_1_messages.html#ab4e7491be07d986a8f4a586d2f837854",tooltip=" "];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="com.sc.scairo.hmi.node.customizer.\lNodeCommunicationTableModel.getTableData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1node_1_1customizer_1_1_node_communication_table_model.html#a0f8b8fe21da038001a39184b59a7feea",tooltip=" "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="com.sc.scairo.hmi.node.customizer.\lNodeCustomizer.getConfiguration",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1node_1_1customizer_1_1_node_customizer.html#a1a8d04e1ff4053b158e2d371ca19e12a",tooltip=" "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="com.sc.scairo.hmi.node.customizer.\lNodeCustomizer.getNodeName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1node_1_1customizer_1_1_node_customizer.html#abdcf6aece4ff253742f8fc3f9ee740c5",tooltip=" "];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="com.sc.scairo.hmi.node.customizer.\lNodeCommunicationTableModel.getNodeNames",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1node_1_1customizer_1_1_node_communication_table_model.html#a9e6bfdca8c5843d25cb85833356b9074",tooltip=" "];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="com.sc.scairo.hmi.node.customizer.\lNodeCustomizer.getRole",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1node_1_1customizer_1_1_node_customizer.html#a88ba673eaa0614442cd6d653a5a8719a",tooltip=" "];
+}

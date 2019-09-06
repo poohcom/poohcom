@@ -1,0 +1,12 @@
+<map id="com.sc.scairo.hmi.alarm.Alarm" name="com.sc.scairo.hmi.alarm.Alarm">
+<area shape="rect" id="node1" title=" " alt="" coords="325,125,495,166"/>
+<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1_alarm_delay_checker.html" title=" " alt="" coords="627,73,796,114"/>
+<area shape="rect" id="node2" title=" " alt="" coords="63,5,167,32"/>
+<area shape="rect" id="node3" title=" " alt="" coords="75,56,154,83"/>
+<area shape="rect" id="node4" title=" " alt="" coords="77,107,153,133"/>
+<area shape="rect" id="node5" title=" " alt="" coords="34,157,195,184"/>
+<area shape="rect" id="node6" title=" " alt="" coords="5,209,224,250"/>
+<area shape="rect" id="node8" title=" " alt="" coords="379,7,441,33"/>
+<area shape="rect" id="node9" title=" " alt="" coords="357,57,463,84"/>
+<area shape="rect" id="node10" title=" " alt="" coords="35,275,195,301"/>
+</map>

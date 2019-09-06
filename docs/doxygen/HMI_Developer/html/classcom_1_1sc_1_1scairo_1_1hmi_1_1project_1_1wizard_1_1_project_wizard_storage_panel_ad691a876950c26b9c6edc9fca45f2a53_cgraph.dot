@@ -1,0 +1,20 @@
+digraph "com.sc.scairo.hmi.project.wizard.ProjectWizardStoragePanel.ProjectWizardStoragePanel"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="com.sc.scairo.hmi.project.wizard.\lProjectWizardStoragePanel.ProjectWizard\lStoragePanel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="com.sc.scairo.hmi.project.wizard.\lProjectWizardStoragePanel.initialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1wizard_1_1_project_wizard_storage_panel.html#ae91edaad8ab7ec2908621eed2c194df7",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="com.sc.scairo.hmi.project.wizard.\lProjectWizardStoragePanel.getDbmsPanel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1wizard_1_1_project_wizard_storage_panel.html#af3f867c5e080a75a3af89ab1bb3d4b08",tooltip=" "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="com.sc.scairo.hmi.project.wizard.\lMessages.getString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1wizard_1_1_messages.html#a20ccbd6fb5b3d66120faace4b7dbdcae",tooltip=" "];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="com.sc.scairo.hmi.project.wizard.\lProjectWizardStoragePanel.getUserPanel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1wizard_1_1_project_wizard_storage_panel.html#a9831d41e29264c0d8cfc29f22f90b875",tooltip=" "];
+  Node5 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="com.sc.scairo.hmi.project.wizard.\lProjectWizardStoragePanel.setDBMSVisiable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1wizard_1_1_project_wizard_storage_panel.html#aaf3eaafc4e2e0ba54df00c6fb37868a2",tooltip=" "];
+}

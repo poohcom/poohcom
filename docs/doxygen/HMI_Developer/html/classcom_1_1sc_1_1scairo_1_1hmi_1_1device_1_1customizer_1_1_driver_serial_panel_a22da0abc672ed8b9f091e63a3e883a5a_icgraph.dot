@@ -1,0 +1,12 @@
+digraph "com.sc.scairo.hmi.device.customizer.DriverSerialPanel.setModemType"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="com.sc.scairo.hmi.device.customizer.\lDriverSerialPanel.setModemType",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="com.sc.scairo.hmi.device.customizer.\lDriverSerialPanel.setObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1_driver_serial_panel.html#a3caea573db098391db13877e7c82dbb8",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="com.sc.scairo.hmi.device.customizer.\lDriverInformationPanel.setObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1_driver_information_panel.html#ac69c6b12edd20aeebf0c2beaafff5a18",tooltip=" "];
+}

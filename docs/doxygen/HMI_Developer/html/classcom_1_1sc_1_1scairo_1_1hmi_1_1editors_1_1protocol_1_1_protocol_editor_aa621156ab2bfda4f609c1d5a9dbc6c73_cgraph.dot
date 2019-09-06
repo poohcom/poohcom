@@ -1,0 +1,22 @@
+digraph "com.sc.scairo.hmi.editors.protocol.ProtocolEditor.projectChanged"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="com.sc.scairo.hmi.editors.protocol.\lProtocolEditor.projectChanged",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="com.sc.scairo.hmi.editors.protocol.\lProtocolEditor.getAction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1protocol_1_1_protocol_editor.html#a257bf75df9468407406c8fa51dea23b4",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="com.sc.scairo.hmi.editors.\lEditorActionFactory.getAction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1_editor_action_factory.html#ae5db55316c5c2a4bf84ca10576f32345",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="com.sc.scairo.hmi.editors.protocol.\lProtocolEditorTopPanel.setDescriptionText",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1protocol_1_1_protocol_editor_top_panel.html#a88537fa38a81438f8859fab5e6f7d420",tooltip=" "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="com.sc.scairo.hmi.editors.protocol.\lProtocolTableModel.setDriverDictionary",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1protocol_1_1_protocol_table_model.html#a6350ebf87606f32bf3a161205af13ca5",tooltip=" "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="com.sc.scairo.hmi.editors.protocol.\lProtocolEditorTopPanel.setEnabledAll",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1protocol_1_1_protocol_editor_top_panel.html#acf667b66ec7d1019847bdeac535d53f7",tooltip=" "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="com.sc.scairo.hmi.editors.protocol.\lProtocolEditorBottomPanel.setEnabledButton",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1protocol_1_1_protocol_editor_bottom_panel.html#ae202cb967ec303a5a915258c488547d6",tooltip=" "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="com.sc.scairo.hmi.editors.protocol.\lProtocolEditorTopPanel.setProtocolName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1protocol_1_1_protocol_editor_top_panel.html#ad7a15291b3376a3c8eef4e42ea8bc5ae",tooltip=" "];
+}

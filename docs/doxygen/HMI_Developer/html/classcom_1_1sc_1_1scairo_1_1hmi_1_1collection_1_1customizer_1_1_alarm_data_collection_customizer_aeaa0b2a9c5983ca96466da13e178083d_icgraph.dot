@@ -1,0 +1,12 @@
+digraph "com.sc.scairo.hmi.collection.customizer.AlarmDataCollectionCustomizer.getCenterPanel"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="com.sc.scairo.hmi.collection.customizer.\lAlarmDataCollectionCustomizer.getCenterPanel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="com.sc.scairo.hmi.collection.customizer.\lAlarmDataCollectionCustomizer.initialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1customizer_1_1_alarm_data_collection_customizer.html#afad705a9f7ee0116f643707cfc31fa5d",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="com.sc.scairo.hmi.collection.customizer.\lAlarmDataCollectionCustomizer.AlarmData\lCollectionCustomizer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1customizer_1_1_alarm_data_collection_customizer.html#a7d7050c5f5d0664562efccd6bbfcd520",tooltip=" "];
+}

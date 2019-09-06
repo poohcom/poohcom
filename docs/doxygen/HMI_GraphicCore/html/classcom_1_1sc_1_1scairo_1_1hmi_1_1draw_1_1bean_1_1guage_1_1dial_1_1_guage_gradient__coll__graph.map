@@ -1,0 +1,9 @@
+<map id="com.sc.scairo.hmi.draw.bean.guage.dial.GuageGradient" name="com.sc.scairo.hmi.draw.bean.guage.dial.GuageGradient">
+<area shape="rect" id="node1" title=" " alt="" coords="185,160,444,721"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,109,83"/>
+<area shape="rect" id="node3" title=" " alt="" coords="134,5,213,83"/>
+<area shape="rect" id="node4" title=" " alt="" coords="237,5,289,83"/>
+<area shape="rect" id="node5" title=" " alt="" coords="338,5,422,83"/>
+<area shape="rect" id="node6" title=" " alt="" coords="447,5,551,83"/>
+<area shape="rect" id="node7" title=" " alt="" coords="581,5,633,83"/>
+</map>

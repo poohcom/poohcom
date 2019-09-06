@@ -1,0 +1,10 @@
+digraph "com.sc.scairo.hmi.tag.customizer.InformationPanel.showIndirectDialog"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="com.sc.scairo.hmi.tag.customizer.\lInformationPanel.showIndirectDialog",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="com.sc.scairo.hmi.tag.customizer.\lInformationPanel.actionPerformed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1customizer_1_1_information_panel.html#a81f5f33e5ac2e22844340d2e2d56e399",tooltip=" "];
+}

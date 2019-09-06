@@ -1,0 +1,5 @@
+<map id="com.sc.scairo.hmi.script.functions.mockup.WindowFunctionMockup" name="com.sc.scairo.hmi.script.functions.mockup.WindowFunctionMockup">
+<area shape="rect" id="node1" title=" " alt="" coords="5,184,280,225"/>
+<area shape="rect" id="node2" href="$interfacecom_1_1sc_1_1scairo_1_1hmi_1_1script_1_1functions_1_1_i_window_function.html" title=" " alt="" coords="30,95,255,136"/>
+<area shape="rect" id="node3" href="$interfacecom_1_1sc_1_1scairo_1_1hmi_1_1script_1_1functions_1_1_i_function.html" title=" " alt="" coords="30,5,255,47"/>
+</map>

@@ -1,0 +1,14 @@
+<map id="com.sc.scairo.hmi.draw.bean.guage.dial.customizer.GuageDataPanel.getObject" name="com.sc.scairo.hmi.draw.bean.guage.dial.customizer.GuageDataPanel.getObject">
+<area shape="rect" id="node1" title=" " alt="" coords="5,332,332,373"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1guage_1_1dial_1_1_guage_info.html#a44f971b9acb2d0d892074c25e44cb97f" title=" " alt="" coords="414,5,673,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1guage_1_1dial_1_1_guage_data_info.html#a0d4ec0ab1d6c5489f45e8719162a7a11" title=" " alt="" coords="414,71,673,112"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1guage_1_1dial_1_1customizer_1_1_guage_data_panel.html#aec03abd3ae745d45f2810364be5ee29a" title=" " alt="" coords="380,136,707,177"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1guage_1_1dial_1_1_guage_data_info.html#a9281f0788c00a4227174bdda81886726" title=" " alt="" coords="414,201,673,243"/>
+<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1guage_1_1dial_1_1_guage_data_info.html#ada54bab0f649056054f899802d9078f9" title=" " alt="" coords="414,267,673,308"/>
+<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1guage_1_1dial_1_1_guage_data_info.html#a78244c7f06c458b350273beacc653920" title=" " alt="" coords="414,332,673,373"/>
+<area shape="rect" id="node8" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1guage_1_1dial_1_1_guage_data_info.html#a2d7c46878d276bb99ccee950b74760f3" title=" " alt="" coords="414,397,673,439"/>
+<area shape="rect" id="node9" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1guage_1_1dial_1_1_guage_data_info.html#ad158d7bacd35e22636c739d523961e31" title=" " alt="" coords="414,463,673,504"/>
+<area shape="rect" id="node10" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1guage_1_1dial_1_1_guage_data_info.html#aa771673cda99a6a7a746dabb0720e8e7" title=" " alt="" coords="414,528,673,569"/>
+<area shape="rect" id="node11" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1guage_1_1dial_1_1_guage_data_info.html#afdf12a39f788acc2258cd4a72b083999" title=" " alt="" coords="414,593,673,635"/>
+<area shape="rect" id="node12" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1guage_1_1dial_1_1_guage_data_info.html#aa2c7eadb3b78ab897bccc94938b6f62b" title=" " alt="" coords="414,659,673,700"/>
+</map>

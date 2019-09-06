@@ -1,0 +1,10 @@
+<map id="com.sc.scairo.hmi.tag.ITagConstants" name="com.sc.scairo.hmi.tag.ITagConstants">
+<area shape="rect" id="node1" title=" " alt="" coords="5,99,184,141"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_tag.html" title=" " alt="" coords="232,107,408,133"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_data_tag.html" title=" " alt="" coords="460,81,663,108"/>
+<area shape="rect" id="node8" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_group_tag.html" title=" " alt="" coords="456,132,667,159"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_analog_tag.html" title=" " alt="" coords="715,5,931,32"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_array_tag.html" title=" " alt="" coords="719,56,926,83"/>
+<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_digital_tag.html" title=" " alt="" coords="717,107,929,133"/>
+<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_string_tag.html" title=" " alt="" coords="717,157,928,184"/>
+</map>

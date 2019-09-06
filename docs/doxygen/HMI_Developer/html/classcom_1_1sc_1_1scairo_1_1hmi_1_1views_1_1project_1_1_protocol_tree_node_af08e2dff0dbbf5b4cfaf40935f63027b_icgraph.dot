@@ -1,0 +1,19 @@
+digraph "com.sc.scairo.hmi.views.project.ProtocolTreeNode.getChildCount"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="com.sc.scairo.hmi.views.project.\lProtocolTreeNode.getChildCount",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="com.sc.scairo.hmi.views.project.\lProtocolTreeNode.isLeaf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1views_1_1project_1_1_protocol_tree_node.html#a031c9672bf011e4248f88cc16e37bc68",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="com.sc.scairo.hmi.views.project.\lProtocolTreeNode.isNodeChild",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1views_1_1project_1_1_protocol_tree_node.html#aa958b5a2b82d149123bc982758f1ee1e",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="com.sc.scairo.hmi.views.project.\lProtocolTreeNode.getIndex",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1views_1_1project_1_1_protocol_tree_node.html#a6f3ddfc82e9bb75e5866d04dda658b74",tooltip=" "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="com.sc.scairo.hmi.views.project.\lProtocolTreeNode.remove",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1views_1_1project_1_1_protocol_tree_node.html#a4e42f27db9f467fe6293d2bcce9383f3",tooltip=" "];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="com.sc.scairo.hmi.views.project.\lProtocolTreeNode.removeAllChildren",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1views_1_1project_1_1_protocol_tree_node.html#ad3eab9931a6fb2f546d9f2205e66af76",tooltip=" "];
+}

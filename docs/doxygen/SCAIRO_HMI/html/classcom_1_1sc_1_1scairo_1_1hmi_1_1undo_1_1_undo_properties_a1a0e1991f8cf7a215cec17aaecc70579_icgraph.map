@@ -1,0 +1,12 @@
+<map id="com.sc.scairo.hmi.undo.UndoProperties.put" name="com.sc.scairo.hmi.undo.UndoProperties.put">
+<area shape="rect" id="node1" title="간략한 설명 작성" alt="" coords="272,267,467,308"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1event_1_1_alarm_driven_event.html#aa7d021ed10ffa33b9bbc45ea0b849925" title=" " alt="" coords="31,5,198,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1event_1_1_tag_driven_event.html#aab6922eb16e632324b4b8d391ae4e73c" title=" " alt="" coords="31,71,198,112"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_string_tag.html#a43dcd19f69b4dd12aa711b283c570f42" title=" " alt="" coords="20,136,209,177"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_digital_tag.html#a8ea8825eb5345d6e614785a4c865b7d0" title=" " alt="" coords="19,201,210,243"/>
+<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_analog_tag.html#aa9a48f06d111ea0071a963077b7f1ca3" title=" " alt="" coords="17,267,212,308"/>
+<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1event_1_1_time_driven_event.html#a8de402cf92e55b4997862e66ae772278" title=" " alt="" coords="31,332,198,373"/>
+<area shape="rect" id="node8" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1event_1_1_abstract_h_m_i_event.html#af51d7bbc381e36eb73c3da7cf58f4fca" title=" " alt="" coords="30,397,199,439"/>
+<area shape="rect" id="node9" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_tag.html#a029da9f829faaf36bf6d29a7ddcd920c" title="간략한 설명 작성" alt="" coords="5,463,224,490"/>
+<area shape="rect" id="node10" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_data_tag.html#a6039807734f8999694749fb33847e895" title=" " alt="" coords="23,515,206,556"/>
+</map>

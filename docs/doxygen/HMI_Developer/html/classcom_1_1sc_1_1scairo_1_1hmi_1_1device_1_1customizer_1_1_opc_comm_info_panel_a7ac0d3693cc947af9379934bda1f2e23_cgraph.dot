@@ -1,0 +1,16 @@
+digraph "com.sc.scairo.hmi.device.customizer.OpcCommInfoPanel.getDataAccessPanel"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="com.sc.scairo.hmi.device.customizer.\lOpcCommInfoPanel.getDataAccessPanel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="com.sc.scairo.hmi.device.customizer.\lOpcCommInfoPanel.getDataAccessRadioButton1",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1_opc_comm_info_panel.html#ab5578f1d7c7543c6f209b189f7efc14c",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="com.sc.scairo.hmi.device.customizer.\lOpcCommInfoPanel.getDataAccessRadioButton2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1_opc_comm_info_panel.html#a266cb8d1bcbfd605137b489b1c963537",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="com.sc.scairo.hmi.device.customizer.\lOpcCommInfoPanel.getDataAccessRadioButton3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1_opc_comm_info_panel.html#a863553b2c15220a0586e75c69e5a14d6",tooltip=" "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="com.sc.scairo.hmi.device.customizer.\lMessages.getString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1_messages.html#af72ceb2da5c0edff6f952fec94b04953",tooltip=" "];
+}

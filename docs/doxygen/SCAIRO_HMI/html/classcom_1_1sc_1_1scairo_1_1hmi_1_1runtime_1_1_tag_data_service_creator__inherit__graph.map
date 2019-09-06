@@ -1,0 +1,6 @@
+<map id="com.sc.scairo.hmi.runtime.TagDataServiceCreator" name="com.sc.scairo.hmi.runtime.TagDataServiceCreator">
+<area shape="rect" id="node1" title=" " alt="" coords="411,39,591,80"/>
+<area shape="rect" id="node2" href="$interfacecom_1_1sc_1_1scairo_1_1hmi_1_1listeners_1_1_tag_value_change_listener.html" title=" " alt="" coords="165,5,351,47"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,46,105,73"/>
+<area shape="rect" id="node4" href="$interfacecom_1_1sc_1_1scairo_1_1hmi_1_1listeners_1_1_runtime_tag_field_change_listener.html" title=" " alt="" coords="153,71,363,112"/>
+</map>

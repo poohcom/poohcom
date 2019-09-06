@@ -1,0 +1,18 @@
+digraph "com.sc.scairo.hmi.project.customizer.ProjectStoragePanel.isChanged"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="com.sc.scairo.hmi.project.customizer.\lProjectStoragePanel.isChanged",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="com.sc.scairo.hmi.project.customizer.\lProjectStoragePanel.getSelectedType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1customizer_1_1_project_storage_panel.html#a0b0448bb55bab8abf5ca469a08102e55",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="com.sc.scairo.hmi.project.customizer.\lProjectStoragePanel.isChangedString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1customizer_1_1_project_storage_panel.html#a0ee9ca12a80b9e2e24f621beec7dbae6",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="com.sc.scairo.hmi.project.customizer.\lProjectStoragePanel.semanticCheck",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1customizer_1_1_project_storage_panel.html#abdeec48cba88eec45356dd391028f90c",tooltip=" "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="com.sc.scairo.hmi.project.customizer.\lProjectStoragePanel.syntaxCheck",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1customizer_1_1_project_storage_panel.html#a9fb7b541099467bcbc5974d4ebfae03b",tooltip=" "];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="com.sc.scairo.hmi.project.customizer.\lMessages.getString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1customizer_1_1_messages.html#a12686111bb5139b731765626d3de0d02",tooltip=" "];
+}

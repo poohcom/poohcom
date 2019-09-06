@@ -1,0 +1,10 @@
+<map id="com.sc.scairo.hmi.draw.bean.alarm.CanvasAlarmTableModel" name="com.sc.scairo.hmi.draw.bean.alarm.CanvasAlarmTableModel">
+<area shape="rect" id="node1" title=" " alt="" coords="358,175,590,472"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,20,143,97"/>
+<area shape="rect" id="node3" title=" " alt="" coords="167,20,295,97"/>
+<area shape="rect" id="node4" title=" " alt="" coords="319,20,421,97"/>
+<area shape="rect" id="node5" title=" " alt="" coords="445,20,503,97"/>
+<area shape="rect" id="node6" title=" " alt="" coords="527,20,658,97"/>
+<area shape="rect" id="node7" title=" " alt="" coords="683,5,919,112"/>
+<area shape="rect" id="node8" title=" " alt="" coords="943,13,1074,105"/>
+</map>

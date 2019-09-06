@@ -1,0 +1,36 @@
+digraph "com.sc.scairo.hmi.project.customizer.ProjectCustomizerDialog.isChanged"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="com.sc.scairo.hmi.project.customizer.\lProjectCustomizerDialog.isChanged",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="com.sc.scairo.hmi.project.customizer.\lProjectResourcePanel.isChanged",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1customizer_1_1_project_resource_panel.html#af4cacd0def5f3d4fc1045074895d4d3a",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="com.sc.scairo.hmi.project.customizer.\lProjectResourcePanel.syntaxCheck",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1customizer_1_1_project_resource_panel.html#af8b9c2893d2b19e90d12457e9149e9e2",tooltip=" "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="com.sc.scairo.hmi.project.customizer.\lMessages.getString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1customizer_1_1_messages.html#a12686111bb5139b731765626d3de0d02",tooltip=" "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="com.sc.scairo.hmi.project.customizer.\lProjectGeneralPanel.isChanged",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1customizer_1_1_project_general_panel.html#afdbeaac64d26f9141922abbc99331506",tooltip=" "];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="com.sc.scairo.hmi.project.customizer.\lProjectGeneralPanel.getPassword",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1customizer_1_1_project_general_panel.html#a7253deef6f97b38512586af02c08878d",tooltip=" "];
+  Node5 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="com.sc.scairo.hmi.project.customizer.\lProjectGeneralPanel.isChangedString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1customizer_1_1_project_general_panel.html#a3dbdf2c4290eb6e46e0341526895dff2",tooltip=" "];
+  Node5 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="com.sc.scairo.hmi.project.customizer.\lProjectGeneralPanel.syntaxCheck",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1customizer_1_1_project_general_panel.html#af9181d60e45a6755a41b2afe10b32fa2",tooltip=" "];
+  Node8 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="com.sc.scairo.hmi.project.customizer.\lProjectCustomizerDialog.setSelectTabPane",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1customizer_1_1_project_customizer_dialog.html#a7df6173c707a351d22681bfad01213ad",tooltip=" "];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="com.sc.scairo.hmi.project.customizer.\lProjectStoragePanel.isChanged",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1customizer_1_1_project_storage_panel.html#a720dc5bd2a61cefa99c834f40f5f49ec",tooltip=" "];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="com.sc.scairo.hmi.project.customizer.\lProjectStoragePanel.getSelectedType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1customizer_1_1_project_storage_panel.html#a0b0448bb55bab8abf5ca469a08102e55",tooltip=" "];
+  Node10 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="com.sc.scairo.hmi.project.customizer.\lProjectStoragePanel.isChangedString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1customizer_1_1_project_storage_panel.html#a0ee9ca12a80b9e2e24f621beec7dbae6",tooltip=" "];
+  Node10 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="com.sc.scairo.hmi.project.customizer.\lProjectStoragePanel.semanticCheck",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1customizer_1_1_project_storage_panel.html#abdeec48cba88eec45356dd391028f90c",tooltip=" "];
+  Node10 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="com.sc.scairo.hmi.project.customizer.\lProjectStoragePanel.syntaxCheck",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1customizer_1_1_project_storage_panel.html#a9fb7b541099467bcbc5974d4ebfae03b",tooltip=" "];
+  Node14 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

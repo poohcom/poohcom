@@ -1,0 +1,37 @@
+digraph "com.sc.scairo.hmi.views.property.graphic.AbstractHMIFigureProperty.getFigure"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="com.sc.scairo.hmi.views.property.graphic.\lAbstractHMIFigureProperty.getFigure",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="com.sc.scairo.hmi.views.property.graphic.\lFontAttributeProperty.attributeChanged",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1views_1_1property_1_1graphic_1_1_font_attribute_property.html#aca6c23e4d74c8b451289a36a311dbe6e",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="com.sc.scairo.hmi.views.property.graphic.\lHMIFigureBoundProperty.figureChanged",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1views_1_1property_1_1graphic_1_1_h_m_i_figure_bound_property.html#a42efba39ddca1f8aa23a3986572e82e2",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="com.sc.scairo.hmi.views.property.graphic.\lHMIImageFileProperty.getValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1views_1_1property_1_1graphic_1_1_h_m_i_image_file_property.html#a2fd97f02ead9ab7127884d8412605fd8",tooltip=" "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="com.sc.scairo.hmi.views.property.graphic.\lHMIFigureStrokeDashProperty.getValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1views_1_1property_1_1graphic_1_1_h_m_i_figure_stroke_dash_property.html#a55eb3984a02bfc28ea032c425e3beea5",tooltip=" "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="com.sc.scairo.hmi.views.property.graphic.\lHMIFigureAttributeProperty.getValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1views_1_1property_1_1graphic_1_1_h_m_i_figure_attribute_property.html#afa107dca48ab6e0af041d59340332197",tooltip=" "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="com.sc.scairo.hmi.views.property.graphic.\lHMIFigureIDProperty.getValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1views_1_1property_1_1graphic_1_1_h_m_i_figure_i_d_property.html#a4b3e7c27314a8fb8715962d20eb4b606",tooltip=" "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="com.sc.scairo.hmi.views.property.graphic.\lFontAttributeProperty.setFigure",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1views_1_1property_1_1graphic_1_1_font_attribute_property.html#a0310c61962cd0e147f5a2ad93c5b273e",tooltip=" "];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="com.sc.scairo.hmi.views.property.graphic.\lJavaBeansPropertyIntrospector.getPropertyList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1views_1_1property_1_1graphic_1_1_java_beans_property_introspector.html#a05e4098e07a59eef38114da2c15d4f62",tooltip=" "];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="com.sc.scairo.hmi.views.property.\lPropertyView.setFigure",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1views_1_1property_1_1_property_view.html#a54535d7e33e76130da0a3d880a80934c",tooltip=" "];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="com.sc.scairo.hmi.views.property.\lPropertyView.selectionChanged",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1views_1_1property_1_1_property_view.html#a10b052633942da611b5249526b234f9a",tooltip=" "];
+  Node8 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="com.sc.scairo.hmi.views.property.graphic.\lHMIFigurePropertyIntrospector.getPropertyList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1views_1_1property_1_1graphic_1_1_h_m_i_figure_property_introspector.html#afa12b1e4d0d92d1955994275aac022b7",tooltip=" "];
+  Node12 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="com.sc.scairo.hmi.views.property.graphic.\lHMIImageFileProperty.setValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1views_1_1property_1_1graphic_1_1_h_m_i_image_file_property.html#a981c245b595c808c0dba090dc38a84cf",tooltip=" "];
+  Node1 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="com.sc.scairo.hmi.views.property.graphic.\lHMIFigureFillFormProperty.setValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1views_1_1property_1_1graphic_1_1_h_m_i_figure_fill_form_property.html#a687f73f8861d98eb70114c13ea5025cb",tooltip=" "];
+  Node1 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="com.sc.scairo.hmi.views.property.graphic.\lHMIFigureBoundProperty.setValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1views_1_1property_1_1graphic_1_1_h_m_i_figure_bound_property.html#a33751340ac87697264e5e0440cbd0a5d",tooltip=" "];
+}

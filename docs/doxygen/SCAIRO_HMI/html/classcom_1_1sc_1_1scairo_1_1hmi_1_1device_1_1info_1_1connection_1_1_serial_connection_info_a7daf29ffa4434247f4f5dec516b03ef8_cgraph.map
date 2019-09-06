@@ -1,0 +1,13 @@
+<map id="com.sc.scairo.hmi.device.info.connection.SerialConnectionInfo.getPort" name="com.sc.scairo.hmi.device.info.connection.SerialConnectionInfo.getPort">
+<area shape="rect" id="node1" title=" " alt="" coords="5,169,269,211"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1info_1_1connection_1_1_serial_connection_info.html#acbbebcadf2fb5044b05c8a872af1700e" title=" " alt="" coords="317,5,581,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1info_1_1connection_1_1_serial_connection_info.html#ac2ccd5f0642ce1d47142fdc38b4d91d0" title=" " alt="" coords="317,71,581,112"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1info_1_1connection_1_1_serial_connection_info.html#a0caeb2fb8a33412262c96fb62e246264" title=" " alt="" coords="317,136,581,177"/>
+<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1info_1_1connection_1_1_serial_connection_info.html#aa76c6b2ab1744edbdab4227ad807d5ee" title=" " alt="" coords="317,201,581,243"/>
+<area shape="rect" id="node8" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1info_1_1connection_1_1_serial_connection_info.html#a0dd3c15b3718d6821add7301aebe3fec" title=" " alt="" coords="317,267,581,308"/>
+<area shape="rect" id="node10" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1info_1_1connection_1_1_serial_connection_info.html#a135f0c2d908b00ee4b427e96ddfee6ce" title=" " alt="" coords="317,332,581,373"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1info_1_1connection_1_1_serial_connection_info.html#afcb44f179b17fea8b4aab49581afdd1c" title=" " alt="" coords="629,136,893,177"/>
+<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1info_1_1connection_1_1_serial_connection_info.html#ac75f418bcb549e6cc1582228c1d51720" title=" " alt="" coords="629,201,893,243"/>
+<area shape="rect" id="node9" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1info_1_1connection_1_1_serial_connection_info.html#a95742d2a697e4e32c9c762340f94d8e1" title=" " alt="" coords="629,267,893,308"/>
+<area shape="rect" id="node11" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1info_1_1connection_1_1_serial_connection_info.html#a8fbfdee2336023577ac3c990ee140342" title=" " alt="" coords="629,332,893,373"/>
+</map>

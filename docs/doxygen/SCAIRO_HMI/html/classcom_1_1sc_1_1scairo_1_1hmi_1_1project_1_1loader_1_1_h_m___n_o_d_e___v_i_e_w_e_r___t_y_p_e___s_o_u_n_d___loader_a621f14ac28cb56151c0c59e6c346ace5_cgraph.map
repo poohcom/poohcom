@@ -1,0 +1,6 @@
+<map id="com.sc.scairo.hmi.project.loader.HM_NODE_VIEWER_TYPE_SOUND_Loader.save" name="com.sc.scairo.hmi.project.loader.HM_NODE_VIEWER_TYPE_SOUND_Loader.save">
+<area shape="rect" id="node1" title="간략한 설명 작성" alt="" coords="5,71,320,112"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1sound_1_1_alarm_type_sound_set.html#ad0148818a7fb77ea7afa247b2be7bbb7" title=" " alt="" coords="378,5,603,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1_alarm_sound_operation.html#a81e09cf4ebef0357cef7542b8ad4dae1" title=" " alt="" coords="368,71,613,112"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1_alarm_sound_operation.html#a373aff976bf7e9f43774b10bef10c3c6" title=" " alt="" coords="387,137,595,193"/>
+</map>

@@ -1,0 +1,16 @@
+<map id="com.sc.scairo.hmi.project.linker.DeviceConfigurationLinker.stationInfoRemoved" name="com.sc.scairo.hmi.project.linker.DeviceConfigurationLinker.stationInfoRemoved">
+<area shape="rect" id="node1" title=" " alt="" coords="5,223,239,279"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1linker_1_1_device_configuration_linker.html#aecb297c1da0e3bbac351d938d1271c42" title="간략한 설명 작성" alt="" coords="287,100,557,141"/>
+<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1info_1_1_device_info.html#abb9fa7a81a9e080ab2cb3b7b013b181d" title=" " alt="" coords="323,165,521,207"/>
+<area shape="rect" id="node8" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1info_1_1_device_info.html#aaed6016a1c5bd12e08d8a29d55ec03d3" title=" " alt="" coords="323,231,521,272"/>
+<area shape="rect" id="node9" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1linker_1_1_device_configuration_linker.html#a76073ac0beba73a6767ba21891fb75ef" title="간략한 설명 작성" alt="" coords="298,296,546,337"/>
+<area shape="rect" id="node14" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1_device_configuration.html#aa3ea5b40b0dc4f877400a06f96a41771" title=" " alt="" coords="318,361,526,403"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_group_tag.html#a8fb19d5720218a2e3f3e97958829ae4d" title="간략한 설명 작성" alt="" coords="856,5,1047,47"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1_tag_dictionary.html#a1d6d0d348698e29b565a26044273f0ac" title=" " alt="" coords="605,35,808,76"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1_project.html#add1803c3806b3f0720a4242b0744bf36" title=" " alt="" coords="619,165,795,207"/>
+<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_group_tag.html#a1a983b1cb6c639ff89fcc62a659bd831" title="간략한 설명 작성" alt="" coords="611,100,802,141"/>
+<area shape="rect" id="node10" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1_tag_dictionary.html#a9e9da0f349ba63a680a0c58b42527566" title=" " alt="" coords="619,231,795,272"/>
+<area shape="rect" id="node11" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_data_tag.html#a9004030f0d6e76e3f003a9ebe04f8cc1" title=" " alt="" coords="615,296,798,337"/>
+<area shape="rect" id="node12" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_device_adapter.html#ad7527dfc932742a2fb520de28c9f7673" title=" " alt="" coords="610,361,803,403"/>
+<area shape="rect" id="node13" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_tag.html#a5b1e460e7f21dd19097730f396f37ca4" title=" " alt="" coords="607,427,806,468"/>
+</map>

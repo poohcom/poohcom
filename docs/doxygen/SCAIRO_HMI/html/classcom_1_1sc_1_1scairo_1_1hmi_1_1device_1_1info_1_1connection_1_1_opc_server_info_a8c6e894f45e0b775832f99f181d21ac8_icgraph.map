@@ -1,0 +1,5 @@
+<map id="com.sc.scairo.hmi.device.info.connection.OpcServerInfo.setDescription" name="com.sc.scairo.hmi.device.info.connection.OpcServerInfo.setDescription">
+<area shape="rect" id="node1" title=" " alt="" coords="360,39,624,80"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1module_1_1_comm_j_easy_opc_client_module.html#ae73439a3507343af22e73615828b1e02" title=" " alt="" coords="21,5,296,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1module_1_1_comm_open_scada_opc_client_module.html#a8aaa5413028dd696d261da8a35600ffa" title=" " alt="" coords="5,71,312,112"/>
+</map>

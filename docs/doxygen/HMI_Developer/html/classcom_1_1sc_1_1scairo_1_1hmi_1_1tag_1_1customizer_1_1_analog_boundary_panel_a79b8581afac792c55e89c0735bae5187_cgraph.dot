@@ -1,0 +1,16 @@
+digraph "com.sc.scairo.hmi.tag.customizer.AnalogBoundaryPanel.isChanged"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="com.sc.scairo.hmi.tag.customizer.\lAnalogBoundaryPanel.isChanged",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="com.sc.scairo.hmi.tag.customizer.\lAnalogBoundaryPanel.getType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1customizer_1_1_analog_boundary_panel.html#a76be18fe82acfb09c906ea619c63510b",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="com.sc.scairo.hmi.tag.customizer.\lAnalogBoundaryHiLoAlarmPanel.isChanged",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1customizer_1_1_analog_boundary_hi_lo_alarm_panel.html#aeb2d9f048c70cfe1acf94877e4d42c86",tooltip=" "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="com.sc.scairo.hmi.tag.customizer.\lAnalogBoundaryHiLoAlarmPanel.isChangedString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1customizer_1_1_analog_boundary_hi_lo_alarm_panel.html#a3e6ee1ff7bad379973e5afb8b09e3e51",tooltip=" "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="com.sc.scairo.hmi.tag.customizer.\lAnalogBoundaryPanel.isChangedString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1customizer_1_1_analog_boundary_panel.html#ab57b76838ca2497e2871a32fd499854e",tooltip=" "];
+}

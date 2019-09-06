@@ -1,0 +1,58 @@
+digraph "com.sc.scairo.hmi.device.customizer.DeviceCustomizerDialog.setDeviceInfo"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="com.sc.scairo.hmi.device.customizer.\lDeviceCustomizerDialog.setDeviceInfo",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="com.sc.scairo.hmi.device.customizer.\lDeviceCustomizerDialog.performredundancy\lCheckBox",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1_device_customizer_dialog.html#a1a7441c57b954de833643f37809e2e7a",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="com.sc.scairo.hmi.device.customizer.\lMessages.getString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1_messages.html#af72ceb2da5c0edff6f952fec94b04953",tooltip=" "];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="com.sc.scairo.hmi.device.customizer.\lStationManagerMainPanel.setRedundancyEnable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1_station_manager_main_panel.html#a53563cb7b620ff520557ee21bc8560fe",tooltip=" "];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="com.sc.scairo.hmi.device.customizer.\lStationInformationPanel.setRedundancyEnable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1_station_information_panel.html#afb1dae0d86de5d8249167080940a2280",tooltip=" "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="com.sc.scairo.hmi.device.customizer.\lStationManagerMainPanel.setObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1_station_manager_main_panel.html#a453e50171142b3f15f606a3ad2742b2a",tooltip=" "];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="com.sc.scairo.hmi.device.customizer.\lDeviceBlockMainPanel.setObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1_device_block_main_panel.html#ab585ba234fbd754b586f19241ebb1fce",tooltip=" "];
+  Node7 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="com.sc.scairo.hmi.device.customizer.\lDeviceBlockPanel.setObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1_device_block_panel.html#a95de52e9a9516d96ac0f515a6cd5c682",tooltip=" "];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="com.sc.scairo.hmi.device.customizer.\lDeviceBlockPanel.initButtonAction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1_device_block_panel.html#ad868f785240dc05514dda44daf601fad",tooltip=" "];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="com.sc.scairo.hmi.device.customizer.model.\lDeviceBlockAutoTableModel.setDeviceInfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1model_1_1_device_block_auto_table_model.html#aec6af84fee524ec5c86298d161a6d1ac",tooltip=" "];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="com.sc.scairo.hmi.device.customizer.model.\lDeviceBlockAutoTableModel.fireTableDataChanged",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1model_1_1_device_block_auto_table_model.html#a56e9fe26ec69e1006d2f4c4531d2660b",tooltip=" "];
+  Node8 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="com.sc.scairo.hmi.device.customizer.\lStationInformationPanel.setObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1_station_information_panel.html#a86df2c1cb6f413eb8f82b3f873d9ee54",tooltip=" "];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="com.sc.scairo.hmi.device.customizer.\lStationInformationPanel.setBlockPolicy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1_station_information_panel.html#af2597fa1a0ddd558d44ef03ed6b7ea69",tooltip=" "];
+  Node12 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="com.sc.scairo.hmi.device.customizer.\lStationListTableModel.setDeviceInfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1_station_list_table_model.html#afb5d0ea0a4ed15a5186228c987876f33",tooltip=" "];
+  Node14 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="com.sc.scairo.hmi.device.customizer.\lStationManagerMainPanel.setStationNames",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1_station_manager_main_panel.html#a25057a7529c6540d7d6df7008c8fe0ff",tooltip=" "];
+  Node15 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="com.sc.scairo.hmi.device.customizer.\lDeviceBlockMainPanel.setStationNames",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1_device_block_main_panel.html#a7031d639f4cf632712fecdc6c0d776e8",tooltip=" "];
+  Node16 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="com.sc.scairo.hmi.device.customizer.\lDeviceBlockPanel.setStationNames",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1_device_block_panel.html#a52ae78ee61a0aaf2a1badc4c1def3156",tooltip=" "];
+  Node17 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="com.sc.scairo.hmi.device.customizer.\lBlockPanel.setStationNames",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1_block_panel.html#aad974e71a57b6d4b551caa604274331a",tooltip=" "];
+  Node1 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="com.sc.scairo.hmi.device.customizer.\lDriverInformationPanel.setObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1_driver_information_panel.html#aceea92059c45cfab66810321e3751f18",tooltip=" "];
+  Node19 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="com.sc.scairo.hmi.device.customizer.\lDriverCommonPanel.setDeviceInfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1_driver_common_panel.html#abe4e70f83fb7f63597fb328c46f6f7e3",tooltip=" "];
+  Node19 -> Node21 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="com.sc.scairo.hmi.device.customizer.\lDriverCommonPanel.setObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1_driver_common_panel.html#a7e7e5e419991e7f028bafde74427d77f",tooltip=" "];
+  Node21 -> Node22 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="com.sc.scairo.hmi.device.customizer.\lDriverCommonPanel.getPortType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1_driver_common_panel.html#a7ae855eee77a9cd3de8981992d0e2ad2",tooltip=" "];
+  Node21 -> Node23 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 [label="com.sc.scairo.hmi.device.customizer.\lDriverCommonPanel.setNewAction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1_driver_common_panel.html#ac434bfb13fd3b825c483bf9033b2ad74",tooltip=" "];
+  Node21 -> Node24 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node24 [label="com.sc.scairo.hmi.device.customizer.\lDriverCommonPanel.setPortType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1_driver_common_panel.html#aa43069f773483fc5935acb8783d1aea1",tooltip=" "];
+  Node1 -> Node25 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node25 [label="com.sc.scairo.hmi.device.customizer.\lDeviceCustomizerDialog.setRedundancyPolicy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1_device_customizer_dialog.html#ad0352082c01ff7a3b8c9f3cc4af7c824",tooltip=" "];
+}

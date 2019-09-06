@@ -1,0 +1,9 @@
+<map id="com.sc.scairo.hmi.project.linker.NetworkConfigurationLinker.makeAlarmDigitalSystemTag" name="com.sc.scairo.hmi.project.linker.NetworkConfigurationLinker.makeAlarmDigitalSystemTag">
+<area shape="rect" id="node1" title="간략한 설명 작성" alt="" coords="5,153,255,209"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_data_tag.html#a9b8bae918bbd7dd452ed1169a158a52d" title="간략한 설명 작성" alt="" coords="327,29,510,71"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1_alarm.html#a86db435571e6a75268426fd3dae7fa8e" title=" " alt="" coords="334,95,503,136"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_digital_tag.html#a7999300e9c77fefc6304355ebfe7fd58" title=" " alt="" coords="323,160,514,201"/>
+<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_tag.html#aef6331ac8630fe3b9dd2f5f72cf500d9" title=" " alt="" coords="303,226,535,253"/>
+<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_tag.html#aad04e7154741cee0ba6634631971e5fe" title="간략한 설명 작성" alt="" coords="305,277,533,303"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1_tag_alarm.html#a8cc3048b6286f5db4d4986da8cacbb0b" title=" " alt="" coords="583,29,752,71"/>
+</map>

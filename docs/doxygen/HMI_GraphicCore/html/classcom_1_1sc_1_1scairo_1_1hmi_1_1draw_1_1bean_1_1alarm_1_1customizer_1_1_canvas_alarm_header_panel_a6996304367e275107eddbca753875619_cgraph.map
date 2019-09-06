@@ -1,0 +1,12 @@
+<map id="com.sc.scairo.hmi.draw.bean.alarm.customizer.CanvasAlarmHeaderPanel.getObject" name="com.sc.scairo.hmi.draw.bean.alarm.customizer.CanvasAlarmHeaderPanel.getObject">
+<area shape="rect" id="node1" title=" " alt="" coords="5,236,305,277"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1alarm_1_1customizer_1_1_canvas_alarm_header_panel.html#a1f249cdd55975e9a631be5337adee8c3" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="353,68,653,109"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1alarm_1_1customizer_1_1_canvas_alarm_header_panel.html#a2cd83b350962dd9ffd9a0bd6aa31b8dc" title=" " alt="" coords="353,236,653,277"/>
+<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1alarm_1_1_canvas_alarm_header_filter.html#a0281affe8cf2bcc6725cccf6946b1855" title=" " alt="" coords="701,137,1001,179"/>
+<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1alarm_1_1_canvas_alarm_header_filter.html#a7806529905d2cbcabffc7ffcf401d5d2" title=" " alt="" coords="723,207,980,248"/>
+<area shape="rect" id="node8" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1alarm_1_1_canvas_alarm_header_filter.html#a36443de8c268c4b66756fda6abc67f22" title=" " alt="" coords="703,280,999,321"/>
+<area shape="rect" id="node9" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1alarm_1_1_canvas_alarm_info.html#a3b714d7154bf786236b3b811ba88e0ef" title=" " alt="" coords="387,353,619,395"/>
+<area shape="rect" id="node10" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1alarm_1_1_canvas_alarm_info.html#a0667e5b039473d0e7a20662971101322" title=" " alt="" coords="387,419,619,460"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1alarm_1_1_canvas_alarm_header_filter.html#aecc3a49bb3acd62e86628038ca2643c7" title=" " alt="" coords="701,71,1001,112"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1alarm_1_1_canvas_alarm_header_filter.html#a1befa2f165629bfac42f4a1ca489194a" title=" " alt="" coords="703,5,999,47"/>
+</map>

@@ -1,0 +1,12 @@
+digraph "com.sc.scairo.hmi.editors.event.EventGroupTreeNode.removeAllChildren"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="com.sc.scairo.hmi.editors.event.\lEventGroupTreeNode.removeAllChildren",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="com.sc.scairo.hmi.editors.event.\lEventGroupTreeNode.getChildCount",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1event_1_1_event_group_tree_node.html#a517aa111a9df3af250107770ccad7fff",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="com.sc.scairo.hmi.editors.event.\lEventGroupTreeNode.children",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1event_1_1_event_group_tree_node.html#a71534b26bcc70b5680cf722c6f4c9f1a",tooltip=" "];
+}

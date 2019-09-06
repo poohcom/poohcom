@@ -1,0 +1,12 @@
+<map id="com.sc.scairo.hmi.tag.ItemDeviceAdapter.getItemName" name="com.sc.scairo.hmi.tag.ItemDeviceAdapter.getItemName">
+<area shape="rect" id="node1" title=" " alt="" coords="852,169,1039,211"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1module_1_1_comm_open_scada_opc_client_module.html#aa7a67dc1e9b211a2868f95e0b7bccb29" title="간략한 설명 작성" alt="" coords="480,5,804,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_item_device_adapter.html#adb79a2b13b87ed2893cb3e57024205f5" title=" " alt="" coords="552,71,732,112"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1map_1_1_block.html#a6b9be32ec6f24aab189080c3dd97e078" title="간략한 설명 작성" alt="" coords="541,136,743,177"/>
+<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1module_1_1_comm_j_easy_opc_client_module.html#afce25e8768404d447747e3a0873407fa" title="간략한 설명 작성" alt="" coords="500,201,784,243"/>
+<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1module_1_1_comm_j_easy_opc_client_module.html#af1134d5ccdfd0cb29b0db5a5a27f969b" title="간략한 설명 작성" alt="" coords="491,267,793,308"/>
+<area shape="rect" id="node8" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1loader_1_1_h_m___t_a_g___i_t_e_m___d_e_v_i_c_e___loader.html#a4ddb7020e744d768fb95bfaafbee8ec6" title="간략한 설명 작성" alt="" coords="521,332,763,373"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1map_1_1_block.html#a5700f880081971e0764567e2c46e4418" title="간략한 설명 작성" alt="" coords="229,136,432,177"/>
+<area shape="rect" id="node9" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1_project_loader.html#a0a7fa690fb70615bbc661be8f6ec0e50" title="간략한 설명 작성" alt="" coords="243,332,419,373"/>
+<area shape="rect" id="node10" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1_project.html#afd323779a37647ca5b9e15fe0e240a6a" title="간략한 설명 작성" alt="" coords="5,332,181,373"/>
+</map>

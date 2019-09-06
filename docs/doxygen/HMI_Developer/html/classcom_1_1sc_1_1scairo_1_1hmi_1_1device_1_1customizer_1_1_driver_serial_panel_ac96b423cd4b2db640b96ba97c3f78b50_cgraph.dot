@@ -1,0 +1,40 @@
+digraph "com.sc.scairo.hmi.device.customizer.DriverSerialPanel.DriverSerialPanel"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="com.sc.scairo.hmi.device.customizer.\lDriverSerialPanel.DriverSerialPanel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="com.sc.scairo.hmi.device.customizer.\lDriverSerialPanel.initialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1_driver_serial_panel.html#ac88a78f21bc3cb05ddd7a28476cf0839",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="com.sc.scairo.hmi.device.customizer.\lDriverSerialPanel.getNetworkConfigrationPanel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1_driver_serial_panel.html#af08900fccaf46f054a983f0d38968e15",tooltip=" "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="com.sc.scairo.hmi.device.customizer.\lDriverSerialPanel.getBaudRateComboBox",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1_driver_serial_panel.html#afe35441cebe3ce89f7c85c199e621143",tooltip=" "];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="com.sc.scairo.hmi.device.customizer.\lDriverSerialPanel.getComportComboBox",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1_driver_serial_panel.html#ac62fd8fca06aec544efedab0728abc87",tooltip=" "];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="com.sc.scairo.hmi.device.customizer.\lMessages.getString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1_messages.html#af72ceb2da5c0edff6f952fec94b04953",tooltip=" "];
+  Node3 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="com.sc.scairo.hmi.device.customizer.\lDriverSerialPanel.getDataBitComboBox",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1_driver_serial_panel.html#a4dd384183dce710c545905fdce7ca2be",tooltip=" "];
+  Node3 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="com.sc.scairo.hmi.device.customizer.\lDriverSerialPanel.getFlowControlComboBox",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1_driver_serial_panel.html#a8734f6dffeae15927f44e45f1a0a93ff",tooltip=" "];
+  Node8 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="com.sc.scairo.hmi.device.customizer.\lDriverSerialPanel.getParityBitComboBox",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1_driver_serial_panel.html#acfc1b07e2e7d275b45d1309a8886149c",tooltip=" "];
+  Node9 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="com.sc.scairo.hmi.device.customizer.\lDriverSerialPanel.getStopBitComboBox",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1_driver_serial_panel.html#af6a5d07b988ba917f201b24afba7bc04",tooltip=" "];
+  Node3 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="com.sc.scairo.hmi.device.customizer.\lDriverSerialPanel.getOptionPanel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1_driver_serial_panel.html#a556fd7505bb4125d0074bf2db2e8e09f",tooltip=" "];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="com.sc.scairo.hmi.device.customizer.\lDriverSerialPanel.getModemNumberTextField",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1_driver_serial_panel.html#a2bfc1cba92f049915ec02ef347b8b2da",tooltip=" "];
+  Node11 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="com.sc.scairo.hmi.device.customizer.\lDriverSerialPanel.getModemRetryCount\lComboBox",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1_driver_serial_panel.html#a6bac78744c06435a3472d6abe710e8ca",tooltip=" "];
+  Node11 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="com.sc.scairo.hmi.device.customizer.\lDriverSerialPanel.getModemTypePanel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1_driver_serial_panel.html#a30d8c8b128209f135042ded2c9008a27",tooltip=" "];
+  Node14 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,13 @@
+<map id="com.sc.scairo.hmi.alarm.BoundaryGroupAlarm" name="com.sc.scairo.hmi.alarm.BoundaryGroupAlarm">
+<area shape="rect" id="node1" title=" " alt="" coords="901,185,1071,226"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1_analog_tag_alarm.html" title=" " alt="" coords="684,154,853,195"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1_tag_alarm.html" title=" " alt="" coords="458,151,627,193"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1_alarm.html" title=" " alt="" coords="223,93,393,134"/>
+<area shape="rect" id="node5" title=" " alt="" coords="34,5,138,32"/>
+<area shape="rect" id="node6" title=" " alt="" coords="47,56,125,83"/>
+<area shape="rect" id="node7" title=" " alt="" coords="48,107,124,133"/>
+<area shape="rect" id="node8" title=" " alt="" coords="5,157,167,184"/>
+<area shape="rect" id="node9" href="$interfacecom_1_1sc_1_1scairo_1_1hmi_1_1listeners_1_1_tag_value_change_listener.html" title=" " alt="" coords="215,158,401,199"/>
+<area shape="rect" id="node10" title=" " alt="" coords="36,213,136,240"/>
+<area shape="rect" id="node11" href="$interfacecom_1_1sc_1_1scairo_1_1hmi_1_1listeners_1_1_alarm_state_listener.html" title=" " alt="" coords="449,217,636,258"/>
+</map>

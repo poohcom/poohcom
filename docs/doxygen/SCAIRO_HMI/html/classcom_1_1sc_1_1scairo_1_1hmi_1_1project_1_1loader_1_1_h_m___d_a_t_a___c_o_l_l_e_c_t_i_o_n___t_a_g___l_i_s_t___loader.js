@@ -1,0 +1,7 @@
+var classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1loader_1_1_h_m___d_a_t_a___c_o_l_l_e_c_t_i_o_n___t_a_g___l_i_s_t___loader =
+[
+    [ "load", "classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1loader_1_1_h_m___d_a_t_a___c_o_l_l_e_c_t_i_o_n___t_a_g___l_i_s_t___loader.html#abaa59ed4c60b3f0bc6293538ee8eb6b0", null ],
+    [ "save", "classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1loader_1_1_h_m___d_a_t_a___c_o_l_l_e_c_t_i_o_n___t_a_g___l_i_s_t___loader.html#a168831468b122b4336963b5aff67acb2", null ],
+    [ "INSERT_QUERY", "classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1loader_1_1_h_m___d_a_t_a___c_o_l_l_e_c_t_i_o_n___t_a_g___l_i_s_t___loader.html#a2c2b774f4e9e2a53471282901085b1ea", null ],
+    [ "SELECT_QUERY", "classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1loader_1_1_h_m___d_a_t_a___c_o_l_l_e_c_t_i_o_n___t_a_g___l_i_s_t___loader.html#ae91c413759c5325dc618a476fa69d30c", null ]
+];

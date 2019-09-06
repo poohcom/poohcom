@@ -1,0 +1,20 @@
+<map id="com.sc.scairo.hmi.net.AlarmData.AlarmData" name="com.sc.scairo.hmi.net.AlarmData.AlarmData">
+<area shape="rect" id="node1" title=" " alt="" coords="5,496,195,537"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_alarm_data.html#a38370e43fbab97a0ef8c22fa36de356f" title=" " alt="" coords="243,496,432,537"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1_alarm.html#af258005f7704e637b72f443495541354" title=" " alt="" coords="493,5,663,47"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1_alarm.html#a866284825239ae8ffdeb2b2a668e3659" title=" " alt="" coords="493,71,663,112"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1_alarm.html#acc20bbfaa370267e4336bd245eb6d140" title=" " alt="" coords="493,136,663,177"/>
+<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1_alarm.html#a3692ba61218db1d9566bc33e0e453e3f" title=" " alt="" coords="493,201,663,243"/>
+<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1_alarm.html#a1c30e54cfada5afcdc1602936cecbb06" title=" " alt="" coords="493,267,663,308"/>
+<area shape="rect" id="node8" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1_alarm.html#aeb49ec7762b9bbd9f256effef93ec1a6" title=" " alt="" coords="493,332,663,373"/>
+<area shape="rect" id="node9" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1_boundary_group_alarm.html#ab08c7bf8e30d8649aa68815b99da1730" title=" " alt="" coords="480,397,676,439"/>
+<area shape="rect" id="node10" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1_alarm.html#a8133434cea69b75f3aa509c215b6ea33" title=" " alt="" coords="493,463,663,504"/>
+<area shape="rect" id="node11" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_alarm_data.html#ab5b410947580baa9d9e0527939f33d00" title=" " alt="" coords="483,528,673,569"/>
+<area shape="rect" id="node12" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_alarm_data.html#a6ef513ea7e297db98bc32dfdb47b2d6c" title=" " alt="" coords="483,593,673,635"/>
+<area shape="rect" id="node13" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_alarm_data.html#a101bd63e3bc15dd0db7385ba4d8c17f1" title=" " alt="" coords="483,659,673,700"/>
+<area shape="rect" id="node14" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_alarm_data.html#ae461ca69074003ac4f32bb6fe79b69f4" title=" " alt="" coords="483,724,673,765"/>
+<area shape="rect" id="node15" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_alarm_data.html#a8721ebbef300c3c2c301ac83ca2eaf0c" title=" " alt="" coords="483,789,673,831"/>
+<area shape="rect" id="node16" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_alarm_data.html#a6a78622c43fb7765b0fbab81420d2c3e" title=" " alt="" coords="483,855,673,896"/>
+<area shape="rect" id="node17" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_alarm_data.html#ad04e105630cc394b1678dd7adcbf85ff" title=" " alt="" coords="483,920,673,961"/>
+<area shape="rect" id="node18" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_alarm_data.html#a31844547846bb4e2d06a1c9aafeb42cd" title=" " alt="" coords="483,985,673,1027"/>
+</map>

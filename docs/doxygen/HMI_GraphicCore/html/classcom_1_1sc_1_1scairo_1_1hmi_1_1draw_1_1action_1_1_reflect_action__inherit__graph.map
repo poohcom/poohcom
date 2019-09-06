@@ -1,0 +1,6 @@
+<map id="com.sc.scairo.hmi.draw.action.ReflectAction" name="com.sc.scairo.hmi.draw.action.ReflectAction">
+<area shape="rect" id="node1" title=" " alt="" coords="119,131,321,267"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1action_1_1_reflect_action_1_1_horizontal.html" title=" " alt="" coords="5,315,208,421"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1action_1_1_reflect_action_1_1_vertical.html" title=" " alt="" coords="232,315,435,421"/>
+<area shape="rect" id="node2" title=" " alt="" coords="141,5,299,83"/>
+</map>

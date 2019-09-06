@@ -1,0 +1,17 @@
+<map id="com.sc.scairo.hmi.project.linker.AlarmConfigurationLinker.alarmGroupRemoved" name="com.sc.scairo.hmi.project.linker.AlarmConfigurationLinker.alarmGroupRemoved">
+<area shape="rect" id="node1" title="간략한 설명 작성" alt="" coords="5,423,243,479"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_data_tag.html#a0605cdb96084c8bcadd0a6489aab060a" title=" " alt="" coords="325,5,507,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1security_1_1_u_m_s_property.html#aed0aa41b41bcefe709f3ebdb2b5a9ed1" title=" " alt="" coords="306,71,526,112"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1_tag_dictionary.html#a9e9da0f349ba63a680a0c58b42527566" title=" " alt="" coords="328,136,504,177"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1_alarm.html#a866284825239ae8ffdeb2b2a668e3659" title=" " alt="" coords="331,201,501,243"/>
+<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1_alarm_group.html#a115be5327e81705082131f254ba76e83" title=" " alt="" coords="331,267,501,308"/>
+<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1_project.html#a5a4accf71c8020ac4f9aa3490a987019" title=" " alt="" coords="312,332,520,373"/>
+<area shape="rect" id="node8" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1_project.html#add1803c3806b3f0720a4242b0744bf36" title=" " alt="" coords="328,397,504,439"/>
+<area shape="rect" id="node9" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_tag.html#a5b1e460e7f21dd19097730f396f37ca4" title=" " alt="" coords="317,463,515,504"/>
+<area shape="rect" id="node10" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1security_1_1_user.html#aced20a563876c2da4cdb9e7baf20cf27" title=" " alt="" coords="325,528,507,569"/>
+<area shape="rect" id="node11" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1_security_configuration.html#a836680dfc3bbc54e43e06361fada486e" title=" " alt="" coords="291,593,541,635"/>
+<area shape="rect" id="node12" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_data_tag.html#a99d7bd5724d77e264adfe9c7a93b8845" title=" " alt="" coords="325,659,507,700"/>
+<area shape="rect" id="node13" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1filter_1_1_alarm_group_filter.html#a9454616ba7774bbf0d3118c88fcb5634" title="간략한 설명 작성" alt="" coords="293,724,539,765"/>
+<area shape="rect" id="node14" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1_alarm.html#a86db435571e6a75268426fd3dae7fa8e" title=" " alt="" coords="331,789,501,831"/>
+<area shape="rect" id="node15" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1linker_1_1_primary_key_change_data.html#a308419a191a8bab6774fa46fe792d391" title=" " alt="" coords="297,855,535,896"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="com.sc.scairo.hmi.net.TrendSamplingData" name="com.sc.scairo.hmi.net.TrendSamplingData">
+<area shape="rect" id="node1" title=" " alt="" coords="5,71,192,112"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_day_trend_sampling_data.html" title=" " alt="" coords="248,5,427,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_hour_trend_sampling_data.html" title=" " alt="" coords="246,71,429,112"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_minute_trend_sampling_data.html" title=" " alt="" coords="240,136,435,177"/>
+</map>

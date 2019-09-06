@@ -1,0 +1,5 @@
+<map id="com.sc.scairo.hmi.alarm.Alarm.setInitAriseState" name="com.sc.scairo.hmi.alarm.Alarm.setInitAriseState">
+<area shape="rect" id="node1" title="간략한 설명 작성" alt="" coords="300,39,469,80"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1_boundary_group_alarm.html#a0754e8875a06ef6d869416ebd23447e7" title=" " alt="" coords="5,5,252,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1_analog_group_alarm.html#a39b99b9d81a14a8bacb80a7afbcef767" title=" " alt="" coords="13,71,244,112"/>
+</map>

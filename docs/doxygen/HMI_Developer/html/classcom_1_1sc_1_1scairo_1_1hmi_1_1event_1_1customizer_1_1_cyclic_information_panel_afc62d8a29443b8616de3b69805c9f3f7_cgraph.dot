@@ -1,0 +1,14 @@
+digraph "com.sc.scairo.hmi.event.customizer.CyclicInformationPanel.isChanged"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="com.sc.scairo.hmi.event.customizer.\lCyclicInformationPanel.isChanged",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="com.sc.scairo.hmi.event.customizer.\lCyclicInformationPanel.getCycleUnitValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1event_1_1customizer_1_1_cyclic_information_panel.html#a1ccba11a81c23b8343c5be1b324b0ec2",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="com.sc.scairo.hmi.event.customizer.\lCyclicInformationPanel.semanticCheck",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1event_1_1customizer_1_1_cyclic_information_panel.html#a1305477cf180a3d4c663ad9ca66c2809",tooltip=" "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="com.sc.scairo.hmi.event.\lMessages.getString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1event_1_1_messages.html#a836d3127a2d36ff9fe2a255cfda5f308",tooltip=" "];
+}

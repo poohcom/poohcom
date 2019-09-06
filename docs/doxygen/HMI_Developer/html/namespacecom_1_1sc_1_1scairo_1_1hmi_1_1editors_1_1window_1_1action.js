@@ -1,0 +1,19 @@
+var namespacecom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1action =
+[
+    [ "AbstractWindowEditorAction", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1action_1_1_abstract_window_editor_action.html", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1action_1_1_abstract_window_editor_action" ],
+    [ "PrintAction", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1action_1_1_print_action.html", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1action_1_1_print_action" ],
+    [ "SearchAction", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1action_1_1_search_action.html", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1action_1_1_search_action" ],
+    [ "SelectAllAction", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1action_1_1_select_all_action.html", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1action_1_1_select_all_action" ],
+    [ "WindowCloseAction", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1action_1_1_window_close_action.html", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1action_1_1_window_close_action" ],
+    [ "WindowCloseAllAction", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1action_1_1_window_close_all_action.html", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1action_1_1_window_close_all_action" ],
+    [ "WindowCreateAction", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1action_1_1_window_create_action.html", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1action_1_1_window_create_action" ],
+    [ "WindowDeleteAction", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1action_1_1_window_delete_action.html", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1action_1_1_window_delete_action" ],
+    [ "WindowExportAction", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1action_1_1_window_export_action.html", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1action_1_1_window_export_action" ],
+    [ "WindowImportAction", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1action_1_1_window_import_action.html", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1action_1_1_window_import_action" ],
+    [ "WindowOpenAction", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1action_1_1_window_open_action.html", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1action_1_1_window_open_action" ],
+    [ "WindowPropertyEditAction", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1action_1_1_window_property_edit_action.html", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1action_1_1_window_property_edit_action" ],
+    [ "WindowSaveAction", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1action_1_1_window_save_action.html", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1action_1_1_window_save_action" ],
+    [ "WindowSaveAllAction", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1action_1_1_window_save_all_action.html", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1action_1_1_window_save_all_action" ],
+    [ "WindowSaveAsAction", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1action_1_1_window_save_as_action.html", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1action_1_1_window_save_as_action" ],
+    [ "WindowValidateAction", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1action_1_1_window_validate_action.html", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1action_1_1_window_validate_action" ]
+];

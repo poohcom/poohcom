@@ -1,0 +1,53 @@
+digraph "com.sc.scairo.hmi.database.customizer.DatabaseCustomizerDialog"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="com.sc.scairo.hmi.database.customizer.\lDatabaseCustomizerDialog",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="JDialog",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node3 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ActionListener",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" currentDatabase" ,fontname="Helvetica"];
+  Node4 [label="Database",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" okButton\ncancelButton" ,fontname="Helvetica"];
+  Node5 [label="JButton",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node6 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" databaseCustomizer" ,fontname="Helvetica"];
+  Node6 [label="com.sc.scairo.hmi.database.customizer.\lDatabaseCustomizer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1database_1_1customizer_1_1_database_customizer.html",tooltip=" "];
+  Node7 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="JPanel",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node8 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ItemListener",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node3 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Customizer",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node10 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="UIErrorHandler",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node4 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" currentDatabase" ,fontname="Helvetica"];
+  Node11 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" redundancyCheckBox" ,fontname="Helvetica"];
+  Node11 [label="JCheckBox",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node5 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" createButton\ndropButton\ntestButton" ,fontname="Helvetica"];
+  Node1 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" customizerDialog" ,fontname="Helvetica"];
+  Node12 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" redundancyIpTextField\nipAddressIpTextField" ,fontname="Helvetica"];
+  Node12 [label="IPTextField",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node13 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" nameTextField\nuserIdTextField\ndsnNameTextField\ndbNameTextField" ,fontname="Helvetica"];
+  Node13 [label="JTextField",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node14 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" stat" ,fontname="Helvetica"];
+  Node14 [label="Statement",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node15 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" portSpinner" ,fontname="Helvetica"];
+  Node15 [label="JSpinner",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node16 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" con" ,fontname="Helvetica"];
+  Node16 [label="Connection",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node17 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" userPasswordField" ,fontname="Helvetica"];
+  Node17 [label="JPasswordField",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node18 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" typeComboBox\ndbmsTypeComboBox" ,fontname="Helvetica"];
+  Node18 [label="JComboBox",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node19 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" userPasswordLabel\ntypeLabel\nipAddressLabel\nuserIdLabel\ndbmsLabel\ndnsNameLabel\nportLabel\ndbNameLabel\nnameLabel" ,fontname="Helvetica"];
+  Node19 [label="JLabel",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node20 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" databaseConfiguration" ,fontname="Helvetica"];
+  Node20 [label="DatabaseConfiguration",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node7 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" odbcPanel\ndirectPanel\nloginInfoPanel\nbuttonPanel\nconnectionInfoPanel" ,fontname="Helvetica"];
+  Node20 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" databaseConfiguration" ,fontname="Helvetica"];
+  Node7 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" jContentPane\nbuttonPanel" ,fontname="Helvetica"];
+}

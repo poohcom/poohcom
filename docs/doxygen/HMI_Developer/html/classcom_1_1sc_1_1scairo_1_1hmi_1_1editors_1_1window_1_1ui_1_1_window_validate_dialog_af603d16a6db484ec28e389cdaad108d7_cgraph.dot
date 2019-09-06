@@ -1,0 +1,12 @@
+digraph "com.sc.scairo.hmi.editors.window.ui.WindowValidateDialog.setFile"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="com.sc.scairo.hmi.editors.window.ui.\lWindowValidateDialog.setFile",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="com.sc.scairo.hmi.editors.window.ui.\lWindowValidateDialog.setInitSelectCheckBox",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1ui_1_1_window_validate_dialog.html#a61b2aed0e29bdeab035d5269c2deda49",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="com.sc.scairo.hmi.editors.window.ui.\lWindowValidateDialog.setAllowedWindowList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1ui_1_1_window_validate_dialog.html#a5246e72951dd50fe1f34ff08bd220320",tooltip=" "];
+}

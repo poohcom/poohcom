@@ -1,0 +1,9 @@
+<map id="com.sc.scairo.hmi.draw.object.ITable" name="com.sc.scairo.hmi.draw.object.ITable">
+<area shape="rect" id="node1" title=" " alt="" coords="256,71,459,112"/>
+<area shape="rect" id="node3" href="$interfacecom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1object_1_1_i_alarm_table.html" title=" " alt="" coords="532,5,735,47"/>
+<area shape="rect" id="node5" href="$interfacecom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1object_1_1_i_static_table.html" title=" " alt="" coords="532,71,735,112"/>
+<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1object_1_1mockup_1_1_table_mockup.html" title=" " alt="" coords="507,136,760,177"/>
+<area shape="rect" id="node2" href="$interfacecom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1object_1_1_i_draw_object.html" title=" " alt="" coords="5,71,208,112"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1object_1_1mockup_1_1_alarm_table_mockup.html" title=" " alt="" coords="808,5,1061,47"/>
+<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1object_1_1mockup_1_1_static_table_mockup.html" title=" " alt="" coords="808,71,1061,112"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="com.sc.scairo.hmi.device.listeners.MapChangeListener" name="com.sc.scairo.hmi.device.listeners.MapChangeListener">
+<area shape="rect" id="node1" title=" " alt="" coords="153,39,380,80"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1info_1_1_device_block_info.html" title=" " alt="" coords="428,5,625,47"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_map_device_adapter.html" title=" " alt="" coords="437,71,617,112"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,46,105,73"/>
+</map>

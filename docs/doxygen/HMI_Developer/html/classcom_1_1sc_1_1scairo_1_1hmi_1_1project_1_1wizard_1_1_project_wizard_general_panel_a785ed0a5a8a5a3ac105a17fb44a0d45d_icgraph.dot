@@ -1,0 +1,12 @@
+digraph "com.sc.scairo.hmi.project.wizard.ProjectWizardGeneralPanel.getResolutionPanel"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="com.sc.scairo.hmi.project.wizard.\lProjectWizardGeneralPanel.getResolutionPanel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="com.sc.scairo.hmi.project.wizard.\lProjectWizardGeneralPanel.initialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1wizard_1_1_project_wizard_general_panel.html#a1751376a82731bbd8b4ce62fba058070",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="com.sc.scairo.hmi.project.wizard.\lProjectWizardGeneralPanel.ProjectWizard\lGeneralPanel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1wizard_1_1_project_wizard_general_panel.html#ad6f837285918a32e586659521532fc58",tooltip=" "];
+}

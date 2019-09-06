@@ -1,0 +1,8 @@
+<map id="com.sc.scairo.hmi.draw.action.HMIGroupAction.groupFigures" name="com.sc.scairo.hmi.draw.action.HMIGroupAction.groupFigures">
+<area shape="rect" id="node1" title=" " alt="" coords="5,129,208,171"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing_effects.html#a271a0255a181fcfe4fd7694fe7c4b204" title="Adds the. @LastUpdate 2019." alt="" coords="256,5,489,47"/>
+<area shape="rect" id="node3" href="$interfaceorg_1_1jhotdraw_1_1draw_1_1_drawing_view.html#a6708fe57a99375fba094e8836767b1cd" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="286,71,459,112"/>
+<area shape="rect" id="node4" href="$classorg_1_1jhotdraw_1_1draw_1_1_attribute_key.html#a4aaf5a4a491ff5deb10d4d2b99b0c955" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="537,192,713,233"/>
+<area shape="rect" id="node5" href="$interfaceorg_1_1jhotdraw_1_1draw_1_1_drawing_view.html#ae1c1ffdb3cb4a45d07e30caff130aafb" title=" " alt="" coords="286,188,459,229"/>
+<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing_effects.html#aa4d6c409290a726f2b3552743b16b1ee" title="Removes the by figures. @LastUpdate 2019." alt="" coords="256,253,489,295"/>
+</map>

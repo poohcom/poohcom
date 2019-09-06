@@ -1,0 +1,26 @@
+<map id="com.sc.scairo.hmi.common.SystemResourceManager.setProject" name="com.sc.scairo.hmi.common.SystemResourceManager.setProject">
+<area shape="rect" id="node1" title=" " alt="" coords="5,724,240,765"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1_project.html#a559f67f16678cbedecb9b6ee84c376b4" title=" " alt="" coords="332,5,527,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1_project.html#a77d177ea400084fc7658bdb1a602601f" title=" " alt="" coords="307,71,551,112"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1_project.html#a7ee3b8768282171f92b8def012990ed1" title=" " alt="" coords="330,136,529,177"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1_project.html#aa9fd7c5ccc5836731581aa53c9b603d4" title=" " alt="" coords="328,201,531,243"/>
+<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1_project_configuration.html#a98ba060e0a48002225b872ad189f196b" title=" " alt="" coords="332,267,527,308"/>
+<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1_project.html#a1cdbdbd8b29e3b54f8cfb1d0eb19f615" title=" " alt="" coords="326,332,533,373"/>
+<area shape="rect" id="node8" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1_project.html#a565dfa03f107f3d6720b0836d9d67d4e" title=" " alt="" coords="329,397,530,439"/>
+<area shape="rect" id="node9" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1_project.html#aa29ff46a449294558d686b1ac58c51cc" title=" " alt="" coords="341,463,517,504"/>
+<area shape="rect" id="node10" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1_project.html#a39c19e7cba9118f020a0e9b317f51efc" title=" " alt="" coords="341,528,517,569"/>
+<area shape="rect" id="node11" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1_project.html#ae14f16dc2e954ff51203697bf1b1eadd" title=" " alt="" coords="327,593,532,635"/>
+<area shape="rect" id="node12" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1_project_configuration.html#a6901820aea9f3be2423ea6990ca5cae2" title=" " alt="" coords="319,659,540,700"/>
+<area shape="rect" id="node13" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1_project.html#a37096b130e83bbf29526b62e18cd9b39" title=" " alt="" coords="327,724,531,765"/>
+<area shape="rect" id="node14" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1_project.html#add1803c3806b3f0720a4242b0744bf36" title=" " alt="" coords="341,789,517,831"/>
+<area shape="rect" id="node15" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1_project.html#ae17d39470556579f0501db8cec27fabb" title=" " alt="" coords="324,855,535,896"/>
+<area shape="rect" id="node16" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1_project.html#a87c4952ed6d9fa4c688787a1f5114d21" title=" " alt="" coords="317,920,541,961"/>
+<area shape="rect" id="node17" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1_project.html#a185b8685d8362ff871c11a5655f2fd69" title=" " alt="" coords="323,985,536,1027"/>
+<area shape="rect" id="node18" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1_project.html#a830c58576a66b793b3586af40f95e96c" title=" " alt="" coords="341,1051,517,1092"/>
+<area shape="rect" id="node19" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1common_1_1_system_resource_manager.html#aeea9df57ba2b82bd65ebdf693f6c25b8" title=" " alt="" coords="301,1116,557,1157"/>
+<area shape="rect" id="node20" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1common_1_1_system_resource_manager.html#aa0e4c839758a1f70ce1b6ab3a801f2ce" title=" " alt="" coords="300,1181,559,1223"/>
+<area shape="rect" id="node21" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1common_1_1_system_resource_manager.html#ab533b1727334917f402b4cfc1f929f4e" title=" " alt="" coords="300,1247,559,1288"/>
+<area shape="rect" id="node22" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1common_1_1_system_resource_manager.html#ab580afe642fcf474ea92e76466bb4094" title=" " alt="" coords="296,1312,563,1353"/>
+<area shape="rect" id="node23" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1common_1_1_system_resource_manager.html#a8f726c1a1e25dfbefdf736fc26f20b2b" title=" " alt="" coords="288,1377,571,1419"/>
+<area shape="rect" id="node24" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1common_1_1_system_resource_manager.html#af4cbe5b6d08432fde4f90c7b18ecb15e" title=" " alt="" coords="296,1443,563,1484"/>
+</map>

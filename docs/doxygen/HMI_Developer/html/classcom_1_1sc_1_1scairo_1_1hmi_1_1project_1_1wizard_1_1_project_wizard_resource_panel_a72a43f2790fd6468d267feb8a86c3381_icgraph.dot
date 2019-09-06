@@ -1,0 +1,16 @@
+digraph "com.sc.scairo.hmi.project.wizard.ProjectWizardResourcePanel.getResourceInformation"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="com.sc.scairo.hmi.project.wizard.\lProjectWizardResourcePanel.getResource\lInformation",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="com.sc.scairo.hmi.project.wizard.\lProjectWizardPage.getInformation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1wizard_1_1_project_wizard_page.html#a69555c2d4940858144c059ef9e953bc7",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="com.sc.scairo.hmi.project.wizard.\lProjectWizardPage.getSelectedStepIndex",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1wizard_1_1_project_wizard_page.html#a8260791433f3736fa938f2da16d62373",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="com.sc.scairo.hmi.project.wizard.\lProjectWizardDialog.setButtonAction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1wizard_1_1_project_wizard_dialog.html#afb1b86442b9d4f3df7f833cec053999a",tooltip=" "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="com.sc.scairo.hmi.project.wizard.\lProjectWizardDialog.ProjectWizardDialog",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1wizard_1_1_project_wizard_dialog.html#a70eb5ef4c9455bca072c271c2615edfa",tooltip=" "];
+}

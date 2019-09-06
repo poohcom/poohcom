@@ -1,0 +1,14 @@
+<map id="com.sc.scairo.hmi.runtime.LastTagStatusManager" name="com.sc.scairo.hmi.runtime.LastTagStatusManager">
+<area shape="rect" id="node1" title=" " alt="" coords="700,212,880,253"/>
+<area shape="rect" id="node2" href="$interfacecom_1_1sc_1_1scairo_1_1hmi_1_1runtime_1_1_runtime_manager.html" title=" " alt="" coords="324,5,504,47"/>
+<area shape="rect" id="node3" href="$interfacecom_1_1sc_1_1scairo_1_1hmi_1_1listeners_1_1_tag_value_change_listener.html" title=" " alt="" coords="321,71,507,112"/>
+<area shape="rect" id="node4" title=" " alt="" coords="47,78,147,105"/>
+<area shape="rect" id="node5" title=" " alt="" coords="363,137,465,163"/>
+<area shape="rect" id="node6" title=" " alt="" coords="321,187,507,214"/>
+<area shape="rect" id="node7" title=" " alt="" coords="389,243,439,270"/>
+<area shape="rect" id="node8" title=" " alt="" coords="284,295,544,336"/>
+<area shape="rect" id="node9" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1runtime_1_1_h_sql_d_b_logger.html" title=" " alt="" coords="324,360,504,401"/>
+<area shape="rect" id="node10" title=" " alt="" coords="5,319,189,375"/>
+<area shape="rect" id="node11" title=" " alt="" coords="54,399,141,426"/>
+<area shape="rect" id="node12" title=" " alt="" coords="347,426,481,453"/>
+</map>

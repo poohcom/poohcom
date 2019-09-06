@@ -1,0 +1,19 @@
+digraph "com.sc.scairo.hmi.views.project.DatabaseConfigurationTreeNode.getChildCount"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="com.sc.scairo.hmi.views.project.\lDatabaseConfigurationTreeNode.getChildCount",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="com.sc.scairo.hmi.views.project.\lDatabaseConfigurationTreeNode.isLeaf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1views_1_1project_1_1_database_configuration_tree_node.html#ac6160a4ae07e05d7dcd80ad3fe35f1f6",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="com.sc.scairo.hmi.views.project.\lDatabaseConfigurationTreeNode.isNodeChild",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1views_1_1project_1_1_database_configuration_tree_node.html#a39dda1ec553b60590fec3a78d6f75b90",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="com.sc.scairo.hmi.views.project.\lDatabaseConfigurationTreeNode.getIndex",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1views_1_1project_1_1_database_configuration_tree_node.html#a19f73d181cd3a0c48e3fac304cdb8711",tooltip=" "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="com.sc.scairo.hmi.views.project.\lDatabaseConfigurationTreeNode.remove",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1views_1_1project_1_1_database_configuration_tree_node.html#a310471904564ad5f7988e4cc0dd68019",tooltip=" "];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="com.sc.scairo.hmi.views.project.\lDatabaseConfigurationTreeNode.remove\lAllChildren",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1views_1_1project_1_1_database_configuration_tree_node.html#ada2cd086e4282c3e3091fdbd71dac40d",tooltip=" "];
+}

@@ -1,0 +1,15 @@
+<map id="com.sc.scairo.hmi.project.loader.HM_TAG_ALARM_Loader.load" name="com.sc.scairo.hmi.project.loader.HM_TAG_ALARM_Loader.load">
+<area shape="rect" id="node1" title="간략한 설명 작성" alt="" coords="5,362,220,403"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1_boundary_group_alarm.html#a811821cab344bc46c0e9d014fc1fa23b" title="간략한 설명 작성" alt="" coords="276,5,503,61"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1_boundary_group_alarm.html#a7862d77eaaf77cd105602ee2e33cd914" title=" " alt="" coords="278,85,501,141"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_tag.html#a5b1e460e7f21dd19097730f396f37ca4" title=" " alt="" coords="290,166,489,207"/>
+<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1_boundary_tag_alarm.html#a310082a2ba37857e1e76abc8f6ba434d" title=" " alt="" coords="268,231,511,273"/>
+<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1_boundary_group_alarm.html#a70964dbc0cfdc5ce6f77ad59e048c71f" title=" " alt="" coords="276,297,503,338"/>
+<area shape="rect" id="node8" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1_alarm.html#a86db435571e6a75268426fd3dae7fa8e" title=" " alt="" coords="305,362,474,403"/>
+<area shape="rect" id="node9" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1_alarm.html#a575aa098109b7161092a7002711e3975" title=" " alt="" coords="304,427,475,469"/>
+<area shape="rect" id="node10" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1_tag_alarm.html#a52d20a8a65048c4839c05ea577ae3353" title=" " alt="" coords="295,493,483,534"/>
+<area shape="rect" id="node11" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1_alarm.html#a578b0d18032389361b8040b7c05c4de6" title=" " alt="" coords="305,558,474,599"/>
+<area shape="rect" id="node12" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1_alarm.html#afe18309e4f57f1c6b6320cadbfcc2c09" title=" " alt="" coords="305,623,474,665"/>
+<area shape="rect" id="node13" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1_alarm.html#a332dda4f56f8601857462d63e5f27741" title=" " alt="" coords="305,689,474,730"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1_alarm.html#a8133434cea69b75f3aa509c215b6ea33" title=" " alt="" coords="559,13,728,54"/>
+</map>

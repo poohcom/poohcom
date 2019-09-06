@@ -1,0 +1,5 @@
+<map id="com.sc.scairo.hmi.draw.bean.alarm.CanvasAlarm.setTableBackgroundColor" name="com.sc.scairo.hmi.draw.bean.alarm.CanvasAlarm.setTableBackgroundColor">
+<area shape="rect" id="node1" title=" " alt="" coords="5,39,256,80"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1alarm_1_1_canvas_alarm_info.html#a9d1f436bbd79a46cfaa0253925aa75b2" title=" " alt="" coords="310,5,542,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1alarm_1_1_canvas_alarm_filter.html#a013f000265d3c14853f7857e797571b4" title=" " alt="" coords="304,71,548,112"/>
+</map>

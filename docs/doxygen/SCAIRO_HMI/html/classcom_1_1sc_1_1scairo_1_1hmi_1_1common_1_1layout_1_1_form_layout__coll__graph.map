@@ -1,0 +1,10 @@
+<map id="com.sc.scairo.hmi.common.layout.FormLayout" name="com.sc.scairo.hmi.common.layout.FormLayout">
+<area shape="rect" id="node1" title=" " alt="" coords="240,158,467,199"/>
+<area shape="rect" id="node6" title=" " alt="" coords="636,42,863,83"/>
+<area shape="rect" id="node8" title=" " alt="" coords="636,262,863,303"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,165,116,192"/>
+<area shape="rect" id="node3" title=" " alt="" coords="31,56,91,83"/>
+<area shape="rect" id="node5" title=" " alt="" coords="912,42,1139,83"/>
+<area shape="rect" id="node4" title=" " alt="" coords="22,216,99,243"/>
+<area shape="rect" id="node7" title=" " alt="" coords="912,298,1139,339"/>
+</map>

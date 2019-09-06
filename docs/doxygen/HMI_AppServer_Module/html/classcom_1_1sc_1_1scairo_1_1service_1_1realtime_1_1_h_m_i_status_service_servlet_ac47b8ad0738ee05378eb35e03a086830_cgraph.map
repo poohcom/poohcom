@@ -1,0 +1,14 @@
+<map id="com.sc.scairo.service.realtime.HMIStatusServiceServlet.doPost" name="com.sc.scairo.service.realtime.HMIStatusServiceServlet.doPost">
+<area shape="rect" id="node1" title=" " alt="" coords="5,235,215,276"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1_tag_web_service_handler.html#aead0d34f7bb203e189bfb6030b50ac0f" title=" " alt="" coords="289,5,497,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1_tomcat_h_m_i_server.html#aa211c37f382f23e83cbbfde77af83519" title=" " alt="" coords="277,71,509,112"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1_tag_web_service_handler.html#ad8010c1483507315ac70abd24991115b" title=" " alt="" coords="293,136,492,177"/>
+<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1_tag_web_service_handler.html#a13cdb0246a681bafa68def5236a3b425" title=" " alt="" coords="263,201,523,243"/>
+<area shape="rect" id="node8" href="$classcom_1_1sc_1_1scairo_1_1_tomcat_h_m_i_server.html#aab3786a9e81be718c60d7ad59b9c42b3" title=" " alt="" coords="277,267,509,308"/>
+<area shape="rect" id="node10" href="$classcom_1_1sc_1_1scairo_1_1service_1_1realtime_1_1_h_m_i_common_servlet.html#a4cd5eca084594010e26aecca8e1d3da5" title=" " alt="" coords="287,332,498,373"/>
+<area shape="rect" id="node11" href="$classcom_1_1sc_1_1scairo_1_1service_1_1realtime_1_1_h_m_i_status_service_servlet.html#aeae5c8f38fb26a7af93428b6504ca619" title=" " alt="" coords="268,397,517,439"/>
+<area shape="rect" id="node12" href="$classcom_1_1sc_1_1scairo_1_1service_1_1realtime_1_1_h_m_i_common_servlet.html#a655b9c5f15ef45f35abba917e16e2708" title=" " alt="" coords="281,463,504,504"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1_tag_web_service_handler.html#a0ac26ca00b90d4a1f4dc45e9769d64b4" title=" " alt="" coords="587,136,785,177"/>
+<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1_tag_web_service_handler.html#a73a36ec5974cc15bf2a6c8d8671f88c0" title=" " alt="" coords="849,136,1048,177"/>
+<area shape="rect" id="node9" href="$classcom_1_1sc_1_1scairo_1_1_tomcat_h_m_i_server.html#a77b2dcb64bd969caaa37106ce820ab15" title=" " alt="" coords="571,274,801,301"/>
+</map>

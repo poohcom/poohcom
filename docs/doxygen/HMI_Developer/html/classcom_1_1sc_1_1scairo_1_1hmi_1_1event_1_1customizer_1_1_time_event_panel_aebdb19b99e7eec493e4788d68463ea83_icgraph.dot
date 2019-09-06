@@ -1,0 +1,10 @@
+digraph "com.sc.scairo.hmi.event.customizer.TimeEventPanel.semanticCheck"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="com.sc.scairo.hmi.event.customizer.\lTimeEventPanel.semanticCheck",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="com.sc.scairo.hmi.event.customizer.\lTimeEventPanel.isChanged",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1event_1_1customizer_1_1_time_event_panel.html#a170b0d4f469be3a7e795f7a966a4ccc1",tooltip=" "];
+}

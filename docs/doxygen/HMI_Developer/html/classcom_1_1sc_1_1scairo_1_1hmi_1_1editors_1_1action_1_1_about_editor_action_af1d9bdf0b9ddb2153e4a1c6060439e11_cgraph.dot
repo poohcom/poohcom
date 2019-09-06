@@ -1,0 +1,22 @@
+digraph "com.sc.scairo.hmi.editors.action.AboutEditorAction.actionPerformed"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="com.sc.scairo.hmi.editors.action.\lAboutEditorAction.actionPerformed",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="com.sc.scairo.hmi.editors.\lEditor.getDeveloper",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacecom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1_editor.html#ae458bc1143e3ff8c6ea62c28d7b0fa83",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="com.sc.scairo.hmi.editors.\lEditor.getEditorIcon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacecom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1_editor.html#a9a33d6a929af50cd8107813461bae521",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="com.sc.scairo.hmi.editors.\lEditor.getEditorName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacecom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1_editor.html#a6679bd639aa2e8fe7759b2f02840ed95",tooltip=" "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="com.sc.scairo.hmi.editors.\lEditor.getVersion",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacecom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1_editor.html#a9e41e736c52386b24e4cf3c8830edec8",tooltip=" "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="com.sc.scairo.hmi.editors.action.\lAboutEditorDialog.setEditorIcon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1action_1_1_about_editor_dialog.html#aa63d7e798a9c54e3e277f362c78bb9f8",tooltip=" "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="com.sc.scairo.hmi.editors.action.\lAboutEditorDialog.setName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1action_1_1_about_editor_dialog.html#af5fcd81247d63a81df74d21bdaf32ceb",tooltip=" "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="com.sc.scairo.hmi.editors.action.\lAboutEditorDialog.setVersion",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1action_1_1_about_editor_dialog.html#a48126673a0bae9a893c9ac387f3a8f1d",tooltip=" "];
+}

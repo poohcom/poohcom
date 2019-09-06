@@ -1,0 +1,16 @@
+digraph "com.sc.scairo.hmi.editors.collection.NodeDataTreeNode.getCollectionList"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="com.sc.scairo.hmi.editors.collection.\lNodeDataTreeNode.getCollectionList",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="com.sc.scairo.hmi.editors.collection.\lDataCollectionEditor.treeSelected",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1collection_1_1_data_collection_editor.html#a8deeefcd572c1ccaaa64546ec56f52bf",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="com.sc.scairo.hmi.editors.collection.\lDataCollectionKeyListener.keyPressed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1collection_1_1_data_collection_key_listener.html#afd770e15b549ebd0c044c1d73f2f8595",tooltip=" "];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="com.sc.scairo.hmi.editors.collection.\lDataCollectionMouseListener.mousePressed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1collection_1_1_data_collection_mouse_listener.html#a68032e7d44a13fa6807539c1dbf56a9d",tooltip=" "];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="com.sc.scairo.hmi.editors.collection.\lDataCollectionTreeModel.propertyChange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1collection_1_1_data_collection_tree_model.html#a40c6a5587a151c39c121dc5891e32fc8",tooltip=" "];
+}

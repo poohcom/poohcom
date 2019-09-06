@@ -1,0 +1,7 @@
+<map id="com.sc.scairo.hmi.draw.bean.alarm.customizer.CanvasAlarmFilterPanel.setFilter" name="com.sc.scairo.hmi.draw.bean.alarm.customizer.CanvasAlarmFilterPanel.setFilter">
+<area shape="rect" id="node1" title=" " alt="" coords="5,104,305,145"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1alarm_1_1_canvas_alarm_info.html#a2883f770bd6cb2039cd3ad4c02466b97" title=" " alt="" coords="353,5,585,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1alarm_1_1_canvas_alarm_info.html#a2847f6b0bee26b932ecc6632eb6ef3ac" title=" " alt="" coords="353,71,585,112"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1alarm_1_1_canvas_alarm_info.html#a9736d661c7ec82c4b3275439e5a0ec45" title=" " alt="" coords="353,136,585,177"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1alarm_1_1_canvas_alarm_info.html#a10561da217098ad13541c7a1d42fd192" title="getter, setter" alt="" coords="353,201,585,243"/>
+</map>

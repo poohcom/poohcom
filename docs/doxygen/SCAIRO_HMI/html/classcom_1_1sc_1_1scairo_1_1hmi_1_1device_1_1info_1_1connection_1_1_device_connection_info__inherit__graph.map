@@ -1,0 +1,10 @@
+<map id="com.sc.scairo.hmi.device.info.connection.DeviceConnectionInfo" name="com.sc.scairo.hmi.device.info.connection.DeviceConnectionInfo">
+<area shape="rect" id="node1" title=" " alt="" coords="143,136,407,177"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1info_1_1connection_1_1_dde_connection_info.html" title=" " alt="" coords="455,5,719,47"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1info_1_1connection_1_1_opc_connection_info.html" title=" " alt="" coords="455,71,719,112"/>
+<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1info_1_1connection_1_1_serial_connection_info.html" title=" " alt="" coords="455,136,719,177"/>
+<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1info_1_1connection_1_1_snmp_connection_info.html" title=" " alt="" coords="455,201,719,243"/>
+<area shape="rect" id="node8" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1info_1_1connection_1_1_tcp_udp_connection_info.html" title=" " alt="" coords="455,267,719,308"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,118,95,145"/>
+<area shape="rect" id="node3" title=" " alt="" coords="11,169,89,195"/>
+</map>

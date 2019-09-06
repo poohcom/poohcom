@@ -1,0 +1,16 @@
+digraph "com.sc.scairo.hmi.editors.window.WindowEditorCommandBarFactory.createColorCommandBar"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="com.sc.scairo.hmi.editors.window.\lWindowEditorCommandBarFactory.create\lColorCommandBar",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="com.sc.scairo.hmi.editors.window.\lWindowEditorCommandBarFactory.Window\lEditorCommandBarFactory",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1_window_editor_command_bar_factory.html#a9abdeea2ea6cbb2023b47af0badc71d4",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="com.sc.scairo.hmi.editors.window.\lWindowEditorCommandBarFactory.create\lInstance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1_window_editor_command_bar_factory.html#ae22832a622f04cd4ef47aa3b9e2f56b3",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="com.sc.scairo.hmi.editors.window.\lWindowEditor.initialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1_window_editor.html#a2371857f4d22d3b6cf1380bb1d77c5c7",tooltip=" "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="com.sc.scairo.hmi.editors.window.\lWindowEditor.WindowEditor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1_window_editor.html#a39483e971d0bb5cda8d07e7a3effe158",tooltip=" "];
+}

@@ -1,0 +1,12 @@
+digraph "com.sc.scairo.hmi.alarm.customizer.AlarmPopupDisplayPanel.getFontPanel"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="com.sc.scairo.hmi.alarm.customizer.\lAlarmPopupDisplayPanel.getFontPanel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="com.sc.scairo.hmi.alarm.customizer.\lAlarmPopupDisplayPanel.initialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1customizer_1_1_alarm_popup_display_panel.html#a5fbb3f03c8dcc23b3e6a7b7de0af90c3",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="com.sc.scairo.hmi.alarm.customizer.\lAlarmPopupDisplayPanel.AlarmPopupDisplayPanel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1customizer_1_1_alarm_popup_display_panel.html#ac1477e61303e840a84ff541b2a1980a1",tooltip=" "];
+}

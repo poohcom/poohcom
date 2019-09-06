@@ -1,0 +1,26 @@
+digraph "com.sc.scairo.hmi.collection.customizer.AlarmDataCollectionCustomizer.isChanged"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="com.sc.scairo.hmi.collection.customizer.\lAlarmDataCollectionCustomizer.isChanged",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="com.sc.scairo.hmi.collection.customizer.\lFileLoggingPanel.isChanged",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1customizer_1_1_file_logging_panel.html#a839033f857522b3d1c009607e8820d2d",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="com.sc.scairo.hmi.collection.customizer.\lFileLoggingPanel.getFileLoggingType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1customizer_1_1_file_logging_panel.html#a55943d4f20ff806146abedf1ae5d330d",tooltip=" "];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="com.sc.scairo.hmi.collection.customizer.\lFileLoggingPanel.getSelectMode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1customizer_1_1_file_logging_panel.html#adc790e8e9dbe5e126d5808199c8174b6",tooltip=" "];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="com.sc.scairo.hmi.collection.customizer.\lFileLoggingPanel.isChangedString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1customizer_1_1_file_logging_panel.html#aeed32d69837b6e4d342f50dd78bc72bd",tooltip=" "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="com.sc.scairo.hmi.collection.customizer.\lDataCollectionCustomizerDialog.isChangedString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1customizer_1_1_data_collection_customizer_dialog.html#a8ae2f2dd3490072e3f4d5ae8d52de365",tooltip=" "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="com.sc.scairo.hmi.collection.customizer.\lAlarmDataCollectionCustomizer.semanticCheck",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1customizer_1_1_alarm_data_collection_customizer.html#a6b433266f51b7a2ac6f7c2cd2de0da33",tooltip=" "];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="com.sc.scairo.hmi.collection.customizer.\lFileLoggingPanel.syntaxCheck",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1customizer_1_1_file_logging_panel.html#ace77353b08fc85273d632f9c1acf6e22",tooltip=" "];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="com.sc.scairo.hmi.collection.customizer.\lMessages.getString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1customizer_1_1_messages.html#ab00a138220a965db06922f89afc27bcf",tooltip=" "];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="com.sc.scairo.hmi.collection.customizer.\lAlarmDataCollectionCustomizer.syntaxCheck",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1customizer_1_1_alarm_data_collection_customizer.html#a3f8f28f93b67d40b52d7d27f93acc3fc",tooltip=" "];
+}

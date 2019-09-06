@@ -1,0 +1,10 @@
+digraph "com.sc.scairo.hmi.datatransfer.HMISerializeTransferable.isDataFlavorSupported"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="com.sc.scairo.hmi.datatransfer.\lHMISerializeTransferable.isDataFlavor\lSupported",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="com.sc.scairo.hmi.datatransfer.\lHMISerializeTransferable.getTransferData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1sc_1_1scairo_1_1hmi_1_1datatransfer_1_1_h_m_i_serialize_transferable.html#a3c66785979d9082544cb37b0ea7ef6b2",tooltip=" "];
+}

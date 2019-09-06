@@ -1,0 +1,52 @@
+<map id="com.sc.scairo.hmi.project.linker.NetworkConfigurationLinker.nodeRoleChanged" name="com.sc.scairo.hmi.project.linker.NetworkConfigurationLinker.nodeRoleChanged">
+<area shape="rect" id="node1" title="간략한 설명 작성" alt="" coords="5,1528,243,1584"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1linker_1_1_network_configuration_linker.html#a422fe8d551b9d5721f54a6d47a40439e" title="간략한 설명 작성" alt="" coords="301,118,583,159"/>
+<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1linker_1_1_network_configuration_linker.html#ad3d5002ff2e66f1e51f1287ff04ba16a" title="간략한 설명 작성" alt="" coords="303,1290,581,1331"/>
+<area shape="rect" id="node9" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1linker_1_1_network_configuration_linker.html#acde02aad8d0ddda998f07097bbbf0648" title="간략한 설명 작성" alt="" coords="324,1153,560,1209"/>
+<area shape="rect" id="node13" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1linker_1_1_network_configuration_linker.html#a9820472bc438ba8c6f73dfb34d58b0b0" title="간략한 설명 작성" alt="" coords="316,568,568,624"/>
+<area shape="rect" id="node20" href="$classresources_1_1_core_constants_resource.html#acdac2de8f2eaef87468ac8ec951b9b71" title=" " alt="" coords="655,902,902,943"/>
+<area shape="rect" id="node25" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1linker_1_1_network_configuration_linker.html#a1f968d986de0bcd03c1c0fa3f29b21c4" title="간략한 설명 작성" alt="" coords="311,1421,573,1477"/>
+<area shape="rect" id="node34" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1linker_1_1_network_configuration_linker.html#a12fc7ebc3e975d0cc2c04b08e8b2b744" title="간략한 설명 작성" alt="" coords="313,967,571,1023"/>
+<area shape="rect" id="node36" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1node_1_1_h_m_i_node.html#ab7f6b6815989585a1386298e8d42ee8b" title="간략한 설명 작성" alt="" coords="317,1502,567,1543"/>
+<area shape="rect" id="node37" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1node_1_1_h_m_i_node.html#affa8f71f1c97d6edf557b6c4941526bc" title="간략한 설명 작성" alt="" coords="317,1567,567,1609"/>
+<area shape="rect" id="node38" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1_network_configuration.html#ab9dec037586b0dce02d064812188b26d" title=" " alt="" coords="333,1633,551,1674"/>
+<area shape="rect" id="node39" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1common_1_1_system_resource_manager.html#a8be54ff1042e555eec7409e4df4f0746" title=" " alt="" coords="321,1698,563,1739"/>
+<area shape="rect" id="node40" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1node_1_1_h_m_i_node.html#a6dbe93b636d09a5491ecc4837a0af39d" title=" " alt="" coords="641,1883,916,1909"/>
+<area shape="rect" id="node41" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1_project.html#a1cdbdbd8b29e3b54f8cfb1d0eb19f615" title=" " alt="" coords="339,1933,545,1974"/>
+<area shape="rect" id="node42" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1_network_configuration.html#a917defd1f8843d6be0a1000a4c83a36d" title=" " alt="" coords="331,1998,553,2039"/>
+<area shape="rect" id="node43" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1node_1_1_h_m_i_node.html#a453e716d58028586df8fcec4ce4157c6" title=" " alt="" coords="645,1933,912,1960"/>
+<area shape="rect" id="node44" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1common_1_1_system_resource_manager.html#a4b694d57e16e4da587095d1cc5045f72" title=" " alt="" coords="329,2063,555,2105"/>
+<area shape="rect" id="node45" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1linker_1_1_network_configuration_linker.html#a822d2f1f613d2b7f80db8fa6edbb9a88" title="간략한 설명 작성" alt="" coords="291,225,593,266"/>
+<area shape="rect" id="node46" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1node_1_1_h_m_i_node.html#a42c41d8977b618199f470701ea7a8607" title="간략한 설명 작성" alt="" coords="311,2129,573,2170"/>
+<area shape="rect" id="node47" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1linker_1_1_network_configuration_linker.html#aa278752d995d916f0fb55b5892e004a0" title="간략한 설명 작성" alt="" coords="293,1355,591,1397"/>
+<area shape="rect" id="node48" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1linker_1_1_network_configuration_linker.html#a1a383b78cdb839efe27a885a8f3c5e30" title="간략한 설명 작성" alt="" coords="314,1064,570,1120"/>
+<area shape="rect" id="node49" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1linker_1_1_network_configuration_linker.html#a4f24676c0cfe0da778c975a9f72bb1b9" title="간략한 설명 작성" alt="" coords="295,2194,589,2235"/>
+<area shape="rect" id="node50" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1linker_1_1_network_configuration_linker.html#a375e860a8c08db10f709f5463da60d57" title="간략한 설명 작성" alt="" coords="298,1815,586,1857"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1_data_collection_configuration.html#a726f78a000c520cf1ab0f4c4fda1b3a1" title="간략한 설명 작성" alt="" coords="675,5,882,61"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1_project.html#a77d177ea400084fc7658bdb1a602601f" title=" " alt="" coords="657,151,901,193"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1_collection_list.html#a1b3b3f89f8ecc9d3d92f98bad4ab5a98" title=" " alt="" coords="683,86,875,127"/>
+<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1_device_configuration.html#aaa853c26aacbd56585babb453922685c" title="간략한 설명 작성" alt="" coords="662,1229,895,1270"/>
+<area shape="rect" id="node8" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1_project.html#a7ee3b8768282171f92b8def012990ed1" title=" " alt="" coords="679,1294,878,1335"/>
+<area shape="rect" id="node10" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1_event_dictionary.html#aeb87621c918b348b8ef886f8c017d12c" title="간략한 설명 작성" alt="" coords="666,1098,891,1139"/>
+<area shape="rect" id="node11" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1_project.html#a870f5eb26356e31efdbfbed2bc1a68b1" title=" " alt="" coords="691,1033,867,1074"/>
+<area shape="rect" id="node12" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1event_1_1_event_group_list.html#a5c3fec245671d01b43240e8d3544e089" title=" " alt="" coords="695,1163,862,1205"/>
+<area shape="rect" id="node14" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1_data_collection.html#aef1490b67f069454a8fffd7e3905a44c" title="간략한 설명 작성" alt="" coords="671,298,887,339"/>
+<area shape="rect" id="node15" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1_collection_list.html#a4330dfe3c39b1d5800554783fc42c3f7" title="간략한 설명 작성" alt="" coords="658,363,899,405"/>
+<area shape="rect" id="node16" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1_collection_list.html#a72978c63dd92cdd6bc4534120183b1b1" title=" " alt="" coords="667,429,890,470"/>
+<area shape="rect" id="node17" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1_data_collection_configuration.html#ad5af270662515204c06f1c13668eefa2" title=" " alt="" coords="677,495,880,551"/>
+<area shape="rect" id="node18" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1_data_collection.html#a0606928524ed5dd9087b70bf15f5f91d" title=" " alt="" coords="675,575,882,617"/>
+<area shape="rect" id="node19" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1_collection_list.html#ae64a8490e95b528a94ede59bc6934add" title=" " alt="" coords="661,641,896,682"/>
+<area shape="rect" id="node21" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1_collection_list.html#a0a377f1fb6e7180a66258758af42298d" title=" " alt="" coords="669,706,888,747"/>
+<area shape="rect" id="node22" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1_collection_list.html#a1fc8673b1c36c947464a704e02e8ec03" title=" " alt="" coords="659,771,898,813"/>
+<area shape="rect" id="node23" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1_data_collection.html#a950ee35df4888c53b9b51602a01c345e" title="간략한 설명 작성" alt="" coords="681,837,876,878"/>
+<area shape="rect" id="node24" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1_data_collection_configuration.html#a2a6250a1dd620a3fc8a44ab5d30cc61a" title="간략한 설명 작성" alt="" coords="665,217,892,273"/>
+<area shape="rect" id="node26" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1info_1_1_device_group_list.html#a9f1fa28c569b69f19f0207938442ad6f" title="간략한 설명 작성" alt="" coords="680,1817,877,1858"/>
+<area shape="rect" id="node27" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1info_1_1_device_info.html#a3708b4d146883fcacca07192402323d2" title="간략한 설명 작성" alt="" coords="680,1425,877,1466"/>
+<area shape="rect" id="node28" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1info_1_1_device_group_list.html#af1d549476e918cc3be35f25f9b14df31" title=" " alt="" coords="679,1490,878,1531"/>
+<area shape="rect" id="node29" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1info_1_1_device_group_list.html#ace965118dba8e9c7771e44ce45267379" title=" " alt="" coords="680,1555,877,1597"/>
+<area shape="rect" id="node30" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1_device_configuration.html#a61e5a7ffcee646311807285e26c21330" title=" " alt="" coords="663,1621,894,1662"/>
+<area shape="rect" id="node31" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1info_1_1_device_info.html#a94483873423b98325003c853aad3757f" title=" " alt="" coords="680,1686,877,1727"/>
+<area shape="rect" id="node32" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1_device_configuration.html#a9b811e0873b54fe498c0158166a56f2f" title="간략한 설명 작성" alt="" coords="652,1359,905,1401"/>
+<area shape="rect" id="node33" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1info_1_1_device_info.html#a201c5858520cd279ef25c718c1bc9214" title=" " alt="" coords="680,1751,877,1793"/>
+<area shape="rect" id="node35" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1event_1_1_event_group.html#ada8409f12324043447fd923125587c22" title="간략한 설명 작성" alt="" coords="695,967,862,1009"/>
+</map>
