@@ -1,0 +1,6 @@
+<map id="com.sc.scairo.hmi.draw.HMIDrawing.removeFigureFromTable" name="com.sc.scairo.hmi.draw.HMIDrawing.removeFigureFromTable">
+<area shape="rect" id="node1" title="Removes the figure from table. @LastUpdate 2019." alt="" coords="5,51,284,92"/>
+<area shape="rect" id="node2" href="$classorg_1_1jhotdraw_1_1draw_1_1_attribute_key.html#a4aaf5a4a491ff5deb10d4d2b99b0c955" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="687,5,863,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing.html#a3fd7fe1e683f095ce77c27948ed771e4" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="332,51,611,92"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing_i_d_handler.html#a4f351c169ebe2772e40eb7cf015edbb8" title="Removes the id. @LastUpdate 2019." alt="" coords="659,84,892,125"/>
+</map>

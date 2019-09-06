@@ -1,0 +1,136 @@
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this file.
+
+Copyright (C) 1997-2019 by Dimitri van Heesch
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of version 2 of the GNU General Public License as published by
+the Free Software Foundation
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along
+with this program; if not, write to the Free Software Foundation, Inc.,
+51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+
+@licend  The above is the entire license notice
+for the JavaScript code in this file
+*/
+var NAVTREE =
+[
+  [ "My Project", "index.html", [
+    [ "Todo List", "todo.html", null ],
+    [ "Deprecated List", "deprecated.html", null ],
+    [ "Packages", "namespaces.html", [
+      [ "Packages", "namespaces.html", "namespaces_dup" ]
+    ] ],
+    [ "Classes", "annotated.html", [
+      [ "Class List", "annotated.html", "annotated_dup" ],
+      [ "Class Index", "classes.html", null ],
+      [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
+      [ "Class Members", "functions.html", [
+        [ "All", "functions.html", "functions_dup" ],
+        [ "Functions", "functions_func.html", "functions_func" ],
+        [ "Variables", "functions_vars.html", "functions_vars" ]
+      ] ]
+    ] ],
+    [ "Files", "files.html", [
+      [ "File List", "files.html", "files_dup" ]
+    ] ]
+  ] ]
+];
+
+var NAVTREEINDEX =
+[
+"_abstract_attribute_action_8java.html",
+"_date_picker2_common_panel_8java.html",
+"_h_m_i_design_drawing_view_event_handler_8java.html",
+"_line_width_change_action_8java.html",
+"_symbol_file_filter_8java.html",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_arrow_tip.html#a3cf265fa701d966c7aac9ec2926ebafb",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drag_tracker.html#a5963669b5522e1b74bb4de9fb84d3fd7",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing_i_d_handler.html#af34deec8918cc5864381d461e0c03da1",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_runtime_drawing_view.html#a0164ecba10ef3fe3c2bdb42972a4b654",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_synchronized_quad_tree_drawing.html#ac1f99261a59c360e9a1791b035ff9158",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1action_1_1_h_m_i_draw_paste_action.html#ad384c2a54ee3d20371df9fa2aa014d7f",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1action_1_1_text_alignment_action_1_1_vertical.html#aa1755d03b97925c92962af5e50fe3f0b",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1alarm_1_1_canvas_alarm_filter.html#a8276b597947f83d5ef1b66bff7644244",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1alarm_1_1customizer_1_1_canvas_alarm_customizer.html#a9f44c3e599e1c7a2125f95e64887daae",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1alarm_1_1customizer_1_1_canvas_alarm_list_model.html#ae552f8f46955209983a3292250fa155f",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1bar_1_1_bar_data_info.html#ab0f35e738f749d9de78ca23adbc99286",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1bar_1_1_copy_of_bar_plot.html#a50edc5a32c4ad0fb2a3cfe70947db08c",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1bar_1_1customizer_1_1_bar_option_table_model.html#a9289e278a705fd92feb4f8a694917ae2",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1button_1_1customizer_1_1_script_property_panel.html#a7258690ddbe9486cb55aaf49bb3d1baf",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1combobox_1_1customizer_1_1_script_property_panel.html#ad7a67a6bf827004ff97c2e8e2ef943ef",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1datepicker2_1_1_date_picker2_info.html#aecb3662ac3dd29cddb2aa1d86ebcc1ae",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1datepicker_1_1_date_picker_info.html#a7775bbbef3c61a86a58d86beaee567ab",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1guage_1_1dial_1_1_guage_data_info.html#a6fc662c6dac80b7762241228063adef1",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1guage_1_1dial_1_1customizer_1_1_guage_option_mark_dialog.html#a7f12a61bf3760e1e1f8673c3f3d34a16",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1guage_1_1meter_1_1_meter_mark_info.html#ab9564563e26fe1fab99dc56448c68d69",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1historytrend_1_1_history_trend.html#a794c5f5be3ce2656a6e83892b0a1c3ba",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1historytrend_1_1_history_trend_tag_table_model.html#a6ddd5115ecf0a4c91c3ab02d65ef4ede",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1historytrend_1_1customizer_1_1_history_trend_tool_panel.html#a1a3a26b4b6b8af9eef3d17b155d5629d",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1listbox_1_1_canvas_list_box.html#aaea1289d25254e9b2d92e135261b1e19",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1radiobutton_1_1customizer_1_1_script_property_panel.html#a43d47214e864fcd9672bfa4167050ce7",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1table_1_1dynamictable_1_1_dynamic_table_data_info.html#add06fc156c74f1d12b4bd2187896cf1f",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1table_1_1dynamictable_1_1customizer_1_1_dynamic_table_data_panel.html#abd2bb0caf20a3de3682aadeccd830240",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1table_1_1statictable_1_1_static_table_model.html#a1cbd35b3507ac1814877e2a9f55e1223",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1taginfotable_1_1ui_1_1_tag_info_table_model.html#a453376ec25493d7d30db3aac91bac1e3",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1common_1_1_time_trend_info.html#a9b3ee51f3c25beac15eb2f5c29e05677",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1history_1_1_history_trend_common_info.html#af8771166dfc04a09f2ec498135d01c04",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1history_1_1customizer_1_1_history_time_trend_common_panel.html#abe77e259a3fa7f99b4512dae8cec753b",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1history_1_1customizer_1_1_history_time_trend_tag_dialog.html#ad28d7f7ce0a650b8d68d4a79423d4dfd",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1history_1_1customizer_1_1_history_trend_tree_table_model.html#a561d973501784f0b10a19d4c1a8be1d7",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1real_1_1_real_time_trend.html#ab671487eff9cf0d5148de9355d7008f9",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1real_1_1customizer_1_1_real_time_trend_data_panel.html#a017570658e1f2b7ccbff952706ce0db5",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1real_1_1customizer_1_1_time_trend_customizer_dialog.html",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1trend_1_1_real_trend.html#a4e72665024592e335e425823c6cf9882",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1trend_1_1_real_trend_tag_table_info.html#ac5a152fa0508ccd3498b50286851d5b7",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1trend_1_1customizer_1_1_real_trend_tool_panel.html#abd7e39e6415008e736ced18343df5276",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1ums_1_1_ums_config.html#a1ac8e3e1ee7046219e59d45659b731fc",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1ums_1_1ui_1_1_ums_config_panel.html#a9e0e437ab10f31c9a14aa10cbd2d98d1",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1ums_1_1ui_1_1_ums_user_target_info_panel.html#a736e2db4e9a503aecf5457052af77233",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1umsuser_1_1_ums_user_config.html#a344a24acdedf062200f4dd83d6ba7c9f",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1umsuser_1_1ui_1_1_ums_config_table_model.html#a272aa027b539cc059d742c1c6fd96cd6",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1common_1_1_view_list.html#a29c699bfff44d9ae16ddacbf2a5e2537",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1_blink_effect.html#aaf60c66d0edfd1e028f23eb4aa57a91e",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1_drag_effect.html#a4c1fa51b8197e42d8e95bf9830681ea4",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1_fill_effect.html#a8ef9216d796e51036d049b544f80d656",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1_multi_condition_based_effect.html#aa6865be3004e2fc63e9d2ce45f9d10cb",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1_single_condition_based_effect.html#a402b623e659cd931f2ae909d97db38c8",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1_touch_effect.html#ac2ad297db7ce441fd2a07ba69f7c359a",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1controlui_1_1_default_digital_control_panel.html#ade81c02b93b40bf285656f5a701fdc9f",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1ui_1_1_drag_effect_panel.html#a1c3675b7865970432a4237c3a04b51fe",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1ui_1_1_line_form_panel.html#a6f6400b880c444141ecf2cc75d1070ef",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1ui_1_1_tag_display_panel.html#aeed113dd89a47850fcba399d6132561a",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1figure_1_1_bean_container_figure.html#a28bb9f0780e53ca096eedc2f4ac25bed",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1figure_1_1_h_m_i_diamond_figure.html#a6add6f53ffcbfdb63a195076221022d1",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1figure_1_1_h_m_i_image_figure.html#a99c71fc0124cc9a9231c8b790d873dd4",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1figure_1_1_h_m_i_round_rectangle_figure.html#ab9d82061a9363d22a53bab3d111e7149",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1figure_1_1_h_m_i_text_figure.html#a68f38c2c208ef2ec91ad57fc9101eb82",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1io_1_1_h_m_i_drawing_importer.html#af91c4a1c087e0894e81b3c3fd4818820",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1tool_1_1_group_symbol_creation_tool.html#a791df3260a08d56a44b4d164f17578d9",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1tool_1_1_s_v_g_symbol_creation_tool.html#a830ff78dbe8dfa5f9eeb13f30a1bfa9f",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1util_1_1_shape_factory.html#a982eaf0adef45bdb665953142d8e194a",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1library_1_1_library_resource.html#a4375fa6e9390150d743cdf62729f5858",
+"classcom_1_1sc_1_1scairo_1_1hmi_1_1library_1_1ui_1_1_symbol_create_dialog.html#a07e83cd0de05e4ffd66d8ffde6716b80",
+"classorg_1_1jhotdraw_1_1draw_1_1_abstract_composite_figure.html#a13df36d6d69997bdd758e74bdd0d3240",
+"classorg_1_1jhotdraw_1_1draw_1_1_abstract_rotate_handle.html#adab6d05c53fa34950f88837fa2b012ce",
+"classorg_1_1jhotdraw_1_1draw_1_1_bezier_tool.html#ae5bd9d1e9b09680e9244d36ed289c1cf",
+"classorg_1_1jhotdraw_1_1draw_1_1_fill_form.html#a8c3b75db734e9ca1b6e2f1bc74392194",
+"classorg_1_1jhotdraw_1_1draw_1_1_resize_handle_kit_1_1_east_handle.html#aca6439b5fab2c4b6917384773dcdfadb",
+"classorg_1_1jhotdraw_1_1draw_1_1_selection_tool.html#a259f4f0922d2e215f3c92c861f3841af",
+"classorg_1_1jhotdraw_1_1draw_1_1_transform_handle_kit_1_1_east_handle.html#a24d4c46c7271d903ebf607142e8ddb3d",
+"classorg_1_1jhotdraw_1_1geom_1_1_bezier_path.html#a6c4f543c1ce308486e0986404e960987",
+"classtest_1_1_test_alarm2.html#a176207cfbfb7f9bca51368993f63ccdd",
+"functions_vars_y.html",
+"interfacecom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1_effect.html#a406e52c7cdfc5b0f60eec5b0edb1f229",
+"namespacecom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1datepicker_1_1customizer.html"
+];
+
+var SYNCONMSG = 'click to disable panel synchronisation';
+var SYNCOFFMSG = 'click to enable panel synchronisation';

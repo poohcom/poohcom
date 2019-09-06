@@ -1,0 +1,6 @@
+<map id="com.sc.scairo.hmi.draw.HMIDrawingView.setDrawingEffects" name="com.sc.scairo.hmi.draw.HMIDrawingView.setDrawingEffects">
+<area shape="rect" id="node1" title="4. 3 수정됨 반환 타입을 갖도록 수정되면서 이 메서드에서도 반환 타입을 갖도록 변경함 &#160;2016." alt="" coords="5,39,239,80"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing.html#a842a6e0d3b9d3aec108655c6785e9a74" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="287,39,541,80"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing_effects.html#aa06af6c557002a582c99dc99607a9eda" title=" " alt="" coords="589,5,823,47"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing_effects.html#a08ebd3a96e73fd0fdf1ada4fb78f745e" title="Removes the. @LastUpdate 2019." alt="" coords="589,71,823,112"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="org.jhotdraw.draw.ResizeHandleKit.addCornerResizeHandles" name="org.jhotdraw.draw.ResizeHandleKit.addCornerResizeHandles">
+<area shape="rect" id="node1" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="552,203,780,244"/>
+<area shape="rect" id="node2" href="$classorg_1_1jhotdraw_1_1draw_1_1_resize_handle_kit.html#a0b8e06b3d459d1c8dda1fec3b327f3bd" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="293,169,484,211"/>
+<area shape="rect" id="node9" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1figure_1_1_bean_container_figure.html#ae1e4e687ee9e19542317411749ec8cce" title=" " alt="" coords="273,235,504,276"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1figure_1_1_h_m_i_text_area_figure.html#a1dee940a163d17f31857c3d607165e82" title=" " alt="" coords="5,5,225,47"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1figure_1_1_h_m_i_bezier_figure.html#ac50f6ca11c31666e1071bd6b239571e9" title=" " alt="" coords="13,71,218,112"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1figure_1_1_h_m_i_group_figure.html#ad9dd91cbbf68d2370184eaba6fd9059c" title=" " alt="" coords="14,136,217,177"/>
+<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1figure_1_1_h_m_i_symbol_figure.html#a7099053424c3499b40045f6bc119e5c4" title=" " alt="" coords="9,201,221,243"/>
+<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1figure_1_1_h_m_i_text_figure.html#ac08045b793a5ac38fa633e0a9218983e" title=" " alt="" coords="16,267,215,308"/>
+<area shape="rect" id="node8" href="$classorg_1_1jhotdraw_1_1draw_1_1_abstract_figure.html#aa8c40113bd5eccd42878bf9341771dac" title=" " alt="" coords="27,332,203,373"/>
+</map>

@@ -1,0 +1,20 @@
+<map id="com.sc.scairo.hmi.draw.effect.ui.DragEffectPanel.setFields" name="com.sc.scairo.hmi.draw.effect.ui.DragEffectPanel.setFields">
+<area shape="rect" id="node1" title=" " alt="" coords="5,457,219,499"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1ui_1_1_drag_effect_panel.html#ae24fc110612d20f9240198b2740df530" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="290,73,503,115"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1ui_1_1_drag_effect_panel.html#af7a9e61ae42fee92fe3cd3e420bd3e7a" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="575,23,815,64"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1ui_1_1_drag_effect_panel.html#af9ed6d2c2269473c1dec6c5e6f344c93" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="581,96,808,137"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1ui_1_1_drag_effect_panel.html#a3ebd913e4f2d074649ecbcf761f5edfd" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="290,241,503,283"/>
+<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1ui_1_1_drag_effect_panel.html#a89fd67df394796a9c487c015bbd539a6" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="587,176,802,217"/>
+<area shape="rect" id="node8" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1ui_1_1_drag_effect_panel.html#a9e21c1762651f4c6e3fdd8b10f6b5762" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="588,307,801,348"/>
+<area shape="rect" id="node9" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1_direction_effect.html#aae22d116fd0b8013d09e3765871824b3" title=" " alt="" coords="297,359,496,400"/>
+<area shape="rect" id="node10" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1_drag_effect.html#a1b45a83bcb26d90f7c30d99c7ace82c1" title=" " alt="" coords="275,424,518,465"/>
+<area shape="rect" id="node11" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1_direction_effect.html#aa5b991271b152a2b8d3786b1a567273e" title=" " alt="" coords="281,489,512,531"/>
+<area shape="rect" id="node12" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1_direction_effect.html#a4431a92c21b18ee1d0f383780df324b6" title=" " alt="" coords="293,555,500,611"/>
+<area shape="rect" id="node13" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1_direction_effect.html#af43235ff21dd6461ad7961558e67b81d" title=" " alt="" coords="293,635,500,691"/>
+<area shape="rect" id="node14" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1_drag_effect.html#a98cfb91a16d45484ccf924a4099ea02c" title=" " alt="" coords="282,716,511,757"/>
+<area shape="rect" id="node15" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1_direction_effect.html#a5c507d323999d31d26811c7f0fbafcc9" title=" " alt="" coords="289,781,505,823"/>
+<area shape="rect" id="node16" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1_direction_effect.html#a4c1fa51b8197e42d8e95bf9830681ea4" title=" " alt="" coords="271,847,522,888"/>
+<area shape="rect" id="node17" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1_direction_effect.html#a99b99b344ef5c4783a07c1b45258d068" title=" " alt="" coords="273,912,520,953"/>
+<area shape="rect" id="node18" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1ui_1_1_move_effect_panel.html#a028c76c1bd6960a8609017b9da7203fd" title=" " alt="" coords="267,977,527,1019"/>
+<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1ui_1_1_drag_effect_panel.html#a8e6cf5499118819ac0ec524e371c74b3" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="588,241,801,283"/>
+</map>

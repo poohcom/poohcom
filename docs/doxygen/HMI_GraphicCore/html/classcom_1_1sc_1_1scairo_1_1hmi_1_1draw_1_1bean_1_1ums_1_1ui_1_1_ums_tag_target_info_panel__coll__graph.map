@@ -1,0 +1,14 @@
+<map id="com.sc.scairo.hmi.draw.bean.ums.ui.UmsTagTargetInfoPanel" name="com.sc.scairo.hmi.draw.bean.ums.ui.UmsTagTargetInfoPanel">
+<area shape="rect" id="node1" title=" " alt="" coords="268,711,506,935"/>
+<area shape="rect" id="node2" title=" " alt="" coords="12,329,74,406"/>
+<area shape="rect" id="node3" title=" " alt="" coords="128,329,180,406"/>
+<area shape="rect" id="node4" title=" " alt="" coords="204,329,252,406"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1ums_1_1ui_1_1_ums_target_config_table_model.html" title=" " alt="" coords="277,226,516,509"/>
+<area shape="rect" id="node6" title=" " alt="" coords="217,13,354,90"/>
+<area shape="rect" id="node7" title=" " alt="" coords="379,5,638,97"/>
+<area shape="rect" id="node8" title=" " alt="" coords="540,329,599,406"/>
+<area shape="rect" id="node9" title=" " alt="" coords="623,329,682,406"/>
+<area shape="rect" id="node10" title=" " alt="" coords="706,329,796,406"/>
+<area shape="rect" id="node11" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1ums_1_1_ums_d_b_info.html" title=" " alt="" coords="821,160,1046,575"/>
+<area shape="rect" id="node12" title=" " alt="" coords="882,13,986,90"/>
+</map>

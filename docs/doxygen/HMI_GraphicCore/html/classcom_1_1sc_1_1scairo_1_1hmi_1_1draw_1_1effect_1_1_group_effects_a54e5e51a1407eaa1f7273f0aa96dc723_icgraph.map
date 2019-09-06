@@ -1,0 +1,13 @@
+<map id="com.sc.scairo.hmi.draw.effect.GroupEffects.changeLinkTag" name="com.sc.scairo.hmi.draw.effect.GroupEffects.changeLinkTag">
+<area shape="rect" id="node1" title=" " alt="" coords="2192,71,2391,112"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1action_1_1_add_library_action.html#a3d46d8354c63797cc187f43f9c125058" title=" " alt="" coords="1911,5,2130,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1action_1_1_save_symbol_action.html#a5c589f2c8c61d1f16ff31009dcaf3412" title=" " alt="" coords="1906,71,2135,112"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1action_1_1ui_1_1_effect_group_table_model.html#ae4cb63869b7789c8679264c85fee4e3f" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="1897,136,2144,177"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1action_1_1ui_1_1_effect_group_table_model.html#ac2f45a5ed0feb6566ce2ac9b04159aa5" title=" " alt="" coords="1632,136,1849,177"/>
+<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1action_1_1ui_1_1_effect_group_dialog.html#a7145a3ae308c80a2c82129efabba871d" title=" " alt="" coords="1367,136,1584,177"/>
+<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1action_1_1ui_1_1_effect_group_dialog.html#a5bf3f891105b534d93bef07a30c77cac" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="1101,136,1319,177"/>
+<area shape="rect" id="node8" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1action_1_1ui_1_1_effect_group_dialog.html#adbd744e64fcf60ecaedfc6f481711fa2" title=" " alt="" coords="829,136,1053,177"/>
+<area shape="rect" id="node9" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1action_1_1ui_1_1_effect_group_dialog.html#a31ffdda951da1ed0604e1a39fd40c140" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="553,136,781,177"/>
+<area shape="rect" id="node10" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1action_1_1ui_1_1_effect_group_dialog.html#a847ff51644151349afad13102d3b1341" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="288,136,505,177"/>
+<area shape="rect" id="node11" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1action_1_1ui_1_1_effect_group_dialog.html#a027ab5a305939c68575daf258d3f325f" title=" " alt="" coords="5,136,240,177"/>
+</map>

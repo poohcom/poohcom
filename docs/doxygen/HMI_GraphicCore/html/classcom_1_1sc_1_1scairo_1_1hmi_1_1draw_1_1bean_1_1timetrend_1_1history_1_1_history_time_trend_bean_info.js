@@ -1,0 +1,4 @@
+var classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1history_1_1_history_time_trend_bean_info =
+[
+    [ "getBeanDescriptor", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1history_1_1_history_time_trend_bean_info.html#aa4d5348050b4718b2d29169924834be6", null ]
+];

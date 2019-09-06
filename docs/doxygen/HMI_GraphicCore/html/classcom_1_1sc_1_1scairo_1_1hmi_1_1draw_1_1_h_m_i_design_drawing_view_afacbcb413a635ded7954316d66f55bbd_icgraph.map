@@ -1,0 +1,22 @@
+<map id="com.sc.scairo.hmi.draw.HMIDesignDrawingView.fireSelectionChanged" name="com.sc.scairo.hmi.draw.HMIDesignDrawingView.fireSelectionChanged">
+<area shape="rect" id="node1" title="Fire selection changed. @LastUpdate 2019." alt="" coords="1151,267,1377,308"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_design_view.html#a0dfd481f7480e9d8d9aba1403d733108" title="Adds the figure selection listener. @LastUpdate 2019." alt="" coords="874,103,1101,144"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_design_drawing_view.html#aed39e7a1382d711177ecfae462b7884e" title=" " alt="" coords="874,233,1101,275"/>
+<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_design_drawing_view.html#ab7f479cfd9ae3840ae7065946461dafa" title=" " alt="" coords="874,168,1101,209"/>
+<area shape="rect" id="node17" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_design_view.html#a7cdf343fb266128fe91f3d07c70ca470" title="Removes the figure selection listener. @LastUpdate 2019." alt="" coords="872,364,1103,405"/>
+<area shape="rect" id="node18" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_design_drawing_view.html#ad15da166c55387a2e0a805de6a1b4c58" title=" " alt="" coords="874,299,1101,340"/>
+<area shape="rect" id="node20" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_design_drawing_view.html#a774a37311125ee30eebd813eee479900" title=" " alt="" coords="874,429,1101,471"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_design_drawing_view.html#ad72acd33305dc41c4701db7b3f0f5d20" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="581,233,807,275"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_design_drawing_view.html#a6ef34c90c934f0172ea107d8e893e276" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="581,168,807,209"/>
+<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_design_drawing_view.html#a848f27ff62badef573d5362c7cc8bbe6" title=" " alt="" coords="581,299,807,340"/>
+<area shape="rect" id="node8" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_design_drawing_view.html#afaa573a03c2e60fb23155bd341ad5e76" title=" " alt="" coords="581,103,807,144"/>
+<area shape="rect" id="node9" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_design_view.html#a086b5843cf7c01cabc353a5b516e5114" title="org.jhotdraw.samples.draw.DrawView 내용 @LastUpdate 2019." alt="" coords="289,5,516,47"/>
+<area shape="rect" id="node10" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_design_view.html#a3280f6ffb86514d2b80b2b649cb5c60f" title=" " alt="" coords="289,71,516,112"/>
+<area shape="rect" id="node11" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_design_view.html#aee51a2e2e5af241ab98799685bb6fc7a" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="289,136,516,177"/>
+<area shape="rect" id="node12" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_design_view.html#af818e7e13903cac705538bbdc037cf61" title=" " alt="" coords="289,201,516,243"/>
+<area shape="rect" id="node13" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1io_1_1_h_m_i_drawing_importer.html#af02ef5944258be6539e953ef052700ad" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="6,103,241,144"/>
+<area shape="rect" id="node14" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1io_1_1_h_m_i_drawing_importer.html#a36afe9a3bdbf420c22c5e7a5ef0a03df" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="7,168,240,209"/>
+<area shape="rect" id="node15" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1undo_1_1_h_m_i_drawing_import_undoable_edit.html#af1a5616dbcd705ce08ddab0ac847c138" title=" " alt="" coords="7,233,240,275"/>
+<area shape="rect" id="node16" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1undo_1_1_h_m_i_drawing_import_undoable_edit.html#acd20512b71ca610b894f4cc5730225c4" title=" " alt="" coords="5,299,241,340"/>
+<area shape="rect" id="node19" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_design_drawing_view_event_handler.html#a8bab7338c714ff7466a23d68a6fea458" title=" " alt="" coords="564,364,824,405"/>
+</map>

@@ -1,0 +1,18 @@
+<map id="com.sc.scairo.hmi.draw.HMIDrawingIDHandler.dispose" name="com.sc.scairo.hmi.draw.HMIDrawingIDHandler.dispose">
+<area shape="rect" id="node1" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="1183,193,1416,235"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing.html#af624defb755ff57325880b588b4fa97f" title="Dispose. @LastUpdate 2019." alt="" coords="852,201,1135,227"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing_view.html#acbb8e5802ec35523d1e6f0198821d201" title="간략한 설명 작성 @LastUpdate 2016." alt="" coords="571,9,804,51"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1io_1_1_h_m_i_drawing_importer.html#adacc3b411bf65f01b8cee18f67b6b12a" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="574,81,801,123"/>
+<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1io_1_1_h_m_i_drawing_importer.html#a36afe9a3bdbf420c22c5e7a5ef0a03df" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="289,136,522,177"/>
+<area shape="rect" id="node8" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1io_1_1_h_m_i_drawing_loader.html#abe584541759c3ddc9819f1d4f53416d4" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="583,329,791,371"/>
+<area shape="rect" id="node14" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1util_1_1_window_validator.html#ab286fe858aabfd43c3949912e9d85835" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="299,463,511,504"/>
+<area shape="rect" id="node16" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1io_1_1_h_m_i_drawing_loader.html#a25e1f97e015725ba9a9c5cc3a634ae6e" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="598,232,777,273"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_design_view.html#acef601afc15097735d1c2d1802792f1c" title=" " alt="" coords="292,5,519,47"/>
+<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1io_1_1_h_m_i_drawing_importer.html#a3380acb07af1220543fa817590765430" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="288,71,523,112"/>
+<area shape="rect" id="node9" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1io_1_1_h_m_i_drawing_importer.html#a9e467a8b35dcce9bc7b125d91043a3f5" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="296,332,515,373"/>
+<area shape="rect" id="node10" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1io_1_1_h_m_i_drawing_importer.html#a1543ddb1ae3171b20164728266e0c3c9" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="297,397,514,439"/>
+<area shape="rect" id="node11" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_runtime_view.html#a963d9f7415d5a2233813ce1c9be8381d" title="3. 18 수정 HmiVMOptions#isWindowXmlUse()의 결과에 따라 읽어들이는 파일의 종류를 달리하여 로딩한다. @LastUpdate 2019." alt="" coords="288,201,523,243"/>
+<area shape="rect" id="node13" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_design_view.html#aee51a2e2e5af241ab98799685bb6fc7a" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="292,267,519,308"/>
+<area shape="rect" id="node12" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_runtime_view.html#afdee756dc6911538eae25251c6cd7eaf" title=" " alt="" coords="5,201,240,243"/>
+<area shape="rect" id="node15" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1util_1_1_window_validator.html#aa021d9eaff22c717934d4572dddf8234" title=" " alt="" coords="30,463,215,504"/>
+</map>

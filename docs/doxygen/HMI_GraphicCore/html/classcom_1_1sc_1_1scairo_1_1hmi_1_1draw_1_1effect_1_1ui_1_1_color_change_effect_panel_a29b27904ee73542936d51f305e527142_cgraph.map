@@ -1,0 +1,18 @@
+<map id="com.sc.scairo.hmi.draw.effect.ui.ColorChangeEffectPanel.getFields" name="com.sc.scairo.hmi.draw.effect.ui.ColorChangeEffectPanel.getFields">
+<area shape="rect" id="node1" title=" " alt="" coords="5,268,224,309"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1ui_1_1_color_change_condition_panel.html#a7b7edfe530fc769c0415f4fdfcdd654f" title=" " alt="" coords="272,104,531,145"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1ui_1_1_color_change_condition_panel.html#a4fe0e5f5952db048e5ed74261f44e577" title=" " alt="" coords="275,169,527,211"/>
+<area shape="rect" id="node8" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1ui_1_1_color_change_condition_panel.html#a37e9b19b4603117a0fd8b9878be24204" title=" " alt="" coords="272,235,531,276"/>
+<area shape="rect" id="node14" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1_multi_condition_based_effect.html#a759043150c4abf37c3a20c0e56f9925a" title=" " alt="" coords="273,300,530,341"/>
+<area shape="rect" id="node15" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1_color_change_effect.html#ae1c9218cc56dab8e8cb160e62e9ae0a1" title=" " alt="" coords="299,365,504,407"/>
+<area shape="rect" id="node16" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1_color_change_effect.html#a1b5065b7de9edfd2b4cd63ac2feb0fde" title=" " alt="" coords="295,431,507,472"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1ui_1_1_fill_form_panel.html#a4dfbb08f94367e1508e431d5a9a8f4c1" title=" " alt="" coords="579,104,792,145"/>
+<area shape="rect" id="node5" href="$classorg_1_1jhotdraw_1_1draw_1_1_fill_form.html#a6c121a14dc5a52b12993afcfa63986d6" title=" " alt="" coords="857,5,1053,47"/>
+<area shape="rect" id="node6" href="$classorg_1_1jhotdraw_1_1draw_1_1_fill_form.html#a55bc6df431689d74593464986b096336" title=" " alt="" coords="857,71,1053,112"/>
+<area shape="rect" id="node7" href="$classorg_1_1jhotdraw_1_1draw_1_1_fill_form.html#abd99b5d294a310d6bc55fae149fcc407" title=" " alt="" coords="857,136,1053,177"/>
+<area shape="rect" id="node9" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1ui_1_1_line_form_panel.html#a6f6400b880c444141ecf2cc75d1070ef" title=" " alt="" coords="579,267,792,308"/>
+<area shape="rect" id="node10" href="$classorg_1_1jhotdraw_1_1draw_1_1_line_form.html#a2d18b137fd9bdb5f571954755bc5efa1" title=" " alt="" coords="854,201,1057,243"/>
+<area shape="rect" id="node11" href="$classorg_1_1jhotdraw_1_1draw_1_1_line_form.html#a860b1e35c15b7a4bd6577d397209d391" title=" " alt="" coords="854,267,1057,308"/>
+<area shape="rect" id="node12" href="$classorg_1_1jhotdraw_1_1draw_1_1_line_form.html#ab7471455975b22ad2d2513a9252cbaa3" title=" " alt="" coords="840,333,1071,359"/>
+<area shape="rect" id="node13" href="$classorg_1_1jhotdraw_1_1draw_1_1_line_form.html#a535a240127eb91f265b205dcb7de40ba" title=" " alt="" coords="854,384,1057,425"/>
+</map>

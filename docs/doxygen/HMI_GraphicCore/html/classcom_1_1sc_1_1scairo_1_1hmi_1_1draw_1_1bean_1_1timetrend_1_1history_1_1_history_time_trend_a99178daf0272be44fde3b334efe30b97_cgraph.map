@@ -1,0 +1,6 @@
+<map id="com.sc.scairo.hmi.draw.bean.timetrend.history.HistoryTimeTrend.setVariableAxis" name="com.sc.scairo.hmi.draw.bean.timetrend.history.HistoryTimeTrend.setVariableAxis">
+<area shape="rect" id="node1" title=" " alt="" coords="5,71,303,112"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1history_1_1_history_trend_info.html#ac130208a2661a90018418638f83999b0" title=" " alt="" coords="351,5,648,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1history_1_1_history_trend_data_info.html#a64f7522459495fda2e15b44c5e59b72b" title=" " alt="" coords="351,71,648,112"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1history_1_1_history_trend_data_info.html#a956603d8879335c49491ba6dc325ce13" title=" " alt="" coords="351,136,648,177"/>
+</map>

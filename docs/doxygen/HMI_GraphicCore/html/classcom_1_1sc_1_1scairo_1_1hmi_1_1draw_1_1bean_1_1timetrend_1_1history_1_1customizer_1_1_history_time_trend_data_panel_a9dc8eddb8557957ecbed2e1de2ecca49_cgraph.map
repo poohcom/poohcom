@@ -1,0 +1,13 @@
+<map id="com.sc.scairo.hmi.draw.bean.timetrend.history.customizer.HistoryTimeTrendDataPanel.setObject" name="com.sc.scairo.hmi.draw.bean.timetrend.history.customizer.HistoryTimeTrendDataPanel.setObject">
+<area shape="rect" id="node1" title=" " alt="" coords="5,235,371,276"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1history_1_1_history_trend_data_info.html#a2d770bb87ff3d6dff4378d9cf1a8de25" title=" " alt="" coords="453,5,750,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1history_1_1_history_trend_info.html#ac130208a2661a90018418638f83999b0" title=" " alt="" coords="453,71,750,112"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1history_1_1_history_trend_data_info.html#a92622b04c7ad7b424c98e5c7b65eec92" title=" " alt="" coords="453,136,750,177"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1history_1_1_history_trend_data_info.html#a9444234e962c236142894993a5b7c204" title=" " alt="" coords="453,201,750,243"/>
+<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1history_1_1_history_trend_data_info.html#a64f7522459495fda2e15b44c5e59b72b" title=" " alt="" coords="453,267,750,308"/>
+<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1history_1_1_history_trend_data_info.html#a956603d8879335c49491ba6dc325ce13" title=" " alt="" coords="453,332,750,373"/>
+<area shape="rect" id="node8" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1history_1_1customizer_1_1_history_trend_tree_table_model.html#acc11cffbc759cfb351b843aeeb55dcb1" title=" " alt="" coords="419,397,784,439"/>
+<area shape="rect" id="node11" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1history_1_1customizer_1_1_history_time_trend_data_panel.html#a76386b32a665962b54a5c24e7ccf0ccf" title=" " alt="" coords="419,463,784,504"/>
+<area shape="rect" id="node9" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1history_1_1customizer_1_1_tag_expandable_row.html#a6513ffaa4848cfc40a5bff5e342136c2" title=" " alt="" coords="832,397,1197,439"/>
+<area shape="rect" id="node10" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1history_1_1_history_trend_data_tag_info.html#a456c6d4ad04402f807a7cd2c3185caa0" title=" " alt="" coords="1245,397,1543,439"/>
+</map>

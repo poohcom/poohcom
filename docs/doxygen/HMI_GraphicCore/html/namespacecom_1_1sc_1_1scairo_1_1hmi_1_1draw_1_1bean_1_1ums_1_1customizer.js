@@ -1,0 +1,4 @@
+var namespacecom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1ums_1_1customizer =
+[
+    [ "UmsCustomizer", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1ums_1_1customizer_1_1_ums_customizer.html", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1ums_1_1customizer_1_1_ums_customizer" ]
+];

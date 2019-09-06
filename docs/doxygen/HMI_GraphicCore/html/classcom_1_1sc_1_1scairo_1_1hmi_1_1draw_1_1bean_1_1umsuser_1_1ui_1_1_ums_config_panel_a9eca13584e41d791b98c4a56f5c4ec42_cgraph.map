@@ -1,0 +1,5 @@
+<map id="com.sc.scairo.hmi.draw.bean.umsuser.ui.UmsConfigPanel.getTitlePanel" name="com.sc.scairo.hmi.draw.bean.umsuser.ui.UmsConfigPanel.getTitlePanel">
+<area shape="rect" id="node1" title=" " alt="" coords="5,39,269,80"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1common_1_1_beans_icon_factory.html#a6884d7cdd9bb80e85f40105493143028" title=" " alt="" coords="317,5,568,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1umsuser_1_1_ums_constants.html#a709127ff5579a8568319bd66caddb4d0" title=" " alt="" coords="317,71,568,112"/>
+</map>

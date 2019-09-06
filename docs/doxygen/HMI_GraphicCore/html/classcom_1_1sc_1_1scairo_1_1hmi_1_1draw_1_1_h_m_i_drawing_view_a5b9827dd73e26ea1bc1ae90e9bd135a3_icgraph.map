@@ -1,0 +1,12 @@
+<map id="com.sc.scairo.hmi.draw.HMIDrawingView.getDrawingEffects" name="com.sc.scairo.hmi.draw.HMIDrawingView.getDrawingEffects">
+<area shape="rect" id="node1" title=" " alt="" coords="336,267,569,308"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1action_1_1_add_library_action.html#a3d46d8354c63797cc187f43f9c125058" title=" " alt="" coords="37,5,256,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1action_1_1_save_symbol_action.html#a5c589f2c8c61d1f16ff31009dcaf3412" title=" " alt="" coords="32,71,261,112"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1ui_1_1_s_v_g_effect_customizer_dialog.html#ad1822efb9deab62cf051a987e3183e65" title=" " alt="" coords="5,136,288,177"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1ui_1_1_effect_customizer_dialog.html#a9406b87dc7e1052948ef4bcf1ab20c86" title=" " alt="" coords="19,201,274,243"/>
+<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_design_drawing_view.html#ad72acd33305dc41c4701db7b3f0f5d20" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="33,267,260,308"/>
+<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing_view_transfer_handler.html#a7cd00c35866252563982d1b37c8b6fdb" title=" " alt="" coords="30,332,263,373"/>
+<area shape="rect" id="node8" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing_view_transfer_handler.html#a219e9a22d5f0d6208b124c658f15b9fc" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="30,397,263,439"/>
+<area shape="rect" id="node9" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1undo_1_1_effect_undoable_edit.html#a7df6cdbd7ed6c1f069d50d1d3dac6dd2" title=" " alt="" coords="49,463,245,504"/>
+<area shape="rect" id="node10" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1undo_1_1_effect_undoable_edit.html#a5e242817d0d33fb6e7c776938bee18bd" title=" " alt="" coords="49,528,245,569"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="com.sc.scairo.hmi.draw.HMIDesignView.propertyChange" name="com.sc.scairo.hmi.draw.HMIDesignView.propertyChange">
+<area shape="rect" id="node1" title=" " alt="" coords="5,136,232,177"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_design_view.html#ab95c7b7a5087065110fd6d1e9a03ef5a" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="280,5,507,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_design_drawing_view.html#a18c826157eb990d7a8d60ac51c54fba2" title=" " alt="" coords="280,71,507,112"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_design_view.html#afd67ea3a1fe75cea3bae23e7d01c2c86" title="Sets the bounds from property. @LastUpdate 2019." alt="" coords="280,201,507,243"/>
+<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_design_view.html#ac87a6174a60c5c10e607843d5f1b90f9" title=" " alt="" coords="280,136,507,177"/>
+<area shape="rect" id="node8" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_design_view.html#ae021b6ff4ad9402a596412738d32193f" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="280,267,507,308"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing_view.html#a9f54efad42b6d98dba2818c7c4c2091a" title=" " alt="" coords="565,201,799,243"/>
+<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_design_view.html#a87cf04b5269d4d4708b18cfb7b98d588" title=" " alt="" coords="569,136,795,177"/>
+<area shape="rect" id="node9" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing.html#ac193e56533cac79d50fbd5b89c564a03" title=" " alt="" coords="555,267,809,308"/>
+<area shape="rect" id="node10" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing_view.html#adc50fb6abc0d185299921d98d9231875" title=" " alt="" coords="565,332,799,373"/>
+</map>

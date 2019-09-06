@@ -1,0 +1,12 @@
+<map id="com.sc.scairo.hmi.library.ui.GraphicLibraryWindow.removeSymbol" name="com.sc.scairo.hmi.library.ui.GraphicLibraryWindow.removeSymbol">
+<area shape="rect" id="node1" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="5,169,247,211"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1library_1_1ui_1_1_symbol_tree_node.html#ab26f70cf56796268eedacdde9f26b41c" title=" " alt="" coords="319,5,505,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1library_1_1ui_1_1_library_window_resource.html#ace874185ea2fa552aaad10df4041ea2f" title=" " alt="" coords="303,71,521,112"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1library_1_1ui_1_1_category_tree_node.html#a877ea53de7d6352e1069bab2cb5afb89" title=" " alt="" coords="304,136,520,177"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1library_1_1ui_1_1_symbol_tree_node.html#abbfe304596cbaa20501b7cb5b23fbac8" title=" " alt="" coords="295,201,529,243"/>
+<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1library_1_1_category.html#a5d1c94c37d7d335aef62d8a15651ef0e" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="326,267,498,308"/>
+<area shape="rect" id="node9" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1library_1_1ui_1_1_symbol_tree_node.html#a6447898e568841129cf6efe5601bab57" title=" " alt="" coords="319,332,505,373"/>
+<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1library_1_1_category.html#a1074d170583ee52867b12f95adb5966a" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="577,201,749,243"/>
+<area shape="rect" id="node8" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1library_1_1_category.html#acaf98690b71abaf5c88abedf815640ce" title=" " alt="" coords="577,267,749,308"/>
+<area shape="rect" id="node10" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1library_1_1_symbol.html#a835c11f00adb8e8d7e70fd5a3277b942" title=" " alt="" coords="577,332,749,373"/>
+</map>

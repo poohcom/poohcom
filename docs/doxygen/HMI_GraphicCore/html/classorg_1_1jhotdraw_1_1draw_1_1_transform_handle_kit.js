@@ -1,0 +1,25 @@
+var classorg_1_1jhotdraw_1_1draw_1_1_transform_handle_kit =
+[
+    [ "EastHandle", "classorg_1_1jhotdraw_1_1draw_1_1_transform_handle_kit_1_1_east_handle.html", "classorg_1_1jhotdraw_1_1draw_1_1_transform_handle_kit_1_1_east_handle" ],
+    [ "NorthEastHandle", "classorg_1_1jhotdraw_1_1draw_1_1_transform_handle_kit_1_1_north_east_handle.html", "classorg_1_1jhotdraw_1_1draw_1_1_transform_handle_kit_1_1_north_east_handle" ],
+    [ "NorthHandle", "classorg_1_1jhotdraw_1_1draw_1_1_transform_handle_kit_1_1_north_handle.html", "classorg_1_1jhotdraw_1_1draw_1_1_transform_handle_kit_1_1_north_handle" ],
+    [ "NorthWestHandle", "classorg_1_1jhotdraw_1_1draw_1_1_transform_handle_kit_1_1_north_west_handle.html", "classorg_1_1jhotdraw_1_1draw_1_1_transform_handle_kit_1_1_north_west_handle" ],
+    [ "SouthEastHandle", "classorg_1_1jhotdraw_1_1draw_1_1_transform_handle_kit_1_1_south_east_handle.html", "classorg_1_1jhotdraw_1_1draw_1_1_transform_handle_kit_1_1_south_east_handle" ],
+    [ "SouthHandle", "classorg_1_1jhotdraw_1_1draw_1_1_transform_handle_kit_1_1_south_handle.html", "classorg_1_1jhotdraw_1_1draw_1_1_transform_handle_kit_1_1_south_handle" ],
+    [ "SouthWestHandle", "classorg_1_1jhotdraw_1_1draw_1_1_transform_handle_kit_1_1_south_west_handle.html", "classorg_1_1jhotdraw_1_1draw_1_1_transform_handle_kit_1_1_south_west_handle" ],
+    [ "TransformHandle", "classorg_1_1jhotdraw_1_1draw_1_1_transform_handle_kit_1_1_transform_handle.html", "classorg_1_1jhotdraw_1_1draw_1_1_transform_handle_kit_1_1_transform_handle" ],
+    [ "WestHandle", "classorg_1_1jhotdraw_1_1draw_1_1_transform_handle_kit_1_1_west_handle.html", "classorg_1_1jhotdraw_1_1draw_1_1_transform_handle_kit_1_1_west_handle" ],
+    [ "TransformHandleKit", "classorg_1_1jhotdraw_1_1draw_1_1_transform_handle_kit.html#a264db1de2fefd6f6cbb21c57643dd8c9", null ],
+    [ "addCornerTransformHandles", "classorg_1_1jhotdraw_1_1draw_1_1_transform_handle_kit.html#a3eee15bd16d16115b020815f87aa1116", null ],
+    [ "addEdgeTransformHandles", "classorg_1_1jhotdraw_1_1draw_1_1_transform_handle_kit.html#ae96d6e0245e4b823e2860d0637dad8a9", null ],
+    [ "addScaleMoveTransformHandles", "classorg_1_1jhotdraw_1_1draw_1_1_transform_handle_kit.html#aeced44037791527bbd5fb4459f05723e", null ],
+    [ "addTransformHandles", "classorg_1_1jhotdraw_1_1draw_1_1_transform_handle_kit.html#aba8fd38a7d8e62f4c4e3ffa93fc0db73", null ],
+    [ "east", "classorg_1_1jhotdraw_1_1draw_1_1_transform_handle_kit.html#adc4ebd94cab2ed1ed164e5e5a3859e6d", null ],
+    [ "north", "classorg_1_1jhotdraw_1_1draw_1_1_transform_handle_kit.html#a2ad9179c918db1eb33db55a01c9199fb", null ],
+    [ "northEast", "classorg_1_1jhotdraw_1_1draw_1_1_transform_handle_kit.html#a1247d57547de9a4fd0bb9839a565199b", null ],
+    [ "northWest", "classorg_1_1jhotdraw_1_1draw_1_1_transform_handle_kit.html#a4491f03fc666c76da3149cf64d358d6f", null ],
+    [ "south", "classorg_1_1jhotdraw_1_1draw_1_1_transform_handle_kit.html#ac09a25b9b6533f363e00068c2277d2cc", null ],
+    [ "southEast", "classorg_1_1jhotdraw_1_1draw_1_1_transform_handle_kit.html#a57a2ebbf1133ead2cc5a608b6c02c6d4", null ],
+    [ "southWest", "classorg_1_1jhotdraw_1_1draw_1_1_transform_handle_kit.html#a29ee39d55ddcf9de1c6925c9b67fee04", null ],
+    [ "west", "classorg_1_1jhotdraw_1_1draw_1_1_transform_handle_kit.html#a7b8f68bc77a57b69f4e3f89e2c621ded", null ]
+];

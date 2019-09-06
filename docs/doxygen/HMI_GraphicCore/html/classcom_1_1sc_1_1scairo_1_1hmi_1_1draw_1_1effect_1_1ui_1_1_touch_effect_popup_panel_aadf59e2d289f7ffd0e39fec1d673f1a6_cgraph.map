@@ -1,0 +1,12 @@
+<map id="com.sc.scairo.hmi.draw.effect.ui.TouchEffectPopupPanel.openWindowListDialog" name="com.sc.scairo.hmi.draw.effect.ui.TouchEffectPopupPanel.openWindowListDialog">
+<area shape="rect" id="node1" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="5,136,300,177"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1util_1_1_window_select_dialog.html#add3cac54deb786ae24d327937001836f" title=" " alt="" coords="376,22,611,78"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1util_1_1_window_select_dialog.html#afd216ec544967d931d372b292b6bcdfb" title=" " alt="" coords="356,103,631,144"/>
+<area shape="rect" id="node9" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1ui_1_1_touch_effect_popup_panel.html#a23411478c568e6eb50f4d207641196e1" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="348,168,639,209"/>
+<area shape="rect" id="node10" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1util_1_1_window_select_dialog.html#ad514365c54c8edc57da7231d07623585" title=" " alt="" coords="377,233,609,275"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1util_1_1_window_select_dialog.html#ad92c9d53e653bcab3ec1577d06451e75" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="687,71,957,112"/>
+<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1util_1_1_window_list_model.html#aa7047079fc44031373d1cce16661b501" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="713,136,931,177"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1util_1_1_window_list_model.html#ab19af6d3815082121f51d063bec7efec" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="1026,5,1223,47"/>
+<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1util_1_1_window_list_model.html#a8bd9bf70c839f01c9731cf8957941bc1" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="1005,71,1244,112"/>
+<area shape="rect" id="node8" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1util_1_1_window_list_model.html#a0a99ef010b33cd28e30ed54e93ff25f1" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="1032,136,1217,177"/>
+</map>

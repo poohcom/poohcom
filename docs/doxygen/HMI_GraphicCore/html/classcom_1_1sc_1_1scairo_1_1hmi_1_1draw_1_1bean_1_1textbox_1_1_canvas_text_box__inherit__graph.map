@@ -1,0 +1,10 @@
+<map id="com.sc.scairo.hmi.draw.bean.textbox.CanvasTextBox" name="com.sc.scairo.hmi.draw.bean.textbox.CanvasTextBox">
+<area shape="rect" id="node1" title=" " alt="" coords="119,440,362,869"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,307,119,385"/>
+<area shape="rect" id="node3" href="$interfacecom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1_h_m_i_d_o_m_storable_bean.html" title=" " alt="" coords="143,300,339,392"/>
+<area shape="rect" id="node4" href="$interfacecom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1_h_m_i_bean.html" title=" " alt="" coords="46,131,257,252"/>
+<area shape="rect" id="node5" title=" " alt="" coords="55,5,133,83"/>
+<area shape="rect" id="node6" title=" " alt="" coords="158,5,262,83"/>
+<area shape="rect" id="node7" title=" " alt="" coords="281,153,381,230"/>
+<area shape="rect" id="node8" title=" " alt="" coords="363,307,436,385"/>
+</map>

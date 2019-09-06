@@ -1,0 +1,12 @@
+<map id="com.sc.scairo.hmi.draw.figure.HMISymbolFigure" name="com.sc.scairo.hmi.draw.figure.HMISymbolFigure">
+<area shape="rect" id="node1" title=" " alt="" coords="426,580,625,1009"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,286,99,363"/>
+<area shape="rect" id="node3" href="$interfacecom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1figure_1_1_h_m_i_figure.html" title=" " alt="" coords="123,132,322,517"/>
+<area shape="rect" id="node4" title=" " alt="" coords="88,5,147,83"/>
+<area shape="rect" id="node5" title=" " alt="" coords="171,5,275,83"/>
+<area shape="rect" id="node6" title=" " alt="" coords="299,5,391,83"/>
+<area shape="rect" id="node7" title=" " alt="" coords="347,279,477,371"/>
+<area shape="rect" id="node8" title=" " alt="" coords="501,279,779,371"/>
+<area shape="rect" id="node9" title=" " alt="" coords="803,279,997,371"/>
+<area shape="rect" id="node10" title=" " alt="" coords="1021,286,1141,363"/>
+</map>

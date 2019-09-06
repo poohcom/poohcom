@@ -1,0 +1,12 @@
+<map id="org.jhotdraw.draw.DrawingView.findHandle" name="org.jhotdraw.draw.DrawingView.findHandle">
+<area shape="rect" id="node1" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="549,136,723,177"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing_view.html#a1df50a4a52e2a6b09f3e98942aa6a04c" title=" " alt="" coords="268,5,501,47"/>
+<area shape="rect" id="node3" href="$classorg_1_1jhotdraw_1_1draw_1_1_delegation_selection_tool.html#a0957e11083a3b03243ada2112630f9f2" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="279,71,490,112"/>
+<area shape="rect" id="node5" href="$classorg_1_1jhotdraw_1_1draw_1_1_delegation_selection_tool.html#abfb2f238aabab93d513f8589145790c2" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="285,136,484,177"/>
+<area shape="rect" id="node6" href="$classorg_1_1jhotdraw_1_1draw_1_1_selection_tool.html#a8d81c0220c3aa392caee6a5091748f1d" title=" " alt="" coords="294,201,475,243"/>
+<area shape="rect" id="node7" href="$classorg_1_1jhotdraw_1_1draw_1_1_abstract_tool.html#ab82571e0397bc034b1e10816af0e61bd" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="297,267,473,308"/>
+<area shape="rect" id="node4" href="$classorg_1_1jhotdraw_1_1draw_1_1_delegation_selection_tool.html#af63422c59d1857d401518cdbaa675134" title=" " alt="" coords="19,104,207,145"/>
+<area shape="rect" id="node8" href="$classorg_1_1jhotdraw_1_1draw_1_1_select_area_tracker.html#add373b38e27ad29b1b5e2cd7552a91ae" title=" " alt="" coords="27,201,199,243"/>
+<area shape="rect" id="node9" href="$classorg_1_1jhotdraw_1_1draw_1_1_handle_tracker.html#ac268e88c14f5dd2cf04ac405df9e13c8" title=" " alt="" coords="29,267,196,308"/>
+<area shape="rect" id="node10" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drag_tracker.html#a1b42a7d27596810f07c448a26bfa8742" title=" " alt="" coords="5,332,220,373"/>
+</map>

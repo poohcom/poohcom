@@ -1,0 +1,9 @@
+<map id="com.sc.scairo.hmi.draw.customizer.WindowPropertyUndoHandler.WindowPropertyUndoHandler" name="com.sc.scairo.hmi.draw.customizer.WindowPropertyUndoHandler.WindowPropertyUndoHandler">
+<area shape="rect" id="node1" title=" " alt="" coords="5,162,296,218"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing_security_property.html#a58d1234218916cf646d135ab4a74fd6d" title="Adds the property change listener. @LastUpdate 2019." alt="" coords="344,5,627,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing_script_property.html#aab95c4995461c4f77a1c2640f9e48783" title="Adds the property change listener. @LastUpdate 2019." alt="" coords="351,71,620,112"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing_window_property.html#a959870c50f3bd2f6ea95198e03dbf5b1" title="Adds the property change listener. @LastUpdate 2019." alt="" coords="345,136,626,177"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing.html#a2842163362fa956fd68702a89b74d33d" title=" " alt="" coords="358,201,613,243"/>
+<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing.html#a21207380205871445983507567a0b7a2" title=" " alt="" coords="358,267,613,308"/>
+<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing.html#ac193e56533cac79d50fbd5b89c564a03" title=" " alt="" coords="358,332,613,373"/>
+</map>

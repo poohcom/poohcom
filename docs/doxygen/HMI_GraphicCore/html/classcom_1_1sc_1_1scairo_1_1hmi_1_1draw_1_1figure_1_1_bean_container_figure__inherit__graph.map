@@ -1,0 +1,13 @@
+<map id="com.sc.scairo.hmi.draw.figure.BeanContainerFigure" name="com.sc.scairo.hmi.draw.figure.BeanContainerFigure">
+<area shape="rect" id="node1" title=" " alt="" coords="231,1401,429,1816"/>
+<area shape="rect" id="node2" href="$classorg_1_1jhotdraw_1_1draw_1_1_abstract_attributed_figure.html" title=" " alt="" coords="160,953,348,1353"/>
+<area shape="rect" id="node3" href="$classorg_1_1jhotdraw_1_1draw_1_1_abstract_figure.html" title=" " alt="" coords="117,373,305,905"/>
+<area shape="rect" id="node4" href="$classorg_1_1jhotdraw_1_1beans_1_1_abstract_bean.html" title=" " alt="" coords="47,131,269,325"/>
+<area shape="rect" id="node5" title=" " alt="" coords="5,5,65,83"/>
+<area shape="rect" id="node6" title=" " alt="" coords="89,5,227,83"/>
+<area shape="rect" id="node7" title=" " alt="" coords="251,5,329,83"/>
+<area shape="rect" id="node8" title=" " alt="" coords="294,189,353,267"/>
+<area shape="rect" id="node9" href="$interfacecom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1figure_1_1_h_m_i_figure.html" title=" " alt="" coords="329,447,528,832"/>
+<area shape="rect" id="node10" title=" " alt="" coords="377,189,481,267"/>
+<area shape="rect" id="node11" title=" " alt="" coords="505,189,597,267"/>
+</map>

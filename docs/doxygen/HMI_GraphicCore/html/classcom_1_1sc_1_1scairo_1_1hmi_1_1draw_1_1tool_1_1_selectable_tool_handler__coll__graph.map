@@ -1,0 +1,13 @@
+<map id="com.sc.scairo.hmi.draw.tool.SelectableToolHandler" name="com.sc.scairo.hmi.draw.tool.SelectableToolHandler">
+<area shape="rect" id="node1" title=" " alt="" coords="512,461,701,700"/>
+<area shape="rect" id="node2" title=" " alt="" coords="783,5,875,83"/>
+<area shape="rect" id="node9" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1tool_1_1_graphic_tool_button.html" title=" " alt="" coords="512,145,701,399"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,5,99,83"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1tool_1_1_graphic_tool_menu_item.html" title=" " alt="" coords="276,175,465,369"/>
+<area shape="rect" id="node5" title=" " alt="" coords="123,5,269,83"/>
+<area shape="rect" id="node6" title=" " alt="" coords="419,5,581,83"/>
+<area shape="rect" id="node7" title=" " alt="" coords="293,5,395,83"/>
+<area shape="rect" id="node8" title=" " alt="" coords="605,5,651,83"/>
+<area shape="rect" id="node10" title=" " alt="" coords="676,5,759,83"/>
+<area shape="rect" id="node11" title=" " alt="" coords="811,226,981,318"/>
+</map>

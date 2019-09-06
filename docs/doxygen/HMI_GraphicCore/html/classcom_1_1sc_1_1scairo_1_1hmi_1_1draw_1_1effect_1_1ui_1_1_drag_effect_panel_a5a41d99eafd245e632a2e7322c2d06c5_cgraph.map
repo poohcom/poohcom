@@ -1,0 +1,12 @@
+<map id="com.sc.scairo.hmi.draw.effect.ui.DragEffectPanel.getFields" name="com.sc.scairo.hmi.draw.effect.ui.DragEffectPanel.getFields">
+<area shape="rect" id="node1" title=" " alt="" coords="5,289,219,331"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1_direction_effect.html#a66a92f4352bf9bb00ae6b06375cea3aa" title=" " alt="" coords="293,5,491,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1_drag_effect.html#a4f933b87641171c8e1049dbcee799cdb" title=" " alt="" coords="271,71,513,112"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1_direction_effect.html#a3f3e28364009544de94a27a20a20bc06" title=" " alt="" coords="277,136,507,177"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1_direction_effect.html#a834dfb8937a3e66c08965d843003ac08" title=" " alt="" coords="289,202,495,258"/>
+<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1_direction_effect.html#ae4ead29803001d88dd7a50d9e8fcb0f1" title=" " alt="" coords="289,282,495,338"/>
+<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1_drag_effect.html#a8751e5e311c68cd772eb855161e53a4b" title=" " alt="" coords="277,363,507,404"/>
+<area shape="rect" id="node8" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1_direction_effect.html#af1d249acd70130153aff2a0f36d2163a" title=" " alt="" coords="284,428,500,469"/>
+<area shape="rect" id="node9" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1_direction_effect.html#a495749d0f3a63a6af3dd6dd0cb53129c" title=" " alt="" coords="267,493,517,535"/>
+<area shape="rect" id="node10" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1_direction_effect.html#a162e6805eb28f2e6baf6af3bf19c7a5b" title=" " alt="" coords="269,559,515,600"/>
+</map>

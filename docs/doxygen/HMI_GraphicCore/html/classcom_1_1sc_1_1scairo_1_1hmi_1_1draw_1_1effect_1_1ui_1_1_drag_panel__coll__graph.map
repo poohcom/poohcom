@@ -1,0 +1,13 @@
+<map id="com.sc.scairo.hmi.draw.effect.ui.DragPanel" name="com.sc.scairo.hmi.draw.effect.ui.DragPanel">
+<area shape="rect" id="node1" title=" " alt="" coords="532,321,745,648"/>
+<area shape="rect" id="node2" title=" " alt="" coords="6,5,68,83"/>
+<area shape="rect" id="node3" title=" " alt="" coords="154,5,221,83"/>
+<area shape="rect" id="node4" title=" " alt="" coords="289,5,377,83"/>
+<area shape="rect" id="node5" title=" " alt="" coords="424,5,506,83"/>
+<area shape="rect" id="node6" title=" " alt="" coords="598,5,679,83"/>
+<area shape="rect" id="node7" title=" " alt="" coords="708,5,756,83"/>
+<area shape="rect" id="node8" title=" " alt="" coords="784,5,888,83"/>
+<area shape="rect" id="node9" title=" " alt="" coords="912,5,1004,83"/>
+<area shape="rect" id="node10" title=" " alt="" coords="1112,5,1202,83"/>
+<area shape="rect" id="node11" title=" " alt="" coords="1244,5,1302,83"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="com.sc.scairo.hmi.draw.effect.BlinkEffect" name="com.sc.scairo.hmi.draw.effect.BlinkEffect">
+<area shape="rect" id="node1" title=" " alt="" coords="177,1181,375,1523"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1_single_condition_based_effect.html" title=" " alt="" coords="175,836,377,1133"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1_condition_based_effect.html" title=" " alt="" coords="177,579,375,788"/>
+<area shape="rect" id="node4" href="$interfacecom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1_effect.html" title=" " alt="" coords="15,131,214,531"/>
+<area shape="rect" id="node5" title=" " alt="" coords="5,5,109,83"/>
+<area shape="rect" id="node6" title=" " alt="" coords="134,5,213,83"/>
+<area shape="rect" id="node7" title=" " alt="" coords="239,292,313,369"/>
+<area shape="rect" id="node8" title=" " alt="" coords="338,292,505,369"/>
+</map>

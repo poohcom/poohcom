@@ -1,0 +1,15 @@
+<map id="com.sc.scairo.hmi.draw.effect.GroupEffects.GroupEffects" name="com.sc.scairo.hmi.draw.effect.GroupEffects.GroupEffects">
+<area shape="rect" id="node1" title=" " alt="" coords="815,177,1013,219"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1_group_effects.html#a214bc1d5d61784816a2c594b12c1a480" title=" " alt="" coords="568,79,767,120"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1_group_effects.html#a81fc963d832c9dfdb556c0e1a7517ad5" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="568,144,767,185"/>
+<area shape="rect" id="node9" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1_group_effects.html#a5c6b9c70d1e618e03bcf4503b5808fff" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="568,209,767,251"/>
+<area shape="rect" id="node10" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1_group_effects.html#a75ea482cd897e689d74b93d85a7e16ff" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="568,316,767,357"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1action_1_1_effect_edit_action.html#a25b5748e0f5fa382f2b18cfe541c22ff" title=" " alt="" coords="286,5,499,47"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing_effects.html#a5a48df07a248ed9d2e5377c033c94910" title="Decomposite group effects. @LastUpdate 2019." alt="" coords="276,71,509,112"/>
+<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1io_1_1_h_m_i_d_o_m_input_output_format.html#a96a09f5e376af6d42708218ace1eff8c" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="277,137,508,193"/>
+<area shape="rect" id="node8" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1action_1_1_effect_edit_action.html#ae1ee25108e94979e41f34365de7b98f9" title=" " alt="" coords="275,217,511,259"/>
+<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1io_1_1_h_m_i_d_o_m_input_output_format.html#aeca7d03ee1a007e8fbe3a64420a42274" title=" " alt="" coords="5,144,217,185"/>
+<area shape="rect" id="node11" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1ui_1_1_effect_customizer_dialog.html#a9406b87dc7e1052948ef4bcf1ab20c86" title=" " alt="" coords="265,283,520,324"/>
+<area shape="rect" id="node12" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1undo_1_1_effect_undoable_edit.html#a7df6cdbd7ed6c1f069d50d1d3dac6dd2" title=" " alt="" coords="295,348,491,389"/>
+<area shape="rect" id="node13" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1undo_1_1_effect_undoable_edit.html#a5e242817d0d33fb6e7c776938bee18bd" title=" " alt="" coords="295,413,491,455"/>
+</map>

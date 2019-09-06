@@ -1,0 +1,5 @@
+var interfacecom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1history_1_1_i_history_trend_operation =
+[
+    [ "openCustomizer", "interfacecom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1history_1_1_i_history_trend_operation.html#a9e543970507ef23d659a3ff7a6f0271d", null ],
+    [ "setBarVisible", "interfacecom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1history_1_1_i_history_trend_operation.html#a8738d1cf090cbde9af4e7d66b99a2e93", null ]
+];

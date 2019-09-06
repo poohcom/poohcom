@@ -1,0 +1,7 @@
+<map id="com.sc.scairo.hmi.draw.HMIDrawingView" name="com.sc.scairo.hmi.draw.HMIDrawingView">
+<area shape="rect" id="node1" title=" " alt="" coords="115,453,376,1015"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_design_drawing_view.html" title=" " alt="" coords="5,1063,232,1683"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_runtime_drawing_view.html" title=" " alt="" coords="256,1187,491,1558"/>
+<area shape="rect" id="node2" title=" " alt="" coords="101,167,205,244"/>
+<area shape="rect" id="node3" href="$interfaceorg_1_1jhotdraw_1_1draw_1_1_drawing_view.html" title=" " alt="" coords="230,5,445,405"/>
+</map>

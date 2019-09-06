@@ -1,0 +1,10 @@
+<map id="com.sc.scairo.hmi.draw.HMIDrawing.addFigureToTable" name="com.sc.scairo.hmi.draw.HMIDrawing.addFigureToTable">
+<area shape="rect" id="node1" title="Adds the figure to table. @LastUpdate 2019." alt="" coords="5,159,264,200"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing.html#a8691bf43f61daf0cd9d53517816b658e" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="312,129,571,171"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing_i_d_handler.html#a3d1641d5c11e565f2e122e627fcbb1bf" title="Adds the id. @LastUpdate 2019." alt="" coords="619,5,852,47"/>
+<area shape="rect" id="node4" href="$classorg_1_1jhotdraw_1_1draw_1_1_attribute_key.html#a4aaf5a4a491ff5deb10d4d2b99b0c955" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="647,71,823,112"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing_i_d_handler.html#adb52dd0f85535b6b123e3019fc06dde4" title=" " alt="" coords="619,305,852,347"/>
+<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing_i_d_handler.html#abdd3e3587fcd68c1a4daee97858cde6c" title=" " alt="" coords="900,243,1133,284"/>
+<area shape="rect" id="node8" href="$classorg_1_1jhotdraw_1_1draw_1_1_attribute_key.html#aa12b2a4058bbac2b77c1761c29feefbf" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="647,188,823,229"/>
+<area shape="rect" id="node6" href="$interfacecom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1figure_1_1_h_m_i_figure.html#ab961bd5821a09bd324c77ef42fb5f1fa" title=" " alt="" coords="917,308,1116,349"/>
+</map>

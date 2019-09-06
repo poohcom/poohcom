@@ -1,0 +1,10 @@
+<map id="com.sc.scairo.hmi.draw.bean.ums.ui.UmsTagTargetInfoPanel.save" name="com.sc.scairo.hmi.draw.bean.ums.ui.UmsTagTargetInfoPanel.save">
+<area shape="rect" id="node1" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="5,156,244,197"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1ums_1_1_ums_config.html#a7d072e1476af1a75e0904a9b8c0a5aed" title=" " alt="" coords="315,5,541,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1ums_1_1ui_1_1_ums_target_config_table_model.html#a169388610a68b7e089a81969a0fdfabd" title=" " alt="" coords="612,127,880,168"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1ums_1_1_ums_config.html#ac31a33545ce1af50157e8769421bb770" title=" " alt="" coords="315,123,541,164"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1ums_1_1_d_b_loader.html#a1ddaeced27fe40ff8532d1727805f4d0" title=" " alt="" coords="315,253,541,295"/>
+<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1ums_1_1ui_1_1_ums_target_config_table_model.html#ab2bad48967d6670971bb4b200043eeea" title=" " alt="" coords="292,188,564,229"/>
+<area shape="rect" id="node8" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1ums_1_1_d_b_loader.html#a610ed9d1926bbc09236a02e90bfdac2f" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="315,319,541,360"/>
+<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1ums_1_1_ums_constants.html#a317393eb667dc80da73378f6ce45e07c" title=" " alt="" coords="633,253,859,295"/>
+</map>

@@ -1,0 +1,27 @@
+var classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_abstract_view =
+[
+    [ "activate", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_abstract_view.html#aa97d078503aaefc0c5595a5e1515bda5", null ],
+    [ "canSaveTo", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_abstract_view.html#ada9625d6546a2cc2572ac3b8763ceaa1", null ],
+    [ "clear", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_abstract_view.html#a0dc9d27152db0a0c72ad45aacb506317", null ],
+    [ "deactivate", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_abstract_view.html#accac83b34b5d830dc01651589d32e2ab", null ],
+    [ "execute", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_abstract_view.html#a80285ae4c81abbe89c9685440e1a1f3f", null ],
+    [ "getAction", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_abstract_view.html#a35af6c6ab11d82e856c9e366621ab656", null ],
+    [ "getApplication", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_abstract_view.html#ad8eb1fc9beeb8c1bd327c1eadfd78b02", null ],
+    [ "getComponent", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_abstract_view.html#a2804329909485454d7c89ca7f1fbd211", null ],
+    [ "getFile", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_abstract_view.html#a3fa839134274ff2e208f5774449f2e94", null ],
+    [ "getMultipleOpenId", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_abstract_view.html#a70efb78cd1842177eb0673b6aa49c805", null ],
+    [ "getOpenChooser", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_abstract_view.html#aad2bba827182859e1493061ccaaeb29b", null ],
+    [ "getSaveChooser", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_abstract_view.html#a1b48acd951e2086a8740894b080dacd4", null ],
+    [ "hasUnsavedChanges", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_abstract_view.html#af30313a98de7cd4421daaf198804b13d", null ],
+    [ "init", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_abstract_view.html#a93c92105b82949093610755f9ecfe9d7", null ],
+    [ "markChangesAsSaved", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_abstract_view.html#a3f2a74d2d3d4c432867967654e0454af", null ],
+    [ "putAction", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_abstract_view.html#a41c0547d78d1d6149c882f508af49e0d", null ],
+    [ "read", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_abstract_view.html#a5cce3e3f5c3ca658d525cfdd67fe00c4", null ],
+    [ "setApplication", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_abstract_view.html#a94f681673d3940fe9119e673d7e6f246", null ],
+    [ "setFile", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_abstract_view.html#a3040d7779dda996fe5780b89806f12e7", null ],
+    [ "setMultipleOpenId", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_abstract_view.html#ad9ab14803a04aa96c3d4601e1b3229e4", null ],
+    [ "setShowing", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_abstract_view.html#ac1314778dfd049c119547abc22921d52", null ],
+    [ "start", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_abstract_view.html#a2d0095cb7a33720e7adeee92e633e877", null ],
+    [ "stop", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_abstract_view.html#a11a961787b91030c50d9184c3e274384", null ],
+    [ "write", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_abstract_view.html#a40ce0e9e6779311803ec34b64c8f5537", null ]
+];

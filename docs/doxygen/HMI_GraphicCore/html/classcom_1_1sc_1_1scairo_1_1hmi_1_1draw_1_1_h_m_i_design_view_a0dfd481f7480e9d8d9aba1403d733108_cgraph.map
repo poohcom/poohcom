@@ -1,0 +1,7 @@
+<map id="com.sc.scairo.hmi.draw.HMIDesignView.addFigureSelectionListener" name="com.sc.scairo.hmi.draw.HMIDesignView.addFigureSelectionListener">
+<area shape="rect" id="node1" title="Adds the figure selection listener. @LastUpdate 2019." alt="" coords="5,71,232,112"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_design_drawing_view.html#aeadc24498bceaf058cf0cae631b1a0e1" title=" " alt="" coords="280,5,537,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_design_drawing_view.html#afacbcb413a635ded7954316d66f55bbd" title="Fire selection changed. @LastUpdate 2019." alt="" coords="295,71,522,112"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_design_drawing_view.html#a6682a65aa9593c950d3372233a4116b8" title=" " alt="" coords="295,136,522,177"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_synchronized_quad_tree_drawing.html#ab9e0f394986fa24558b21f9d2bd74bdd" title=" " alt="" coords="585,136,828,177"/>
+</map>

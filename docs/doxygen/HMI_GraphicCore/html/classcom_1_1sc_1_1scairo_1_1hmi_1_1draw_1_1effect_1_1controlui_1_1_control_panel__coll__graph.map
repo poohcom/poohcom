@@ -1,0 +1,9 @@
+<map id="com.sc.scairo.hmi.draw.effect.controlui.ControlPanel" name="com.sc.scairo.hmi.draw.effect.controlui.ControlPanel">
+<area shape="rect" id="node1" title=" " alt="" coords="51,404,303,745"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,198,67,275"/>
+<area shape="rect" id="node3" href="$interfacecom_1_1sc_1_1scairo_1_1hmi_1_1viewer_1_1_viewer.html" title=" " alt="" coords="91,132,263,341"/>
+<area shape="rect" id="node4" title=" " alt="" coords="19,5,93,83"/>
+<area shape="rect" id="node5" title=" " alt="" coords="117,5,238,83"/>
+<area shape="rect" id="node6" title=" " alt="" coords="262,5,367,83"/>
+<area shape="rect" id="node7" title=" " alt="" coords="288,198,336,275"/>
+</map>

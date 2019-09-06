@@ -1,0 +1,7 @@
+<map id="com.sc.scairo.hmi.draw.HMIRuntimeDrawingView.setDrawingEffects" name="com.sc.scairo.hmi.draw.HMIRuntimeDrawingView.setDrawingEffects">
+<area shape="rect" id="node1" title="반환 타입을 갖도록 수정되면서 이 메서드에서도 반환 타입을 갖도록 변경함. &#160;2019." alt="" coords="5,71,240,112"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_runtime_drawing_view_event_handler.html#a6473865b53e13aefb526cfad123780a0" title=" " alt="" coords="288,71,568,112"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_runtime_drawing_view.html#a654bfc8fb0ce6f541b901cd641db220a" title=" " alt="" coords="616,5,851,47"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1_effect_list.html#a1cbd586728e88caa90a39bf41254497e" title=" " alt="" coords="634,71,833,112"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing_effects.html#a5168d417ccfcb65473c7a42e9ab90960" title=" " alt="" coords="617,136,850,177"/>
+</map>

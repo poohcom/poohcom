@@ -1,0 +1,52 @@
+<map id="com.sc.scairo.hmi.draw.bean.timetrend.real.customizer.TimeTrendTagDialog" name="com.sc.scairo.hmi.draw.bean.timetrend.real.customizer.TimeTrendTagDialog">
+<area shape="rect" id="node1" title=" " alt="" coords="2776,579,3123,861"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1real_1_1_real_time_trend.html" title=" " alt="" coords="2509,953,2787,1456"/>
+<area shape="rect" id="node2" title=" " alt="" coords="200,292,264,369"/>
+<area shape="rect" id="node21" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1real_1_1customizer_1_1_time_trend_customizer_dialog.html" title=" " alt="" coords="332,1930,679,2242"/>
+<area shape="rect" id="node3" title=" " alt="" coords="289,292,394,369"/>
+<area shape="rect" id="node44" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1real_1_1customizer_1_1_real_time_trend_tool_bar_panel.html" title=" " alt="" coords="396,1607,743,1772"/>
+<area shape="rect" id="node49" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1real_1_1customizer_1_1_time_trend_group_list_panel.html" title=" " alt="" coords="4807,1563,5153,1816"/>
+<area shape="rect" id="node22" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1real_1_1customizer_1_1_real_time_trend_customizer.html" title=" " alt="" coords="5227,1599,5573,1779"/>
+<area shape="rect" id="node29" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1real_1_1customizer_1_1_time_trend_table_panel.html" title=" " alt="" coords="5743,1541,6089,1838"/>
+<area shape="rect" id="node42" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1real_1_1_chart_scroll_bar.html" title=" " alt="" coords="2278,1519,2557,1860"/>
+<area shape="rect" id="node5" title=" " alt="" coords="4064,292,4125,369"/>
+<area shape="rect" id="node6" href="$interfacecom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1_h_m_i_d_o_m_storable_bean.html" title=" " alt="" coords="551,674,747,766"/>
+<area shape="rect" id="node7" href="$interfacecom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1_h_m_i_bean.html" title=" " alt="" coords="3829,270,4040,391"/>
+<area shape="rect" id="node8" title=" " alt="" coords="5070,13,5149,90"/>
+<area shape="rect" id="node23" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1common_1_1_time_trend_info.html" title=" " alt="" coords="5182,586,5490,854"/>
+<area shape="rect" id="node24" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1common_1_1_time_trend_data_info.html" title=" " alt="" coords="5967,160,6275,501"/>
+<area shape="rect" id="node9" title=" " alt="" coords="5176,13,5280,90"/>
+<area shape="rect" id="node10" title=" " alt="" coords="418,292,518,369"/>
+<area shape="rect" id="node11" href="$interfacecom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1common_1_1_i_time_trend_operation.html" title=" " alt="" coords="3147,667,3455,773"/>
+<area shape="rect" id="node12" href="$interfacecom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1_i_stoppable_bean.html" title=" " alt="" coords="3479,667,3675,773"/>
+<area shape="rect" id="node13" title=" " alt="" coords="3700,681,3783,759"/>
+<area shape="rect" id="node14" title=" " alt="" coords="3807,681,3919,759"/>
+<area shape="rect" id="node15" title=" " alt="" coords="873,681,980,759"/>
+<area shape="rect" id="node16" title=" " alt="" coords="3943,681,4081,759"/>
+<area shape="rect" id="node17" title=" " alt="" coords="4106,681,4179,759"/>
+<area shape="rect" id="node18" title=" " alt="" coords="4203,681,4338,759"/>
+<area shape="rect" id="node19" title=" " alt="" coords="4363,674,4675,766"/>
+<area shape="rect" id="node20" title=" " alt="" coords="4699,681,4834,759"/>
+<area shape="rect" id="node30" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1real_1_1customizer_1_1_time_trend_table_model.html" title=" " alt="" coords="6123,1923,6469,2249"/>
+<area shape="rect" id="node25" title=" " alt="" coords="109,292,176,369"/>
+<area shape="rect" id="node26" title=" " alt="" coords="1004,681,1065,759"/>
+<area shape="rect" id="node27" title=" " alt="" coords="1089,674,1220,766"/>
+<area shape="rect" id="node28" title=" " alt="" coords="1244,681,1388,759"/>
+<area shape="rect" id="node31" title=" " alt="" coords="5378,13,5515,90"/>
+<area shape="rect" id="node50" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1real_1_1customizer_1_1_time_trend_tag_table_model.html" title=" " alt="" coords="5265,211,5612,450"/>
+<area shape="rect" id="node32" title=" " alt="" coords="5543,5,5921,97"/>
+<area shape="rect" id="node33" title=" " alt="" coords="5769,292,5828,369"/>
+<area shape="rect" id="node34" title=" " alt="" coords="5616,681,5747,759"/>
+<area shape="rect" id="node35" title=" " alt="" coords="5636,292,5695,369"/>
+<area shape="rect" id="node36" title=" " alt="" coords="5852,292,5943,369"/>
+<area shape="rect" id="node37" title=" " alt="" coords="1413,681,1467,759"/>
+<area shape="rect" id="node38" title=" " alt="" coords="1492,681,1580,759"/>
+<area shape="rect" id="node39" title=" " alt="" coords="1604,681,1663,759"/>
+<area shape="rect" id="node40" title=" " alt="" coords="1842,681,1937,759"/>
+<area shape="rect" id="node41" title=" " alt="" coords="1961,681,2073,759"/>
+<area shape="rect" id="node43" title=" " alt="" coords="2097,681,2183,759"/>
+<area shape="rect" id="node45" title=" " alt="" coords="2207,681,2276,759"/>
+<area shape="rect" id="node46" title=" " alt="" coords="2351,681,2523,759"/>
+<area shape="rect" id="node47" title=" " alt="" coords="2547,681,2634,759"/>
+<area shape="rect" id="node48" title=" " alt="" coords="2659,681,2752,759"/>
+</map>

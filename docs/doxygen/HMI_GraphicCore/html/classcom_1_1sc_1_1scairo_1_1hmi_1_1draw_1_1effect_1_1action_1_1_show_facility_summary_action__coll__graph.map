@@ -1,0 +1,9 @@
+<map id="com.sc.scairo.hmi.draw.effect.action.ShowFacilitySummaryAction" name="com.sc.scairo.hmi.draw.effect.action.ShowFacilitySummaryAction">
+<area shape="rect" id="node1" title=" " alt="" coords="56,404,295,555"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,198,113,275"/>
+<area shape="rect" id="node3" title=" " alt="" coords="137,198,213,275"/>
+<area shape="rect" id="node4" href="$interfacecom_1_1sc_1_1scairo_1_1hmi_1_1viewer_1_1_viewer.html" title=" " alt="" coords="237,132,409,341"/>
+<area shape="rect" id="node5" title=" " alt="" coords="165,5,239,83"/>
+<area shape="rect" id="node6" title=" " alt="" coords="263,5,384,83"/>
+<area shape="rect" id="node7" title=" " alt="" coords="408,5,513,83"/>
+</map>

@@ -1,0 +1,23 @@
+<map id="com.sc.scairo.hmi.draw.HMIDesignView.dispose" name="com.sc.scairo.hmi.draw.HMIDesignView.dispose">
+<area shape="rect" id="node1" title=" " alt="" coords="5,293,232,335"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing_view.html#acbb8e5802ec35523d1e6f0198821d201" title="간략한 설명 작성 @LastUpdate 2016." alt="" coords="291,64,525,105"/>
+<area shape="rect" id="node6" href="$classorg_1_1jhotdraw_1_1undo_1_1_undo_redo_manager.html#a62bec0ac6a3e3a5b3749a963c3929c68" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="314,129,502,171"/>
+<area shape="rect" id="node11" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing_view.html#a9f54efad42b6d98dba2818c7c4c2091a" title=" " alt="" coords="291,195,525,236"/>
+<area shape="rect" id="node12" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_design_view.html#a552ce978b557549bebcc760525d56ebe" title=" " alt="" coords="295,260,521,301"/>
+<area shape="rect" id="node13" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1util_1_1_effect_loader.html#aaf6e0d35090548c791dad67c4a0e548a" title=" " alt="" coords="315,325,501,367"/>
+<area shape="rect" id="node17" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1common_1_1_h_m_i_drawing_file_filter.html#af57a46e83c46440f73f34b9e80620378" title=" " alt="" coords="299,391,517,432"/>
+<area shape="rect" id="node20" href="$classorg_1_1jhotdraw_1_1undo_1_1_undo_redo_manager.html#a7e7faeb483c5c728199f9f387b2b0509" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="280,456,536,497"/>
+<area shape="rect" id="node21" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1util_1_1_effect_loader.html#aa1a286d50832dfed2637e00913fbe30a" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="315,521,501,563"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing.html#af624defb755ff57325880b588b4fa97f" title="Dispose. @LastUpdate 2019." alt="" coords="584,13,867,39"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing_view.html#afbe874f6a0a72caa64162b5e54b159d4" title="간략한 설명 작성 @LastUpdate 2016." alt="" coords="609,64,842,105"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing_i_d_handler.html#aa3d90d3617abdfb9185ff6e1af31c38c" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="915,5,1148,47"/>
+<area shape="rect" id="node7" href="$classorg_1_1jhotdraw_1_1undo_1_1_undo_redo_manager.html#ad9fa8ddd20dec0b1dcf229f40a4578d1" title=" " alt="" coords="622,129,829,171"/>
+<area shape="rect" id="node10" href="$classorg_1_1jhotdraw_1_1undo_1_1_undo_redo_manager.html#a65b8c82597db7befb89cdae1e9cc6bac" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="631,195,819,236"/>
+<area shape="rect" id="node8" href="$classorg_1_1jhotdraw_1_1undo_1_1_undo_redo_manager.html#a12925319d22ef3c16467e5179051af42" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="937,100,1125,141"/>
+<area shape="rect" id="node9" href="$classorg_1_1jhotdraw_1_1undo_1_1_undo_redo_manager.html#a46e3bb718f780ec9be4fc8270b1f5215" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="937,165,1125,207"/>
+<area shape="rect" id="node14" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1util_1_1_effect_loader.html#a4681af7c80ee3375a1ca38362e5cb9c8" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="633,325,818,367"/>
+<area shape="rect" id="node15" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1util_1_1_effect_loader.html#ac703c4f2728deb67263b88c0b8d3793f" title=" " alt="" coords="939,325,1124,367"/>
+<area shape="rect" id="node16" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1util_1_1_effect_loader.html#a8f9e5831429c2dcb58dbab3362a0c932" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="1196,325,1381,367"/>
+<area shape="rect" id="node18" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1common_1_1_h_m_i_drawing_file_filter.html#a9562ab0fc4c1aafa042eb0a171a49d9c" title=" " alt="" coords="604,456,847,497"/>
+<area shape="rect" id="node19" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1common_1_1_h_m_i_drawing_file_filter.html#a26886a7c9b5a08441aa4950775b9ee06" title=" " alt="" coords="922,456,1141,497"/>
+</map>

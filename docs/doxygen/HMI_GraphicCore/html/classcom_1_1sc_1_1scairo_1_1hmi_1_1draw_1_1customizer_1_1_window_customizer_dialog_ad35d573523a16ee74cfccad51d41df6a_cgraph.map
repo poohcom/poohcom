@@ -1,0 +1,39 @@
+<map id="com.sc.scairo.hmi.draw.customizer.WindowCustomizerDialog.setHMIDesignView" name="com.sc.scairo.hmi.draw.customizer.WindowCustomizerDialog.setHMIDesignView">
+<area shape="rect" id="node1" title=" " alt="" coords="5,104,288,145"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_design_view.html#a80a0cbb2b52740d15837ad4f5bca26b1" title=" " alt="" coords="339,39,565,80"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_design_view.html#a552ce978b557549bebcc760525d56ebe" title=" " alt="" coords="339,104,565,145"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1customizer_1_1_window_customizer_dialog.html#a184723fee991d4566c19098ef6b38f0c" title=" " alt="" coords="336,169,568,211"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing_view.html#a9f54efad42b6d98dba2818c7c4c2091a" title=" " alt="" coords="616,39,849,80"/>
+<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1customizer_1_1_window_customizer.html#abe14c7cceeb9ce01e02a3fd570e80816" title=" " alt="" coords="617,169,849,211"/>
+<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing.html#a2842163362fa956fd68702a89b74d33d" title=" " alt="" coords="897,5,1152,47"/>
+<area shape="rect" id="node8" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing.html#a21207380205871445983507567a0b7a2" title=" " alt="" coords="897,71,1152,112"/>
+<area shape="rect" id="node9" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing.html#ac193e56533cac79d50fbd5b89c564a03" title=" " alt="" coords="897,136,1152,177"/>
+<area shape="rect" id="node10" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1customizer_1_1_window_security_panel.html#a683f1f9a721aba2449c1f713f71505b6" title=" " alt="" coords="909,201,1141,243"/>
+<area shape="rect" id="node15" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1customizer_1_1_window_script_panel.html#ad02ccc8f83bec1dcea5571ba77b518ce" title=" " alt="" coords="909,495,1141,536"/>
+<area shape="rect" id="node24" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1customizer_1_1_window_panel.html#a6ba372fe58a4aecb30363432fc0eb279" title=" " alt="" coords="909,1135,1141,1176"/>
+<area shape="rect" id="node11" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing_security_property.html#a8c616f006895f63d5221838d8c235a00" title=" " alt="" coords="1208,37,1441,79"/>
+<area shape="rect" id="node12" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing_security_property.html#a93baeb9d4a880dee654558cf53d3037a" title=" " alt="" coords="1208,103,1441,144"/>
+<area shape="rect" id="node13" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1customizer_1_1_window_security_panel.html#a4b66a3d2ea754e75d213a9638bf69be1" title=" " alt="" coords="1209,168,1441,209"/>
+<area shape="rect" id="node14" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1customizer_1_1_window_security_panel.html#a6811dc422bb4e0755f693f1038f8312b" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="1208,233,1441,275"/>
+<area shape="rect" id="node16" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing_script_property.html#a80e65a676e3d09c1281f7d27bda4b06d" title=" " alt="" coords="1208,299,1441,340"/>
+<area shape="rect" id="node17" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing_script_property.html#a2f9294ae19a9fd2812f1e08268c9bdd8" title=" " alt="" coords="1208,364,1441,405"/>
+<area shape="rect" id="node18" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing_script_property.html#ad80eedd502cbd05785881186edeedef0" title=" " alt="" coords="1208,429,1441,471"/>
+<area shape="rect" id="node19" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing_script_property.html#ac036f6039ed0f9e6cb197bd3e53d421b" title=" " alt="" coords="1208,495,1441,536"/>
+<area shape="rect" id="node20" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing_script_property.html#ab11d75c57cf3e2f6ebe05da710f65f28" title=" " alt="" coords="1208,560,1441,601"/>
+<area shape="rect" id="node21" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1customizer_1_1_window_script_panel.html#adebfd8aaf2013f6bcbcdab7229c850fa" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="1209,625,1441,667"/>
+<area shape="rect" id="node22" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1customizer_1_1_window_script_panel.html#aad23a618ab046ad751dab4d129783cba" title=" " alt="" coords="1497,655,1752,696"/>
+<area shape="rect" id="node23" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1customizer_1_1_window_script_panel.html#a3927a419bd6ff9b8729c7163aa186cd6" title=" " alt="" coords="1205,743,1445,784"/>
+<area shape="rect" id="node25" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing_window_property.html#af2dcccbba46db0dbdc5742f6f16bfd71" title=" " alt="" coords="1205,808,1444,849"/>
+<area shape="rect" id="node26" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing_window_property.html#ab0129acf7a9343fea3049d5fac9b22d7" title=" " alt="" coords="1208,873,1441,915"/>
+<area shape="rect" id="node27" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing_window_property.html#a8bc7c786807d7ecdb519e5f585b89ccc" title=" " alt="" coords="1200,939,1449,980"/>
+<area shape="rect" id="node28" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing_window_property.html#a1e17c4111c82b3855fc2c94f138f9639" title=" " alt="" coords="1208,1004,1441,1045"/>
+<area shape="rect" id="node29" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing_window_property.html#a6003e147a4424e30fde1ab2d572cdd5b" title=" " alt="" coords="1208,1069,1441,1111"/>
+<area shape="rect" id="node30" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing_window_property.html#ae43514c7d2d76f997309a4def45722eb" title=" " alt="" coords="1208,1135,1441,1176"/>
+<area shape="rect" id="node31" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing_window_property.html#a061a63d705f2e5a7f4277419f9b70fe4" title=" " alt="" coords="1208,1200,1441,1241"/>
+<area shape="rect" id="node32" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing_window_property.html#a0e9de28d3523349366fee2fdedd735c4" title=" " alt="" coords="1208,1265,1441,1307"/>
+<area shape="rect" id="node33" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1customizer_1_1_window_panel.html#ae3a07c3fe43c95549af06acd8376e745" title=" " alt="" coords="1208,1331,1441,1372"/>
+<area shape="rect" id="node34" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1customizer_1_1_window_panel.html#a6c19a84b7ab968853bf89d7988fdcebf" title=" " alt="" coords="1209,1396,1441,1437"/>
+<area shape="rect" id="node35" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1customizer_1_1_window_panel.html#a7a0cda985ded29582e89e02b24417480" title=" " alt="" coords="1209,1461,1441,1503"/>
+<area shape="rect" id="node37" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1customizer_1_1_window_panel.html#acdb5495d03fc8a324ffa381de829b297" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="1209,1527,1441,1568"/>
+<area shape="rect" id="node36" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1customizer_1_1_window_panel.html#a88798bccbe071c902e8c680aca22de08" title=" " alt="" coords="1509,1461,1741,1503"/>
+</map>

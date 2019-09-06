@@ -1,0 +1,11 @@
+<map id="com.sc.scairo.hmi.draw.bean.timetrend.common.TimeTrendInfo" name="com.sc.scairo.hmi.draw.bean.timetrend.common.TimeTrendInfo">
+<area shape="rect" id="node1" title=" " alt="" coords="519,608,827,876"/>
+<area shape="rect" id="node2" title=" " alt="" coords="316,13,420,90"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1common_1_1_time_trend_data_info.html" title=" " alt="" coords="870,189,1178,531"/>
+<area shape="rect" id="node8" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1common_1_1_time_trend_common_info.html" title=" " alt="" coords="414,197,722,523"/>
+<area shape="rect" id="node9" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1common_1_1_time_trend_option_info.html" title=" " alt="" coords="82,189,390,531"/>
+<area shape="rect" id="node3" title=" " alt="" coords="729,13,807,90"/>
+<area shape="rect" id="node5" title=" " alt="" coords="906,13,958,90"/>
+<area shape="rect" id="node6" title=" " alt="" coords="983,5,1361,97"/>
+<area shape="rect" id="node7" title=" " alt="" coords="747,321,795,399"/>
+</map>

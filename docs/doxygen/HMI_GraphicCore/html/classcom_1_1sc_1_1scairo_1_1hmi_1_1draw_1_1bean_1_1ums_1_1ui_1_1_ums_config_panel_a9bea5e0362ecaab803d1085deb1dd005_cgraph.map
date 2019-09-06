@@ -1,0 +1,8 @@
+<map id="com.sc.scairo.hmi.draw.bean.ums.ui.UmsConfigPanel.setSystemResourceManager" name="com.sc.scairo.hmi.draw.bean.ums.ui.UmsConfigPanel.setSystemResourceManager">
+<area shape="rect" id="node1" title=" " alt="" coords="5,71,296,112"/>
+<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1ums_1_1ui_1_1_ums_user_target_info_panel.html#ae99e13e2ef0536a204daa0759e80e1ca" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="344,71,611,112"/>
+<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1ums_1_1_ums_d_b_info.html#a31ffd84638cc4310598e768f0b7ab5f6" title=" " alt="" coords="659,5,884,47"/>
+<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1ums_1_1_d_b_loader.html#a1ddaeced27fe40ff8532d1727805f4d0" title=" " alt="" coords="659,71,884,112"/>
+<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1ums_1_1_d_b_loader.html#a2950d8a8a580cd0ff69cbe4c3df9e50d" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="659,136,884,177"/>
+<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1ums_1_1_ums_constants.html#a317393eb667dc80da73378f6ce45e07c" title=" " alt="" coords="932,71,1157,112"/>
+</map>
