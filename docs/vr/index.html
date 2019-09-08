@@ -88,6 +88,35 @@
                   });
                 });
 
+                var mtlLoader1 = new THREE.MTLLoader(manager);
+                mtlLoader1.setTexturePath('resources/');
+                mtlLoader1.load('resources/phone.mtl', materials => {
+                    materials.preload();
+                    var objLoader = new THREE.OBJLoader(manager);
+                    objLoader.setMaterials(materials);
+                    objLoader.load('resources/phone.obj', object => {
+                        model = object;
+						model.position.x=-10;
+						model.lookAt(scene.position);
+                        scene.add(model);
+                  });
+                });
+
+
+                var mtlLoader2 = new THREE.MTLLoader(manager);
+                mtlLoader2.setTexturePath('resources/');
+                mtlLoader2.load('resources/phone.mtl', materials => {
+                    materials.preload();
+                    var objLoader = new THREE.OBJLoader(manager);
+                    objLoader.setMaterials(materials);
+                    objLoader.load('resources/phone.obj', object => {
+                        model = object;
+						model.position.x=+10;
+						model.lookAt(scene.position);
+                        scene.add(model);
+                  });
+                });
+
                 renderer = new THREE.WebGLRenderer({ alpha: true });
                 renderer.setPixelRatio(window.devicePixelRatio);
                 renderer.setSize(window.innerWidth, window.innerHeight);
@@ -107,11 +136,12 @@
                 });
             }
 
+
             function initSensor() {
                 const options = { frequency: 60, coordinateSystem };
                 console.log(JSON.stringify(options));
                 sensor = relative ? new RelativeOrientationSensor(options) : new AbsoluteOrientationSensor(options);
-                sensor.onreading = () => { var q = new THREE.Quaternion(); q.fromArray(sensor.quaternion).inverse(); var e=new THREE.Euler(); e.setFromQuaternion(q); e.y=0;e.z=0; scene.quaternion.setFromEuler(e); }
+                sensor.onreading = () => { var q = new THREE.Quaternion(); q.fromArray(sensor.quaternion).inverse(); var e=new THREE.Euler(); e.setFromQuaternion(q); e.x=0;e.y=0; scene.quaternion.setFromEuler(e); }
                 sensor.onerror = (event) => {
                   if (event.error.name == 'NotReadableError') {
                     console.log("Sensor is not available.");
