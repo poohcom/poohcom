@@ -31,7 +31,7 @@
               RelativeOrientationSensor
             } from './js/motion-sensors.js';
 			
-			console.log("ver1");
+			console.log("ver2");
 
             const params = new URLSearchParams(new URL(window.location.href).search.slice(1));
             const relative = !!Number(params.get("relative"));
@@ -83,7 +83,7 @@
                     objLoader.setMaterials(materials);
                     objLoader.load('resources/phone.obj', object => {
                         model = object;
-						model.position.z=100;
+						model.position.z=-10;
                         scene.add(model);
                   });
                 });
