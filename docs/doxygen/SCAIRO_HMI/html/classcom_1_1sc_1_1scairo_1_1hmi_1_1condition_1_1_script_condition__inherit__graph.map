@@ -1,8 +1,0 @@
-<map id="com.sc.scairo.hmi.condition.ScriptCondition" name="com.sc.scairo.hmi.condition.ScriptCondition">
-<area shape="rect" id="node1" title=" " alt="" coords="79,259,268,300"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1condition_1_1_abstract_condition.html" title=" " alt="" coords="79,169,268,211"/>
-<area shape="rect" id="node3" href="$interfacecom_1_1sc_1_1scairo_1_1hmi_1_1condition_1_1_i_condition.html" title=" " alt="" coords="79,80,268,121"/>
-<area shape="rect" id="node4" title=" " alt="" coords="5,5,109,32"/>
-<area shape="rect" id="node5" title=" " alt="" coords="134,5,213,32"/>
-<area shape="rect" id="node6" title=" " alt="" coords="237,5,313,32"/>
-</map>

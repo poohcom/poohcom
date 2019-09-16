@@ -1,8 +1,0 @@
-<map id="com.sc.scairo.hmi.draw.HMIDesignView.initComponents" name="com.sc.scairo.hmi.draw.HMIDesignView.initComponents">
-<area shape="rect" id="node1" title="Inits the components. @LastUpdate 2019." alt="" coords="5,71,232,112"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing_view.html#a9f54efad42b6d98dba2818c7c4c2091a" title=" " alt="" coords="280,5,513,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_design_drawing_view.html#a0905aa5dd35a60a45b5559ebec1d9ebe" title=" " alt="" coords="283,71,510,112"/>
-<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_design_view.html#a9f85344db735c8f6ce158f4cb257247a" title=" " alt="" coords="283,136,510,177"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_design_drawing_view.html#a23b193868557cdd6d29e69bf7f14e31b" title="Fire view transform changed. @LastUpdate 2019." alt="" coords="562,39,815,80"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing.html#a245d3d309c741a64b316c4960ec8c786" title=" " alt="" coords="561,104,816,145"/>
-</map>

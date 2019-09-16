@@ -1,9 +1,0 @@
-<map id="com.sc.scairo.hmi.device.module.CommTcpServerModule.setConnectTime" name="com.sc.scairo.hmi.device.module.CommTcpServerModule.setConnectTime">
-<area shape="rect" id="node1" title=" " alt="" coords="5,169,263,211"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_group_tag.html#a8fb19d5720218a2e3f3e97958829ae4d" title="간략한 설명 작성" alt="" coords="323,5,514,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1info_1_1_device_info.html#aaed6016a1c5bd12e08d8a29d55ec03d3" title=" " alt="" coords="320,71,517,112"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1info_1_1_device_info.html#a94483873423b98325003c853aad3757f" title=" " alt="" coords="320,136,517,177"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1info_1_1_device_station_info.html#ab968bafbdf27740fd483aac8ca5df928" title=" " alt="" coords="311,201,527,243"/>
-<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_analog_tag.html#a55de2fc747f5bac3ce452307a7588e5b" title=" " alt="" coords="321,267,516,308"/>
-<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_string_tag.html#a6fcf601c6fdc9d6eacce46c0837a6c8d" title=" " alt="" coords="324,332,513,373"/>
-</map>

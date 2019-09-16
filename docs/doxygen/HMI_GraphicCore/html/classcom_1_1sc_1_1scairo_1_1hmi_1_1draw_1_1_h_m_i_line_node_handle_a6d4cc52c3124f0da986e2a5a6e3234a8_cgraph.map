@@ -1,9 +1,0 @@
-<map id="com.sc.scairo.hmi.draw.HMILineNodeHandle.keyPressed" name="com.sc.scairo.hmi.draw.HMILineNodeHandle.keyPressed">
-<area shape="rect" id="node1" title=" " alt="" coords="5,104,216,145"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_line_node_handle.html#a7ed9f8c7d0856fe2ba7f223ddf718eb9" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="264,104,475,145"/>
-<area shape="rect" id="node3" href="$classorg_1_1jhotdraw_1_1draw_1_1_bezier_node_handle.html#a9ae1dbc7ec57e5713cfa47c461d32320" title=" " alt="" coords="535,5,699,47"/>
-<area shape="rect" id="node4" href="$classorg_1_1jhotdraw_1_1geom_1_1_bezier_path_1_1_node.html#aea594dcb54e995df82fde5e6db316594" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="533,71,702,112"/>
-<area shape="rect" id="node6" href="$classorg_1_1jhotdraw_1_1geom_1_1_geometry_pool.html#a8fb73fc475411e068855a18cf89074a2" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="523,136,712,177"/>
-<area shape="rect" id="node7" href="$classorg_1_1jhotdraw_1_1geom_1_1_geometry_pool.html#af47ce396fffbf54f2e6358a0d257a7cd" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="523,201,712,243"/>
-<area shape="rect" id="node5" href="$classorg_1_1jhotdraw_1_1geom_1_1_bezier_path_1_1_node.html#abb7bc42c4cb2d75d793afb4ffb8e2be2" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="760,71,929,112"/>
-</map>

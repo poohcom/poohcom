@@ -1,5 +1,0 @@
-<map id="com.sc.scairo.hmi.device.map.MapFactory.getDeviceMap" name="com.sc.scairo.hmi.device.map.MapFactory.getDeviceMap">
-<area shape="rect" id="node1" title=" " alt="" coords="276,39,479,80"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1map_1_1_block.html#ae603352b73ee72a2fee740242429bb85" title="간략한 설명 작성" alt="" coords="5,5,228,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1module_1_1_comm_tcp_server_module.html#aa9ed4570e64ad376ee1ebe01867a2ebc" title=" " alt="" coords="7,71,226,112"/>
-</map>

@@ -1,8 +1,0 @@
-<map id="com.sc.scairo.hmi.draw.bean.historytrend.HistoryTrend.setYAxisFixed" name="com.sc.scairo.hmi.draw.bean.historytrend.HistoryTrend.setYAxisFixed">
-<area shape="rect" id="node1" title=" " alt="" coords="5,104,273,145"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1historytrend_1_1_history_trend.html#a23bd39e90c4387328a81216f35304964" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="321,104,589,145"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1historytrend_1_1_history_trend_y_axis_info.html#a997f9e5b3719dcbe7e2c5e1ec632f61b" title=" " alt="" coords="639,5,907,47"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1historytrend_1_1_history_trend_y_axis_info.html#a8f9ed5b0a204010890a670b2744ba94d" title=" " alt="" coords="637,71,908,112"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1historytrend_1_1_history_trend_info.html#a448aa9b84a3eb0d842e398317f78a249" title=" " alt="" coords="639,136,907,177"/>
-<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1historytrend_1_1_history_trend_tag_info.html#a46037bdf09ef34ea9534af5732b1029f" title=" " alt="" coords="639,201,907,243"/>
-</map>

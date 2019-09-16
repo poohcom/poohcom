@@ -1,6 +1,0 @@
-var namespacecom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1listeners =
-[
-    [ "ItemChangeListener", "interfacecom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1listeners_1_1_item_change_listener.html", "interfacecom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1listeners_1_1_item_change_listener" ],
-    [ "MapChangeListener", "interfacecom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1listeners_1_1_map_change_listener.html", "interfacecom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1listeners_1_1_map_change_listener" ],
-    [ "OpenScadaAutoConnectListener", "classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1listeners_1_1_open_scada_auto_connect_listener.html", "classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1listeners_1_1_open_scada_auto_connect_listener" ]
-];

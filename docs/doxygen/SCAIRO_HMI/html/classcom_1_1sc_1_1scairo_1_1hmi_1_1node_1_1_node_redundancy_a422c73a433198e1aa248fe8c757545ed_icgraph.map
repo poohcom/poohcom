@@ -1,9 +1,0 @@
-<map id="com.sc.scairo.hmi.node.NodeRedundancy.isUseVirtualIP" name="com.sc.scairo.hmi.node.NodeRedundancy.isUseVirtualIP">
-<area shape="rect" id="node1" title=" " alt="" coords="835,39,1029,80"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1_network_configuration.html#a1b7519276cb8bea693a6360cfec54897" title=" " alt="" coords="542,5,773,47"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1loader_1_1_h_m___n_o_d_e___r_e_d_u_n_d_a_n_c_y___loader.html#af105ff7ce8daef547066875e87e79505" title="간략한 설명 작성" alt="" coords="528,71,787,112"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1server_1_1_service_server.html#a9f802ba7938630ffb011281f53ad98ad" title=" " alt="" coords="252,5,480,47"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1server_1_1_service_server.html#ac9c3d6b5f4576605e00b04cab47530ef" title=" " alt="" coords="5,5,204,47"/>
-<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1_project_loader.html#a0a7fa690fb70615bbc661be8f6ec0e50" title="간략한 설명 작성" alt="" coords="278,71,454,112"/>
-<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1_project.html#afd323779a37647ca5b9e15fe0e240a6a" title="간략한 설명 작성" alt="" coords="17,71,193,112"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="com.sc.scairo.hmi.device.protocol.ModbusSerialModeProtocol.getMakeWordWriteMessage" name="com.sc.scairo.hmi.device.protocol.ModbusSerialModeProtocol.getMakeWordWriteMessage">
-<area shape="rect" id="node1" title=" " alt="" coords="5,97,272,153"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_map_device_adapter.html#a42919cbefba6a97f8812e3b2c19e9caa" title=" " alt="" coords="327,5,507,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_map_device_adapter.html#ab658d0902c615b2f1508c4b105e57997" title=" " alt="" coords="327,71,507,112"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_data_tag.html#a9004030f0d6e76e3f003a9ebe04f8cc1" title=" " alt="" coords="325,136,508,177"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_device_adapter.html#a00938d1168b499d0265c2bfdc2bcbd73" title=" " alt="" coords="320,201,513,243"/>
-</map>

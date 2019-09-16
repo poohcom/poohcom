@@ -1,9 +1,0 @@
-<map id="com.sc.scairo.viewer.runtime.ui.AlarmSound.setConfig" name="com.sc.scairo.viewer.runtime.ui.AlarmSound.setConfig">
-<area shape="rect" id="node1" title=" " alt="" coords="5,136,213,177"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1viewer_1_1runtime_1_1ui_1_1_alarm_sound_config.html#a4d036ec4214813469eae871ed69ef00a" title=" " alt="" coords="261,5,471,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1viewer_1_1runtime_1_1ui_1_1_alarm_sound.html#a70c25b6c55a505592bd77bf2a3af3d03" title=" " alt="" coords="262,71,470,112"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1viewer_1_1runtime_1_1ui_1_1_alarm_sound.html#aa7be096ce01a1882bfd8bbeef3cfc4be" title=" " alt="" coords="262,136,470,177"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1viewer_1_1runtime_1_1ui_1_1_alarm_sound.html#a04cccf6b1a7d1ba4dd87c22201932692" title=" " alt="" coords="262,201,470,243"/>
-<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1viewer_1_1runtime_1_1ui_1_1_alarm_sound.html#af591187a7d11e3d83216734665881317" title=" " alt="" coords="262,267,470,308"/>
-<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1viewer_1_1runtime_1_1ui_1_1_alarm_sound.html#a1297397b3cd9658075b2b96863305cb0" title=" " alt="" coords="519,267,727,308"/>
-</map>

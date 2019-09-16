@@ -1,8 +1,0 @@
-<map id="com.sc.scairo.hmi.draw.effect.ui.ColorChangeConditionPanel.getLineForm" name="com.sc.scairo.hmi.draw.effect.ui.ColorChangeConditionPanel.getLineForm">
-<area shape="rect" id="node1" title=" " alt="" coords="5,100,264,141"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1ui_1_1_line_form_panel.html#a6f6400b880c444141ecf2cc75d1070ef" title=" " alt="" coords="312,100,525,141"/>
-<area shape="rect" id="node3" href="$classorg_1_1jhotdraw_1_1draw_1_1_line_form.html#a2d18b137fd9bdb5f571954755bc5efa1" title=" " alt="" coords="587,5,790,47"/>
-<area shape="rect" id="node4" href="$classorg_1_1jhotdraw_1_1draw_1_1_line_form.html#a860b1e35c15b7a4bd6577d397209d391" title=" " alt="" coords="587,71,790,112"/>
-<area shape="rect" id="node5" href="$classorg_1_1jhotdraw_1_1draw_1_1_line_form.html#ab7471455975b22ad2d2513a9252cbaa3" title=" " alt="" coords="573,137,804,163"/>
-<area shape="rect" id="node6" href="$classorg_1_1jhotdraw_1_1draw_1_1_line_form.html#a535a240127eb91f265b205dcb7de40ba" title=" " alt="" coords="587,188,790,229"/>
-</map>

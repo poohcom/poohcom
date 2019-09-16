@@ -1,9 +1,0 @@
-<map id="com.sc.scairo.hmi.draw.bean.timetrend.real.customizer.GroupExpandableRow" name="com.sc.scairo.hmi.draw.bean.timetrend.real.customizer.GroupExpandableRow">
-<area shape="rect" id="node1" title=" " alt="" coords="5,520,352,685"/>
-<area shape="rect" id="node2" title=" " alt="" coords="27,270,181,347"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1common_1_1_time_trend_group_info.html" title=" " alt="" coords="206,160,514,457"/>
-<area shape="rect" id="node4" title=" " alt="" coords="65,13,169,90"/>
-<area shape="rect" id="node5" title=" " alt="" coords="194,13,273,90"/>
-<area shape="rect" id="node6" title=" " alt="" coords="297,5,676,97"/>
-<area shape="rect" id="node7" title=" " alt="" coords="700,5,1079,97"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="com.sc.scairo.hmi.draw.HMIRuntimeDrawingView.findInnerFigure" name="com.sc.scairo.hmi.draw.HMIRuntimeDrawingView.findInnerFigure">
-<area shape="rect" id="node1" title="Find inner figure. @LastUpdate 2019." alt="" coords="896,104,1131,145"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_runtime_drawing_view.html#ae097004398d7b4f12614b4baa5f6cf56" title=" " alt="" coords="613,104,848,145"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_runtime_drawing_view_event_handler.html#abd07856c94b6bb24ff5c4d6bde5d5177" title="Find listener. @LastUpdate 2019." alt="" coords="323,104,565,145"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_runtime_drawing_view_event_handler.html#a78a9c645d37e45f548ea0e89706f6541" title=" " alt="" coords="11,5,269,47"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_runtime_drawing_view_event_handler.html#a23465d4d74d32b3910349af18ce421ae" title=" " alt="" coords="14,71,266,112"/>
-<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_runtime_drawing_view_event_handler.html#a07356746c22dd1338ec6bb9f0d9211f3" title=" " alt="" coords="9,136,271,177"/>
-<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_runtime_drawing_view_event_handler.html#aa7176ea67f30c9e7828348d5f2e5f0da" title=" " alt="" coords="5,201,275,243"/>
-</map>

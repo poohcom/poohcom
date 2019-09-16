@@ -1,8 +1,0 @@
-<map id="com.sc.scairo.hmi.draw.bean.bar.customizer.BarOptionPanel.setObject" name="com.sc.scairo.hmi.draw.bean.bar.customizer.BarOptionPanel.setObject">
-<area shape="rect" id="node1" title=" " alt="" coords="5,104,292,145"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1bar_1_1_bar_option_info.html#aaa0e883b93430b0aeb055a3edd71dc17" title=" " alt="" coords="374,5,593,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1bar_1_1_bar_info.html#a1b85a96606dae9b7122852c1611826f8" title=" " alt="" coords="374,71,593,112"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1bar_1_1_bar_option_info.html#a5b2ad3f0407a52bcf92afd369efd6a61" title=" " alt="" coords="364,136,603,177"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1bar_1_1customizer_1_1_bar_option_panel.html#ab34a3df75b4540e51fcc48c4b40f365d" title=" " alt="" coords="340,201,627,243"/>
-<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1bar_1_1customizer_1_1_bar_option_table_model.html#af6db8a07a7d1bae8e28ebb08e8696308" title=" " alt="" coords="675,201,961,243"/>
-</map>

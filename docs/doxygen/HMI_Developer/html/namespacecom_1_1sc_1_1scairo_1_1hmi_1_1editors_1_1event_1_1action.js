@@ -1,9 +1,0 @@
-var namespacecom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1event_1_1action =
-[
-    [ "EventCreateAction", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1event_1_1action_1_1_event_create_action.html", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1event_1_1action_1_1_event_create_action" ],
-    [ "EventDeleteAction", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1event_1_1action_1_1_event_delete_action.html", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1event_1_1action_1_1_event_delete_action" ],
-    [ "EventEditAction", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1event_1_1action_1_1_event_edit_action.html", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1event_1_1action_1_1_event_edit_action" ],
-    [ "EventExportAction", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1event_1_1action_1_1_event_export_action.html", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1event_1_1action_1_1_event_export_action" ],
-    [ "EventFindAction", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1event_1_1action_1_1_event_find_action.html", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1event_1_1action_1_1_event_find_action" ],
-    [ "EventImportAction", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1event_1_1action_1_1_event_import_action.html", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1event_1_1action_1_1_event_import_action" ]
-];

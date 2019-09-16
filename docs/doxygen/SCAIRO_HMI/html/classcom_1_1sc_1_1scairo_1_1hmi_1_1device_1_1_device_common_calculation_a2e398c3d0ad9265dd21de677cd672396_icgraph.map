@@ -1,6 +1,0 @@
-<map id="com.sc.scairo.hmi.device.DeviceCommonCalculation.getHexAsciiToDec" name="com.sc.scairo.hmi.device.DeviceCommonCalculation.getHexAsciiToDec">
-<area shape="rect" id="node1" title=" " alt="" coords="344,79,565,135"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1protocol_1_1_hmi_editable_protocol.html#aa08c1de00163c3d76ac6a90ec4d14fb6" title=" " alt="" coords="29,5,273,61"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1protocol_1_1_glofa_cnet_protocol.html#aab9dfb64360bde2412adc762b788c4ee" title=" " alt="" coords="9,86,293,127"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1protocol_1_1_m_a_s_t_e_r___k___c_n_e_t.html#ac35d189dd4ff53e52a9c08a305d264b7" title=" " alt="" coords="5,151,296,193"/>
-</map>

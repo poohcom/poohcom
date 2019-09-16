@@ -1,9 +1,0 @@
-<map id="com.sc.scairo.hmi.tag.ItemDeviceAdapter" name="com.sc.scairo.hmi.tag.ItemDeviceAdapter">
-<area shape="rect" id="node1" title=" " alt="" coords="685,111,865,152"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_device_adapter.html" title=" " alt="" coords="427,73,621,115"/>
-<area shape="rect" id="node3" href="$interfacecom_1_1sc_1_1scairo_1_1hmi_1_1listeners_1_1_runtime_tag_field_change_listener.html" title=" " alt="" coords="153,5,363,47"/>
-<area shape="rect" id="node4" title=" " alt="" coords="5,93,105,119"/>
-<area shape="rect" id="node7" href="$interfacecom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1listeners_1_1_item_change_listener.html" title=" " alt="" coords="411,148,637,189"/>
-<area shape="rect" id="node5" title=" " alt="" coords="206,71,310,98"/>
-<area shape="rect" id="node6" title=" " alt="" coords="219,122,297,149"/>
-</map>

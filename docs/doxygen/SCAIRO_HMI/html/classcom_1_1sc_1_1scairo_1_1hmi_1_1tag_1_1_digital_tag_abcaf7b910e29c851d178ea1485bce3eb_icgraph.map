@@ -1,7 +1,0 @@
-<map id="com.sc.scairo.hmi.tag.DigitalTag.getInitValue" name="com.sc.scairo.hmi.tag.DigitalTag.getInitValue">
-<area shape="rect" id="node1" title=" " alt="" coords="332,104,523,145"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1io_1_1csv_1_1_digital_tag_c_s_v_converter.html#ad2f62be19e2d692cbc958be8866c3e5c" title="간략한 설명 작성" alt="" coords="42,5,247,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1undo_1_1_tag_undo_properties.html#ab452144cd028a0f0a49635d3cb831eb9" title=" " alt="" coords="25,71,265,112"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1linker_1_1_device_configuration_linker.html#aae9a989f4306c5018cff6bc877629bbd" title="간략한 설명 작성" alt="" coords="5,136,284,177"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_digital_tag.html#a8ea8825eb5345d6e614785a4c865b7d0" title=" " alt="" coords="49,201,240,243"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="com.sc.scairo.hmi.tag.DataTag.isAlarmTag" name="com.sc.scairo.hmi.tag.DataTag.isAlarmTag">
-<area shape="rect" id="node1" title=" " alt="" coords="600,166,783,207"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1linker_1_1_alarm_configuration_linker.html#a3d4a4ed36338777454feac93d58da4f0" title="간략한 설명 작성" alt="" coords="315,5,552,61"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1linker_1_1_alarm_configuration_linker.html#ad0cf3923972d59fdb59d0c86c409a683" title="간략한 설명 작성" alt="" coords="315,85,552,141"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1io_1_1csv_1_1_digital_tag_c_s_v_converter.html#ad2f62be19e2d692cbc958be8866c3e5c" title="간략한 설명 작성" alt="" coords="331,166,536,207"/>
-<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1io_1_1csv_1_1_analog_tag_c_s_v_converter.html#a7b721607c1d50eb911df93a4744ad03c" title="간략한 설명 작성" alt="" coords="329,231,538,273"/>
-<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1_tag_dictionary.html#a7577702bf5ce54688f824744ff1c00e7" title=" " alt="" coords="327,297,539,338"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1linker_1_1_alarm_configuration_linker.html#ad856238112ec7ead223f300794c98370" title=" " alt="" coords="5,53,267,94"/>
-</map>

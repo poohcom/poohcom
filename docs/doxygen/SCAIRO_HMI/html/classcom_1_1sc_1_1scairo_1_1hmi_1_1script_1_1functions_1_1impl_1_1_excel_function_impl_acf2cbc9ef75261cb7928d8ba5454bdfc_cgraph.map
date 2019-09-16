@@ -1,7 +1,0 @@
-<map id="com.sc.scairo.hmi.script.functions.impl.ExcelFunctionImpl.saveorview" name="com.sc.scairo.hmi.script.functions.impl.ExcelFunctionImpl.saveorview">
-<area shape="rect" id="node1" title=" " alt="" coords="5,26,259,67"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1script_1_1functions_1_1_messages.html#a0b5a3f767745ca59a813ac49b8e223af" title=" " alt="" coords="627,26,853,67"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1script_1_1functions_1_1impl_1_1_excel_function_impl.html#a3e34500e4624c155c70bf133a9962cde" title=" " alt="" coords="307,91,560,133"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1script_1_1functions_1_1impl_1_1_excel_function_impl.html#a53cbc20e9b74ae84168c57002040fc3a" title=" " alt="" coords="307,26,560,67"/>
-<area shape="rect" id="node4" href="$interfacecom_1_1sc_1_1scairo_1_1hmi_1_1script_1_1functions_1_1object_1_1_i_excel_object.html#a00fc9662918decc5578b3901bc94a266" title="간략한 설명 작성" alt="" coords="608,91,872,133"/>
-</map>

@@ -1,8 +1,0 @@
-<map id="com.sc.scairo.hmi.collection.DataCollection" name="com.sc.scairo.hmi.collection.DataCollection">
-<area shape="rect" id="node1" title=" " alt="" coords="143,104,335,145"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1_alarm_data_collection.html" title=" " alt="" coords="383,5,575,47"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1_change_data_collection.html" title=" " alt="" coords="383,71,575,112"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1_operation_data_collection.html" title=" " alt="" coords="383,136,575,177"/>
-<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1collection_1_1_trend_data_collection.html" title=" " alt="" coords="383,201,575,243"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,111,95,138"/>
-</map>

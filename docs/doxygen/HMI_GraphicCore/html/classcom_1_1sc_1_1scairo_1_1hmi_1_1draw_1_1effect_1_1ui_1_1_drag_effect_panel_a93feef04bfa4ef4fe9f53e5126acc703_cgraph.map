@@ -1,7 +1,0 @@
-<map id="com.sc.scairo.hmi.draw.effect.ui.DragEffectPanel.getHoPanel" name="com.sc.scairo.hmi.draw.effect.ui.DragEffectPanel.getHoPanel">
-<area shape="rect" id="node1" title=" " alt="" coords="5,39,219,80"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1ui_1_1_drag_effect_panel.html#a5c7cc1d60df02b671508bf53e51c45ea" title=" " alt="" coords="268,5,481,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1ui_1_1_drag_effect_panel.html#ac7bb3db9811444df2cc1662a0688b583" title=" " alt="" coords="267,71,483,112"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1ui_1_1_drag_effect_panel.html#a73016f088a7bee53e5464aa841fea2a5" title=" " alt="" coords="542,37,758,79"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1ui_1_1_drag_effect_panel.html#a2c2959ade4262d4ec4fe0c27654712d1" title=" " alt="" coords="531,103,769,144"/>
-</map>

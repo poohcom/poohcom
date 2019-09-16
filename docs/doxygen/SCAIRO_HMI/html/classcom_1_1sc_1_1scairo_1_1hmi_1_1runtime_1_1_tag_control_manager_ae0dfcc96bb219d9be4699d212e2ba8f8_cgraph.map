@@ -1,8 +1,0 @@
-<map id="com.sc.scairo.hmi.runtime.TagControlManager.createInstance" name="com.sc.scairo.hmi.runtime.TagControlManager.createInstance">
-<area shape="rect" id="node1" title="간략한 설명 작성" alt="" coords="5,50,228,91"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1runtime_1_1_tag_control_manager.html#aeadd68f75d384b3b838351eb7f32e5dd" title=" " alt="" coords="276,50,527,91"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1runtime_1_1_virtual_tag_pulse_control_timer.html#a488ba1aef4e1fb1731ba97cd02615b6d" title=" " alt="" coords="575,5,783,61"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1runtime_1_1_tag_control_manager.html#aa3144a31ea9fa103183d6070db200191" title="간략한 설명 작성" alt="" coords="575,86,783,127"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1runtime_1_1_virtual_tag_pulse_control_timer.html#adf32c7abe032c2762f1ad59e3c80f87a" title=" " alt="" coords="831,5,1057,61"/>
-<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1runtime_1_1_control_logger.html#ae523fddf674b290aa866d0455bfe5432" title="간략한 설명 작성" alt="" coords="854,86,1034,127"/>
-</map>

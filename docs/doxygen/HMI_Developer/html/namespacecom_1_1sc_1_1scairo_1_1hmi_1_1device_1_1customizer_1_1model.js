@@ -1,7 +1,0 @@
-var namespacecom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1model =
-[
-    [ "BlockTableCellEditor", "classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1model_1_1_block_table_cell_editor.html", "classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1model_1_1_block_table_cell_editor" ],
-    [ "DeviceBlockAutoTableModel", "classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1model_1_1_device_block_auto_table_model.html", "classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1model_1_1_device_block_auto_table_model" ],
-    [ "DeviceBlockResultTableModel", "classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1model_1_1_device_block_result_table_model.html", "classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1model_1_1_device_block_result_table_model" ],
-    [ "DeviceMemoryTableModel", "classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1model_1_1_device_memory_table_model.html", "classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1customizer_1_1model_1_1_device_memory_table_model" ]
-];

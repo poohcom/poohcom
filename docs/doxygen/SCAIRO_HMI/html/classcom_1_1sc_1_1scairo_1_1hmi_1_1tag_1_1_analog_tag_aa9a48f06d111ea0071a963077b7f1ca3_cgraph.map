@@ -1,9 +1,0 @@
-<map id="com.sc.scairo.hmi.tag.AnalogTag.update" name="com.sc.scairo.hmi.tag.AnalogTag.update">
-<area shape="rect" id="node1" title=" " alt="" coords="5,169,200,211"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_analog_tag.html#aab1ab2f700b1a6cf3947da22409b8cee" title=" " alt="" coords="251,5,445,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_analog_tag.html#a211f8eb4ec2de838ed9e7ec49d7b43a5" title=" " alt="" coords="251,71,445,112"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_analog_tag.html#a67682e3e374407c57b2f1988fe12d40f" title=" " alt="" coords="251,136,445,177"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_analog_tag.html#af1ef9fff70c8e86564f9cbda686d249b" title=" " alt="" coords="248,201,448,243"/>
-<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_analog_tag.html#a2a864ee899e018225c1729f5bea81923" title=" " alt="" coords="251,267,445,308"/>
-<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1undo_1_1_undo_properties.html#a1a0e1991f8cf7a215cec17aaecc70579" title="간략한 설명 작성" alt="" coords="251,332,445,373"/>
-</map>

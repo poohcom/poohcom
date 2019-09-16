@@ -1,8 +1,0 @@
-<map id="com.sc.scairo.hmi.runtime.VirtualTagPulseControlTimer.getInstance" name="com.sc.scairo.hmi.runtime.VirtualTagPulseControlTimer.getInstance">
-<area shape="rect" id="node1" title=" " alt="" coords="577,97,785,153"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1script_1_1functions_1_1impl_1_1_common_tag_function_impl.html#ae1f4ed11777809864479bfc3a58e282c" title=" " alt="" coords="276,5,529,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1script_1_1functions_1_1impl_1_1_common_tag_function_impl.html#acbeb3726444201d38b39620502809cdd" title=" " alt="" coords="276,71,529,112"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1script_1_1functions_1_1impl_1_1_common_tag_function_impl.html#a718dcc59f6955a78c80cd9d77cc4c5b5" title=" " alt="" coords="276,136,529,177"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1runtime_1_1_tag_control_manager.html#aeadd68f75d384b3b838351eb7f32e5dd" title=" " alt="" coords="277,201,528,243"/>
-<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1runtime_1_1_tag_control_manager.html#ae0dfcc96bb219d9be4699d212e2ba8f8" title="간략한 설명 작성" alt="" coords="5,201,228,243"/>
-</map>

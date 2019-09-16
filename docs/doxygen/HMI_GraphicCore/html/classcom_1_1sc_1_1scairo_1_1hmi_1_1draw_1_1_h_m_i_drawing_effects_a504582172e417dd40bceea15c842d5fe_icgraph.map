@@ -1,6 +1,0 @@
-<map id="com.sc.scairo.hmi.draw.HMIDrawingEffects.removeById" name="com.sc.scairo.hmi.draw.HMIDrawingEffects.removeById">
-<area shape="rect" id="node1" title="Removes the by id. @LastUpdate 2019." alt="" coords="287,71,520,112"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing_view_transfer_handler.html#a7cd00c35866252563982d1b37c8b6fdb" title=" " alt="" coords="5,5,239,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing_view_transfer_handler.html#a219e9a22d5f0d6208b124c658f15b9fc" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="5,71,239,112"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drag_tracker.html#a1b42a7d27596810f07c448a26bfa8742" title=" " alt="" coords="15,136,229,177"/>
-</map>

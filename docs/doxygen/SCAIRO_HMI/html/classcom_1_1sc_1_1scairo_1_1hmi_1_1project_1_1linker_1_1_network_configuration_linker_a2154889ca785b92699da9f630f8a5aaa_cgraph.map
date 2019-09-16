@@ -1,6 +1,0 @@
-<map id="com.sc.scairo.hmi.project.linker.NetworkConfigurationLinker.makeNoAlarmDigitalSystemTag" name="com.sc.scairo.hmi.project.linker.NetworkConfigurationLinker.makeNoAlarmDigitalSystemTag">
-<area shape="rect" id="node1" title="간략한 설명 작성" alt="" coords="5,57,271,113"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_digital_tag.html#a7999300e9c77fefc6304355ebfe7fd58" title=" " alt="" coords="339,5,530,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_tag.html#aef6331ac8630fe3b9dd2f5f72cf500d9" title=" " alt="" coords="319,71,551,98"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_tag.html#aad04e7154741cee0ba6634631971e5fe" title="간략한 설명 작성" alt="" coords="321,122,549,149"/>
-</map>

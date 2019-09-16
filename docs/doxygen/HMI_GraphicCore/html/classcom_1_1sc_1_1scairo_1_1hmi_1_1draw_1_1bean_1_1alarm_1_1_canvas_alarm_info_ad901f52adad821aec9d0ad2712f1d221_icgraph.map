@@ -1,8 +1,0 @@
-<map id="com.sc.scairo.hmi.draw.bean.alarm.CanvasAlarmInfo.getFilterDirection" name="com.sc.scairo.hmi.draw.bean.alarm.CanvasAlarmInfo.getFilterDirection">
-<area shape="rect" id="node1" title=" " alt="" coords="633,104,865,145"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1alarm_1_1customizer_1_1_canvas_alarm_customizer.html#abb0ef55236e1acdff9a56981d3412987" title=" " alt="" coords="285,5,585,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1alarm_1_1_canvas_alarm.html#abde20029d3e7783e097f4f4bed208f8d" title=" " alt="" coords="319,71,551,112"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1alarm_1_1customizer_1_1_canvas_alarm_customizer.html#a9f44c3e599e1c7a2125f95e64887daae" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="285,136,585,177"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1alarm_1_1_canvas_alarm.html#a285073693ffb612012022c4334afc0a8" title=" " alt="" coords="319,201,551,243"/>
-<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1alarm_1_1_canvas_alarm.html#a1005c553e1de995eb3e5ac0cde86fd51" title=" " alt="" coords="5,201,237,243"/>
-</map>

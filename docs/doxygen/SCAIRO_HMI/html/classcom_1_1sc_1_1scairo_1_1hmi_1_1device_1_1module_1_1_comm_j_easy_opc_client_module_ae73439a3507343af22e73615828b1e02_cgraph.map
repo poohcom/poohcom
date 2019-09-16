@@ -1,6 +1,0 @@
-<map id="com.sc.scairo.hmi.device.module.CommJEasyOpcClientModule.getServerList" name="com.sc.scairo.hmi.device.module.CommJEasyOpcClientModule.getServerList">
-<area shape="rect" id="node1" title=" " alt="" coords="5,71,280,112"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1info_1_1connection_1_1_opc_server_info.html#ad34f5aacad021dff12b61c3f7cd8ea9d" title=" " alt="" coords="328,5,592,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1info_1_1connection_1_1_opc_server_info.html#a8c6e894f45e0b775832f99f181d21ac8" title=" " alt="" coords="328,71,592,112"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1info_1_1connection_1_1_opc_server_info.html#ab747b20624961763b8c533c801297292" title=" " alt="" coords="328,136,592,177"/>
-</map>

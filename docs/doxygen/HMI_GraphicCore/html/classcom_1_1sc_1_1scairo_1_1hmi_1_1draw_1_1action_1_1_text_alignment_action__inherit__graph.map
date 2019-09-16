@@ -1,9 +1,0 @@
-<map id="com.sc.scairo.hmi.draw.action.TextAlignmentAction" name="com.sc.scairo.hmi.draw.action.TextAlignmentAction">
-<area shape="rect" id="node1" title=" " alt="" coords="119,549,322,671"/>
-<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1action_1_1_text_alignment_action_1_1_horizontal.html" title=" " alt="" coords="5,719,209,972"/>
-<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1action_1_1_text_alignment_action_1_1_vertical.html" title=" " alt="" coords="234,755,437,935"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1action_1_1_abstract_attribute_action.html" title=" " alt="" coords="29,131,231,501"/>
-<area shape="rect" id="node3" title=" " alt="" coords="11,5,119,83"/>
-<area shape="rect" id="node4" title=" " alt="" coords="143,5,247,83"/>
-<area shape="rect" id="node5" title=" " alt="" coords="255,277,367,355"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="com.sc.scairo.hmi.draw.HMIRuntimeDrawingView.setDrawing" name="com.sc.scairo.hmi.draw.HMIRuntimeDrawingView.setDrawing">
-<area shape="rect" id="node1" title=" " alt="" coords="571,39,805,80"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_runtime_view.html#a963d9f7415d5a2233813ce1c9be8381d" title="3. 18 수정 HmiVMOptions#isWindowXmlUse()의 결과에 따라 읽어들이는 파일의 종류를 달리하여 로딩한다. @LastUpdate 2019." alt="" coords="288,5,523,47"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_runtime_view.html#af7d64a5433c3dd38412fae509cc59d4e" title=" " alt="" coords="288,71,523,112"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_runtime_view.html#afdee756dc6911538eae25251c6cd7eaf" title=" " alt="" coords="5,5,240,47"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_runtime_view.html#aba60561c545662c1fac3ce3e6ac8a1c9" title=" " alt="" coords="5,71,240,112"/>
-</map>

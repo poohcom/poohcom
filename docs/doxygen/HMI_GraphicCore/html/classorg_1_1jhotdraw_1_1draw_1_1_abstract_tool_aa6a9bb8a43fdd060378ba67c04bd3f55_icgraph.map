@@ -1,8 +1,0 @@
-<map id="org.jhotdraw.draw.AbstractTool.fireToolStarted" name="org.jhotdraw.draw.AbstractTool.fireToolStarted">
-<area shape="rect" id="node1" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="317,136,493,177"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1tool_1_1_group_symbol_creation_tool.html#a7c6d61810dec6a12e7252710a35680d7" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="5,5,269,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1tool_1_1_image_symbol_creation_tool.html#aef90fd975c9e473cff7f0b2ea339e269" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="5,71,269,112"/>
-<area shape="rect" id="node4" href="$classorg_1_1jhotdraw_1_1draw_1_1_text_tool.html#ad51088b250a050e8b712c58779d6d51d" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="28,136,247,177"/>
-<area shape="rect" id="node5" href="$classorg_1_1jhotdraw_1_1draw_1_1_bezier_tool.html#a492c950f78d9e579478313311d0ba1c9" title=" " alt="" coords="55,201,219,243"/>
-<area shape="rect" id="node6" href="$classorg_1_1jhotdraw_1_1draw_1_1_abstract_tool.html#a8b690939c66512d77f80dbb67798e366" title=" " alt="" coords="49,267,225,308"/>
-</map>

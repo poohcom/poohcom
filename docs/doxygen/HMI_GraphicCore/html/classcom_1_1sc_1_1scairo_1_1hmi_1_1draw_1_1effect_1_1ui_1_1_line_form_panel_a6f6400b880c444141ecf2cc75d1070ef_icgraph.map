@@ -1,9 +1,0 @@
-<map id="com.sc.scairo.hmi.draw.effect.ui.LineFormPanel.getFields" name="com.sc.scairo.hmi.draw.effect.ui.LineFormPanel.getFields">
-<area shape="rect" id="node1" title=" " alt="" coords="1148,64,1361,105"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1ui_1_1_blink_effect_panel.html#a1e560cdfbc8ef963110c50047bb4522e" title=" " alt="" coords="577,5,791,47"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1ui_1_1_fill_effect_panel.html#a2689eaa175cce2f71cc9770613dcbcc3" title=" " alt="" coords="864,64,1077,105"/>
-<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1ui_1_1_color_change_condition_panel.html#a37e9b19b4603117a0fd8b9878be24204" title=" " alt="" coords="841,129,1100,171"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1ui_1_1_effect_list_customizer.html#ae10aa0a450cf26b2e2bf778cf2243c48" title=" " alt="" coords="308,64,527,105"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1ui_1_1_effect_customizer_dialog.html#a9406b87dc7e1052948ef4bcf1ab20c86" title=" " alt="" coords="5,64,260,105"/>
-<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1ui_1_1_color_change_effect_panel.html#a29b27904ee73542936d51f305e527142" title=" " alt="" coords="575,125,793,167"/>
-</map>

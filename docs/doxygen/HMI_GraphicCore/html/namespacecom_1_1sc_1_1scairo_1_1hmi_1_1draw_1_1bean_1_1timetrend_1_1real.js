@@ -1,9 +1,0 @@
-var namespacecom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1real =
-[
-    [ "customizer", "namespacecom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1real_1_1customizer.html", "namespacecom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1real_1_1customizer" ],
-    [ "ChartScrollBar", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1real_1_1_chart_scroll_bar.html", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1real_1_1_chart_scroll_bar" ],
-    [ "RealTimeBufferInfo", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1real_1_1_real_time_buffer_info.html", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1real_1_1_real_time_buffer_info" ],
-    [ "RealTimeTrend", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1real_1_1_real_time_trend.html", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1real_1_1_real_time_trend" ],
-    [ "RealTimeTrendBeanInfo", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1real_1_1_real_time_trend_bean_info.html", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1real_1_1_real_time_trend_bean_info" ],
-    [ "TimeTrendCommonRealInfo", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1real_1_1_time_trend_common_real_info.html", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1real_1_1_time_trend_common_real_info" ]
-];

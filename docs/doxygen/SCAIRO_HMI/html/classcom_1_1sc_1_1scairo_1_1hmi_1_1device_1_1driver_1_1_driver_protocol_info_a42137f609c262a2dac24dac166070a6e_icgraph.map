@@ -1,6 +1,0 @@
-<map id="com.sc.scairo.hmi.device.driver.DriverProtocolInfo.getReadMaxBlockSize" name="com.sc.scairo.hmi.device.driver.DriverProtocolInfo.getReadMaxBlockSize">
-<area shape="rect" id="node1" title=" " alt="" coords="316,71,575,112"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1_driver_dictionary.html#abb8ec2ac2b3d418161f2adb97368f7c6" title=" " alt="" coords="13,5,260,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1_driver_dictionary.html#ad0bd844a76eb92739366e4489c585ea8" title=" " alt="" coords="13,71,261,112"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1protocol_1_1_hmi_editable_protocol.html#a9db7675003bed4398f828f8a435fb039" title=" " alt="" coords="5,136,268,177"/>
-</map>

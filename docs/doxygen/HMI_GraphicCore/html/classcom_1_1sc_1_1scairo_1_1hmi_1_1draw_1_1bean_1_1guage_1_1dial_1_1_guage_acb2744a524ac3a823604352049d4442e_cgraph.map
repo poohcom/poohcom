@@ -1,6 +1,0 @@
-<map id="com.sc.scairo.hmi.draw.bean.guage.dial.Guage.setMarks" name="com.sc.scairo.hmi.draw.bean.guage.dial.Guage.setMarks">
-<area shape="rect" id="node1" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="5,71,264,112"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1guage_1_1dial_1_1_guage_option_info.html#a8834c774df496aa37a3aba402733cb07" title=" " alt="" coords="312,5,571,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1guage_1_1dial_1_1_guage_info.html#abf15b3d3c2a7cdf0e4d196075d331881" title=" " alt="" coords="312,71,571,112"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1guage_1_1dial_1_1_guage_option_info.html#a22c55704fb6721abf7e8f0dd4248dd55" title=" " alt="" coords="312,136,571,177"/>
-</map>

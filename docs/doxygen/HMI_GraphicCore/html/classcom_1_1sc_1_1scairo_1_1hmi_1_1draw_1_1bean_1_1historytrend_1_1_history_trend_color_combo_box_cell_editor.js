@@ -1,8 +1,0 @@
-var classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1historytrend_1_1_history_trend_color_combo_box_cell_editor =
-[
-    [ "HistoryTrendColorComboBoxCellEditor", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1historytrend_1_1_history_trend_color_combo_box_cell_editor.html#a47d89538d7e0458588aa9c4ff4f08930", null ],
-    [ "getCellEditorValue", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1historytrend_1_1_history_trend_color_combo_box_cell_editor.html#a17a914a212d38736a7280a7326bbe926", null ],
-    [ "getTableCellEditorComponent", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1historytrend_1_1_history_trend_color_combo_box_cell_editor.html#ab3a8db244ad537b94622a21ad603f39c", null ],
-    [ "isCellEditable", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1historytrend_1_1_history_trend_color_combo_box_cell_editor.html#aa0b75f9cfd73cf9dda8bacf527bcacae", null ],
-    [ "serialVersionUID", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1historytrend_1_1_history_trend_color_combo_box_cell_editor.html#a59be851efb3db6cf48feea09c1f37954", null ]
-];

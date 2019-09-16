@@ -1,6 +1,0 @@
-<map id="com.sc.scairo.hmi.draw.HMIDrawingEffects.update" name="com.sc.scairo.hmi.draw.HMIDrawingEffects.update">
-<area shape="rect" id="node1" title="Update. @LastUpdate 2019." alt="" coords="308,71,541,112"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1ui_1_1_effect_customizer_dialog.html#a9406b87dc7e1052948ef4bcf1ab20c86" title=" " alt="" coords="5,5,260,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1undo_1_1_effect_undoable_edit.html#a7df6cdbd7ed6c1f069d50d1d3dac6dd2" title=" " alt="" coords="35,71,231,112"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1undo_1_1_effect_undoable_edit.html#a5e242817d0d33fb6e7c776938bee18bd" title=" " alt="" coords="35,136,231,177"/>
-</map>

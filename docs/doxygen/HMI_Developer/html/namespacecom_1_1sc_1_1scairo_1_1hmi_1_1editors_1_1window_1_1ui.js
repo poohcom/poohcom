@@ -1,8 +1,0 @@
-var namespacecom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1ui =
-[
-    [ "FigureFindDialog", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1ui_1_1_figure_find_dialog.html", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1ui_1_1_figure_find_dialog" ],
-    [ "WindowExportDialog", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1ui_1_1_window_export_dialog.html", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1ui_1_1_window_export_dialog" ],
-    [ "WindowImportDialog", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1ui_1_1_window_import_dialog.html", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1ui_1_1_window_import_dialog" ],
-    [ "WindowValidateDialog", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1ui_1_1_window_validate_dialog.html", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1ui_1_1_window_validate_dialog" ],
-    [ "WindowValidateResultDialog", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1ui_1_1_window_validate_result_dialog.html", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1ui_1_1_window_validate_result_dialog" ]
-];

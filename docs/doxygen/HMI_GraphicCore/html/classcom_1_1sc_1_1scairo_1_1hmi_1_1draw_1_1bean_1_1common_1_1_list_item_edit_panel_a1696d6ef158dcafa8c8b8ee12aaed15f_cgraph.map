@@ -1,7 +1,0 @@
-<map id="com.sc.scairo.hmi.draw.bean.common.ListItemEditPanel.getObject" name="com.sc.scairo.hmi.draw.bean.common.ListItemEditPanel.getObject">
-<area shape="rect" id="node1" title=" " alt="" coords="5,71,256,112"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1common_1_1_list_item_edit_panel.html#a54c09979f8df1cc285c9eae3e9fe9e0d" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="304,37,555,79"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1common_1_1_name_with_script_item.html#addbebb9b221198a49fd205c9e88318fe" title=" " alt="" coords="304,103,555,144"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1common_1_1_name_with_script_item.html#a4dd28885872ef3134f5cb1b81f35e011" title=" " alt="" coords="603,5,853,47"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1common_1_1_messages.html#ad0b02da945082e6c47679948c2f5b62a" title=" " alt="" coords="603,71,853,112"/>
-</map>

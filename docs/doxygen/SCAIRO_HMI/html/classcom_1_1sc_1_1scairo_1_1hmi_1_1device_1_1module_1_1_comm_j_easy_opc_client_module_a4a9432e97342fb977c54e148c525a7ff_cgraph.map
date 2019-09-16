@@ -1,6 +1,0 @@
-<map id="com.sc.scairo.hmi.device.module.CommJEasyOpcClientModule.logerWrite" name="com.sc.scairo.hmi.device.module.CommJEasyOpcClientModule.logerWrite">
-<area shape="rect" id="node1" title="간략한 설명 작성" alt="" coords="5,35,264,76"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1info_1_1_device_info.html#abb9fa7a81a9e080ab2cb3b7b013b181d" title=" " alt="" coords="621,5,819,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1module_1_1_comm_j_easy_opc_client_module.html#ae6695aaf909f8283f31d132c8887cdcf" title=" " alt="" coords="312,35,573,76"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1info_1_1_device_info.html#a7d419f50b9d0bd787b44f6b57a284c58" title=" " alt="" coords="344,100,541,141"/>
-</map>

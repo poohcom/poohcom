@@ -1,7 +1,0 @@
-<map id="com.sc.scairo.hmi.device.info.connection.TcpUdpConnectionInfo.getTcpAddress" name="com.sc.scairo.hmi.device.info.connection.TcpUdpConnectionInfo.getTcpAddress">
-<area shape="rect" id="node1" title=" " alt="" coords="353,104,617,145"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1module_1_1_comm_tcp_client_module.html#a7b78c0c7bd9690cee1ce02f1ce2ecc1b" title=" " alt="" coords="8,5,303,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1module_1_1_comm_tcp_server_module.html#ac10018402284217d70fdcc63c764e633" title=" " alt="" coords="5,71,305,112"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1module_1_1_comm_udp_client_module.html#a5d02e39787c0f34f3f130214aa355c60" title=" " alt="" coords="6,136,305,177"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1info_1_1connection_1_1_tcp_udp_connection_info.html#ab715348a201a406f3cb11ea8753943bd" title=" " alt="" coords="23,201,287,243"/>
-</map>

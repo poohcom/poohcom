@@ -1,7 +1,0 @@
-<map id="com.sc.scairo.hmi.node.HMINode" name="com.sc.scairo.hmi.node.HMINode">
-<area shape="rect" id="node1" title=" " alt="" coords="128,80,347,107"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1node_1_1_application_server_node.html" title=" " alt="" coords="5,155,235,196"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1node_1_1_web_server_node.html" title=" " alt="" coords="259,155,451,196"/>
-<area shape="rect" id="node2" href="$interfacecom_1_1sc_1_1scairo_1_1hmi_1_1node_1_1_i_node.html" title=" " alt="" coords="54,5,253,32"/>
-<area shape="rect" id="node3" title=" " alt="" coords="277,5,366,32"/>
-</map>

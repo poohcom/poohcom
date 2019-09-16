@@ -1,4 +1,0 @@
-var classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1historytrend_1_1_history_trend_bean_info =
-[
-    [ "getBeanDescriptor", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1historytrend_1_1_history_trend_bean_info.html#ad13966f45539b22cfaff62394c338160", null ]
-];

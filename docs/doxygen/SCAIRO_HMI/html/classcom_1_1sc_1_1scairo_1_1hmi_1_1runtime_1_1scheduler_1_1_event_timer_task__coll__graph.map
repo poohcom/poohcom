@@ -1,7 +1,0 @@
-<map id="com.sc.scairo.hmi.runtime.scheduler.EventTimerTask" name="com.sc.scairo.hmi.runtime.scheduler.EventTimerTask">
-<area shape="rect" id="node1" title=" " alt="" coords="5,185,245,227"/>
-<area shape="rect" id="node2" title=" " alt="" coords="36,89,119,115"/>
-<area shape="rect" id="node3" href="$interfacecom_1_1sc_1_1scairo_1_1hmi_1_1event_1_1_i_h_m_i_event.html" title=" " alt="" coords="143,81,310,123"/>
-<area shape="rect" id="node4" title=" " alt="" coords="117,5,221,32"/>
-<area shape="rect" id="node5" title=" " alt="" coords="246,5,322,32"/>
-</map>

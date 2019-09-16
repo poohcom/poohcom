@@ -1,7 +1,0 @@
-<map id="com.sc.scairo.hmi.draw.bean.alarm.CanvasAlarmFilter.getFilterColor" name="com.sc.scairo.hmi.draw.bean.alarm.CanvasAlarmFilter.getFilterColor">
-<area shape="rect" id="node1" title=" " alt="" coords="5,104,237,145"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1alarm_1_1_canvas_alarm_level_filter.html#a8821ec99d8c3a5b103bd6a565ab6e729" title=" " alt="" coords="285,5,517,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1alarm_1_1_canvas_alarm_state_filter.html#a1c4ad62898d7d8d18c05332109a57177" title=" " alt="" coords="285,71,517,112"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1alarm_1_1_canvas_alarm_type_filter.html#a0c59566c3b5755202d8a502fb0a672c5" title=" " alt="" coords="285,136,517,177"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1alarm_1_1_canvas_alarm_group_filter.html#ac077fd8f9882d4a82f0d3291e1769222" title=" " alt="" coords="285,201,517,243"/>
-</map>

@@ -1,8 +1,0 @@
-<map id="org.jhotdraw.draw.TextTool.deactivate" name="org.jhotdraw.draw.TextTool.deactivate">
-<area shape="rect" id="node1" title=" " alt="" coords="5,46,244,73"/>
-<area shape="rect" id="node2" href="$classorg_1_1jhotdraw_1_1draw_1_1_text_tool.html#aee25c5498538454ae955c8d845d073e5" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="292,46,516,73"/>
-<area shape="rect" id="node3" href="$classorg_1_1jhotdraw_1_1draw_1_1_creation_tool.html#a9f29860e01f158a01d2b51491c347e9d" title=" " alt="" coords="565,5,739,47"/>
-<area shape="rect" id="node4" href="$classorg_1_1jhotdraw_1_1draw_1_1_abstract_tool.html#a8786dd42c4ef4adeccc8ddd832154981" title=" " alt="" coords="564,71,740,112"/>
-<area shape="rect" id="node5" href="$interfaceorg_1_1jhotdraw_1_1draw_1_1_drawing_view.html#ae1c1ffdb3cb4a45d07e30caff130aafb" title=" " alt="" coords="789,37,963,79"/>
-<area shape="rect" id="node6" href="$classorg_1_1jhotdraw_1_1draw_1_1_abstract_tool.html#aff0b3b49e138b5b531e488d5decba143" title=" " alt="" coords="788,103,964,144"/>
-</map>

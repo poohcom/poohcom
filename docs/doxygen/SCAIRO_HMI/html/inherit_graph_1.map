@@ -1,7 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" title=" " alt="" coords="5,111,67,138"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1_alarm_delay_checker.html" title=" " alt="" coords="139,5,309,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1deploy_1_1_project_deployer.html" title=" " alt="" coords="115,71,333,112"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1deploy_1_1_project_deploy_unpacker.html" title=" " alt="" coords="115,136,333,177"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1runtime_1_1_control_logger.html" title=" " alt="" coords="134,201,314,243"/>
-</map>

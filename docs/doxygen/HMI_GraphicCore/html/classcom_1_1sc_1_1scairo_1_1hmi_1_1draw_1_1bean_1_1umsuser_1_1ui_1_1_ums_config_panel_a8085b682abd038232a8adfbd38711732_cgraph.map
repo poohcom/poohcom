@@ -1,7 +1,0 @@
-<map id="com.sc.scairo.hmi.draw.bean.umsuser.ui.UmsConfigPanel.getButtonPanel" name="com.sc.scairo.hmi.draw.bean.umsuser.ui.UmsConfigPanel.getButtonPanel">
-<area shape="rect" id="node1" title=" " alt="" coords="5,39,269,80"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1umsuser_1_1ui_1_1_ums_config_panel.html#a5992b3299e29f48d693efff83bf6e029" title=" " alt="" coords="317,5,581,47"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1umsuser_1_1ui_1_1_ums_config_panel.html#a16855a112f83923370e0de8055817743" title=" " alt="" coords="317,71,581,112"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1umsuser_1_1_ums_constants.html#a709127ff5579a8568319bd66caddb4d0" title=" " alt="" coords="636,5,887,47"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1umsuser_1_1ui_1_1_ums_image_button.html#abb9cea601b7cb2aca555272a09d0cd72" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="629,71,893,112"/>
-</map>

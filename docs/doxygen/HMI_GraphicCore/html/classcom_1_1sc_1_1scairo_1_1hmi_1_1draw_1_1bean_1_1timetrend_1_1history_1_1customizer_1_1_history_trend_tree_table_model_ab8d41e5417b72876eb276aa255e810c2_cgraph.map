@@ -1,7 +1,0 @@
-<map id="com.sc.scairo.hmi.draw.bean.timetrend.history.customizer.HistoryTrendTreeTableModel.addTagRow" name="com.sc.scairo.hmi.draw.bean.timetrend.history.customizer.HistoryTrendTreeTableModel.addTagRow">
-<area shape="rect" id="node1" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="5,39,371,80"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1history_1_1customizer_1_1_group_expandable_row.html#ac255f501e97ebcc9713b0ad72c0e24fb" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="419,5,784,47"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1history_1_1customizer_1_1_tag_expandable_row.html#a6513ffaa4848cfc40a5bff5e342136c2" title=" " alt="" coords="419,71,784,112"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1history_1_1_history_trend_group_info.html#a10cd4e3880afb4a58a733a466028c864" title=" " alt="" coords="832,5,1129,47"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1history_1_1_history_trend_data_tag_info.html#a456c6d4ad04402f807a7cd2c3185caa0" title=" " alt="" coords="832,71,1129,112"/>
-</map>

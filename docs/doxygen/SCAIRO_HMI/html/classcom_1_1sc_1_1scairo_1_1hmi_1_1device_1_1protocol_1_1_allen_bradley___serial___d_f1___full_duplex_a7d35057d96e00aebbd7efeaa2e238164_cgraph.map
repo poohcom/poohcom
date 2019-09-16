@@ -1,9 +1,0 @@
-<map id="com.sc.scairo.hmi.device.protocol.AllenBradley_Serial_DF1_FullDuplex.getMakeBitWriteMessage" name="com.sc.scairo.hmi.device.protocol.AllenBradley_Serial_DF1_FullDuplex.getMakeBitWriteMessage">
-<area shape="rect" id="node1" title=" " alt="" coords="5,129,261,185"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_map_device_adapter.html#a42919cbefba6a97f8812e3b2c19e9caa" title=" " alt="" coords="347,5,527,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_map_device_adapter.html#ab658d0902c615b2f1508c4b105e57997" title=" " alt="" coords="347,71,527,112"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_map_device_adapter.html#a0496dc3d7da26225de43e864885f4387" title=" " alt="" coords="342,136,533,177"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_data_tag.html#a9004030f0d6e76e3f003a9ebe04f8cc1" title=" " alt="" coords="346,201,529,243"/>
-<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1protocol_1_1_allen_bradley___serial___d_f1___full_duplex.html#ab030bd8843ceebb7de18c46d93f083d1" title=" " alt="" coords="309,267,565,323"/>
-<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1_device_common_calculation.html#a0d1817c7134f8059d80227b7b2b1ead4" title=" " alt="" coords="613,275,892,316"/>
-</map>

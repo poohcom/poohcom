@@ -1,6 +1,0 @@
-var namespacecom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1radiobutton =
-[
-    [ "customizer", "namespacecom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1radiobutton_1_1customizer.html", "namespacecom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1radiobutton_1_1customizer" ],
-    [ "CanvasRadioButton", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1radiobutton_1_1_canvas_radio_button.html", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1radiobutton_1_1_canvas_radio_button" ],
-    [ "CanvasRadioButtonBeanInfo", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1radiobutton_1_1_canvas_radio_button_bean_info.html", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1radiobutton_1_1_canvas_radio_button_bean_info" ]
-];

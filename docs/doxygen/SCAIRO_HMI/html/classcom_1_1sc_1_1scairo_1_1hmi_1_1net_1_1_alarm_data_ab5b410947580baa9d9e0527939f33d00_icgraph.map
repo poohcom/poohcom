@@ -1,9 +1,0 @@
-<map id="com.sc.scairo.hmi.net.AlarmData.setAlarmGroup" name="com.sc.scairo.hmi.net.AlarmData.setAlarmGroup">
-<area shape="rect" id="node1" title=" " alt="" coords="568,71,757,112"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_alarm_data.html#a8306f6133631b206771ffc4141515a4b" title=" " alt="" coords="297,5,487,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_alarm_data.html#abbbd6c612f36a996e43ebbbf15714603" title=" " alt="" coords="264,71,520,112"/>
-<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_alarm_data.html#a38370e43fbab97a0ef8c22fa36de356f" title=" " alt="" coords="297,136,487,177"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1runtime_1_1_alarm_data_queue.html#a95870e7c02de379ab0551027e5133e70" title="간략한 설명 작성" alt="" coords="12,5,209,47"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1runtime_1_1_alarm_data_queue.html#adf7c62348ab5cda1b23ef06d57c702c0" title="간략한 설명 작성" alt="" coords="5,71,216,112"/>
-<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_alarm_data.html#a40bdcba037e89fff3775e410b39c6c5d" title=" " alt="" coords="16,136,205,177"/>
-</map>

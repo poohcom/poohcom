@@ -1,6 +1,0 @@
-<map id="com.sc.scairo.hmi.draw.HMIDrawingView.startCloseScript" name="com.sc.scairo.hmi.draw.HMIDrawingView.startCloseScript">
-<area shape="rect" id="node1" title="Start close script. @LastUpdate 2016." alt="" coords="5,71,239,112"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing_script_property.html#a80e65a676e3d09c1281f7d27bda4b06d" title=" " alt="" coords="297,5,531,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing.html#a2842163362fa956fd68702a89b74d33d" title=" " alt="" coords="287,71,541,112"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing_script_property.html#ac036f6039ed0f9e6cb197bd3e53d421b" title=" " alt="" coords="297,136,531,177"/>
-</map>

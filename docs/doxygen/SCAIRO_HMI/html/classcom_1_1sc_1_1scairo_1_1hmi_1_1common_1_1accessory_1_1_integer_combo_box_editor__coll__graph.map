@@ -1,7 +1,0 @@
-<map id="com.sc.scairo.hmi.common.accessory.IntegerComboBoxEditor" name="com.sc.scairo.hmi.common.accessory.IntegerComboBoxEditor">
-<area shape="rect" id="node1" title=" " alt="" coords="5,185,256,227"/>
-<area shape="rect" id="node2" title=" " alt="" coords="8,89,128,115"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1common_1_1accessory_1_1_integer_field.html" title=" " alt="" coords="152,81,403,123"/>
-<area shape="rect" id="node4" title=" " alt="" coords="175,5,257,32"/>
-<area shape="rect" id="node5" title=" " alt="" coords="281,5,397,32"/>
-</map>

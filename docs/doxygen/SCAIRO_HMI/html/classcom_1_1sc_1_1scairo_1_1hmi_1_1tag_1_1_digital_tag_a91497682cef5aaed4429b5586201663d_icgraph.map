@@ -1,5 +1,0 @@
-<map id="com.sc.scairo.hmi.tag.DigitalTag.setBitValue" name="com.sc.scairo.hmi.tag.DigitalTag.setBitValue">
-<area shape="rect" id="node1" title=" " alt="" coords="332,39,523,80"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1project_1_1linker_1_1_device_configuration_linker.html#aae9a989f4306c5018cff6bc877629bbd" title="간략한 설명 작성" alt="" coords="5,5,284,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1module_1_1_comm_tcp_server_module.html#a7bfd4cdff97ced43abf00d0d286e0603" title=" " alt="" coords="29,71,260,112"/>
-</map>

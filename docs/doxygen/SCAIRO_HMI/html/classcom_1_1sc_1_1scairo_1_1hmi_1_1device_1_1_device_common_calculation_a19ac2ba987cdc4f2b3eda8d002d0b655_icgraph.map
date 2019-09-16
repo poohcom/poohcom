@@ -1,9 +1,0 @@
-<map id="com.sc.scairo.hmi.device.DeviceCommonCalculation.signed8" name="com.sc.scairo.hmi.device.DeviceCommonCalculation.signed8">
-<area shape="rect" id="node1" title="간략한 설명 작성" alt="" coords="356,199,581,241"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1protocol_1_1_allen_bradley___serial___d_f1___full_duplex.html#aa601a63b3920d8678aef33c520f14582" title=" " alt="" coords="29,5,285,61"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1protocol_1_1_siemens___s7___enet_loader.html#ad35920d781d580c4fd843b16078dc6de" title=" " alt="" coords="14,85,299,141"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1protocol_1_1_m_a_s_t_e_r___k___c_n_e_t.html#a9323c02deb77952eef01eb780f83bf2c" title=" " alt="" coords="5,166,308,207"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1protocol_1_1_glofa_cnet_protocol.html#a057fe6bc9f366f9aeb334814e469c571" title=" " alt="" coords="9,231,305,273"/>
-<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1protocol_1_1_hmi_editable_protocol.html#a8b148175e053d71149883a61872cac3a" title=" " alt="" coords="29,297,285,353"/>
-<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1protocol_1_1_glofa_enet_protocol.html#a81fb5e4463e2365cc7d4a6fb4b726855" title=" " alt="" coords="9,378,305,419"/>
-</map>

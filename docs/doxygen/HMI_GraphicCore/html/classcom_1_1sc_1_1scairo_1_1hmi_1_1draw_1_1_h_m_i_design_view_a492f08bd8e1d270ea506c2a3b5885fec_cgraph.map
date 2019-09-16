@@ -1,6 +1,0 @@
-<map id="com.sc.scairo.hmi.draw.HMIDesignView.initActions" name="com.sc.scairo.hmi.draw.HMIDesignView.initActions">
-<area shape="rect" id="node1" title="Inits the actions. @LastUpdate 2019." alt="" coords="5,71,232,112"/>
-<area shape="rect" id="node2" href="$classorg_1_1jhotdraw_1_1undo_1_1_undo_redo_manager.html#ab7f1869a329d78c1589e95238c39def2" title=" " alt="" coords="299,5,487,47"/>
-<area shape="rect" id="node3" href="$classorg_1_1jhotdraw_1_1undo_1_1_undo_redo_manager.html#a5bc83fff379c45b5ebd4728ce9a5d666" title=" " alt="" coords="299,71,487,112"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_design_view.html#a2df29892e8be363894ed21ac74664f98" title="org.jhotdraw.app.AbstractView 내용 @LastUpdate 2019." alt="" coords="280,136,507,177"/>
-</map>

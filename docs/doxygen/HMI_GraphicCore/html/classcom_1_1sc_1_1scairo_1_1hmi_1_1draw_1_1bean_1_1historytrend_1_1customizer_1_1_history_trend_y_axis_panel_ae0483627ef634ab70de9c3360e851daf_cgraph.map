@@ -1,8 +1,0 @@
-<map id="com.sc.scairo.hmi.draw.bean.historytrend.customizer.HistoryTrendYAxisPanel.insertItem" name="com.sc.scairo.hmi.draw.bean.historytrend.customizer.HistoryTrendYAxisPanel.insertItem">
-<area shape="rect" id="node1" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="5,136,341,177"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1historytrend_1_1customizer_1_1_history_trend_tool_panel.html#a4cdb9144ad57be0b219f8bfdc641891b" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="389,5,725,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1historytrend_1_1customizer_1_1_history_trend_y_axis_create_dialog.html#a4c694c6193b2eb3bfbf958145745c3fc" title=" " alt="" coords="389,71,725,112"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1historytrend_1_1customizer_1_1_history_trend_y_axis_create_dialog.html#aacc8c75526116b672adcd191cc53269f" title=" " alt="" coords="389,136,725,177"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1historytrend_1_1customizer_1_1_history_trend_y_axis_create_dialog.html#a3c4f3ffe6a7a338682ce0b2323d4b832" title=" " alt="" coords="389,201,725,243"/>
-<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1historytrend_1_1customizer_1_1_history_trend_y_axis_create_dialog.html#af2abdf47b4be294f22f12ef9a3cc415a" title=" " alt="" coords="389,267,725,308"/>
-</map>

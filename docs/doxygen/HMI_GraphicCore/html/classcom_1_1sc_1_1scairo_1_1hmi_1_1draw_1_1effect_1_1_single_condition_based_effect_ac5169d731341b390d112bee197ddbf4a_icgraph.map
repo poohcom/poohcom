@@ -1,7 +1,0 @@
-<map id="com.sc.scairo.hmi.draw.effect.SingleConditionBasedEffect.setCondition" name="com.sc.scairo.hmi.draw.effect.SingleConditionBasedEffect.setCondition">
-<area shape="rect" id="node1" title=" " alt="" coords="836,39,1095,80"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1ui_1_1_emerge_effect_panel.html#adfb3f856a712c3803d167cf71279264e" title=" " alt="" coords="575,5,788,47"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1ui_1_1_blink_effect_panel.html#a1e560cdfbc8ef963110c50047bb4522e" title=" " alt="" coords="575,71,788,112"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1ui_1_1_effect_list_customizer.html#ae10aa0a450cf26b2e2bf778cf2243c48" title=" " alt="" coords="308,39,527,80"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1ui_1_1_effect_customizer_dialog.html#a9406b87dc7e1052948ef4bcf1ab20c86" title=" " alt="" coords="5,39,260,80"/>
-</map>

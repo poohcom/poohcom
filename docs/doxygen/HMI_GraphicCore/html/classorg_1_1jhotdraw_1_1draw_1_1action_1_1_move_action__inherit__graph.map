@@ -1,8 +1,0 @@
-<map id="org.jhotdraw.draw.action.MoveAction" name="org.jhotdraw.draw.action.MoveAction">
-<area shape="rect" id="node1" title=" " alt="" coords="291,131,457,296"/>
-<area shape="rect" id="node3" href="$classorg_1_1jhotdraw_1_1draw_1_1action_1_1_move_action_1_1_east.html" title=" " alt="" coords="5,344,172,436"/>
-<area shape="rect" id="node4" href="$classorg_1_1jhotdraw_1_1draw_1_1action_1_1_move_action_1_1_north.html" title=" " alt="" coords="196,344,363,436"/>
-<area shape="rect" id="node5" href="$classorg_1_1jhotdraw_1_1draw_1_1action_1_1_move_action_1_1_south.html" title=" " alt="" coords="387,344,553,436"/>
-<area shape="rect" id="node6" href="$classorg_1_1jhotdraw_1_1draw_1_1action_1_1_move_action_1_1_west.html" title=" " alt="" coords="577,344,744,436"/>
-<area shape="rect" id="node2" title=" " alt="" coords="295,5,453,83"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="com.sc.scairo.hmi.device.module.CommNetSnmpModule.logerWrite" name="com.sc.scairo.hmi.device.module.CommNetSnmpModule.logerWrite">
-<area shape="rect" id="node1" title="간략한 설명 작성" alt="" coords="5,68,224,109"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1info_1_1_device_info.html#abb9fa7a81a9e080ab2cb3b7b013b181d" title=" " alt="" coords="543,5,740,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1module_1_1_comm_net_snmp_module.html#add9b6094032061151a87926a240ff169" title=" " alt="" coords="272,35,495,76"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1info_1_1_device_info.html#a7d419f50b9d0bd787b44f6b57a284c58" title=" " alt="" coords="285,100,482,141"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1module_1_1_comm_net_snmp_module.html#a1904bf9cc40e31e5840218fcd6db4a02" title="간략한 설명 작성" alt="" coords="274,165,493,207"/>
-</map>

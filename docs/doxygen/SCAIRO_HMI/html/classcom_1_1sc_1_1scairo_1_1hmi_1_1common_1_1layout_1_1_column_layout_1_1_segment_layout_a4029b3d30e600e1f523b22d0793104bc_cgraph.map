@@ -1,6 +1,0 @@
-<map id="com.sc.scairo.hmi.common.layout.ColumnLayout.SegmentLayout.doLayout" name="com.sc.scairo.hmi.common.layout.ColumnLayout.SegmentLayout.doLayout">
-<area shape="rect" id="node1" title="간략한 설명 작성" alt="" coords="5,50,263,91"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1common_1_1layout_1_1_column_layout_1_1_segment_layout.html#a08d6f353ea5213b4aa20ad74d70a1fba" title=" " alt="" coords="337,5,579,61"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1common_1_1layout_1_1_column_layout_1_1_segment_layout.html#a3abdca663818dee87d9d39d4d6e917bc" title=" " alt="" coords="311,86,605,127"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1common_1_1layout_1_1_column_layout_1_1_segment_layout.html#ac6c288c66dfa0a1236533b82c8e3e413" title=" " alt="" coords="653,13,940,54"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="com.sc.scairo.hmi.draw.bean.guage.meter.MeterCommonInfo.getMajorScaleCount" name="com.sc.scairo.hmi.draw.bean.guage.meter.MeterCommonInfo.getMajorScaleCount">
-<area shape="rect" id="node1" title=" " alt="" coords="781,39,1053,80"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1guage_1_1meter_1_1customizer_1_1_meter_common_panel.html#a41396de3626ffdfa092a3d562e68a936" title=" " alt="" coords="393,5,733,47"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1guage_1_1meter_1_1customizer_1_1_meter_common_panel.html#a83d6afc245c75860df747591092fab99" title=" " alt="" coords="393,71,733,112"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1guage_1_1meter_1_1customizer_1_1_meter_customizer.html#a1434a5d0e009538b2bfb1587ba2908f1" title=" " alt="" coords="5,5,345,47"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1guage_1_1meter_1_1customizer_1_1_meter_customizer.html#a41ae2e1fe513516d3f1f53208a68698f" title=" " alt="" coords="5,71,345,112"/>
-</map>

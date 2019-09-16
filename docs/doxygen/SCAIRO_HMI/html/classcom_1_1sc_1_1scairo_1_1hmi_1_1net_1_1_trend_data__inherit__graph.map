@@ -1,9 +1,0 @@
-<map id="com.sc.scairo.hmi.net.TrendData" name="com.sc.scairo.hmi.net.TrendData">
-<area shape="rect" id="node1" title=" " alt="" coords="444,78,659,105"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_day_trend_data.html" title=" " alt="" coords="715,5,893,47"/>
-<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_hour_trend_data.html" title=" " alt="" coords="713,71,895,112"/>
-<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_minute_trend_data.html" title=" " alt="" coords="707,136,901,177"/>
-<area shape="rect" id="node2" href="$interfacecom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_i_historical_data.html" title=" " alt="" coords="157,78,396,105"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,53,109,79"/>
-<area shape="rect" id="node4" title=" " alt="" coords="6,103,109,130"/>
-</map>

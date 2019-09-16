@@ -1,7 +1,0 @@
-<map id="com.sc.scairo.hmi.event.AbstractHMIEvent.log" name="com.sc.scairo.hmi.event.AbstractHMIEvent.log">
-<area shape="rect" id="node1" title="간략한 설명 작성" alt="" coords="447,71,613,112"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1event_1_1_alarm_driven_event.html#aaac736ed51e3c9984890e00f74b029cb" title=" " alt="" coords="232,5,399,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1event_1_1_tag_driven_event.html#a456891a3af0e18ca86218c2f3436bf0a" title=" " alt="" coords="232,71,399,112"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1event_1_1_abstract_h_m_i_event.html#aebaad6f0512d55668d49a73ecc573e3e" title=" " alt="" coords="232,136,399,177"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1event_1_1_time_driven_event.html#a063bf943ce129d7d13a433d484a3c713" title="간략한 설명 작성" alt="" coords="5,136,184,177"/>
-</map>

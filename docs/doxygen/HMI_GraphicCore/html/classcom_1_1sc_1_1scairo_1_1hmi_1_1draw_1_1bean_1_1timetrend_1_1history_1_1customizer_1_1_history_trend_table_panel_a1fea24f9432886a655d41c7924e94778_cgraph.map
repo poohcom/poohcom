@@ -1,7 +1,0 @@
-<map id="com.sc.scairo.hmi.draw.bean.timetrend.history.customizer.HistoryTrendTablePanel.HistoryTrendTablePanel" name="com.sc.scairo.hmi.draw.bean.timetrend.history.customizer.HistoryTrendTablePanel.HistoryTrendTablePanel">
-<area shape="rect" id="node1" title=" " alt="" coords="5,71,371,112"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1history_1_1customizer_1_1_history_trend_table_panel.html#afb223fba2bb8e2e4f429098e3d4c08bd" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="419,71,784,112"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1history_1_1_history_trend_info.html#ac130208a2661a90018418638f83999b0" title=" " alt="" coords="866,5,1163,47"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1history_1_1_history_time_trend.html#acb4eb9377f8354b48819bc7216e2b27b" title=" " alt="" coords="866,71,1163,112"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1history_1_1customizer_1_1_history_trend_table_model.html#ad0988a866ff5122b983bca111fa65d0d" title=" " alt="" coords="832,136,1197,177"/>
-</map>

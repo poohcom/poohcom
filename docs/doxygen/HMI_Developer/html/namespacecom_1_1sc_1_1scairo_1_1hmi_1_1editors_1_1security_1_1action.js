@@ -1,6 +1,0 @@
-var namespacecom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1security_1_1action =
-[
-    [ "UserCreateAction", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1security_1_1action_1_1_user_create_action.html", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1security_1_1action_1_1_user_create_action" ],
-    [ "UserDeleteAction", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1security_1_1action_1_1_user_delete_action.html", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1security_1_1action_1_1_user_delete_action" ],
-    [ "UserEditAction", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1security_1_1action_1_1_user_edit_action.html", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1security_1_1action_1_1_user_edit_action" ]
-];

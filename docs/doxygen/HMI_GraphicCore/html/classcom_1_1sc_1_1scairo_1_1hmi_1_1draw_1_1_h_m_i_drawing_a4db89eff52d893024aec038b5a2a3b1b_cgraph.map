@@ -1,7 +1,0 @@
-<map id="com.sc.scairo.hmi.draw.HMIDrawing.read" name="com.sc.scairo.hmi.draw.HMIDrawing.read">
-<area shape="rect" id="node1" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="5,111,268,138"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing_security_property.html#a5efcef423350164558fa51a5bc42695b" title=" " alt="" coords="316,5,549,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing_script_property.html#ab933631573ef94b6617ae4d43333f16c" title=" " alt="" coords="316,71,549,112"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing_window_property.html#ad5bbdd8d7ef535678bcd2e37579246b2" title=" " alt="" coords="316,136,549,177"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing_effects.html#a48814ba203e25afde6eb837ab4e316a7" title=" " alt="" coords="316,201,549,243"/>
-</map>

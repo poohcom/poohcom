@@ -1,7 +1,0 @@
-<map id="com.sc.scairo.hmi.draw.tool.SelectableToolHandler.toolDone" name="com.sc.scairo.hmi.draw.tool.SelectableToolHandler.toolDone">
-<area shape="rect" id="node1" title=" " alt="" coords="5,39,212,80"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1tool_1_1_graphic_tool_menu_item.html#ada61d5b9ea3dd49eb37324b80d511548" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="260,5,449,47"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1tool_1_1_graphic_tool_button.html#a5e92261502bf3a7f2b00694593c431d5" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="260,71,449,112"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1tool_1_1_graphic_tool_menu_item.html#af3d3dc2d58b42c24bf2f7fa8008c3f50" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="497,5,687,47"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1tool_1_1_graphic_tool_button.html#a9548991895f995f1a13e556362378205" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="497,71,687,112"/>
-</map>

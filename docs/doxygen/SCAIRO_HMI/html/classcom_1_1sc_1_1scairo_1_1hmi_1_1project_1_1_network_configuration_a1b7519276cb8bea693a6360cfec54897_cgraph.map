@@ -1,9 +1,0 @@
-<map id="com.sc.scairo.hmi.project.NetworkConfiguration.getByAddress" name="com.sc.scairo.hmi.project.NetworkConfiguration.getByAddress">
-<area shape="rect" id="node1" title=" " alt="" coords="5,169,236,211"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1node_1_1_network_info.html#a49bcacb528a357edbf9f7ffe00303017" title=" " alt="" coords="284,5,496,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1node_1_1_network_info.html#ad87661666617ed3ea643d674595fb720" title=" " alt="" coords="284,71,496,112"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1node_1_1_node_redundancy.html#a5552b6a6dad2809b84e4fe9670fd7cdb" title=" " alt="" coords="291,136,489,177"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1node_1_1_node_redundancy.html#a9fa7a4fa3b9edb091b5755f79ce64234" title=" " alt="" coords="293,201,487,243"/>
-<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1node_1_1_network_info.html#a9e8eee122e473fbebd9392940d674cc3" title=" " alt="" coords="284,267,496,308"/>
-<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1node_1_1_node_redundancy.html#a422c73a433198e1aa248fe8c757545ed" title=" " alt="" coords="293,332,487,373"/>
-</map>

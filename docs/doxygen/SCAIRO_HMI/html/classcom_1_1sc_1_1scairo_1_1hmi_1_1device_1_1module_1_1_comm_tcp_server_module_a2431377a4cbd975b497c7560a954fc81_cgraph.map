@@ -1,6 +1,0 @@
-<map id="com.sc.scairo.hmi.device.module.CommTcpServerModule.setStationStatus" name="com.sc.scairo.hmi.device.module.CommTcpServerModule.setStationStatus">
-<area shape="rect" id="node1" title="간략한 설명 작성" alt="" coords="5,71,265,112"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_group_tag.html#a8fb19d5720218a2e3f3e97958829ae4d" title="간략한 설명 작성" alt="" coords="317,5,507,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1info_1_1_device_info.html#aa2319ec5ed77ab50a7f7c835446c0d48" title=" " alt="" coords="313,71,511,112"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_analog_tag.html#af37b1d1d2bbd96cb0f106f5ae1505b5a" title=" " alt="" coords="315,136,509,177"/>
-</map>

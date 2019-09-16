@@ -1,7 +1,0 @@
-<map id="com.sc.scairo.hmi.draw.bean.umsuser.ui.UmsUserInfoPanel.getUmsUserPanel" name="com.sc.scairo.hmi.draw.bean.umsuser.ui.UmsUserInfoPanel.getUmsUserPanel">
-<area shape="rect" id="node1" title=" " alt="" coords="5,104,269,145"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1common_1_1_beans_icon_factory.html#a6884d7cdd9bb80e85f40105493143028" title=" " alt="" coords="325,5,575,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1umsuser_1_1ui_1_1_ums_user_info_panel.html#af61f3254becae23187d711fac4e4db48" title=" " alt="" coords="318,71,582,112"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1umsuser_1_1ui_1_1_ums_user_info_panel.html#ab35e33e2ccabbc5ac547c5d14d131424" title=" " alt="" coords="318,136,582,177"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1umsuser_1_1ui_1_1_ums_user_info_panel.html#ab13045fb1f0735d74c7321d402cc1f2f" title=" " alt="" coords="317,201,583,243"/>
-</map>

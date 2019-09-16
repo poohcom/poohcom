@@ -1,6 +1,0 @@
-<map id="com.sc.scairo.hmi.project.DriverDictionary.getAreaBlockList" name="com.sc.scairo.hmi.project.DriverDictionary.getAreaBlockList">
-<area shape="rect" id="node1" title=" " alt="" coords="5,71,220,112"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1driver_1_1_driver_group_list.html#a7f4909801e2a17beb2a1cff53ff696d8" title=" " alt="" coords="268,5,475,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1driver_1_1_device_map_area_info.html#a06a1a8d4f199ade17cf1aba19970131a" title=" " alt="" coords="268,71,475,112"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1driver_1_1_device_map_area_info.html#aab1ba10bc33fcb1e75a8ad356d42b746" title=" " alt="" coords="268,136,475,177"/>
-</map>

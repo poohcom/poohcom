@@ -1,6 +1,0 @@
-<map id="com.sc.scairo.hmi.draw.bean.guage.dial.Guage.setPointerColor" name="com.sc.scairo.hmi.draw.bean.guage.dial.Guage.setPointerColor">
-<area shape="rect" id="node1" title=" " alt="" coords="5,71,264,112"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1guage_1_1dial_1_1_guage_info.html#a17c4a41eebad09d38bb67e54250b9453" title=" " alt="" coords="314,5,573,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1guage_1_1dial_1_1_guage_common_info.html#aa6b155d9969754f14887e3d9ae883c55" title=" " alt="" coords="312,71,575,112"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1guage_1_1dial_1_1_guage_common_info.html#aa060a8672b1db95f2a67da1eba23a180" title=" " alt="" coords="314,136,573,177"/>
-</map>

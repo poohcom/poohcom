@@ -1,7 +1,0 @@
-<map id="com.sc.scairo.hmi.draw.bean.checkbox.customizer.CanvasCheckBoxCustomizer" name="com.sc.scairo.hmi.draw.bean.checkbox.customizer.CanvasCheckBoxCustomizer">
-<area shape="rect" id="node1" title=" " alt="" coords="5,455,329,635"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1common_1_1_s_c_a_i_r_o_bean_customizer_panel.html" title=" " alt="" coords="42,271,293,407"/>
-<area shape="rect" id="node3" title=" " alt="" coords="43,138,105,215"/>
-<area shape="rect" id="node4" href="$interfacecom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1customizer_1_1_h_m_i_bean_customizer.html" title=" " alt="" coords="129,131,393,223"/>
-<area shape="rect" id="node5" title=" " alt="" coords="217,5,305,83"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="com.sc.scairo.hmi.device.protocol.HmiEditableProtocol.getReceiveMessageLength" name="com.sc.scairo.hmi.device.protocol.HmiEditableProtocol.getReceiveMessageLength">
-<area shape="rect" id="node1" title=" " alt="" coords="5,104,304,145"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1driver_1_1_protocol_rule.html#abf3165e4d13f36feb1a9b5f2ebb9da0a" title=" " alt="" coords="360,5,567,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1protocol_1_1_hmi_editable_protocol.html#a51d6d0bfd99867d03b0e5767d4bb9865" title=" " alt="" coords="352,71,575,112"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1driver_1_1_protocol_rule.html#ac9854b58343eb37cc60cbed0bd0e5d8d" title=" " alt="" coords="360,136,567,177"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1driver_1_1_protocol_rule.html#a73bb3aa4c29881bbeef138eb25969295" title=" " alt="" coords="360,201,567,243"/>
-</map>

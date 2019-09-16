@@ -1,4 +1,0 @@
-var namespacecom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1umsuser_1_1customizer =
-[
-    [ "UmsUserCustomizer", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1umsuser_1_1customizer_1_1_ums_user_customizer.html", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1umsuser_1_1customizer_1_1_ums_user_customizer" ]
-];

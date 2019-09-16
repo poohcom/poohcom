@@ -1,9 +1,0 @@
-<map id="com.sc.scairo.hmi.condition.ui.AlarmStateConditionCustomizer.findTag" name="com.sc.scairo.hmi.condition.ui.AlarmStateConditionCustomizer.findTag">
-<area shape="rect" id="node1" title="간략한 설명 작성" alt="" coords="5,90,257,131"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_tag.html#a634a7cc0481df65de4a9cfd5a32817ca" title=" " alt="" coords="328,5,549,32"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1util_1_1_tag_list_window_dialog.html#acef4892980be358c298b54810dab55aa" title=" " alt="" coords="336,57,541,98"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1util_1_1_tag_list_window_dialog.html#a9248877c60665f8b84060fd77ed56d75" title=" " alt="" coords="322,122,555,163"/>
-<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1condition_1_1ui_1_1_alarm_state_condition_customizer.html#a67475f0caf1dcec561261ca2e4123118" title=" " alt="" coords="305,188,572,244"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_tag.html#a5b1e460e7f21dd19097730f396f37ca4" title=" " alt="" coords="654,122,853,163"/>
-<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1condition_1_1ui_1_1_alarm_state_condition_customizer.html#a2a647adb998ed4fb0d887b16c5e62d9f" title=" " alt="" coords="620,188,887,244"/>
-</map>

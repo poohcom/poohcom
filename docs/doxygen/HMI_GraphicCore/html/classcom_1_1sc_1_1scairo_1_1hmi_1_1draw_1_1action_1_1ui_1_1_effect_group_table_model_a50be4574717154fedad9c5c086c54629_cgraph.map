@@ -1,7 +1,0 @@
-<map id="com.sc.scairo.hmi.draw.action.ui.EffectGroupTableModel.setGroupEffects" name="com.sc.scairo.hmi.draw.action.ui.EffectGroupTableModel.setGroupEffects">
-<area shape="rect" id="node1" title=" " alt="" coords="5,71,259,112"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1action_1_1ui_1_1_effect_group_table_model.html#a63609ffbe8dbd9a52c12e4254d2c50ef" title=" " alt="" coords="307,5,537,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1_group_effects.html#aa9b052459079bd07ae3ea8fda64bfee1" title=" " alt="" coords="323,71,521,112"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1action_1_1ui_1_1_effect_group_table_model.html#a12222f82e21d3c935d041a3323738c90" title=" " alt="" coords="309,136,535,177"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1action_1_1ui_1_1_messages.html#a92c1e35e2c5fd4b400458dda74ba3ade" title=" " alt="" coords="585,136,803,177"/>
-</map>

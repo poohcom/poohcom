@@ -1,9 +1,0 @@
-<map id="com.sc.scairo.hmi.project.deploy.ProjectDeployer.sendZipFile" name="com.sc.scairo.hmi.project.deploy.ProjectDeployer.sendZipFile">
-<area shape="rect" id="node1" title="간략한 설명 작성" alt="" coords="5,159,224,200"/>
-<area shape="rect" id="node2" href="$interfacecom_1_1sc_1_1scairo_1_1hmi_1_1ftp_1_1_i_file_remote_receiver.html#ab990339f59fea9d5e40f4e5fb04677ce" title="간략한 설명 작성" alt="" coords="322,5,497,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1node_1_1_network_info.html#a49bcacb528a357edbf9f7ffe00303017" title=" " alt="" coords="303,71,515,112"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1node_1_1_h_m_i_node.html#a6dbe93b636d09a5491ecc4837a0af39d" title=" " alt="" coords="272,137,547,163"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1node_1_1_network_info.html#ad87661666617ed3ea643d674595fb720" title=" " alt="" coords="303,188,515,229"/>
-<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1node_1_1_network_info.html#a9e8eee122e473fbebd9392940d674cc3" title=" " alt="" coords="303,253,515,295"/>
-<area shape="rect" id="node7" href="$interfacecom_1_1sc_1_1scairo_1_1hmi_1_1ftp_1_1_i_file_remote_receiver.html#a3fa9ef2e623af7f816770dbaa7b2aabf" title="간략한 설명 작성" alt="" coords="322,319,497,360"/>
-</map>

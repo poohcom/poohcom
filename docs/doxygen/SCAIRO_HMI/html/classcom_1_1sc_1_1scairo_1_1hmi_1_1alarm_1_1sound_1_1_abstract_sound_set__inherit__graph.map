@@ -1,7 +1,0 @@
-<map id="com.sc.scairo.hmi.alarm.sound.AbstractSoundSet" name="com.sc.scairo.hmi.alarm.sound.AbstractSoundSet">
-<area shape="rect" id="node1" title=" " alt="" coords="143,39,351,80"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1sound_1_1_alarm_group_sound_set.html" title=" " alt="" coords="399,5,607,47"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1alarm_1_1sound_1_1_alarm_type_sound_set.html" title=" " alt="" coords="399,71,607,112"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,21,95,47"/>
-<area shape="rect" id="node3" title=" " alt="" coords="11,71,89,98"/>
-</map>

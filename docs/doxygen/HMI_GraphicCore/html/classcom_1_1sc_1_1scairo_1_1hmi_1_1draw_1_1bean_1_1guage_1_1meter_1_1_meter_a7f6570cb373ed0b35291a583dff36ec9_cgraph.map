@@ -1,8 +1,0 @@
-<map id="com.sc.scairo.hmi.draw.bean.guage.meter.Meter.setMarks" name="com.sc.scairo.hmi.draw.bean.guage.meter.Meter.setMarks">
-<area shape="rect" id="node1" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="5,136,277,177"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1guage_1_1meter_1_1_meter_mark_info.html#aae07ef3427171f5688ea3a2d5877b93c" title=" " alt="" coords="325,5,597,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1guage_1_1meter_1_1_meter_option_info.html#a7cfc655f819ec049fbc85da70550c86f" title=" " alt="" coords="325,71,597,112"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1guage_1_1meter_1_1_meter_mark_info.html#a7208b35a4dd9c1c95e99b157bf1007af" title=" " alt="" coords="325,136,597,177"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1guage_1_1meter_1_1_meter_mark_info.html#a281ff8725433f039a52a4c34847a0ea5" title=" " alt="" coords="325,201,597,243"/>
-<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1guage_1_1meter_1_1_meter_info.html#a22c0a074de9e96163ae5c081a664212a" title=" " alt="" coords="325,267,597,308"/>
-</map>

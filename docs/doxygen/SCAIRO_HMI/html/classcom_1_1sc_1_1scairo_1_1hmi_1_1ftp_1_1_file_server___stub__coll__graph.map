@@ -1,8 +1,0 @@
-<map id="com.sc.scairo.hmi.ftp.FileServer_Stub" name="com.sc.scairo.hmi.ftp.FileServer_Stub">
-<area shape="rect" id="node1" title=" " alt="" coords="177,288,349,329"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,89,100,115"/>
-<area shape="rect" id="node3" href="$interfacecom_1_1sc_1_1scairo_1_1hmi_1_1ftp_1_1_i_file_remote_receiver.html" title=" " alt="" coords="176,81,351,123"/>
-<area shape="rect" id="node4" title=" " alt="" coords="143,5,210,32"/>
-<area shape="rect" id="node5" title=" " alt="" coords="375,89,453,115"/>
-<area shape="rect" id="node6" title=" " alt="" coords="477,89,543,115"/>
-</map>

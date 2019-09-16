@@ -1,6 +1,0 @@
-<map id="com.sc.scairo.hmi.draw.bean.ums.ui.UmsUserTargetInfoPanel.getJobTypePanel" name="com.sc.scairo.hmi.draw.bean.ums.ui.UmsUserTargetInfoPanel.getJobTypePanel">
-<area shape="rect" id="node1" title=" " alt="" coords="5,71,273,112"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1common_1_1_beans_icon_factory.html#a6884d7cdd9bb80e85f40105493143028" title=" " alt="" coords="345,5,596,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1ums_1_1ui_1_1_ums_user_target_info_panel.html#a6d19ac5808ec7457f0c689f885766e47" title=" " alt="" coords="321,71,620,112"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1ums_1_1_ums_constants.html#a317393eb667dc80da73378f6ce45e07c" title=" " alt="" coords="668,100,893,141"/>
-</map>

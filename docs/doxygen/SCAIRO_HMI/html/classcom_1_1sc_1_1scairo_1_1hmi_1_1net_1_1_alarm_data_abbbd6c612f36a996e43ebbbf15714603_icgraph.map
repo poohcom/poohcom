@@ -1,5 +1,0 @@
-<map id="com.sc.scairo.hmi.net.AlarmData.getNodeAlarmRemoveRequestData" name="com.sc.scairo.hmi.net.AlarmData.getNodeAlarmRemoveRequestData">
-<area shape="rect" id="node1" title=" " alt="" coords="264,39,520,80"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1runtime_1_1_alarm_data_queue.html#a95870e7c02de379ab0551027e5133e70" title="간략한 설명 작성" alt="" coords="12,5,209,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1runtime_1_1_alarm_data_queue.html#adf7c62348ab5cda1b23ef06d57c702c0" title="간략한 설명 작성" alt="" coords="5,71,216,112"/>
-</map>

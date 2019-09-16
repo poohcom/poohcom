@@ -1,5 +1,0 @@
-var namespacecom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1textbox_1_1customizer =
-[
-    [ "CanvasTextBoxCustomizer", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1textbox_1_1customizer_1_1_canvas_text_box_customizer.html", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1textbox_1_1customizer_1_1_canvas_text_box_customizer" ],
-    [ "CanvasTextBoxPropertyPanel", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1textbox_1_1customizer_1_1_canvas_text_box_property_panel.html", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1textbox_1_1customizer_1_1_canvas_text_box_property_panel" ]
-];

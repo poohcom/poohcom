@@ -1,6 +1,0 @@
-<map id="com.sc.scairo.hmi.condition.ui.TagValueConditionCustomizer.getCondition" name="com.sc.scairo.hmi.condition.ui.TagValueConditionCustomizer.getCondition">
-<area shape="rect" id="node1" title=" " alt="" coords="5,71,277,112"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1condition_1_1_abstract_condition.html#aa05b42be7809bf8a2e5f138c005af5d3" title=" " alt="" coords="340,5,555,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1condition_1_1_tag_value_condition.html#ab015d1cd1c5b08df6d33e22d3e8b406b" title=" " alt="" coords="325,71,569,112"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1condition_1_1_abstract_condition.html#a3f2d44108597645b26a92b20d4b9bdf2" title=" " alt="" coords="326,136,569,177"/>
-</map>

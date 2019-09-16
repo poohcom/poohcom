@@ -1,6 +1,0 @@
-<map id="com.sc.scairo.hmi.draw.bean.listbox.CanvasListBox.changeItemAction" name="com.sc.scairo.hmi.draw.bean.listbox.CanvasListBox.changeItemAction">
-<area shape="rect" id="node1" title=" " alt="" coords="5,71,244,112"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1listbox_1_1_canvas_list_box.html#ab71637873e81a94e9d00cecd452e294f" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="298,5,537,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1common_1_1_name_with_script_item.html#a4dd28885872ef3134f5cb1b81f35e011" title=" " alt="" coords="292,71,543,112"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1common_1_1_name_with_script_item.html#a24f0a8f1bcc076a58626ad2dd4398a32" title=" " alt="" coords="292,136,543,177"/>
-</map>

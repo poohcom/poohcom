@@ -1,9 +1,0 @@
-<map id="com.sc.scairo.hmi.draw.effect.ui.MoveEffectPanel.setSelectUseCheckBox" name="com.sc.scairo.hmi.draw.effect.ui.MoveEffectPanel.setSelectUseCheckBox">
-<area shape="rect" id="node1" title=" " alt="" coords="1076,39,1336,80"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1ui_1_1_drag_effect_panel.html#a548200b6f8602c2c60dc0ede71444760" title=" " alt="" coords="815,5,1028,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1ui_1_1_drag_effect_panel.html#ae36521b7f97ee0b666681a72b2a672bd" title=" " alt="" coords="815,71,1028,112"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1ui_1_1_drag_effect_panel.html#aa28ecb5ea74431c8bf912bae9a9fca10" title=" " alt="" coords="551,37,764,79"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1ui_1_1_effect_list_customizer.html#a4f5f959f25174c6a064db9c06be6f7fd" title=" " alt="" coords="548,103,767,144"/>
-<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1ui_1_1_effect_customizer_dialog.html#acd699d2dcaeb9c9f4d101dab18ae4eec" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="267,103,500,144"/>
-<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1action_1_1_effect_edit_action.html#a25b5748e0f5fa382f2b18cfe541c22ff" title=" " alt="" coords="5,103,219,144"/>
-</map>

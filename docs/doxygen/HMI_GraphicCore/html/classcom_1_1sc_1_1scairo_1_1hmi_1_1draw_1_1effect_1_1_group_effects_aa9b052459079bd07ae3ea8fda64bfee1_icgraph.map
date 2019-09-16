@@ -1,8 +1,0 @@
-<map id="com.sc.scairo.hmi.draw.effect.GroupEffects.getLinkTags" name="com.sc.scairo.hmi.draw.effect.GroupEffects.getLinkTags">
-<area shape="rect" id="node1" title=" " alt="" coords="839,71,1037,112"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1action_1_1_add_library_action.html#a3d46d8354c63797cc187f43f9c125058" title=" " alt="" coords="555,5,773,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1action_1_1_save_symbol_action.html#a5c589f2c8c61d1f16ff31009dcaf3412" title=" " alt="" coords="549,71,779,112"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1action_1_1ui_1_1_effect_group_table_model.html#a50be4574717154fedad9c5c086c54629" title=" " alt="" coords="537,136,791,177"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1action_1_1ui_1_1_effect_group_dialog.html#a4700342c4eafaa39643d5a52ca9a202e" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="267,136,489,177"/>
-<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1action_1_1_effect_edit_action.html#a25b5748e0f5fa382f2b18cfe541c22ff" title=" " alt="" coords="5,136,219,177"/>
-</map>

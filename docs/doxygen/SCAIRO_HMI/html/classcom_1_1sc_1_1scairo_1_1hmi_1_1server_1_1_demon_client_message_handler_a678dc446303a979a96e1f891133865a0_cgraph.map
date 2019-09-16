@@ -1,8 +1,0 @@
-<map id="com.sc.scairo.hmi.server.DemonClientMessageHandler.processSetData" name="com.sc.scairo.hmi.server.DemonClientMessageHandler.processSetData">
-<area shape="rect" id="node1" title="간략한 설명 작성" alt="" coords="5,129,248,185"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1net_1_1_tag_updator.html#a7fb787a7333b3b0b8ca0e43c19d3c4a5" title="간략한 설명 작성" alt="" coords="301,5,480,47"/>
-<area shape="rect" id="node3" href="$interfacecom_1_1sc_1_1scairo_1_1hmi_1_1server_1_1_i_h_m_i_process.html#a212b31a275c770397387a3808f92ee2b" title="간략한 설명 작성" alt="" coords="305,71,476,112"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1util_1_1_hmi_v_m_options.html#a623f8b164c60c59da043b3c8454583f1" title=" " alt="" coords="302,136,479,177"/>
-<area shape="rect" id="node5" href="$interfacecom_1_1sc_1_1scairo_1_1hmi_1_1server_1_1_i_h_m_i_process.html#a549fe1deb30eda9ce803d7f3fcbce23e" title="간략한 설명 작성" alt="" coords="305,201,476,243"/>
-<area shape="rect" id="node6" href="$interfacecom_1_1sc_1_1scairo_1_1hmi_1_1server_1_1_i_h_m_i_process.html#af3ff20754f3e7827b7dd41533ae868a4" title="간략한 설명 작성" alt="" coords="296,267,485,308"/>
-</map>

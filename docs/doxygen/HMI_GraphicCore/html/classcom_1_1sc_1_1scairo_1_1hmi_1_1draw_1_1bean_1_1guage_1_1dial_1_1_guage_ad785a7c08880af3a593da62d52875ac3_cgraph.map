@@ -1,9 +1,0 @@
-<map id="com.sc.scairo.hmi.draw.bean.guage.dial.Guage.setForeground" name="com.sc.scairo.hmi.draw.bean.guage.dial.Guage.setForeground">
-<area shape="rect" id="node1" title=" " alt="" coords="5,64,264,105"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1guage_1_1dial_1_1_guage_info.html#a17c4a41eebad09d38bb67e54250b9453" title=" " alt="" coords="625,5,884,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1guage_1_1dial_1_1_guage_common_info.html#ac9391e066c0ccc861b06585a710da8fa" title=" " alt="" coords="312,64,571,105"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1guage_1_1dial_1_1_guage.html#a8e2cab23e31450a1d1180dbacd7a9754" title=" " alt="" coords="312,129,571,171"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1guage_1_1dial_1_1_guage_common_info.html#a9c068feea8b7de9370928790eab0eba1" title=" " alt="" coords="625,71,884,112"/>
-<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1guage_1_1dial_1_1_guage_common_info.html#aa734394ebf3374700aae3c6d95d333c4" title=" " alt="" coords="619,136,891,177"/>
-<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1guage_1_1dial_1_1_guage_common_info.html#a04f8ac5e2cb0f0603376836b72402366" title=" " alt="" coords="621,201,889,243"/>
-</map>

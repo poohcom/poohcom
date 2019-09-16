@@ -1,7 +1,0 @@
-<map id="com.sc.scairo.hmi.draw.effect.ui.TagDisplayPanel.getFields" name="com.sc.scairo.hmi.draw.effect.ui.TagDisplayPanel.getFields">
-<area shape="rect" id="node1" title=" " alt="" coords="5,104,219,145"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1ui_1_1_tag_display_panel.html#a23c774e1f059509ce38368d9735cf91c" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="273,5,487,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1_tag_value_effect.html#ad9b5806f6ab8e2c0f755426ffe5138d5" title=" " alt="" coords="281,71,479,112"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1_tag_value_effect.html#ac3bfa5dd0009a4ca06dcbdaa74a17e46" title=" " alt="" coords="267,136,493,177"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1_tag_value_effect.html#ad229f0ff12403f3661b7845d38ffd80d" title=" " alt="" coords="279,201,481,243"/>
-</map>

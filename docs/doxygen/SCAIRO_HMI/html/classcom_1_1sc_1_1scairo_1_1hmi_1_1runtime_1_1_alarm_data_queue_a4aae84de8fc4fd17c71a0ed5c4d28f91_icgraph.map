@@ -1,6 +1,0 @@
-<map id="com.sc.scairo.hmi.runtime.AlarmDataQueue.getAllData" name="com.sc.scairo.hmi.runtime.AlarmDataQueue.getAllData">
-<area shape="rect" id="node1" title=" " alt="" coords="312,71,497,112"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1runtime_1_1_alarm_data_queue.html#a26ac5d34e9322a3642ea9e5ec5a7c6a2" title=" " alt="" coords="25,5,244,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1runtime_1_1_alarm_data_queue.html#a089f8f9e4c7dbc6a5c82e19f923a4316" title=" " alt="" coords="19,71,251,112"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1runtime_1_1_alarm_data_service_creator.html#afd21c2d9023e716fc51f14df3b9e653e" title=" " alt="" coords="5,136,264,177"/>
-</map>

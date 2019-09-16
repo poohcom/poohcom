@@ -1,8 +1,0 @@
-<map id="com.sc.scairo.hmi.draw.customizer.WindowCustomizerDialog.syntaxCheck" name="com.sc.scairo.hmi.draw.customizer.WindowCustomizerDialog.syntaxCheck">
-<area shape="rect" id="node1" title=" " alt="" coords="5,39,256,80"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1customizer_1_1_messages.html#aa870d632d372ddf93d69d00b66d13522" title=" " alt="" coords="304,5,536,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1customizer_1_1_window_customizer.html#af6557c525c352b489672edba463d5fcd" title=" " alt="" coords="304,71,536,112"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1customizer_1_1_window_security_panel.html#a6e5c1c52adb4c8bc2618b4462b9014d5" title=" " alt="" coords="584,5,816,47"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1customizer_1_1_window_script_panel.html#a14df76828aae1f223982d8e20b439450" title=" " alt="" coords="584,71,816,112"/>
-<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1customizer_1_1_window_panel.html#acfa99ad2afcd1d805e2c4d9d2c8c6766" title=" " alt="" coords="584,136,816,177"/>
-</map>

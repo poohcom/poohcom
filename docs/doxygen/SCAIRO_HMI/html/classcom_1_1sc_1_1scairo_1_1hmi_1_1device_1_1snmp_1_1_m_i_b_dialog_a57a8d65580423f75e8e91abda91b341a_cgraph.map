@@ -1,6 +1,0 @@
-<map id="com.sc.scairo.hmi.device.snmp.MIBDialog.MIBDialog" name="com.sc.scairo.hmi.device.snmp.MIBDialog.MIBDialog">
-<area shape="rect" id="node1" title=" " alt="" coords="5,39,215,80"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1snmp_1_1_m_i_b_j_panel.html#ada421edc34db5858a1ed13caced82e09" title="간략한 설명 작성" alt="" coords="263,5,472,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1snmp_1_1_m_i_b_dialog.html#a5e65a03eff7d063626a7916d22bc1944" title=" " alt="" coords="263,71,472,112"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1snmp_1_1_m_i_b_j_panel.html#a4609b665e7b583923de6698f87d03b48" title=" " alt="" coords="520,71,729,112"/>
-</map>

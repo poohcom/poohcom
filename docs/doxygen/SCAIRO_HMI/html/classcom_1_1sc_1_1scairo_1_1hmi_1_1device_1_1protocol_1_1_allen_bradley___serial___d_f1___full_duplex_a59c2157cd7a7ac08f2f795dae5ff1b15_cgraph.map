@@ -1,5 +1,0 @@
-<map id="com.sc.scairo.hmi.device.protocol.AllenBradley_Serial_DF1_FullDuplex.AllenBradley_Serial_DF1_FullDuplex" name="com.sc.scairo.hmi.device.protocol.AllenBradley_Serial_DF1_FullDuplex.AllenBradley_Serial_DF1_FullDuplex">
-<area shape="rect" id="node1" title=" " alt="" coords="5,43,244,99"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1protocol_1_1_allen_bradley___serial___d_f1___full_duplex.html#ad492f4a0a04c0eb562cdec08cb7b55da" title=" " alt="" coords="293,5,549,61"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1driver_1_1protocol_1_1_abstract_protocol.html#a8fe01b25cb838230370df24dbb5673c4" title=" " alt="" coords="292,86,549,127"/>
-</map>

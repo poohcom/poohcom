@@ -1,6 +1,0 @@
-<map id="com.sc.scairo.hmi.draw.bean.taginfotable.ui.TagInfoTable.getButtonPanel" name="com.sc.scairo.hmi.draw.bean.taginfotable.ui.TagInfoTable.getButtonPanel">
-<area shape="rect" id="node1" title=" " alt="" coords="5,35,285,76"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1taginfotable_1_1ui_1_1_tag_info_table.html#ae121852f75f7f70c1209d83661a987f9" title=" " alt="" coords="333,64,613,105"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1taginfotable_1_1_tag_info_table_constants.html#aa65c06f132442f6ca30b507a4a0fcd2e" title=" " alt="" coords="668,5,935,47"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1taginfotable_1_1ui_1_1_image_button.html#a3acf7201fbbedd2e8b9ff204ea019bd6" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="661,71,941,112"/>
-</map>

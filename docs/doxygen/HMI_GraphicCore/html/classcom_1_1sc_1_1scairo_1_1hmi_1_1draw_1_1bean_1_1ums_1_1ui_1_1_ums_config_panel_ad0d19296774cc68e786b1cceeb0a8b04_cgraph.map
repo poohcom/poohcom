@@ -1,8 +1,0 @@
-<map id="com.sc.scairo.hmi.draw.bean.ums.ui.UmsConfigPanel.initTableColumnHeader" name="com.sc.scairo.hmi.draw.bean.ums.ui.UmsConfigPanel.initTableColumnHeader">
-<area shape="rect" id="node1" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="5,159,260,200"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1ums_1_1ui_1_1_ums_tag_target_info_panel.html#a196c5c79a79ca15af57ae49de4274115" title=" " alt="" coords="308,5,611,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1ums_1_1ui_1_1_ums_table_header_mouse_listener.html#ab39cad132bb7e90bbe7e6c45ec4d39ef" title=" " alt="" coords="327,71,591,127"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1ums_1_1ui_1_1_ums_table_header_mouse_listener.html#a013d0fc97aff878a6b586ed0fe4a4ac1" title=" " alt="" coords="327,151,591,207"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1ums_1_1ui_1_1_ums_table_header_mouse_listener.html#a43ad2c9e377e2b6c73ea61c3305bd43f" title=" " alt="" coords="327,231,591,287"/>
-<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1ums_1_1ui_1_1_ums_table_header_mouse_listener.html#abc028bb8c0bb73c82c004c4921b3b064" title=" " alt="" coords="327,311,591,367"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="com.sc.scairo.hmi.draw.bean.timetrend.history.HistoryTimeTrend.setRangeMarker" name="com.sc.scairo.hmi.draw.bean.timetrend.history.HistoryTimeTrend.setRangeMarker">
-<area shape="rect" id="node1" title=" " alt="" coords="5,169,303,211"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1history_1_1_history_trend_info.html#ac130208a2661a90018418638f83999b0" title=" " alt="" coords="351,5,648,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1history_1_1_history_trend_data_info.html#a9444234e962c236142894993a5b7c204" title=" " alt="" coords="351,71,648,112"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1history_1_1_history_trend_date_mark_info.html#a8cc6618852f3e728609c426d5d94878b" title=" " alt="" coords="351,136,648,177"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1history_1_1_history_trend_date_mark_info.html#aac72738204244e44e5cae47e87a3a820" title=" " alt="" coords="351,201,648,243"/>
-<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1history_1_1_history_trend_date_mark_info.html#ad29566e601ad6531c6db82558ad52639" title=" " alt="" coords="351,267,648,308"/>
-<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1history_1_1_history_trend_date_mark_info.html#a55c2177d259a60daf0e006435de48f31" title=" " alt="" coords="351,332,648,373"/>
-</map>

@@ -1,6 +1,0 @@
-<map id="com.sc.scairo.hmi.draw.bean.ums.UmsConfig.setUseEmail" name="com.sc.scairo.hmi.draw.bean.ums.UmsConfig.setUseEmail">
-<area shape="rect" id="node1" title=" " alt="" coords="648,39,873,80"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1ums_1_1_d_b_loader.html#aed7991632b2b2653be3b47462fe0608f" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="360,5,585,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1ums_1_1ui_1_1_ums_target_config_table_model.html#a8f75ad2ead7ec1245d8df851ed71d287" title=" " alt="" coords="345,71,600,112"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1ums_1_1ui_1_1_ums_config_table_mouse_listener.html#a2196c4ff452315214bc64483bae473f8" title=" " alt="" coords="5,71,297,112"/>
-</map>

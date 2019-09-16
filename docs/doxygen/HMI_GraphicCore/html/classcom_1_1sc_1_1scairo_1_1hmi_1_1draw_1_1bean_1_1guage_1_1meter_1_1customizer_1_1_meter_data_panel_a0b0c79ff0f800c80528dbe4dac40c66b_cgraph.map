@@ -1,9 +1,0 @@
-<map id="com.sc.scairo.hmi.draw.bean.guage.meter.customizer.MeterDataPanel.setObject" name="com.sc.scairo.hmi.draw.bean.guage.meter.customizer.MeterDataPanel.setObject">
-<area shape="rect" id="node1" title=" " alt="" coords="5,169,345,211"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1guage_1_1meter_1_1_meter_info.html#a98364e5fa70743f1b5851b56a36bcaa3" title=" " alt="" coords="427,5,699,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1guage_1_1meter_1_1_meter_data_info.html#a7f0cc8020abef5dd567c94ff45d798b0" title=" " alt="" coords="427,71,699,112"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1guage_1_1meter_1_1_meter_data_info.html#a91cb2e171fdedc0fd716d43b4a52a0d2" title=" " alt="" coords="427,136,699,177"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1guage_1_1meter_1_1_meter_data_info.html#a08bf37d2895954cedd6d4836926641d4" title=" " alt="" coords="427,201,699,243"/>
-<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1guage_1_1meter_1_1_meter_data_info.html#af43ad6e0f893263086a2cbb5210a8232" title=" " alt="" coords="427,267,699,308"/>
-<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1guage_1_1meter_1_1customizer_1_1_meter_data_panel.html#a9e35d32f821aad0b3878458509ce92a9" title=" " alt="" coords="393,332,733,373"/>
-</map>

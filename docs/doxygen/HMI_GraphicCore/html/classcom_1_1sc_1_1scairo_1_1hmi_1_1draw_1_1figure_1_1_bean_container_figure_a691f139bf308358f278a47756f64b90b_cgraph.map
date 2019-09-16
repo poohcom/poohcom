@@ -1,7 +1,0 @@
-<map id="com.sc.scairo.hmi.draw.figure.BeanContainerFigure.transform" name="com.sc.scairo.hmi.draw.figure.BeanContainerFigure.transform">
-<area shape="rect" id="node1" title=" " alt="" coords="5,71,207,112"/>
-<area shape="rect" id="node2" href="$classorg_1_1jhotdraw_1_1draw_1_1_abstract_figure.html#a993b0d882619dcb54d6cb3feae3c0259" title=" " alt="" coords="271,5,447,47"/>
-<area shape="rect" id="node3" href="$classorg_1_1jhotdraw_1_1draw_1_1_abstract_figure.html#a968f93c7cdfba489dac0a46ddf95e67b" title=" " alt="" coords="271,71,447,112"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1figure_1_1_bean_container_figure.html#a78c044acaa227c9bf35a1e2613965d0b" title=" " alt="" coords="255,136,464,177"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1figure_1_1_bean_container_figure.html#a92ad32f32c707b96004fc1fdb13b17de" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="512,136,735,177"/>
-</map>

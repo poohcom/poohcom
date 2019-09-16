@@ -1,7 +1,0 @@
-<map id="com.sc.scairo.hmi.draw.HMILineNodeHandle.trackStart" name="com.sc.scairo.hmi.draw.HMILineNodeHandle.trackStart">
-<area shape="rect" id="node1" title=" " alt="" coords="5,64,216,105"/>
-<area shape="rect" id="node2" href="$classorg_1_1jhotdraw_1_1draw_1_1_bezier_node_handle.html#ab68ff4c4293507b91092b46181d9d310" title=" " alt="" coords="277,64,441,105"/>
-<area shape="rect" id="node3" href="$classorg_1_1jhotdraw_1_1draw_1_1_bezier_node_handle.html#a9ae1dbc7ec57e5713cfa47c461d32320" title=" " alt="" coords="523,5,687,47"/>
-<area shape="rect" id="node5" href="$classorg_1_1jhotdraw_1_1geom_1_1_geometry_pool.html#af47ce396fffbf54f2e6358a0d257a7cd" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="264,129,453,171"/>
-<area shape="rect" id="node4" href="$classorg_1_1jhotdraw_1_1draw_1_1_bezier_node_handle.html#ae3ea400db1a82c9874a838c6e1ecb103" title=" " alt="" coords="501,71,709,112"/>
-</map>

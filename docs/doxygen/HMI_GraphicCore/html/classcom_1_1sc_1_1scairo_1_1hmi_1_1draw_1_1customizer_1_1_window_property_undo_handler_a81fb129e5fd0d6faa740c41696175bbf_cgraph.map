@@ -1,9 +1,0 @@
-<map id="com.sc.scairo.hmi.draw.customizer.WindowPropertyUndoHandler.dispose" name="com.sc.scairo.hmi.draw.customizer.WindowPropertyUndoHandler.dispose">
-<area shape="rect" id="node1" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="5,173,245,215"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing.html#a2842163362fa956fd68702a89b74d33d" title=" " alt="" coords="295,5,549,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing.html#a21207380205871445983507567a0b7a2" title=" " alt="" coords="295,71,549,112"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing.html#ac193e56533cac79d50fbd5b89c564a03" title=" " alt="" coords="295,136,549,177"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing_security_property.html#a2d8e92e0b12f930dfc7acc836a72c10e" title="Removes the property change listener. @LastUpdate 2019." alt="" coords="293,202,551,258"/>
-<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing_script_property.html#aa2f8012f7a2577369ff58c940a05878c" title="Removes the property change listener. @LastUpdate 2019." alt="" coords="301,282,543,338"/>
-<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_drawing_window_property.html#a0dae72307564cd06828d1356e97f9bb4" title="Removes the property change listener. @LastUpdate 2019." alt="" coords="295,362,549,418"/>
-</map>

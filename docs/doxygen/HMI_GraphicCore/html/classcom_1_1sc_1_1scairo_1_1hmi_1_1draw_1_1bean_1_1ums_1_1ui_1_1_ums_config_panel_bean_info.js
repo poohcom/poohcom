@@ -1,4 +1,0 @@
-var classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1ums_1_1ui_1_1_ums_config_panel_bean_info =
-[
-    [ "getBeanDescriptor", "classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1ums_1_1ui_1_1_ums_config_panel_bean_info.html#a2c897dfbf0e52b96c2a49a25179feab5", null ]
-];

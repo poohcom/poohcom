@@ -1,6 +1,0 @@
-<map id="com.sc.scairo.hmi.draw.bean.timetrend.history.customizer.HistoryTrendCustomizerDialog.setDataPanelVisible" name="com.sc.scairo.hmi.draw.bean.timetrend.history.customizer.HistoryTrendCustomizerDialog.setDataPanelVisible">
-<area shape="rect" id="node1" title=" " alt="" coords="5,39,371,80"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1history_1_1customizer_1_1_history_time_trend_customizer.html#ae2c0d23be449007cd8ff96dc7ad4fb72" title=" " alt="" coords="419,39,784,80"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1history_1_1customizer_1_1_history_time_trend_common_panel.html#aa6cc7b0c930dd093ed43a67d2f753684" title=" " alt="" coords="832,5,1197,47"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1timetrend_1_1history_1_1customizer_1_1_history_time_trend_data_panel.html#a5ad129f0439a42c000a8a65a91d409e6" title=" " alt="" coords="832,71,1197,112"/>
-</map>

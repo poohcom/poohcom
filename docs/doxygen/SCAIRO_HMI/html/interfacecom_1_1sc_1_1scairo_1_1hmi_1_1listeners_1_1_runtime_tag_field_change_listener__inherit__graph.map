@@ -1,8 +1,0 @@
-<map id="com.sc.scairo.hmi.listeners.RuntimeTagFieldChangeListener" name="com.sc.scairo.hmi.listeners.RuntimeTagFieldChangeListener">
-<area shape="rect" id="node1" title=" " alt="" coords="153,39,363,80"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1runtime_1_1_tag_data_service_creator.html" title=" " alt="" coords="417,5,597,47"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_device_adapter.html" title=" " alt="" coords="411,71,604,112"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,46,105,73"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_item_device_adapter.html" title=" " alt="" coords="652,37,832,79"/>
-<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_map_device_adapter.html" title=" " alt="" coords="652,103,832,144"/>
-</map>

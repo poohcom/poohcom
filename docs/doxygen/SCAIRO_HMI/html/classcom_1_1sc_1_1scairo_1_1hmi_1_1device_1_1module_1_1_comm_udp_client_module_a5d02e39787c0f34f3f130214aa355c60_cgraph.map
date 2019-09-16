@@ -1,6 +1,0 @@
-<map id="com.sc.scairo.hmi.device.module.CommUdpClientModule.CommUdpClientModule" name="com.sc.scairo.hmi.device.module.CommUdpClientModule.CommUdpClientModule">
-<area shape="rect" id="node1" title=" " alt="" coords="5,71,304,112"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1info_1_1connection_1_1_tcp_udp_connection_info.html#a00cc1607e37c32a36d35aa4431cfdb16" title=" " alt="" coords="361,5,625,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1info_1_1connection_1_1_tcp_udp_connection_info.html#a64ef037d86394ad1f69cd8b96aa24365" title=" " alt="" coords="361,71,625,112"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1info_1_1connection_1_1_tcp_udp_connection_info.html#a50c8f268fdad816232d79026c863cefd" title=" " alt="" coords="352,136,633,177"/>
-</map>

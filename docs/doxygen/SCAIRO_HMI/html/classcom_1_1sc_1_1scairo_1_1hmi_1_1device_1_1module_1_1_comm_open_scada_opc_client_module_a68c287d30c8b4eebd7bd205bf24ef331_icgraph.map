@@ -1,5 +1,0 @@
-<map id="com.sc.scairo.hmi.device.module.CommOpenScadaOpcClientModule.setAutoReConnectFlag" name="com.sc.scairo.hmi.device.module.CommOpenScadaOpcClientModule.setAutoReConnectFlag">
-<area shape="rect" id="node1" title=" " alt="" coords="348,31,624,87"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1listeners_1_1_open_scada_auto_connect_listener.html#a27ffd489b8a83f4e715b1999b4efc4f9" title=" " alt="" coords="5,5,300,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1module_1_1_opc_access_state_listener.html#a6fbd0d44634d04b10f6d1c4a4b0249ed" title=" " alt="" coords="27,71,278,112"/>
-</map>

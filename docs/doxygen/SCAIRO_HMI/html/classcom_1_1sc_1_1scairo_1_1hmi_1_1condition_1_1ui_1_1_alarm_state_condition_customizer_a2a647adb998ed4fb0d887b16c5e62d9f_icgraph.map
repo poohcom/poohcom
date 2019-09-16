@@ -1,7 +1,0 @@
-<map id="com.sc.scairo.hmi.condition.ui.AlarmStateConditionCustomizer.setCheckBoxState" name="com.sc.scairo.hmi.condition.ui.AlarmStateConditionCustomizer.setCheckBoxState">
-<area shape="rect" id="node1" title=" " alt="" coords="931,35,1197,91"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1condition_1_1ui_1_1_alarm_state_condition_customizer.html#a8ec05809d4148dcf18f618d77a7df337" title=" " alt="" coords="600,5,883,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1condition_1_1ui_1_1_alarm_state_condition_customizer.html#a67475f0caf1dcec561261ca2e4123118" title=" " alt="" coords="608,71,875,127"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1condition_1_1ui_1_1_alarm_state_condition_customizer.html#af40a620ba2f94fef30f6299a84d05f6b" title="간략한 설명 작성" alt="" coords="300,79,552,120"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1condition_1_1ui_1_1_alarm_state_condition_customizer.html#ab3702390d360317afcea279fd2bd3fb4" title=" " alt="" coords="5,71,252,127"/>
-</map>

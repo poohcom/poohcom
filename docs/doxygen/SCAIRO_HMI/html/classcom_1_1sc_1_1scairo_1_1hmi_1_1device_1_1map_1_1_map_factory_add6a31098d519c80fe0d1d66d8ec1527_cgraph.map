@@ -1,6 +1,0 @@
-<map id="com.sc.scairo.hmi.device.map.MapFactory.setMapWrite" name="com.sc.scairo.hmi.device.map.MapFactory.setMapWrite">
-<area shape="rect" id="node1" title="간략한 설명 작성" alt="" coords="5,39,208,80"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1map_1_1_plc_data_map.html#a8249f4c184546907cc0b410c6a971db9" title="간략한 설명 작성" alt="" coords="256,39,459,80"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1map_1_1_plc_data_map.html#a610ca0c9614d9a25cb705d959e40d529" title="간략한 설명 작성" alt="" coords="507,5,731,47"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1map_1_1_plc_data_map.html#a3ef283a3d85442513d5ddef422409d87" title=" " alt="" coords="517,71,720,112"/>
-</map>

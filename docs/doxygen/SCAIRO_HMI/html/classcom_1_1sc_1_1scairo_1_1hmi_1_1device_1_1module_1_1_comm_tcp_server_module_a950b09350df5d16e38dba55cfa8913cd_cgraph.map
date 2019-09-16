@@ -1,6 +1,0 @@
-<map id="com.sc.scairo.hmi.device.module.CommTcpServerModule.setStationDataRecieveErrorTag" name="com.sc.scairo.hmi.device.module.CommTcpServerModule.setStationDataRecieveErrorTag">
-<area shape="rect" id="node1" title="간략한 설명 작성" alt="" coords="5,63,255,119"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_group_tag.html#a8fb19d5720218a2e3f3e97958829ae4d" title="간략한 설명 작성" alt="" coords="306,5,497,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1info_1_1_device_info.html#aaed6016a1c5bd12e08d8a29d55ec03d3" title=" " alt="" coords="303,71,500,112"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_digital_tag.html#a00c55715bbe132e06c63b7b69f986be1" title=" " alt="" coords="306,136,497,177"/>
-</map>

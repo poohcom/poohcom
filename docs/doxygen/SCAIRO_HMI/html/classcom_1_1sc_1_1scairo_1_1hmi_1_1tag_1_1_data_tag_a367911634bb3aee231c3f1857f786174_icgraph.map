@@ -1,9 +1,0 @@
-<map id="com.sc.scairo.hmi.tag.DataTag.isSaveLastStatus" name="com.sc.scairo.hmi.tag.DataTag.isSaveLastStatus">
-<area shape="rect" id="node1" title=" " alt="" coords="297,169,480,211"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1io_1_1csv_1_1_string_tag_c_s_v_converter.html#a1ecd2fe6b271a10defc23216be6a79aa" title="간략한 설명 작성" alt="" coords="26,5,229,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1io_1_1csv_1_1_digital_tag_c_s_v_converter.html#ad2f62be19e2d692cbc958be8866c3e5c" title="간략한 설명 작성" alt="" coords="25,71,230,112"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1io_1_1csv_1_1_analog_tag_c_s_v_converter.html#a7b721607c1d50eb911df93a4744ad03c" title="간략한 설명 작성" alt="" coords="23,136,232,177"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1undo_1_1_tag_undo_properties.html#ab452144cd028a0f0a49635d3cb831eb9" title=" " alt="" coords="7,201,247,243"/>
-<area shape="rect" id="node6" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1runtime_1_1_last_tag_status_manager.html#af83dc8871bcb37458b2399a4e9ed0422" title=" " alt="" coords="5,267,249,323"/>
-<area shape="rect" id="node7" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1tag_1_1_data_tag.html#a6039807734f8999694749fb33847e895" title=" " alt="" coords="36,348,219,389"/>
-</map>

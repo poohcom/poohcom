@@ -1,8 +1,0 @@
-<map id="com.sc.scairo.hmi.draw.io.xml.XmlEffectListAdapter.unmarshal" name="com.sc.scairo.hmi.draw.io.xml.XmlEffectListAdapter.unmarshal">
-<area shape="rect" id="node1" title=" " alt="" coords="5,104,212,145"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1io_1_1xml_1_1_effect_entry_item.html#a7cb66644e25390a754141639bf2ecd19" title=" " alt="" coords="260,5,463,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1_effect_list.html#a610dfa4e91438894a8e92a2aaf1382ad" title=" " alt="" coords="262,71,461,112"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1io_1_1xml_1_1_effect_entry_item.html#a9781ba29ef51f5d44b05533083f75845" title=" " alt="" coords="260,136,463,177"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1_effect_list.html#a946c79b9ed945975e4999f17963580a8" title="간략한 설명 작성 @LastUpdate 2019." alt="" coords="262,201,461,243"/>
-<area shape="rect" id="node6" href="$interfacecom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1effect_1_1_effect.html#a4bccf0dadf7674ba1d9a1cefc05f0a58" title=" " alt="" coords="511,201,709,243"/>
-</map>

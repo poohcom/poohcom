@@ -1,7 +1,0 @@
-<map id="com.sc.scairo.hmi.draw.bean.historytrend.HistoryTrend.runBean" name="com.sc.scairo.hmi.draw.bean.historytrend.HistoryTrend.runBean">
-<area shape="rect" id="node1" title=" " alt="" coords="5,64,273,105"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1historytrend_1_1_history_trend_x_axis_info.html#afe01f49bc0cbd13b10055e6aeb4367e8" title=" " alt="" coords="321,5,589,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1historytrend_1_1_history_trend_info.html#a7a6e360ca0824c64265f0bec2cde2716" title=" " alt="" coords="637,64,905,105"/>
-<area shape="rect" id="node4" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1historytrend_1_1_history_trend.html#a8fc195d787113f1bccdd1cc36d9df2f4" title=" " alt="" coords="321,123,589,164"/>
-<area shape="rect" id="node5" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1bean_1_1historytrend_1_1_history_trend_x_axis_info.html#af8d29e82936eae36cfd1e973af6fda14" title=" " alt="" coords="637,129,905,171"/>
-</map>

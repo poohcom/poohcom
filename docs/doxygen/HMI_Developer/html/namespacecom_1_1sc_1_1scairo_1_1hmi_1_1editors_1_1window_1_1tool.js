@@ -1,4 +1,0 @@
-var namespacecom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1tool =
-[
-    [ "HMISelectionTool", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1tool_1_1_h_m_i_selection_tool.html", "classcom_1_1sc_1_1scairo_1_1hmi_1_1editors_1_1window_1_1tool_1_1_h_m_i_selection_tool" ]
-];

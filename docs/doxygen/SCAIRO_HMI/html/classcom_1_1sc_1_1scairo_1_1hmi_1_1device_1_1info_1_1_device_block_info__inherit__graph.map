@@ -1,7 +1,0 @@
-<map id="com.sc.scairo.hmi.device.info.DeviceBlockInfo" name="com.sc.scairo.hmi.device.info.DeviceBlockInfo">
-<area shape="rect" id="node1" title=" " alt="" coords="59,169,257,211"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,87,95,114"/>
-<area shape="rect" id="node3" title=" " alt="" coords="119,87,197,114"/>
-<area shape="rect" id="node4" href="$interfacecom_1_1sc_1_1scairo_1_1hmi_1_1device_1_1listeners_1_1_map_change_listener.html" title=" " alt="" coords="222,80,449,121"/>
-<area shape="rect" id="node5" title=" " alt="" coords="285,5,385,32"/>
-</map>

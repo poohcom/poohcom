@@ -1,8 +1,0 @@
-<map id="com.sc.scairo.hmi.event.EventGroupList.addEvent" name="com.sc.scairo.hmi.event.EventGroupList.addEvent">
-<area shape="rect" id="node1" title="간략한 설명 작성" alt="" coords="5,104,172,145"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1event_1_1_event_group.html#ada8409f12324043447fd923125587c22" title="간략한 설명 작성" alt="" coords="220,71,387,112"/>
-<area shape="rect" id="node6" href="$interfacecom_1_1sc_1_1scairo_1_1hmi_1_1event_1_1_i_h_m_i_event.html#a57778e8bc40e5a6716ef4d1697436e97" title=" " alt="" coords="220,136,387,177"/>
-<area shape="rect" id="node3" href="$interfacecom_1_1sc_1_1scairo_1_1hmi_1_1event_1_1_i_h_m_i_event.html#a28f20b7c7fcd064136e6a0ce7fa0d0ec" title="간략한 설명 작성" alt="" coords="435,5,679,47"/>
-<area shape="rect" id="node4" href="$interfacecom_1_1sc_1_1scairo_1_1hmi_1_1event_1_1_i_h_m_i_event.html#a3a60f926d27ac67c151eec044fe3b32f" title=" " alt="" coords="473,71,640,112"/>
-<area shape="rect" id="node5" href="$interfacecom_1_1sc_1_1scairo_1_1hmi_1_1event_1_1_i_h_m_i_event.html#a7a024404020e152d87606e25df3fd66e" title=" " alt="" coords="473,136,640,177"/>
-</map>

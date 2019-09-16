@@ -1,5 +1,0 @@
-<map id="com.sc.scairo.hmi.draw.HMIDrawingEffects.getEffectMap" name="com.sc.scairo.hmi.draw.HMIDrawingEffects.getEffectMap">
-<area shape="rect" id="node1" title=" " alt="" coords="616,5,849,47"/>
-<area shape="rect" id="node2" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_runtime_drawing_view_event_handler.html#a6473865b53e13aefb526cfad123780a0" title=" " alt="" coords="288,5,568,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1sc_1_1scairo_1_1hmi_1_1draw_1_1_h_m_i_runtime_drawing_view.html#ab24f39ae3e2a2c3206dc3dfe3ebd4b59" title="반환 타입을 갖도록 수정되면서 이 메서드에서도 반환 타입을 갖도록 변경함. &#160;2019." alt="" coords="5,5,240,47"/>
-</map>
