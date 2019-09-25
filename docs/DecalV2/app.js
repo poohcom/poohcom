@@ -1,7 +1,7 @@
 import * as THREE from './jsm/three.module.js';
 import { OrbitControls } from './jsm/controls/OrbitControls.js';
 import { FBXLoader } from './jsm/loaders/FBXLoader.js';
-import { DecalGeometry } from './jsm/geometries/DecalGeometry.js';
+import { DecalGeometry2 } from './jsm/geometries/DecalGeometry2.js';
 
 var container = document.getElementById( 'container' );
 
@@ -19,6 +19,7 @@ var intersection = {
 	normal: new THREE.Vector3()
 };
 var mouse = new THREE.Vector2();
+var start_mouse = new THREE.Vector2();
 
 var textureLoader = new THREE.TextureLoader();
 var decalDiffuse = textureLoader.load( 'textures/decal/decal-diffuse.png' );
@@ -116,6 +117,16 @@ function init() {
 		moved = false;
 
 	}, false );
+	
+		window.addEventListener( 'touchstart', function (event) {
+
+					onTouchMove( event );
+					
+					start_mouse.x = mouse.x;
+					start_mouse.y = mouse.y;
+					moved = false;
+				}, false );
+				
 
 	window.addEventListener( 'mouseup', function () {
 
@@ -126,6 +137,24 @@ function init() {
 
 	window.addEventListener( 'mousemove', onTouchMove );
 	window.addEventListener( 'touchmove', onTouchMove );
+	
+		window.addEventListener( 'touchend', function (event) {
+				
+					onTouchMove( event );
+					
+					if (((mouse.x-start_mouse.x)*(mouse.x-start_mouse.x) * window.innerWidth * window.innerWidth + (mouse.y-start_mouse.y)*(mouse.y-start_mouse.y) * window.innerHeight * window.innerHeight ) > 2500 )
+					{
+						moved=true;
+					}else{
+						moved=false;
+					}
+
+					//checkIntersection();
+					if ( ! moved && intersection.intersects ) shoot();
+
+				} );
+
+
 
 	function onTouchMove( event ) {
 
@@ -276,9 +305,10 @@ function shoot() {
 	size.set( scale, scale, scale );
 
 	var material = decalMaterial.clone();
-	material.color.setHex( Math.random() * 0xffffff );
+	//material.color.setHex( Math.random() * 0xffffff );
+	material.color.setHex( 0xffffff );
 
-	var m = new THREE.Mesh( new DecalGeometry( mesh, position, orientation, size ), material );
+	var m = new THREE.Mesh( new DecalGeometry2( mesh, position, orientation, size ), material );
 
 	decals.push( m );
 	scene.add( m );
