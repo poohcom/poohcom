@@ -3,7 +3,7 @@ import { OrbitControls } from './jsm/controls/OrbitControls.js';
 import { FBXLoader } from './jsm/loaders/FBXLoader.js';
 import { DecalGeometry2 } from './jsm/geometries/DecalGeometry2.js';
 
-console.log("v3");
+console.log("v4");
 
 var container = document.getElementById( 'container' );
 
@@ -27,15 +27,12 @@ var mouse = new THREE.Vector2();
 var start_mouse = new THREE.Vector2();
 
 var textureLoader = new THREE.TextureLoader();
-var decalDiffuse = textureLoader.load( 'textures/decal/WHT_UP_tex.png' );
-var decalNormal = textureLoader.load( 'textures/decal/decal-diffuse.png' );
+var decalDiffuse;// = textureLoader.load( 'textures/decal/WHT_UP_tex.png' );
+var decalNormal;// = textureLoader.load( 'textures/decal/decal-diffuse.png' );
 
 console.log("a2");
 
-
 var vertShader;// = document.getElementById('vertex_shh').textContent;
-
-
 var fragShader;// = document.getElementById('fragment_shh').textContent;
 
 console.log("a4");
@@ -46,6 +43,8 @@ var attributes = {};
 	 tOne: { value: decalDiffuse },
 	 tSec: { value: decalNormal }
 };
+
+console.log("a5");
 
 // var decalMaterial2 = new THREE.MeshBasicMaterial( {
 	// map: decalDiffuse,
@@ -93,9 +92,16 @@ function init() {
 
 
 	console.log("init1");
-	vertShader = document.getElementById('vertex_shh').textContent;
+	
+	decalDiffuse = textureLoader.load( 'textures/decal/WHT_UP_tex.png' );
+	decalNormal = textureLoader.load( 'textures/decal/decal-diffuse.png' );
 
 	console.log("init2");
+	
+	
+	vertShader = document.getElementById('vertex_shh').textContent;
+
+	console.log("init3");
 
 	fragShader = document.getElementById('fragment_shh').textContent;
 
