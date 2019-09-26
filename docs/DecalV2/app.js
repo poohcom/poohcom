@@ -3,6 +3,8 @@ import { OrbitControls } from './jsm/controls/OrbitControls.js';
 import { FBXLoader } from './jsm/loaders/FBXLoader.js';
 import { DecalGeometry2 } from './jsm/geometries/DecalGeometry2.js';
 
+console.log("v1");
+
 var container = document.getElementById( 'container' );
 
 var clock = new THREE.Clock();
@@ -24,7 +26,7 @@ var start_mouse = new THREE.Vector2();
 var textureLoader = new THREE.TextureLoader();
 var decalDiffuse = textureLoader.load( 'textures/decal/WHT_UP_tex.png' );
 //var decalNormal = textureLoader.load( 'textures/decal/WHT_UP_tex.png' );
-var decalNormal = textureLoader.load( 'textures/decal/decal-diffuse.jpg' );
+var decalNormal = textureLoader.load( 'textures/decal/decal-diffuse.png' );
 
 
 // var textureWithAlphaChannel = textureLoader.load( 'textures/decal/alpha.png' );
@@ -53,10 +55,16 @@ var fragShader = document.getElementById('fragment_shh').textContent;
 
 var attributes = {};
 
-var uniforms = {
-	tOne: { value: new THREE.TextureLoader().load( 'textures/decal/WHT_UP_tex.png' ) },
-	tSec: { value:  new THREE.TextureLoader().load( 'textures/decal/decal-diffuse.png' )  }
-  };
+// var uniforms = {
+	// tOne: { value: new THREE.TextureLoader().load( 'textures/decal/WHT_UP_tex.png' ) },
+	// tSec: { value:  new THREE.TextureLoader().load( 'textures/decal/decal-diffuse.png' )  }
+  // };
+
+ var uniforms = {
+	 tOne: { value: decalDiffuse },
+	 tSec: { value: decalNormal }
+};
+
 
 var decalMaterial2 = new THREE.MeshBasicMaterial( {
 	map: decalDiffuse,
@@ -219,7 +227,6 @@ function init() {
 		mouse.y = - ( y / window.innerHeight ) * 2 + 1;
 
 		checkIntersection();
-
 	}
 
 	function checkIntersection() {

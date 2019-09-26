@@ -9,12 +9,10 @@
 	<body>
 		
 		<script id="fragment_shh" type="x-shader/x-fragment">
-			#include <common>
 
-
-			//#ifdef GL_ES
+			#ifdef GL_ES
 			precision highp float;
-			//#endif
+			#endif
 			
 			uniform sampler2D tOne;
 			uniform sampler2D tSec;
@@ -28,7 +26,6 @@
 				vec4 Cb = texture2D(tSec, vUv2);
 
 				vec3 c = Ca.rgb * Ca.a + Cb.rgb * Cb.a * (1.0 - Ca.a);
-				//vec3 c = Ca.rgb;
 				
 				gl_FragColor= vec4(c, Cb.a);
 			}
