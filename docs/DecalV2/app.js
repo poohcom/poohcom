@@ -22,15 +22,45 @@ var mouse = new THREE.Vector2();
 var start_mouse = new THREE.Vector2();
 
 var textureLoader = new THREE.TextureLoader();
-var decalDiffuse = textureLoader.load( 'textures/decal/decal-diffuse.png' );
-var decalNormal = textureLoader.load( 'textures/decal/decal-normal.jpg' );
+var decalDiffuse = textureLoader.load( 'textures/decal/WHT_UP_tex.png' );
+//var decalNormal = textureLoader.load( 'textures/decal/WHT_UP_tex.png' );
+var decalNormal = textureLoader.load( 'textures/decal/decal-diffuse.jpg' );
 
-var decalMaterial = new THREE.MeshPhongMaterial( {
-	specular: 0x444444,
+
+// var textureWithAlphaChannel = textureLoader.load( 'textures/decal/alpha.png' );
+// plane = new THREE.Mesh( new THREE.PlaneGeometry(4,4),
+//     new THREE.MeshBasicMaterial( {map: textureWithAlphaChannel , transparency: false, color: 0xFFFFFF, side: THREE.DoubleSide} )
+// );
+
+// var decalMaterial = new THREE.MeshPhongMaterial( {
+// 	specular: 0x444444,
+// 	map: decalDiffuse,
+// 	normalMap: decalNormal,
+// 	normalScale: new THREE.Vector2( 1, 1 ),
+// 	shininess: 30,
+// 	transparent: true,
+// 	depthTest: true,
+// 	depthWrite: false,
+// 	polygonOffset: true,
+// 	polygonOffsetFactor: - 4,
+// 	wireframe: false
+// } );
+
+
+var vertShader = document.getElementById('vertex_shh').textContent;
+
+var fragShader = document.getElementById('fragment_shh').textContent;
+
+var attributes = {};
+
+var uniforms = {
+	tOne: { value: new THREE.TextureLoader().load( 'textures/decal/WHT_UP_tex.png' ) },
+	tSec: { value:  new THREE.TextureLoader().load( 'textures/decal/decal-diffuse.png' )  }
+  };
+
+var decalMaterial2 = new THREE.MeshBasicMaterial( {
 	map: decalDiffuse,
-	normalMap: decalNormal,
 	normalScale: new THREE.Vector2( 1, 1 ),
-	shininess: 30,
 	transparent: true,
 	depthTest: true,
 	depthWrite: false,
@@ -39,15 +69,28 @@ var decalMaterial = new THREE.MeshPhongMaterial( {
 	wireframe: false
 } );
 
+var decalMaterial = new THREE.ShaderMaterial({
+	uniforms: uniforms,
+	vertexShader: vertShader,
+	fragmentShader: fragShader,
+	transparent: true,
+	depthTest: true,
+	depthWrite: false,
+	polygonOffset: true,
+	polygonOffsetFactor: - 4,
+	wireframe: false
+  });
+
+
 var decals = [];
 var mouseHelper;
 var position = new THREE.Vector3();
 var orientation = new THREE.Euler();
-var size = new THREE.Vector3( 10, 10, 10 );
+var size = new THREE.Vector3(10, 10, 10 );
 
 var params = {
 	minScale: 10,
-	maxScale: 20,
+	maxScale: 30,
 	rotate: true,
 	clear: function () {
 		removeDecals();
@@ -248,8 +291,9 @@ function loadShoe() {
 	
 	
 	//loader.load( 'models/fbx/shoe15.fbx', function ( object ) {
+	//loader.load( 'models/fbx/black_sheos.FBX', function ( object ) {
 	loader.load( 'models/fbx/Vans.FBX', function ( object ) {
-
+		
 		mixer = new THREE.AnimationMixer( object );
 		//var action = mixer.clipAction( object.animations[ 0 ] );
 		//action.play();
@@ -258,8 +302,8 @@ function loadShoe() {
 
 				 console.log("child:"+child.name);
 				 //if ( child.name=="951840_4")
-				 		
 				 if ( child.name=="Plane005")
+				 //if ( child.name=="NIKE_AR_dec_up_bw1")		
 				 {
 				 	console.log("set child:"+child.name);
 				 	mesh = child;	
@@ -275,7 +319,8 @@ function loadShoe() {
 		//console.log("pos:"+object.position.z);
 		
 		//mesh = object;	
-		object.scale.set( 0.5, 0.5, 0.5 );
+		// object.scale.set( 1, 1, 1 ); // black__sheoes
+		object.scale.set( 0.5, 0.5, 0.5 ); // vans
 		scene.add( object );
 		
 		// mesh = gltf.scene.children[ 0 ];
@@ -304,9 +349,9 @@ function shoot() {
 	var scale = params.minScale + Math.random() * ( params.maxScale - params.minScale );
 	size.set( scale, scale, scale );
 
-	var material = decalMaterial.clone();
+	var material = decalMaterial;//.clone(); // clone 이 안됌
 	//material.color.setHex( Math.random() * 0xffffff );
-	material.color.setHex( 0xffffff );
+//	material.color.setHex( 0xffffff );
 
 	var m = new THREE.Mesh( new DecalGeometry2( mesh, position, orientation, size ), material );
 
@@ -341,12 +386,12 @@ function animate() {
 
 	requestAnimationFrame( animate );
 	
-	var delta = clock.getDelta();
-	time+=delta;
-	if ( time < 12)
-	{
-		if ( mixer ) mixer.update( delta );
-	}
+	// var delta = clock.getDelta();
+	// time+=delta;
+	// if ( time < 12)
+	// {
+	// 	if ( mixer ) mixer.update( delta );
+	// }
 
 	renderer.render( scene, camera );
 

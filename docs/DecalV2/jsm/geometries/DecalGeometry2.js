@@ -32,7 +32,8 @@ var DecalGeometry2 = function ( mesh, position, orientation, size ) {
 
 	var vertices = [];
 	var normals = [];
-	var uvs = [];
+	var uvs1 = [];
+	var uvs2 = [];
 
 	// helpers
 
@@ -54,7 +55,8 @@ var DecalGeometry2 = function ( mesh, position, orientation, size ) {
 
 	this.addAttribute( 'position', new Float32BufferAttribute( vertices, 3 ) );
 	this.addAttribute( 'normal', new Float32BufferAttribute( normals, 3 ) );
-	this.addAttribute( 'uv', new Float32BufferAttribute( uvs, 2 ) );
+	this.addAttribute( 'uv', new Float32BufferAttribute( uvs1, 2 ) );
+	this.addAttribute( 'uv2', new Float32BufferAttribute( uvs2, 2 ) );
 
 	function generate() {
 
@@ -64,7 +66,8 @@ var DecalGeometry2 = function ( mesh, position, orientation, size ) {
 
 		var vertex = new Vector3();
 		var normal = new Vector3();
-		var uv = new Vector2();
+		var uv1 = new Vector2();
+		var uv2 = new Vector2();
 
 		// handle different geometry types
 
@@ -80,7 +83,7 @@ var DecalGeometry2 = function ( mesh, position, orientation, size ) {
 
 		var positionAttribute = geometry.attributes.position;
 		var normalAttribute = geometry.attributes.normal;
-		var uvAttribute = geometry.attributes.uv;
+		var uv1Attribute = geometry.attributes.uv;
 
 		// first, create an array of 'DecalVertex' objects
 		// three consecutive 'DecalVertex' objects represent a single face
@@ -97,9 +100,9 @@ var DecalGeometry2 = function ( mesh, position, orientation, size ) {
 
 				vertex.fromBufferAttribute( positionAttribute, index.getX( i ) );
 				normal.fromBufferAttribute( normalAttribute, index.getX( i ) );
-				uv.fromBufferAttribute( uvAttribute, index.getX( i ) );
+				uv1.fromBufferAttribute( uv1Attribute, index.getX( i ) );
 
-				pushDecalVertex( decalVertices, vertex, normal,uv );
+				pushDecalVertex( decalVertices, vertex, normal,uv1 );
 
 			}
 
@@ -111,9 +114,9 @@ var DecalGeometry2 = function ( mesh, position, orientation, size ) {
 
 				vertex.fromBufferAttribute( positionAttribute, i );
 				normal.fromBufferAttribute( normalAttribute, i );
-				uv.fromBufferAttribute( uvAttribute, i );
+				uv1.fromBufferAttribute( uv1Attribute, i );
 
-				pushDecalVertex( decalVertices, vertex, normal , uv);
+				pushDecalVertex( decalVertices, vertex, normal , uv1);
 
 			}
 		}
@@ -127,6 +130,13 @@ var DecalGeometry2 = function ( mesh, position, orientation, size ) {
 		decalVertices = clipGeometry( decalVertices, plane.set( 0, 0, 1 ) );
 		decalVertices = clipGeometry( decalVertices, plane.set( 0, 0, - 1 ) );
 
+		// for(i=0;i<360;i=i+10)
+		// {
+		// 	decalVertices = clipGeometry( decalVertices, plane.set( Math.cos(i), Math.sin(i) , 0) );
+		// }
+		
+
+
 		// third, generate final vertices, normals and uvs
 
 		for ( i = 0; i < decalVertices.length; i ++ ) {
@@ -135,10 +145,10 @@ var DecalGeometry2 = function ( mesh, position, orientation, size ) {
 
 			// create texture coordinates (we are still in projector space)
 
-			// uvs.push(
-			// 	0.5 + ( decalVertex.position.x / size.x ),
-			// 	0.5 + ( decalVertex.position.y / size.y )
-			// );
+			 uvs2.push(
+			 	0.5 + ( decalVertex.position.x / size.x ),
+			 	0.5 + ( decalVertex.position.y / size.y )
+			 );
 
 			// transform the vertex back to world space
 
@@ -148,7 +158,7 @@ var DecalGeometry2 = function ( mesh, position, orientation, size ) {
 
 			vertices.push( decalVertex.position.x, decalVertex.position.y, decalVertex.position.z );
 			normals.push( decalVertex.normal.x, decalVertex.normal.y, decalVertex.normal.z );
-			uvs.push( decalVertex.uv.x, decalVertex.uv.y );
+			uvs1.push( decalVertex.uv.x, decalVertex.uv.y );
 
 		}
 
