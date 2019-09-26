@@ -1,9 +1,9 @@
-import * as THREE from './jsm/three.module.js';
+import * as THREE from '../../build/three.module.js';
 import { OrbitControls } from './jsm/controls/OrbitControls.js';
 import { FBXLoader } from './jsm/loaders/FBXLoader.js';
 import { DecalGeometry2 } from './jsm/geometries/DecalGeometry2.js';
 
-console.log("v1");
+console.log("v2");
 
 var container = document.getElementById( 'container' );
 
@@ -66,16 +66,16 @@ var attributes = {};
 };
 
 
-var decalMaterial2 = new THREE.MeshBasicMaterial( {
-	map: decalDiffuse,
-	normalScale: new THREE.Vector2( 1, 1 ),
-	transparent: true,
-	depthTest: true,
-	depthWrite: false,
-	polygonOffset: true,
-	polygonOffsetFactor: - 4,
-	wireframe: false
-} );
+// var decalMaterial2 = new THREE.MeshBasicMaterial( {
+	// map: decalDiffuse,
+	// normalScale: new THREE.Vector2( 1, 1 ),
+	// transparent: true,
+	// depthTest: true,
+	// depthWrite: false,
+	// polygonOffset: true,
+	// polygonOffsetFactor: - 4,
+	// wireframe: false
+// } );
 
 var decalMaterial = new THREE.ShaderMaterial({
 	uniforms: uniforms,
@@ -109,6 +109,7 @@ window.addEventListener( 'load', init );
 
 function init() {
 
+console.log("1");
 	renderer = new THREE.WebGLRenderer( { antialias: true } );
 	renderer.setPixelRatio( window.devicePixelRatio );
 	renderer.setSize( window.innerWidth, window.innerHeight );
@@ -144,8 +145,11 @@ function init() {
 	line = new THREE.Line( geometry, new THREE.LineBasicMaterial() );
 	scene.add( line );
 
+	console.log("11");
 	//loadLeePerrySmith();
 	loadShoe();
+	
+	console.log("12");
 
 	raycaster = new THREE.Raycaster();
 
@@ -293,9 +297,9 @@ function init() {
 // }
 
 function loadShoe() {
-	
+	console.log("2");
 	var loader = new FBXLoader();
-	
+	console.log("3");
 	
 	//loader.load( 'models/fbx/shoe15.fbx', function ( object ) {
 	//loader.load( 'models/fbx/black_sheos.FBX', function ( object ) {
@@ -344,6 +348,7 @@ function loadShoe() {
 
 	} );
 
+	console.log("4");
 }
 
 function shoot() {
