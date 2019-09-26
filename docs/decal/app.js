@@ -7,7 +7,7 @@ console.log("v6");
 
 var container = document.getElementById('container');
 
-var clock = new THREE.Clock();
+var clock;// = new THREE.Clock();
 var mixer;
 
 var renderer, scene, camera;
@@ -73,14 +73,13 @@ var params = {
 
 
 function loadShoe() {
-	console.log("2");
 	var loader = new FBXLoader();
-	console.log("3");
-
+	
 	loader.load('models/fbx/shoe15.fbx', function (object) {
 		//loader.load( 'models/fbx/black_sheos.FBX', function ( object ) {
 		//loader.load( 'models/fbx/Vans.FBX', function ( object ) {
 
+		clock = new THREE.Clock();
 		mixer = new THREE.AnimationMixer(object);
 		var action = mixer.clipAction(object.animations[0]);
 		action.play();
@@ -185,14 +184,18 @@ function animate() {
 
 	requestAnimationFrame(animate);
 
-	var delta = clock.getDelta();
-	time += delta;
-	if (time < 12) {
-		if (mixer) mixer.update(delta);
+	if (mixer) 
+	{
+		
+		var delta = clock.getDelta();
+		time += delta;
+		if (time < 12) {
+			if (mixer) mixer.update(delta);
+			
+		}
 	}
 
 	renderer.render(scene, camera);
-
 }
 
 function init() {
