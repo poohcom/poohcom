@@ -3,9 +3,12 @@ import { OrbitControls } from './jsm/controls/OrbitControls.js';
 import { FBXLoader } from './jsm/loaders/FBXLoader.js';
 import { DecalGeometry2 } from './jsm/geometries/DecalGeometry2.js';
 
-console.log("v2");
+console.log("v3");
 
 var container = document.getElementById( 'container' );
+
+
+console.log("a1");
 
 var clock = new THREE.Clock();
 var mixer;
@@ -25,46 +28,24 @@ var start_mouse = new THREE.Vector2();
 
 var textureLoader = new THREE.TextureLoader();
 var decalDiffuse = textureLoader.load( 'textures/decal/WHT_UP_tex.png' );
-//var decalNormal = textureLoader.load( 'textures/decal/WHT_UP_tex.png' );
 var decalNormal = textureLoader.load( 'textures/decal/decal-diffuse.png' );
 
-
-// var textureWithAlphaChannel = textureLoader.load( 'textures/decal/alpha.png' );
-// plane = new THREE.Mesh( new THREE.PlaneGeometry(4,4),
-//     new THREE.MeshBasicMaterial( {map: textureWithAlphaChannel , transparency: false, color: 0xFFFFFF, side: THREE.DoubleSide} )
-// );
-
-// var decalMaterial = new THREE.MeshPhongMaterial( {
-// 	specular: 0x444444,
-// 	map: decalDiffuse,
-// 	normalMap: decalNormal,
-// 	normalScale: new THREE.Vector2( 1, 1 ),
-// 	shininess: 30,
-// 	transparent: true,
-// 	depthTest: true,
-// 	depthWrite: false,
-// 	polygonOffset: true,
-// 	polygonOffsetFactor: - 4,
-// 	wireframe: false
-// } );
+console.log("a2");
 
 
-var vertShader = document.getElementById('vertex_shh').textContent;
+var vertShader;// = document.getElementById('vertex_shh').textContent;
 
-var fragShader = document.getElementById('fragment_shh').textContent;
+
+var fragShader;// = document.getElementById('fragment_shh').textContent;
+
+console.log("a4");
 
 var attributes = {};
-
-// var uniforms = {
-	// tOne: { value: new THREE.TextureLoader().load( 'textures/decal/WHT_UP_tex.png' ) },
-	// tSec: { value:  new THREE.TextureLoader().load( 'textures/decal/decal-diffuse.png' )  }
-  // };
 
  var uniforms = {
 	 tOne: { value: decalDiffuse },
 	 tSec: { value: decalNormal }
 };
-
 
 // var decalMaterial2 = new THREE.MeshBasicMaterial( {
 	// map: decalDiffuse,
@@ -77,18 +58,19 @@ var attributes = {};
 	// wireframe: false
 // } );
 
-var decalMaterial = new THREE.ShaderMaterial({
-	uniforms: uniforms,
-	vertexShader: vertShader,
-	fragmentShader: fragShader,
-	transparent: true,
-	depthTest: true,
-	depthWrite: false,
-	polygonOffset: true,
-	polygonOffsetFactor: - 4,
-	wireframe: false
-  });
+// var decalMaterial = new THREE.ShaderMaterial({
+	// uniforms: uniforms,
+	// vertexShader: vertShader,
+	// fragmentShader: fragShader,
+	// transparent: true,
+	// depthTest: true,
+	// depthWrite: false,
+	// polygonOffset: true,
+	// polygonOffsetFactor: - 4,
+	// wireframe: false
+  // });
 
+var decalMaterial ;
 
 var decals = [];
 var mouseHelper;
@@ -109,7 +91,28 @@ window.addEventListener( 'load', init );
 
 function init() {
 
-console.log("1");
+
+	console.log("init1");
+	vertShader = document.getElementById('vertex_shh').textContent;
+
+	console.log("init2");
+
+	fragShader = document.getElementById('fragment_shh').textContent;
+
+	decalMaterial = new THREE.ShaderMaterial({
+	uniforms: uniforms,
+	vertexShader: vertShader,
+	fragmentShader: fragShader,
+	transparent: true,
+	depthTest: true,
+	depthWrite: false,
+	polygonOffset: true,
+	polygonOffsetFactor: - 4,
+	wireframe: false
+  });
+  
+	console.log("1");
+	
 	renderer = new THREE.WebGLRenderer( { antialias: true } );
 	renderer.setPixelRatio( window.devicePixelRatio );
 	renderer.setSize( window.innerWidth, window.innerHeight );
