@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>test</title>
+		<title>three.js webgl - decal splatter</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 		<link type="text/css" rel="stylesheet" href="main.css">
@@ -19,35 +19,46 @@
 
 			varying vec2 vUv;
 			varying vec2 vUv2;
-			
+			varying vec3 vNormal;
+
 			void main()
 			{
+				vec3 light = vec3(0.0,0.0,1.0);
+				light = normalize(light);
+				float dProd = max(0.0, dot(vNormal, light))+0.2;
+	
 				vec4 Ca = texture2D(tOne, vUv);
 				vec4 Cb = texture2D(tSec, vUv2);
 
 				vec3 c = Ca.rgb * Ca.a + Cb.rgb * Cb.a * (1.0 - Ca.a);
 				
-				gl_FragColor= vec4(c, Cb.a);
+				gl_FragColor= vec4(c*dProd, Cb.a);
 			}
 			
 		</script>
 
 		<script id="vertex_shh" type="x-shader/x-vertex">
 		
-			
+			varying vec3 vNormal;
 			attribute vec2 uv2;
 			varying vec2 vUv;
 			varying vec2 vUv2;
 			
+
 			void main()
 			{
+				
+				
 				vUv = uv;
 				vUv2 = uv2;
+				vNormal = normal;
 				vec4 mvPosition = modelViewMatrix * vec4( position, 1.0 );
 				gl_Position = projectionMatrix * mvPosition;
 			}
 			
 		</script>
+	
+
 		<div id="container"></div>
 		<script type="module" src="app.js"></script>
 	</body>
