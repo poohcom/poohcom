@@ -104,19 +104,20 @@
 	// as we do changeMatrixMode: 'cameraTransformMatrix', start with invisible scene
 	scene.visible = true;
 
+
+	var texture = new THREE.TextureLoader().load( THREEx.ArToolkitContext.baseURL + '../data/images/sky.png' );
+
+
 	//////////////////////////////////////////////////////////////////////////////////
 	//		add an object in the scene
 	//////////////////////////////////////////////////////////////////////////////////
 
-	var geometry = new THREE.SphereGeometry( 1024, 32, 32 );
-	var material = new THREE.MeshBasicMaterial( 
-	{
-		color: 0x0000ff,
-		transparent : true,
+	var geometry = new THREE.SphereGeometry( 32, 32, 32 );
+	var material = new THREE.MeshBasicMaterial( { map: texture,  transparent : true,
 		opacity: 0.5,
 		side: THREE.DoubleSide
-	
-	} );
+		} 
+		);
 	
 	var mesh = new THREE.Mesh( geometry, material );
 	scene.add( mesh );
