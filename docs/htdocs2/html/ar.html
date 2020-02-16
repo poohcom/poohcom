@@ -22,7 +22,7 @@
 
 			import { DeviceOrientationControls } from './jsm/controls/DeviceOrientationControls.js';
 
-			var camera, scene, renderer, controls,video;
+			var camera, scene, renderer, controls,video,texture;
 
 			var startButton = document.getElementById( 'startButton' );
 			startButton.addEventListener( 'click', function () {
@@ -31,6 +31,35 @@
 				animate();
 
 			}, false );
+
+
+
+			video = document.getElementById( 'video' );
+			texture = new THREE.VideoTexture( video );
+
+			if ( navigator.mediaDevices && navigator.mediaDevices.getUserMedia ) {
+
+				var constraints = { video: { width: {ideal: 4096}, height: {ideal: 4096}, facingMode: 'user' } };
+
+				navigator.mediaDevices.getUserMedia( constraints ).then( function ( stream ) {
+
+					// apply the stream to the video element used in the texture
+
+					video.srcObject = stream;
+					video.play();
+
+				} ).catch( function ( error ) {
+
+					console.error( 'Unable to access the camera/webcam.', error );
+
+				} );
+
+			} else {
+
+				console.error( 'MediaDevices interface not available.' );
+
+			}
+
 
 			function init() {
 
@@ -42,9 +71,6 @@
 				controls = new DeviceOrientationControls( camera );
 
 				scene = new THREE.Scene();
-				video = document.getElementById( 'video' );
-
-				var texture = new THREE.VideoTexture( video );
 				
 				scene.background = texture;
 
@@ -82,29 +108,6 @@
 
 				window.addEventListener( 'resize', onWindowResize, false );
 
-
-				if ( navigator.mediaDevices && navigator.mediaDevices.getUserMedia ) {
-
-					var constraints = { video: { width: {ideal: 4096}, height: {ideal: 4096}, facingMode: 'user' } };
-
-					navigator.mediaDevices.getUserMedia( constraints ).then( function ( stream ) {
-
-						// apply the stream to the video element used in the texture
-
-						video.srcObject = stream;
-						video.play();
-
-					} ).catch( function ( error ) {
-
-						console.error( 'Unable to access the camera/webcam.', error );
-
-					} );
-
-				} else {
-
-					console.error( 'MediaDevices interface not available.' );
-
-				}
 
 
 			}
