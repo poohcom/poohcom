@@ -34,31 +34,6 @@
 
 
 
-			video = document.getElementById( 'video' );
-			texture = new THREE.VideoTexture( video );
-
-			if ( navigator.mediaDevices && navigator.mediaDevices.getUserMedia ) {
-
-				var constraints = { video: { width: {ideal: 4096}, height: {ideal: 4096}, facingMode: 'user' } };
-
-				navigator.mediaDevices.getUserMedia( constraints ).then( function ( stream ) {
-
-					// apply the stream to the video element used in the texture
-
-					video.srcObject = stream;
-					video.play();
-
-				} ).catch( function ( error ) {
-
-					console.error( 'Unable to access the camera/webcam.', error );
-
-				} );
-
-			} else {
-
-				console.error( 'MediaDevices interface not available.' );
-
-			}
 
 
 			function init() {
@@ -72,13 +47,16 @@
 
 				scene = new THREE.Scene();
 				
+			video = document.getElementById( 'video' );
+			texture = new THREE.VideoTexture( video );
+
 				scene.background = texture;
 
 				var geometry = new THREE.SphereBufferGeometry( 500, 60, 40 );
 				// invert the geometry on the x-axis so that all of the faces point inward
 				geometry.scale( - 1, 1, 1 );
 
-				var material = new THREE.MeshBasicMaterial( {
+				var material = new THREE.MeshLambertMaterial( {
 					map: new THREE.TextureLoader().load( 'textures/sky.png' ),
 					transparent : true,
 					opacity: 0.5,
@@ -86,7 +64,7 @@
 				} );
 
 				var mesh = new THREE.Mesh( geometry, material );
-				//scene.add( mesh );
+				scene.add( mesh );
 
 				//var helperGeometry = new THREE.BoxBufferGeometry( 100, 100, 100, 4, 4, 4 );
 				//var helperMaterial = new THREE.MeshBasicMaterial( { color: 0xff00ff, wireframe: true } );
@@ -110,6 +88,28 @@
 
 
 
+			if ( navigator.mediaDevices && navigator.mediaDevices.getUserMedia ) {
+
+				var constraints = { video: { width: {ideal: 4096}, height: {ideal: 4096}, facingMode: 'user' } };
+
+				navigator.mediaDevices.getUserMedia( constraints ).then( function ( stream ) {
+
+					// apply the stream to the video element used in the texture
+
+					video.srcObject = stream;
+					video.play();
+
+				} ).catch( function ( error ) {
+
+					console.error( 'Unable to access the camera/webcam.', error );
+
+				} );
+
+			} else {
+
+				console.error( 'MediaDevices interface not available.' );
+
+			}
 			}
 
 			function animate() {
