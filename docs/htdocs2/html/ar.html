@@ -90,7 +90,7 @@
 
 			if ( navigator.mediaDevices && navigator.mediaDevices.getUserMedia ) {
 
-				var constraints = { video: { width: {ideal: 4096}, height: {ideal: 4096}, facingMode: 'user' } };
+				var constraints = { video: { width: 720, height: 1280, facingMode: 'user' } };
 
 				navigator.mediaDevices.getUserMedia( constraints ).then( function ( stream ) {
 
