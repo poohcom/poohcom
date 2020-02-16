@@ -32,8 +32,32 @@
 
 			}, false );
 
+			video = document.getElementById( 'video' );
+			texture = new THREE.VideoTexture( video );
 
 
+			if ( navigator.mediaDevices && navigator.mediaDevices.getUserMedia ) {
+
+				var constraints = { video: { width: 720, height: 1280, facingMode: 'user' } };
+
+				navigator.mediaDevices.getUserMedia( constraints ).then( function ( stream ) {
+
+					// apply the stream to the video element used in the texture
+
+					video.srcObject = stream;
+					video.play();
+
+				} ).catch( function ( error ) {
+
+					console.error( 'Unable to access the camera/webcam.', error );
+
+				} );
+
+			} else {
+
+				console.error( 'MediaDevices interface not available.' );
+
+			}
 
 
 			function init() {
@@ -47,9 +71,7 @@
 
 				scene = new THREE.Scene();
 				
-			video = document.getElementById( 'video' );
-			texture = new THREE.VideoTexture( video );
-
+				
 				scene.background = texture;
 
 				var geometry = new THREE.SphereBufferGeometry( 500, 60, 40 );
@@ -87,29 +109,6 @@
 				window.addEventListener( 'resize', onWindowResize, false );
 
 
-
-			if ( navigator.mediaDevices && navigator.mediaDevices.getUserMedia ) {
-
-				var constraints = { video: { width: 720, height: 1280, facingMode: 'user' } };
-
-				navigator.mediaDevices.getUserMedia( constraints ).then( function ( stream ) {
-
-					// apply the stream to the video element used in the texture
-
-					video.srcObject = stream;
-					video.play();
-
-				} ).catch( function ( error ) {
-
-					console.error( 'Unable to access the camera/webcam.', error );
-
-				} );
-
-			} else {
-
-				console.error( 'MediaDevices interface not available.' );
-
-			}
 			}
 
 			function animate() {
