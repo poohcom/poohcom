@@ -118,13 +118,13 @@
 	
 	} );
 	
-	var sphere = new THREE.Mesh( geometry, material );
-	scene.add( sphere );
+	var mesh = new THREE.Mesh( geometry, material );
+	scene.add( mesh );
 
 	// add a torus knot
 
 	onRenderFcts.push(function(delta){
-		mesh.rotation.x += Math.PI*delta
+		mesh.rotation.x += Math.PI*delta;
 	})
 
 	//////////////////////////////////////////////////////////////////////////////////
