@@ -14,7 +14,7 @@ import {
 	LinearFilter,
 	LinearMipmapLinearFilter,
 	LinearMipmapNearestFilter,
-	Math as _Math,
+	MathUtils,
 	MirroredRepeatWrapping,
 	NearestFilter,
 	NearestMipmapLinearFilter,
@@ -23,8 +23,6 @@ import {
 	RGBAFormat,
 	RepeatWrapping,
 	Scene,
-	TriangleFanDrawMode,
-	TriangleStripDrawMode,
 	Vector3
 } from "../../../build/three.module.js";
 
@@ -102,6 +100,7 @@ GLTFExporter.prototype = {
 			onlyVisible: true,
 			truncateDrawRange: true,
 			embedImages: true,
+			maxTextureSize: Infinity,
 			animations: [],
 			forceIndices: false,
 			forcePowerOfTwoTextures: false,
@@ -249,7 +248,7 @@ GLTFExporter.prototype = {
 		 */
 		function isPowerOfTwo( image ) {
 
-			return _Math.isPowerOfTwo( image.width ) && _Math.isPowerOfTwo( image.height );
+			return MathUtils.isPowerOfTwo( image.width ) && MathUtils.isPowerOfTwo( image.height );
 
 		}
 
@@ -775,15 +774,15 @@ GLTFExporter.prototype = {
 
 				var canvas = cachedCanvas = cachedCanvas || document.createElement( 'canvas' );
 
-				canvas.width = image.width;
-				canvas.height = image.height;
+				canvas.width = Math.min( image.width, options.maxTextureSize );
+				canvas.height = Math.min( image.height, options.maxTextureSize );
 
-				if ( options.forcePowerOfTwoTextures && ! isPowerOfTwo( image ) ) {
+				if ( options.forcePowerOfTwoTextures && ! isPowerOfTwo( canvas ) ) {
 
 					console.warn( 'GLTFExporter: Resized non-power-of-two image.', image );
 
-					canvas.width = _Math.floorPowerOfTwo( canvas.width );
-					canvas.height = _Math.floorPowerOfTwo( canvas.height );
+					canvas.width = MathUtils.floorPowerOfTwo( canvas.width );
+					canvas.height = MathUtils.floorPowerOfTwo( canvas.height );
 
 				}
 
@@ -925,7 +924,7 @@ GLTFExporter.prototype = {
 
 			}
 
-			if ( material.isShaderMaterial && !material.isGLTFSpecularGlossinessMaterial ) {
+			if ( material.isShaderMaterial && ! material.isGLTFSpecularGlossinessMaterial ) {
 
 				console.warn( 'GLTFExporter: THREE.ShaderMaterial not supported.' );
 				return null;
@@ -985,11 +984,11 @@ GLTFExporter.prototype = {
 
 			// pbrSpecularGlossiness diffuse, specular and glossiness factor
 			if ( material.isGLTFSpecularGlossinessMaterial ) {
-				
+
 				if ( gltfMaterial.pbrMetallicRoughness.baseColorFactor ) {
 
 					gltfMaterial.extensions.KHR_materials_pbrSpecularGlossiness.diffuseFactor = gltfMaterial.pbrMetallicRoughness.baseColorFactor;
-				  
+
 				}
 
 				var specularFactor = [ 1, 1, 1 ];
@@ -997,7 +996,7 @@ GLTFExporter.prototype = {
 				gltfMaterial.extensions.KHR_materials_pbrSpecularGlossiness.specularFactor = specularFactor;
 
 				gltfMaterial.extensions.KHR_materials_pbrSpecularGlossiness.glossinessFactor = material.glossiness;
-			
+
 			}
 
 			// pbrMetallicRoughness.metallicRoughnessTexture
@@ -1030,7 +1029,7 @@ GLTFExporter.prototype = {
 				}
 
 				gltfMaterial.pbrMetallicRoughness.baseColorTexture = baseColorMapDef;
-				
+
 			}
 
 			// pbrSpecularGlossiness specular map
@@ -1042,11 +1041,7 @@ GLTFExporter.prototype = {
 
 			}
 
-			if ( material.isMeshBasicMaterial ||
-				material.isLineBasicMaterial ||
-				material.isPointsMaterial ) {
-
-			} else {
+			if ( material.emissive ) {
 
 				// emissiveFactor
 				var emissive = material.emissive.clone().multiplyScalar( material.emissiveIntensity ).toArray();
@@ -1112,13 +1107,15 @@ GLTFExporter.prototype = {
 			}
 
 			// alphaMode
-			if ( material.transparent || material.alphaTest > 0.0 ) {
+			if ( material.transparent ) {
 
-				gltfMaterial.alphaMode = material.opacity < 1.0 ? 'BLEND' : 'MASK';
+				gltfMaterial.alphaMode = 'BLEND';
 
-				// Write alphaCutoff if it's non-zero and different from the default (0.5).
-				if ( material.alphaTest > 0.0 && material.alphaTest !== 0.5 ) {
+			} else {
 
+				if ( material.alphaTest > 0.0 ) {
+
+					gltfMaterial.alphaMode = 'MASK';
 					gltfMaterial.alphaCutoff = material.alphaTest;
 
 				}
@@ -1196,20 +1193,7 @@ GLTFExporter.prototype = {
 
 				}
 
-				if ( mesh.drawMode === TriangleFanDrawMode ) {
-
-					console.warn( 'GLTFExporter: TriangleFanDrawMode and wireframe incompatible.' );
-					mode = WEBGL_CONSTANTS.TRIANGLE_FAN;
-
-				} else if ( mesh.drawMode === TriangleStripDrawMode ) {
-
-					mode = mesh.material.wireframe ? WEBGL_CONSTANTS.LINE_STRIP : WEBGL_CONSTANTS.TRIANGLE_STRIP;
-
-				} else {
-
-					mode = mesh.material.wireframe ? WEBGL_CONSTANTS.LINES : WEBGL_CONSTANTS.TRIANGLES;
-
-				}
+				mode = mesh.material.wireframe ? WEBGL_CONSTANTS.LINES : WEBGL_CONSTANTS.TRIANGLES;
 
 			}
 
@@ -1236,7 +1220,7 @@ GLTFExporter.prototype = {
 
 				console.warn( 'THREE.GLTFExporter: Creating normalized normal attribute from the non-normalized one.' );
 
-				geometry.addAttribute( 'normal', createNormalizedNormalAttribute( originalNormal ) );
+				geometry.setAttribute( 'normal', createNormalizedNormalAttribute( originalNormal ) );
 
 			}
 
@@ -1290,7 +1274,7 @@ GLTFExporter.prototype = {
 
 			}
 
-			if ( originalNormal !== undefined ) geometry.addAttribute( 'normal', originalNormal );
+			if ( originalNormal !== undefined ) geometry.setAttribute( 'normal', originalNormal );
 
 			// Skip if no exportable attributes found
 			if ( Object.keys( attributes ).length === 0 ) {
@@ -1360,14 +1344,18 @@ GLTFExporter.prototype = {
 						// Clones attribute not to override
 						var relativeAttribute = attribute.clone();
 
-						for ( var j = 0, jl = attribute.count; j < jl; j ++ ) {
+						if ( ! geometry.morphTargetsRelative ) {
 
-							relativeAttribute.setXYZ(
-								j,
-								attribute.getX( j ) - baseAttribute.getX( j ),
-								attribute.getY( j ) - baseAttribute.getY( j ),
-								attribute.getZ( j ) - baseAttribute.getZ( j )
-							);
+							for ( var j = 0, jl = attribute.count; j < jl; j ++ ) {
+
+								relativeAttribute.setXYZ(
+									j,
+									attribute.getX( j ) - baseAttribute.getX( j ),
+									attribute.getY( j ) - baseAttribute.getY( j ),
+									attribute.getZ( j ) - baseAttribute.getZ( j )
+								);
+
+							}
 
 						}
 
@@ -1536,7 +1524,7 @@ GLTFExporter.prototype = {
 				gltfCamera.perspective = {
 
 					aspectRatio: camera.aspect,
-					yfov: _Math.degToRad( camera.fov ),
+					yfov: MathUtils.degToRad( camera.fov ),
 					zfar: camera.far <= 0 ? 0.001 : camera.far,
 					znear: camera.near < 0 ? 0 : camera.near
 
@@ -1680,6 +1668,9 @@ GLTFExporter.prototype = {
 			var node = outputJSON.nodes[ nodeMap.get( object ) ];
 
 			var skeleton = object.skeleton;
+
+			if ( skeleton === undefined ) return null;
+
 			var rootJoint = object.skeleton.bones[ 0 ];
 
 			if ( rootJoint === undefined ) return null;
