@@ -30,13 +30,13 @@ export interface MaterialParameters {
 	clippingPlanes?: Plane[];
 	clipShadows?: boolean;
 	colorWrite?: boolean;
+	defines?: any;
 	depthFunc?: DepthModes;
 	depthTest?: boolean;
 	depthWrite?: boolean;
 	fog?: boolean;
 	name?: string;
 	opacity?: number;
-	overdraw?: number;
 	polygonOffset?: boolean;
 	polygonOffsetFactor?: number;
 	polygonOffsetUnits?: number;
@@ -128,6 +128,12 @@ export class Material extends EventDispatcher {
 	colorWrite: boolean;
 
 	/**
+	 * Custom defines to be injected into the shader. These are passed in form of an object literal, with key/value pairs. { MY_CUSTOM_DEFINE: '' , PI2: Math.PI * 2 }.
+	 * The pairs are defined in both vertex and fragment shaders. Default is undefined.
+	 */
+	defines: any;
+
+	/**
 	 * Which depth function to use. Default is {@link LessEqualDepth}. See the depth mode constants for all possible values.
 	 */
 	depthFunc: DepthModes;
@@ -192,7 +198,7 @@ export class Material extends EventDispatcher {
 	 * Used to check whether this or derived classes are materials. Default is true.
 	 * You should not change this, as it used internally for optimisation.
 	 */
-	isMaterial: boolean;
+	readonly isMaterial: true;
 
 	/**
 	 * Material name. Default is an empty string.
@@ -209,11 +215,6 @@ export class Material extends EventDispatcher {
 	 * Opacity. Default is 1.
 	 */
 	opacity: number;
-
-	/**
-	 * Enables/disables overdraw. If greater than zero, polygons are drawn slightly bigger in order to fix antialiasing gaps when using the CanvasRenderer. Default is 0.
-	 */
-	overdraw: number;
 
 	/**
 	 * Whether to use polygon offset. Default is false. This corresponds to the POLYGON_OFFSET_FILL WebGL feature.
@@ -257,6 +258,12 @@ export class Material extends EventDispatcher {
 	side: Side;
 
 	/**
+	 * Defines which of the face sides will cast shadows. Default is *null*.
+	 * If *null*, the value is opposite that of side, above.
+	 */
+	shadowSide: Side;
+
+	/**
 	 * Defines whether this material is tone mapped according to the renderer's toneMapping setting.
 	 * Default is true.
 	 */
@@ -298,6 +305,11 @@ export class Material extends EventDispatcher {
 	 * An object that can be used to store custom data about the Material. It should not hold references to functions as these will not be cloned.
 	 */
 	userData: any;
+
+	/**
+	 * This starts at 0 and counts how many times .needsUpdate is set to true.
+	 */
+	version: number;
 
 	/**
 	 * Return a new material with the same parameters as this material.
