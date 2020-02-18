@@ -10,7 +10,7 @@
 
 		<div id="overlay">
 			<div>
-				<button id="startButton">Start Demo1</button>
+				<button id="startButton">Start Demo2</button>
 				<p>Using device orientation might require a user interaction.</p>
 			</div>
 		</div>
@@ -40,7 +40,7 @@
 
 			if ( navigator.mediaDevices && navigator.mediaDevices.getUserMedia ) {
 
-				var constraints = { video: { width: 480, height: 640, facingMode: 'environment' } };
+				var constraints = { video: { width: 640, height: 480, facingMode: 'environment' } };
 
 				navigator.mediaDevices.getUserMedia( constraints ).then( function ( stream ) {
 
