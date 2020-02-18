@@ -37,7 +37,6 @@
 			video = document.getElementById( 'video' );
 			texture = new THREE.VideoTexture( video );
 
-
 			if ( navigator.mediaDevices && navigator.mediaDevices.getUserMedia ) {
 
 				var constraints = { video: { width: 640, height: 480, facingMode: 'environment' } };
@@ -109,8 +108,15 @@
 
 				window.addEventListener( 'resize', onWindowResize, false );
 
-
+				window.setTimeout(checkWebcam, 1000);
 			}
+			
+			function checkWebcam() {
+				video.play();
+			
+			}
+			
+			
 
 			function animate() {
 
