@@ -15,7 +15,10 @@
 			</div>
 		</div>
 		
-	
+
+		<div id="output">
+			dddd
+		</div>
 		
 		<video id="video" autoplay style="display:none" playsinline></video>
 		<script type="module">
@@ -126,6 +129,8 @@
 
 				controls.update();
 				renderer.render( scene, camera );
+				
+				document.getElementById( 'output' ).innerHTML=controls.alpha_data+":"+controls.beta_data +":"+controls.gamma_data;
 
 			}
 

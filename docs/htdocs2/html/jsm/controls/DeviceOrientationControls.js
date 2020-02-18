@@ -25,6 +25,10 @@ var DeviceOrientationControls = function ( object ) {
 	this.screenOrientation = 0;
 
 	this.alphaOffset = 0; // radians
+	
+	this.alpha_data=0;
+	this.beta_data=0;
+	this.gamma_data=0;
 
 	var onDeviceOrientationChangeEvent = function ( event ) {
 
@@ -125,6 +129,10 @@ var DeviceOrientationControls = function ( object ) {
 
 			setObjectQuaternion( scope.object.quaternion, alpha, beta, gamma, orient );
 
+
+			scope.alpha_data=alpha;
+			scope.beta_data=beta;
+			scope.gamma_data=gamma;
 		}
 
 

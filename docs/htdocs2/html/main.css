@@ -68,6 +68,7 @@ a, button, input, select {
 	color: #ffffff;
 }
 
+
 #overlay > div {
 	text-align: center;
 }
@@ -84,4 +85,19 @@ a, button, input, select {
 #overlay > div > p {
 	color: #777777;
 	font-size: 12px;
+}
+
+#output {
+	position: absolute;
+	bottom: 20px;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: center;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	pointer-events: none;
+	z-index: 1; /* TODO Solve this in HTML */
 }
