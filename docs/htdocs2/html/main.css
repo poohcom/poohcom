@@ -99,5 +99,10 @@ a, button, input, select {
 	-ms-user-select: none;
 	user-select: none;
 	pointer-events: none;
-	z-index: 1; /* TODO Solve this in HTML */
+	z-index: 3; /* TODO Solve this in HTML */
+}
+
+#output > p {
+	color: #777777;
+	font-size: 12px;
 }

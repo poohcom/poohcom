@@ -17,7 +17,7 @@
 		
 
 		<div id="output">
-			dddd
+			<p>Using device orientation might require a user interaction.</p>
 		</div>
 		
 		<video id="video" autoplay style="display:none" playsinline></video>
@@ -130,7 +130,7 @@
 				controls.update();
 				renderer.render( scene, camera );
 				
-				document.getElementById( 'output' ).innerHTML=controls.alpha_data+":"+controls.beta_data +":"+controls.gamma_data;
+				document.getElementById( 'output' ).innerHTML="<p>"+controls.alpha_data+":"+controls.beta_data +":"+controls.gamma_data +"</p>";
 
 			}
 
