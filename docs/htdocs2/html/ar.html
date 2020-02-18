@@ -16,7 +16,7 @@
 		</div>
 		
 		<video id="video" autoplay style="display:none"></video>
-<script type="module">
+		<script type="module">
 
 			import * as THREE from '../build/three.module.js';
 
@@ -24,6 +24,8 @@
 
 			var camera, scene, renderer, controls,video,texture;
 
+
+			var ratio = 480.0/640.0;
 			var startButton = document.getElementById( 'startButton' );
 			startButton.addEventListener( 'click', function () {
 
@@ -38,7 +40,7 @@
 
 			if ( navigator.mediaDevices && navigator.mediaDevices.getUserMedia ) {
 
-				var constraints = { video: { width: 720, height: 1280, facingMode: 'environment' } };
+				var constraints = { video: { width: 480, height: 640, facingMode: 'environment' } };
 
 				navigator.mediaDevices.getUserMedia( constraints ).then( function ( stream ) {
 
@@ -56,16 +58,14 @@
 			} else {
 
 				console.error( 'MediaDevices interface not available.' );
-
 			}
-
 
 			function init() {
 
 				var overlay = document.getElementById( 'overlay' );
 				overlay.remove();
 
-				camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 1, 1100 );
+				camera = new THREE.PerspectiveCamera( 75, ratio, 1, 1100 );
 
 				controls = new DeviceOrientationControls( camera );
 
@@ -98,7 +98,7 @@
 				renderer = new THREE.WebGLRenderer( { antialias: true } );
 				renderer.setPixelRatio( window.devicePixelRatio );
 				
-				var r = window.innerWidth / 1080 * 1920;
+				var r = window.innerWidth / 480 * 640;
 				renderer.setSize( window.innerWidth, r);
 
 				//renderer.setSize( window.innerWidth, window.innerHeight );
@@ -122,10 +122,10 @@
 
 			function onWindowResize() {
 
-				camera.aspect = window.innerWidth / window.innerHeight;
+				camera.aspect = ratio;
 				camera.updateProjectionMatrix();
 
-				var r = window.innerWidth / 1080 * 1920;
+				var r = window.innerWidth / 480 * 640;
 				renderer.setSize( window.innerWidth, r);
 
 				//renderer.setSize( window.innerWidth, window.innerHeight );
