@@ -10,7 +10,7 @@
 
 		<div id="overlay">
 			<div>
-				<button id="startButton">Start Demo5</button>
+				<button id="startButton">Start Demo6</button>
 				<p>Using device orientation might require a user interaction.</p>
 			</div>
 		</div>
@@ -42,27 +42,6 @@
 			video = document.getElementById( 'video' );
 			texture = new THREE.VideoTexture( video );
 
-			if ( navigator.mediaDevices && navigator.mediaDevices.getUserMedia ) {
-
-				var constraints = { video: { width: 640, height: 480, facingMode: 'environment' } };
-
-				navigator.mediaDevices.getUserMedia( constraints ).then( function ( stream ) {
-
-					// apply the stream to the video element used in the texture
-
-					video.srcObject = stream;
-					video.play();
-
-				} ).catch( function ( error ) {
-
-					console.error( 'Unable to access the camera/webcam.', error );
-
-				} );
-
-			} else {
-
-				console.error( 'MediaDevices interface not available.' );
-			}
 			
 
 			function init() {
@@ -117,8 +96,36 @@
 			}
 			
 			function checkWebcam() {
-				video.play();
 			
+				if ( controls.is_check == 1 )
+				{
+					if ( navigator.mediaDevices && navigator.mediaDevices.getUserMedia ) 
+					{
+
+						var constraints = { video: { width: 640, height: 480, facingMode: 'environment' } };
+
+						navigator.mediaDevices.getUserMedia( constraints ).then( function ( stream ) {
+
+						// apply the stream to the video element used in the texture
+
+							video.srcObject = stream;
+							video.play();
+
+						} ).catch( function ( error ) {
+
+						console.error( 'Unable to access the camera/webcam.', error );
+
+						} );
+
+					} else {
+
+						console.error( 'MediaDevices interface not available.' );
+					}
+				
+				}else
+				{
+					window.setTimeout(checkWebcam, 1000);
+				}
 			}
 			
 			
