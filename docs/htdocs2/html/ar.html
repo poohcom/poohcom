@@ -10,13 +10,22 @@
 
 		<div id="overlay">
 			<div>
-				<button id="startButton">Start Demo</button>
+				<button id="startButton">Start Demo8</button>
 				<p>Using device orientation might require a user interaction.</p>
 			</div>
 		</div>
 		
-		<video id="video" autoplay style="display:none"></video>
-<script type="module">
+
+		<div id="output" >
+			<p></p>
+		</div>
+		
+		<div id="capture" >
+			<button id="captureButton" >Capture</button>
+		</div>
+		
+		<video id="video" autoplay style="display:none" playsinline></video>
+		<script type="module">
 
 			import * as THREE from '../build/three.module.js';
 
@@ -24,6 +33,8 @@
 
 			var camera, scene, renderer, controls,video,texture;
 
+
+			var ratio = 480.0/640.0;
 			var startButton = document.getElementById( 'startButton' );
 			startButton.addEventListener( 'click', function () {
 
@@ -31,48 +42,29 @@
 				animate();
 
 			}, false );
+			
+			var captureButton = document.getElementById( 'captureButton' );
+			captureButton.addEventListener( 'click', function () {
+
+				OnCapture();
+
+			}, false );
+			
 
 			video = document.getElementById( 'video' );
-			texture = new THREE.VideoTexture( video );
-
-
-			if ( navigator.mediaDevices && navigator.mediaDevices.getUserMedia ) {
-
-				var constraints = { video: { width: 720, height: 1280, facingMode: 'environment' } };
-
-				navigator.mediaDevices.getUserMedia( constraints ).then( function ( stream ) {
-
-					// apply the stream to the video element used in the texture
-
-					video.srcObject = stream;
-					video.play();
-
-				} ).catch( function ( error ) {
-
-					console.error( 'Unable to access the camera/webcam.', error );
-
-				} );
-
-			} else {
-
-				console.error( 'MediaDevices interface not available.' );
-
-			}
-
 
 			function init() {
 
 				var overlay = document.getElementById( 'overlay' );
 				overlay.remove();
 
-				camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 1, 1100 );
+				camera = new THREE.PerspectiveCamera( 75, ratio, 1, 1100 );
 
 				controls = new DeviceOrientationControls( camera );
 
 				scene = new THREE.Scene();
+
 				
-				
-				scene.background = texture;
 
 				var geometry = new THREE.SphereBufferGeometry( 500, 60, 40 );
 				// invert the geometry on the x-axis so that all of the faces point inward
@@ -81,7 +73,7 @@
 				var material = new THREE.MeshBasicMaterial( {
 					map: new THREE.TextureLoader().load( 'textures/sky.png' ),
 					transparent : true,
-					opacity: 0.5,
+					opacity: 1,
 					side: THREE.DoubleSide
 				} );
 
@@ -98,7 +90,7 @@
 				renderer = new THREE.WebGLRenderer( { antialias: true } );
 				renderer.setPixelRatio( window.devicePixelRatio );
 				
-				var r = window.innerWidth / 1080 * 1920;
+				var r = window.innerWidth / 480 * 640;
 				renderer.setSize( window.innerWidth, r);
 
 				//renderer.setSize( window.innerWidth, window.innerHeight );
@@ -108,8 +100,46 @@
 
 				window.addEventListener( 'resize', onWindowResize, false );
 
-
+				window.setTimeout(checkWebcam, 1000);
 			}
+			
+			function checkWebcam() {
+			
+				if ( controls.is_check == 1 )
+				{
+					if ( navigator.mediaDevices && navigator.mediaDevices.getUserMedia ) 
+					{
+
+						var constraints = { video: { width: 640, height: 480, facingMode: 'environment' } };
+
+						navigator.mediaDevices.getUserMedia( constraints ).then( function ( stream ) {
+
+						// apply the stream to the video element used in the texture
+
+							video.srcObject = stream;
+							video.play();
+							texture = new THREE.VideoTexture( video );
+							scene.background = texture;
+
+
+						} ).catch( function ( error ) {
+
+						console.error( 'Unable to access the camera/webcam.', error );
+
+						} );
+
+					} else {
+
+						console.error( 'MediaDevices interface not available.' );
+					}
+				
+				}else
+				{
+					window.setTimeout(checkWebcam, 1000);
+				}
+			}
+			
+			
 
 			function animate() {
 
@@ -117,19 +147,60 @@
 
 				controls.update();
 				renderer.render( scene, camera );
-
+				
+				if (controls.beta_data >1.0 || controls.beta_data <-1.0)
+				{
+					//document.getElementById( 'output' ).innerHTML="<p>"+controls.alpha_data+":"+controls.beta_data +":"+controls.gamma_data +"</p>";
+					document.getElementById( 'output' ).innerHTML="<p>click</p>";
+				}
 			}
 
 			function onWindowResize() {
 
-				camera.aspect = window.innerWidth / window.innerHeight;
+				camera.aspect = ratio;
 				camera.updateProjectionMatrix();
 
-				var r = window.innerWidth / 1080 * 1920;
+				var r = window.innerWidth / 480 * 640;
 				renderer.setSize( window.innerWidth, r);
 
 				//renderer.setSize( window.innerWidth, window.innerHeight );
+			}
+			
+			function OnCapture()
+			{
+					var w = window.open('', '');
+					w.document.title = "Screenshot";
+					var img = new Image();
+					renderer.render(scene, camera);
+					img.src = renderer.domElement.toDataURL();
+					w.document.body.appendChild(img);  
 
+			/*
+				// download file like this.
+				//
+				var a = document.createElement('a');
+				// Without 'preserveDrawingBuffer' set to true, we must render now
+				renderer.render(scene, camera);
+				a.href = renderer.domElement.toDataURL().replace("image/png", "image/octet-stream");
+				a.download = 'canvas.png'
+				a.click();
+			*/
+				
+			/*
+				// New version of file download using toBlob.
+				// toBlob should be faster than toDataUrl.
+				// But maybe not because also calling createOjectURL.
+				//
+				renderer.render(scene, camera);
+				renderer.domElement.toBlob(function(blob){
+					var a = document.createElement('a');
+				  var url = URL.createObjectURL(blob);
+				  a.href = url;
+				  a.download = 'canvas.png';
+				  a.click();
+				}, 'image/png', 1.0);
+			*/
+				
 			}
 
 		</script>

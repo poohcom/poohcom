@@ -7,93 +7,18 @@
 		<link type="text/css" rel="stylesheet" href="main.css">
 	</head>
 	<body>
+<h2>iOS</h2>
+<ul>
+  <li><a href="googlechrome://https://poohcom.github.io/poohcom/htdocs2/html/ar.html">May open Chrome on iOS</a></li>
+  <li><a href="safari-https://https://poohcom.github.io/poohcom/htdocs2/html/ar.html">May open on Safari</a></li>
+  <li><a href="firefox://open-url?url=https://poohcom.github.io/poohcom/htdocs2/html/ar.html">May open on Firefox</a></li>
+  <li><a href="opera-https://https://poohcom.github.io/poohcom/htdocs2/html/ar.html">May open on Opera</a></li>
+</ul>
 
-		<div id="info">
-			<a href="https://threejs.org" target="_blank" rel="noopener">three.js</a> webgl - video webcam input
-		</div>
-
-		<video id="video" autoplay style="display:none"></video>
-
-		<script type="module">
-
-			import * as THREE from '../build/three.module.js';
-
-			import { OrbitControls } from './jsm/controls/OrbitControls.js';
-
-			var camera, scene, renderer, video;
-
-			init();
-			animate();
-
-			function init() {
-
-				camera = new THREE.PerspectiveCamera( 60, window.innerWidth / window.innerHeight, 0.1, 100 );
-				camera.position.z = 0.01;
-
-				scene = new THREE.Scene();
-
-				video = document.getElementById( 'video' );
-
-				var texture = new THREE.VideoTexture( video );
-				scene.background = texture;
-
-
-			
-				renderer = new THREE.WebGLRenderer( { antialias: true } );
-				renderer.setPixelRatio( window.devicePixelRatio );
-				renderer.setSize( window.innerWidth, window.innerHeight );
-				document.body.appendChild( renderer.domElement );
-
-				var controls = new OrbitControls( camera, renderer.domElement );
-				controls.enableZoom = false;
-				controls.enablePan = false;
-
-				window.addEventListener( 'resize', onWindowResize, false );
-
-				//
-
-				if ( navigator.mediaDevices && navigator.mediaDevices.getUserMedia ) {
-
-					var constraints = { video: { width: 1280, height: 720, facingMode: 'user' } };
-
-					navigator.mediaDevices.getUserMedia( constraints ).then( function ( stream ) {
-
-						// apply the stream to the video element used in the texture
-
-						video.srcObject = stream;
-						video.play();
-
-					} ).catch( function ( error ) {
-
-						console.error( 'Unable to access the camera/webcam.', error );
-
-					} );
-
-				} else {
-
-					console.error( 'MediaDevices interface not available.' );
-
-				}
-
-			}
-
-			function onWindowResize() {
-
-				 camera.aspect = window.innerWidth / window.innerHeight;
-				 camera.updateProjectionMatrix();
-
-				 renderer.setSize( window.innerWidth, window.innerHeight );
-
-			}
-
-			function animate() {
-
-				 requestAnimationFrame( animate );
-				 renderer.render( scene, camera );
-
-			}
-
-		</script>
-
+<h2>Android</h2>
+	<li><a href="googlechrome://navigate?url=https://poohcom.github.io/poohcom/htdocs2/html/ar.html">May open on Chrome</a></li>
+<ul>
+  <li><a href=""></a></li>
+</ul>
 	</body>
 </html>

@@ -25,6 +25,12 @@ var DeviceOrientationControls = function ( object ) {
 	this.screenOrientation = 0;
 
 	this.alphaOffset = 0; // radians
+	
+	this.alpha_data=0;
+	this.beta_data=0;
+	this.gamma_data=0;
+	
+	this.is_check = 0;
 
 	var onDeviceOrientationChangeEvent = function ( event ) {
 
@@ -78,6 +84,8 @@ var DeviceOrientationControls = function ( object ) {
 
 					window.addEventListener( 'orientationchange', onScreenOrientationChangeEvent, false );
 					window.addEventListener( 'deviceorientation', onDeviceOrientationChangeEvent, false );
+					
+					scope.is_check = 1;
 
 				}
 
@@ -91,6 +99,8 @@ var DeviceOrientationControls = function ( object ) {
 
 			window.addEventListener( 'orientationchange', onScreenOrientationChangeEvent, false );
 			window.addEventListener( 'deviceorientation', onDeviceOrientationChangeEvent, false );
+			
+			scope.is_check = 1;
 
 		}
 
@@ -104,6 +114,8 @@ var DeviceOrientationControls = function ( object ) {
 		window.removeEventListener( 'deviceorientation', onDeviceOrientationChangeEvent, false );
 
 		scope.enabled = false;
+		
+		scope.is_check = 0;
 
 	};
 
@@ -125,6 +137,10 @@ var DeviceOrientationControls = function ( object ) {
 
 			setObjectQuaternion( scope.object.quaternion, alpha, beta, gamma, orient );
 
+
+			scope.alpha_data=alpha;
+			scope.beta_data=beta;
+			scope.gamma_data=gamma;
 		}
 
 
