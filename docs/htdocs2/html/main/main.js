@@ -19,6 +19,7 @@ function SaveImage() {
 }
 //window.addEventListener('load', () => {SceneManager.Instance.OnClickStart();SceneManager.Instance.Init()});
 var camera, scene, renderer, controls, video, texture;
+var camera2d, scene2d, bubble_button;
 var ratio = 480.0 / 640.0;
 var startButton = document.getElementById('startButton');
 startButton.addEventListener('click', function () {
@@ -30,6 +31,12 @@ captureButton.addEventListener('click', function () {
     OnCapture();
 }, false);
 video = document.getElementById('video');
+function GetW(w) {
+    return window.innerWidth * w / 480;
+}
+function GetH(h) {
+    return window.innerHeight * h / 640;
+}
 function init() {
     var overlay = document.getElementById('overlay');
     overlay.remove();
@@ -45,6 +52,24 @@ function init() {
         opacity: 1,
         side: THREE.DoubleSide
     });
+    var BubbleMaterial = new THREE.SpriteMaterial({
+        map: new THREE.TextureLoader().load('textures/bubble.png'),
+        color: 0xffffff
+    });
+    ///////////
+    scene2d = new THREE.Scene();
+    camera2d = new THREE.OrthographicCamera(-window.innerWidth / 2, window.innerWidth / 2, window.innerHeight / 2, -window.innerHeight / 2, 0, 10);
+    camera2d.position.z = 10;
+    let w = window.innerWidth;
+    let h = window.innerHeight;
+    var spriteMaterial = new THREE.SpriteMaterial({ map: BubbleMaterial, color: 0xffffff });
+    bubble_button = new THREE.Sprite(spriteMaterial);
+    bubble_button.name = "bubble_button";
+    bubble_button.position.set(GetW(0), -h / 2 - GetH(512), 0);
+    bubble_button.scale.set(GetW(512), GetW(512), 1);
+    bubble_button.visible = false;
+    scene2d.add(bubble_button);
+    ///////
     var mesh = new THREE.Mesh(geometry, material);
     scene.add(mesh);
     //var helperGeometry = new THREE.BoxBufferGeometry( 100, 100, 100, 4, 4, 4 );
@@ -86,8 +111,16 @@ function checkWebcam() {
 function animate() {
     window.requestAnimationFrame(animate);
     controls.update();
+    //renderer.render( scene, camera );
+    renderer.clear();
     renderer.render(scene, camera);
+    renderer.clearDepth();
+    renderer.render(scene2d, camera2d);
     if (controls.beta_data > 1.0 || controls.beta_data < -1.0) {
+        let r = controls.beta_data > 1.0 ? 1.0 : controls.beta_data;
+        r = r < 0.0 ? 0.0 : r;
+        let h = window.innerHeight;
+        bubble_button.position.set(GetW(0), (-h / 2 - GetH(512)) * (1 - r), 0);
         //document.getElementById( 'output' ).innerHTML="<p>"+controls.alpha_data+":"+controls.beta_data +":"+controls.gamma_data +"</p>";
         document.getElementById('output').innerHTML = "<p>click</p>";
     }
@@ -95,6 +128,8 @@ function animate() {
 function onWindowResize() {
     camera.aspect = ratio;
     camera.updateProjectionMatrix();
+    camera2d.aspect = ratio;
+    camera2d.updateProjectionMatrix();
     var r = window.innerWidth / 480 * 640;
     renderer.setSize(window.innerWidth, r);
     //renderer.setSize( window.innerWidth, window.innerHeight );
