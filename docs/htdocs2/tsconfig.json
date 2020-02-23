@@ -64,6 +64,6 @@
   },
   "include": [
     "html/*.ts",
-    "html/app/*.ts"
+    "html/main/*.ts"
   ]
 }
