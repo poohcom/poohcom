@@ -67,7 +67,7 @@ function init() {
     bubble_button.name = "bubble_button";
     bubble_button.position.set(GetW(0), -h / 2 - GetH(512), 0);
     bubble_button.scale.set(GetW(512), GetW(512), 1);
-    bubble_button.visible = false;
+    bubble_button.visible = true;
     scene2d.add(bubble_button);
     ///////
     var mesh = new THREE.Mesh(geometry, material);
