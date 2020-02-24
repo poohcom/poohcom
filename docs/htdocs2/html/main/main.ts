@@ -101,7 +101,8 @@ function init() {
 	var spriteMaterial = new THREE.SpriteMaterial( { map:BubbleMaterial , color: 0xffffff } );
 	bubble_button = new THREE.Sprite( spriteMaterial );
 	bubble_button.name = "bubble_button";
-	bubble_button.position.set( GetW(0), -h / 2 - GetH( 512 ) , 0);
+	bubble_button.position.set( 0, 0 , 0);
+	//bubble_button.position.set( GetW(0), -h / 2 - GetH( 512 ) , 0);
 	bubble_button.scale.set( GetW(256),GetW(256), 1 );
 	bubble_button.visible = true;
 	scene2d.add( bubble_button );
@@ -183,14 +184,14 @@ function animate() {
 	renderer.render(scene2d, camera2d);
 
 	
-	if (controls.beta_data >1.0 || controls.beta_data <-1.0)
-	{
-		let r:number = controls.beta_data > 1.0 ? 1.0 : controls.beta_data;
-		r = r < 0.0 ? 0.0 : r;
-		let h:number = window.innerHeight;
+	// if (controls.beta_data >1.0 || controls.beta_data <-1.0)
+	// {
+	// 	let r:number = controls.beta_data > 1.0 ? 1.0 : controls.beta_data;
+	// 	r = r < 0.0 ? 0.0 : r;
+	// 	let h:number = window.innerHeight;
 
-		bubble_button.position.set( GetW(0), (-h / 2 - GetH( 512 ) ) * (1-r)  , 0);
-	}
+	// 	bubble_button.position.set( GetW(0), (-h / 2 - GetH( 512 ) ) * (1-r)  , 0);
+	// }
 	
 }
 
@@ -200,7 +201,7 @@ function onWindowResize() {
 	camera.updateProjectionMatrix();
 
 	//camera2d.aspect = ratio;
-	//camera2d.updateProjectionMatrix();
+	camera2d.updateProjectionMatrix();
 
 	var r = window.innerWidth / 480 * 640;
 	renderer.setSize( window.innerWidth, r);
