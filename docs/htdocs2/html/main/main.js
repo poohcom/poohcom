@@ -18,8 +18,8 @@ function SaveImage() {
     return fname;
 }
 //window.addEventListener('load', () => {SceneManager.Instance.OnClickStart();SceneManager.Instance.Init()});
-var camera, scene, renderer, controls, video, texture;
 var camera2d, scene2d;
+var camera, scene, renderer, controls, video, texture;
 var bubble_button;
 var ratio = 480.0 / 640.0;
 var startButton = document.getElementById('startButton');
@@ -47,19 +47,19 @@ function init() {
     var geometry = new THREE.SphereBufferGeometry(500, 60, 40);
     // invert the geometry on the x-axis so that all of the faces point inward
     geometry.scale(-1, 1, 1);
+    var BubbleMaterial = new THREE.SpriteMaterial({
+        map: new THREE.TextureLoader().load('textures/bubble.png'),
+        color: 0xffffff
+    });
     var material = new THREE.MeshBasicMaterial({
         map: new THREE.TextureLoader().load('textures/sky.png'),
         transparent: true,
         opacity: 1,
         side: THREE.DoubleSide
     });
-    var BubbleMaterial = new THREE.SpriteMaterial({
-        map: new THREE.TextureLoader().load('textures/bubble.png'),
-        color: 0xffffff
-    });
     ///////////
     scene2d = new THREE.Scene();
-    camera2d = new THREE.OrthographicCamera(-window.innerWidth / 2, window.innerWidth / 2, window.innerHeight / 2, -window.innerHeight / 2, 0, 10);
+    camera2d = new THREE.OrthographicCamera(-window.innerWidth / 2, window.innerWidth / 2, window.innerHeight / 2, -window.innerHeight / 2, 1, 10);
     camera2d.position.z = 10;
     let w = window.innerWidth;
     let h = window.innerHeight;
@@ -72,14 +72,15 @@ function init() {
     bubble_button.visible = true;
     scene2d.add(bubble_button);
     ///////
-    //var mesh = new THREE.Mesh( geometry, material );
-    //scene.add( mesh );
+    var mesh = new THREE.Mesh(geometry, material);
+    scene.add(mesh);
     //var helperGeometry = new THREE.BoxBufferGeometry( 100, 100, 100, 4, 4, 4 );
     //var helperMaterial = new THREE.MeshBasicMaterial( { color: 0xff00ff, wireframe: true } );
     //var helper = new THREE.Mesh( helperGeometry, helperMaterial );
     //scene.add( helper );
     renderer = new THREE.WebGLRenderer({ antialias: true });
     renderer.setPixelRatio(window.devicePixelRatio);
+    renderer.autoClear = false;
     var r = window.innerWidth / 480 * 640;
     renderer.setSize(window.innerWidth, r);
     //renderer.setSize( window.innerWidth, window.innerHeight );
@@ -97,7 +98,7 @@ function checkWebcam() {
                 video.srcObject = stream;
                 video.play();
                 texture = new THREE.VideoTexture(video);
-                //scene.background = texture;
+                scene.background = texture;
             }).catch(function (error) {
                 console.error('Unable to access the camera/webcam.', error);
             });
@@ -129,7 +130,7 @@ function animate() {
 function onWindowResize() {
     camera.aspect = ratio;
     camera.updateProjectionMatrix();
-    //camera2d.aspect = ratio;
+    camera2d.aspect = ratio;
     camera2d.updateProjectionMatrix();
     var r = window.innerWidth / 480 * 640;
     renderer.setSize(window.innerWidth, r);

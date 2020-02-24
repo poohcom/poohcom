@@ -27,8 +27,9 @@ function SaveImage() {
 //window.addEventListener('load', () => {SceneManager.Instance.OnClickStart();SceneManager.Instance.Init()});
 
 
-var camera, scene, renderer, controls,video,texture;
 var camera2d, scene2d;
+var camera, scene, renderer, controls,video,texture;
+
 var bubble_button:THREE.Sprite;
 
 
@@ -74,12 +75,6 @@ function init() {
 	// invert the geometry on the x-axis so that all of the faces point inward
 	geometry.scale( - 1, 1, 1 );
 
-	var material = new THREE.MeshBasicMaterial( {
-		map: new THREE.TextureLoader().load( 'textures/sky.png' ),
-		transparent : true,
-		opacity: 1,
-		side: THREE.DoubleSide
-	} );
 
 	var BubbleMaterial = new THREE.SpriteMaterial( {
 		map: new THREE.TextureLoader().load( 'textures/bubble.png' ),
@@ -87,12 +82,21 @@ function init() {
 	} );
 
 
+	var material = new THREE.MeshBasicMaterial( {
+		map: new THREE.TextureLoader().load( 'textures/sky.png' ),
+		transparent : true,
+		opacity: 1,
+		side: THREE.DoubleSide
+	} );
+
+	
+
 	///////////
 	scene2d = new THREE.Scene();
 
 	camera2d = new THREE.OrthographicCamera(
 	 		- window.innerWidth / 2, window.innerWidth / 2, window.innerHeight / 2, -  window.innerHeight / 2
-	 		, 0, 10);
+	 		, 1, 10);
 	camera2d.position.z = 10;
 	
 	let w:number = window.innerWidth;
@@ -108,8 +112,8 @@ function init() {
 	scene2d.add( bubble_button );
 ///////
 
-	//var mesh = new THREE.Mesh( geometry, material );
-	//scene.add( mesh );
+	var mesh = new THREE.Mesh( geometry, material );
+	scene.add( mesh );
 
 	//var helperGeometry = new THREE.BoxBufferGeometry( 100, 100, 100, 4, 4, 4 );
 	//var helperMaterial = new THREE.MeshBasicMaterial( { color: 0xff00ff, wireframe: true } );
@@ -119,7 +123,7 @@ function init() {
 
 	renderer = new THREE.WebGLRenderer( { antialias: true } );
 	renderer.setPixelRatio( window.devicePixelRatio );
-	
+	renderer.autoClear = false;
 	var r = window.innerWidth / 480 * 640;
 	renderer.setSize( window.innerWidth, r);
 
@@ -148,7 +152,7 @@ function checkWebcam() {
 				video.srcObject = stream;
 				video.play();
 				texture = new THREE.VideoTexture( video );
-				//scene.background = texture;
+				scene.background = texture;
 
 
 			} ).catch( function ( error ) {
@@ -200,7 +204,7 @@ function onWindowResize() {
 	camera.aspect = ratio;
 	camera.updateProjectionMatrix();
 
-	//camera2d.aspect = ratio;
+	camera2d.aspect = ratio;
 	camera2d.updateProjectionMatrix();
 
 	var r = window.innerWidth / 480 * 640;
