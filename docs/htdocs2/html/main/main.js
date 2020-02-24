@@ -111,19 +111,22 @@ function checkWebcam() {
 function animate() {
     window.requestAnimationFrame(animate);
     controls.update();
-    //renderer.render( scene, camera );
+    renderer.render(scene, camera);
+    /*
     renderer.clear();
     renderer.render(scene, camera);
     renderer.clearDepth();
     renderer.render(scene2d, camera2d);
-    if (controls.beta_data > 1.0 || controls.beta_data < -1.0) {
-        let r = controls.beta_data > 1.0 ? 1.0 : controls.beta_data;
+
+    if (controls.beta_data >1.0 || controls.beta_data <-1.0)
+    {
+        let r:number = controls.beta_data > 1.0 ? 1.0 : controls.beta_data;
         r = r < 0.0 ? 0.0 : r;
-        let h = window.innerHeight;
-        bubble_button.position.set(GetW(0), (-h / 2 - GetH(512)) * (1 - r), 0);
-        //document.getElementById( 'output' ).innerHTML="<p>"+controls.alpha_data+":"+controls.beta_data +":"+controls.gamma_data +"</p>";
-        //document.getElementById( 'output' ).innerHTML="<p>click</p>";
+        let h:number = window.innerHeight;
+
+        bubble_button.position.set( GetW(0), (-h / 2 - GetH( 512 ) ) * (1-r)  , 0);
     }
+    */
 }
 function onWindowResize() {
     camera.aspect = ratio;
