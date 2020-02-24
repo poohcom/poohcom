@@ -19,7 +19,8 @@ function SaveImage() {
 }
 //window.addEventListener('load', () => {SceneManager.Instance.OnClickStart();SceneManager.Instance.Init()});
 var camera, scene, renderer, controls, video, texture;
-var camera2d, scene2d, bubble_button;
+var camera2d, scene2d;
+var bubble_button;
 var ratio = 480.0 / 640.0;
 var startButton = document.getElementById('startButton');
 startButton.addEventListener('click', function () {
@@ -57,20 +58,18 @@ function init() {
         color: 0xffffff
     });
     ///////////
-    // scene2d = new THREE.Scene();
-    // camera2d = new THREE.OrthographicCamera(
-    // 		- window.innerWidth / 2, window.innerWidth / 2, window.innerHeight / 2, -  window.innerHeight / 2
-    // 		, 0, 10);
-    // camera2d.position.z = 10;
-    // let w:number = window.innerWidth;
-    // let h:number = window.innerHeight;
-    // var spriteMaterial = new THREE.SpriteMaterial( { map:BubbleMaterial , color: 0xffffff } );
-    // bubble_button = new THREE.Sprite( spriteMaterial );
-    // bubble_button.name = "bubble_button";
-    // bubble_button.position.set( GetW(0), -h / 2 - GetH( 512 ) , 0);
-    // bubble_button.scale.set( GetW(256),GetW(256), 1 );
-    // bubble_button.visible = true;
-    // scene2d.add( bubble_button );
+    scene2d = new THREE.Scene();
+    camera2d = new THREE.OrthographicCamera(-window.innerWidth / 2, window.innerWidth / 2, window.innerHeight / 2, -window.innerHeight / 2, 0, 10);
+    camera2d.position.z = 10;
+    let w = window.innerWidth;
+    let h = window.innerHeight;
+    var spriteMaterial = new THREE.SpriteMaterial({ map: BubbleMaterial, color: 0xffffff });
+    bubble_button = new THREE.Sprite(spriteMaterial);
+    bubble_button.name = "bubble_button";
+    bubble_button.position.set(GetW(0), -h / 2 - GetH(512), 0);
+    bubble_button.scale.set(GetW(256), GetW(256), 1);
+    bubble_button.visible = true;
+    scene2d.add(bubble_button);
     ///////
     var mesh = new THREE.Mesh(geometry, material);
     scene.add(mesh);
