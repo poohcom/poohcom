@@ -199,8 +199,8 @@ function onWindowResize() {
 	camera.aspect = ratio;
 	camera.updateProjectionMatrix();
 
-	camera2d.aspect = ratio;
-	camera2d.updateProjectionMatrix();
+	//camera2d.aspect = ratio;
+	//camera2d.updateProjectionMatrix();
 
 	var r = window.innerWidth / 480 * 640;
 	renderer.setSize( window.innerWidth, r);
