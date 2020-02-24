@@ -174,13 +174,13 @@ function animate() {
 	window.requestAnimationFrame( animate );
 
 	controls.update();
-	//renderer.render( scene, camera );
+	renderer.render( scene, camera );
 
 	
-	renderer.clear();
-	renderer.render(scene, camera);
-	renderer.clearDepth();
-	renderer.render(scene2d, camera2d);
+	//renderer.clear();
+	//renderer.render(scene, camera);
+	//renderer.clearDepth();
+	//renderer.render(scene2d, camera2d);
 
 	/*
 	if (controls.beta_data >1.0 || controls.beta_data <-1.0)
