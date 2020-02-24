@@ -102,7 +102,7 @@ function init() {
 	bubble_button = new THREE.Sprite( spriteMaterial );
 	bubble_button.name = "bubble_button";
 	bubble_button.position.set( GetW(0), -h / 2 - GetH( 512 ) , 0);
-	bubble_button.scale.set( GetW(512),GetW(512), 1 );
+	bubble_button.scale.set( GetW(256),GetW(256), 1 );
 	bubble_button.visible = true;
 	scene2d.add( bubble_button );
 ///////
@@ -194,7 +194,7 @@ function animate() {
 		bubble_button.position.set( GetW(0), (-h / 2 - GetH( 512 ) ) * (1-r)  , 0);
 
 		//document.getElementById( 'output' ).innerHTML="<p>"+controls.alpha_data+":"+controls.beta_data +":"+controls.gamma_data +"</p>";
-		document.getElementById( 'output' ).innerHTML="<p>click</p>";
+		//document.getElementById( 'output' ).innerHTML="<p>click</p>";
 	}
 }
 
