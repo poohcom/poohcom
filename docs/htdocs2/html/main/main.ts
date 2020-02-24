@@ -88,23 +88,23 @@ function init() {
 
 
 	///////////
-	scene2d = new THREE.Scene();
+	// scene2d = new THREE.Scene();
 
-	camera2d = new THREE.OrthographicCamera(
-			- window.innerWidth / 2, window.innerWidth / 2, window.innerHeight / 2, -  window.innerHeight / 2
-			, 0, 10);
-	camera2d.position.z = 10;
+	// camera2d = new THREE.OrthographicCamera(
+	// 		- window.innerWidth / 2, window.innerWidth / 2, window.innerHeight / 2, -  window.innerHeight / 2
+	// 		, 0, 10);
+	// camera2d.position.z = 10;
 	
-	let w:number = window.innerWidth;
-	let h:number = window.innerHeight;
+	// let w:number = window.innerWidth;
+	// let h:number = window.innerHeight;
 
-	var spriteMaterial = new THREE.SpriteMaterial( { map:BubbleMaterial , color: 0xffffff } );
-	bubble_button = new THREE.Sprite( spriteMaterial );
-	bubble_button.name = "bubble_button";
-	bubble_button.position.set( GetW(0), -h / 2 - GetH( 512 ) , 0);
-	bubble_button.scale.set( GetW(256),GetW(256), 1 );
-	bubble_button.visible = true;
-	scene2d.add( bubble_button );
+	// var spriteMaterial = new THREE.SpriteMaterial( { map:BubbleMaterial , color: 0xffffff } );
+	// bubble_button = new THREE.Sprite( spriteMaterial );
+	// bubble_button.name = "bubble_button";
+	// bubble_button.position.set( GetW(0), -h / 2 - GetH( 512 ) , 0);
+	// bubble_button.scale.set( GetW(256),GetW(256), 1 );
+	// bubble_button.visible = true;
+	// scene2d.add( bubble_button );
 ///////
 	
 
@@ -202,8 +202,8 @@ function onWindowResize() {
 	camera.aspect = ratio;
 	camera.updateProjectionMatrix();
 
-	camera2d.aspect = ratio;
-	camera2d.updateProjectionMatrix();
+	// camera2d.aspect = ratio;
+	// camera2d.updateProjectionMatrix();
 
 	var r = window.innerWidth / 480 * 640;
 	renderer.setSize( window.innerWidth, r);
