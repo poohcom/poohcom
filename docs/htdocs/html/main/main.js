@@ -70,8 +70,8 @@ function init() {
     bubble_button.visible = true;
     scene2d.add(bubble_button);
     ///////
-    //var mesh = new THREE.Mesh( geometry, material );
-    //scene.add( mesh );
+    var mesh = new THREE.Mesh(geometry, material);
+    scene.add(mesh);
     //var helperGeometry = new THREE.BoxBufferGeometry( 100, 100, 100, 4, 4, 4 );
     //var helperMaterial = new THREE.MeshBasicMaterial( { color: 0xff00ff, wireframe: true } );
     //var helper = new THREE.Mesh( helperGeometry, helperMaterial );
@@ -116,7 +116,8 @@ function animate() {
     renderer.render(scene, camera);
     renderer.clearDepth();
     renderer.render(scene2d, camera2d);
-    if (controls.beta_data > 1.0 || controls.beta_data < -1.0) {
+    //if (controls.beta_data > 1.0 || controls.beta_data <-1.0)
+    {
         let r = controls.beta_data > 1.0 ? 1.0 : controls.beta_data;
         r = r < 0.0 ? 0.0 : r;
         let h = window.innerHeight;
