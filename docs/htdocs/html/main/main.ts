@@ -26,7 +26,6 @@ function SaveImage() {
 
 //window.addEventListener('load', () => {SceneManager.Instance.OnClickStart();SceneManager.Instance.Init()});
 
-
 var camera, scene, renderer, controls,video,texture;
 var camera2d, scene2d;
 var bubble_button:THREE.Sprite;
@@ -88,24 +87,22 @@ function init() {
 		side: THREE.DoubleSide
 	} );
 
-	
-
 	///////////
 	scene2d = new THREE.Scene();
 
 	camera2d = new THREE.OrthographicCamera(
 	 		- window.innerWidth / 2, window.innerWidth / 2, window.innerHeight / 2, -  window.innerHeight / 2
-	 		, 0, 10);
+	 		, 1, 10);
 	camera2d.position.z = 10;
 	
 	let w:number = window.innerWidth;
 	let h:number = window.innerHeight;
 
-	var spriteMaterial = new THREE.SpriteMaterial( { map:BubbleMaterial , color: 0xffffff } );
-	bubble_button = new THREE.Sprite( spriteMaterial );
+	
+	bubble_button = new THREE.Sprite( BubbleMaterial );
 	bubble_button.name = "bubble_button";
-	bubble_button.position.set( 0, 0 , 0);
-	//bubble_button.position.set( GetW(0), -h / 2 - GetH( 512 ) , 0);
+	//bubble_button.position.set( 0, 0 , 0);
+	bubble_button.position.set( GetW(0), -h / 2 - GetH( 512 ) , 0);
 	bubble_button.scale.set( GetW(256),GetW(256), 1 );
 	bubble_button.visible = true;
 	scene2d.add( bubble_button );
@@ -125,8 +122,7 @@ function init() {
 	
 	var r = window.innerWidth / 480 * 640;
 	renderer.setSize( window.innerWidth, r);
-
-	//renderer.setSize( window.innerWidth, window.innerHeight );
+	
 	document.body.appendChild( renderer.domElement );
 	//
 
@@ -151,7 +147,7 @@ function checkWebcam() {
 				video.srcObject = stream;
 				video.play();
 				texture = new THREE.VideoTexture( video );
-				//scene.background = texture;
+				scene.background = texture;
 
 
 			} ).catch( function ( error ) {
@@ -179,22 +175,20 @@ function animate() {
 
 	controls.update();
 	//renderer.render( scene, camera );
-
 	
 	renderer.clear();
 	renderer.render(scene, camera);
 	renderer.clearDepth();
 	renderer.render(scene2d, camera2d);
-
 	
-	// if (controls.beta_data >1.0 || controls.beta_data <-1.0)
-	// {
-	// 	let r:number = controls.beta_data > 1.0 ? 1.0 : controls.beta_data;
-	// 	r = r < 0.0 ? 0.0 : r;
-	// 	let h:number = window.innerHeight;
+	 if (controls.beta_data >1.0 || controls.beta_data <-1.0)
+	 {
+	 	let r:number = controls.beta_data > 1.0 ? 1.0 : controls.beta_data;
+	 	r = r < 0.0 ? 0.0 : r;
+	 	let h:number = window.innerHeight;
 
-	// 	bubble_button.position.set( GetW(0), (-h / 2 - GetH( 512 ) ) * (1-r)  , 0);
-	// }
+	 	bubble_button.position.set( GetW(0), (-h / 2 - GetH( 512 ) ) * (1-r)  , 0);
+	 }
 	
 }
 
@@ -208,8 +202,6 @@ function onWindowResize() {
 
 	var r = window.innerWidth / 480 * 640;
 	renderer.setSize( window.innerWidth, r);
-
-	//renderer.setSize( window.innerWidth, window.innerHeight );
 }
 
 function OnCapture()

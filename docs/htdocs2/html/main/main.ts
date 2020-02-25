@@ -26,10 +26,8 @@ function SaveImage() {
 
 //window.addEventListener('load', () => {SceneManager.Instance.OnClickStart();SceneManager.Instance.Init()});
 
-
-var camera2d, scene2d;
 var camera, scene, renderer, controls,video,texture;
-
+var camera2d, scene2d;
 var bubble_button:THREE.Sprite;
 
 
@@ -81,15 +79,13 @@ function init() {
 		color: 0xffffff 
 	} );
 
-
+	
 	var material = new THREE.MeshBasicMaterial( {
 		map: new THREE.TextureLoader().load( 'textures/sky.png' ),
 		transparent : true,
 		opacity: 1,
 		side: THREE.DoubleSide
 	} );
-
-	
 
 	///////////
 	scene2d = new THREE.Scene();
@@ -102,18 +98,18 @@ function init() {
 	let w:number = window.innerWidth;
 	let h:number = window.innerHeight;
 
-	var spriteMaterial = new THREE.SpriteMaterial( { map:BubbleMaterial , color: 0xffffff } );
-	bubble_button = new THREE.Sprite( spriteMaterial );
+	
+	bubble_button = new THREE.Sprite( BubbleMaterial );
 	bubble_button.name = "bubble_button";
-	bubble_button.position.set( 0, 0 , 0);
-	//bubble_button.position.set( GetW(0), -h / 2 - GetH( 512 ) , 0);
+	//bubble_button.position.set( 0, 0 , 0);
+	bubble_button.position.set( GetW(0), -h / 2 - GetH( 512 ) , 0);
 	bubble_button.scale.set( GetW(256),GetW(256), 1 );
 	bubble_button.visible = true;
 	scene2d.add( bubble_button );
 ///////
 
-	var mesh = new THREE.Mesh( geometry, material );
-	scene.add( mesh );
+	//var mesh = new THREE.Mesh( geometry, material );
+	//scene.add( mesh );
 
 	//var helperGeometry = new THREE.BoxBufferGeometry( 100, 100, 100, 4, 4, 4 );
 	//var helperMaterial = new THREE.MeshBasicMaterial( { color: 0xff00ff, wireframe: true } );
@@ -123,11 +119,10 @@ function init() {
 
 	renderer = new THREE.WebGLRenderer( { antialias: true } );
 	renderer.setPixelRatio( window.devicePixelRatio );
-	renderer.autoClear = false;
+	
 	var r = window.innerWidth / 480 * 640;
 	renderer.setSize( window.innerWidth, r);
-
-	//renderer.setSize( window.innerWidth, window.innerHeight );
+	
 	document.body.appendChild( renderer.domElement );
 	//
 
@@ -180,22 +175,20 @@ function animate() {
 
 	controls.update();
 	//renderer.render( scene, camera );
-
 	
 	renderer.clear();
 	renderer.render(scene, camera);
 	renderer.clearDepth();
 	renderer.render(scene2d, camera2d);
-
 	
-	// if (controls.beta_data >1.0 || controls.beta_data <-1.0)
-	// {
-	// 	let r:number = controls.beta_data > 1.0 ? 1.0 : controls.beta_data;
-	// 	r = r < 0.0 ? 0.0 : r;
-	// 	let h:number = window.innerHeight;
+	 if (controls.beta_data >1.0 || controls.beta_data <-1.0)
+	 {
+	 	let r:number = controls.beta_data > 1.0 ? 1.0 : controls.beta_data;
+	 	r = r < 0.0 ? 0.0 : r;
+	 	let h:number = window.innerHeight;
 
-	// 	bubble_button.position.set( GetW(0), (-h / 2 - GetH( 512 ) ) * (1-r)  , 0);
-	// }
+	 	bubble_button.position.set( GetW(0), (-h / 2 - GetH( 512 ) ) * (1-r)  , 0);
+	 }
 	
 }
 
@@ -209,8 +202,6 @@ function onWindowResize() {
 
 	var r = window.innerWidth / 480 * 640;
 	renderer.setSize( window.innerWidth, r);
-
-	//renderer.setSize( window.innerWidth, window.innerHeight );
 }
 
 function OnCapture()

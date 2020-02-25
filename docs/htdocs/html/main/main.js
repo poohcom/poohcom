@@ -47,27 +47,26 @@ function init() {
     var geometry = new THREE.SphereBufferGeometry(500, 60, 40);
     // invert the geometry on the x-axis so that all of the faces point inward
     geometry.scale(-1, 1, 1);
+    var BubbleMaterial = new THREE.SpriteMaterial({
+        map: new THREE.TextureLoader().load('textures/bubble.png'),
+        color: 0xffffff
+    });
     var material = new THREE.MeshBasicMaterial({
         map: new THREE.TextureLoader().load('textures/sky.png'),
         transparent: true,
         opacity: 1,
         side: THREE.DoubleSide
     });
-    var BubbleMaterial = new THREE.SpriteMaterial({
-        map: new THREE.TextureLoader().load('textures/bubble.png'),
-        color: 0xffffff
-    });
     ///////////
     scene2d = new THREE.Scene();
-    camera2d = new THREE.OrthographicCamera(-window.innerWidth / 2, window.innerWidth / 2, window.innerHeight / 2, -window.innerHeight / 2, 0, 10);
+    camera2d = new THREE.OrthographicCamera(-window.innerWidth / 2, window.innerWidth / 2, window.innerHeight / 2, -window.innerHeight / 2, 1, 10);
     camera2d.position.z = 10;
     let w = window.innerWidth;
     let h = window.innerHeight;
-    var spriteMaterial = new THREE.SpriteMaterial({ map: BubbleMaterial, color: 0xffffff });
-    bubble_button = new THREE.Sprite(spriteMaterial);
+    bubble_button = new THREE.Sprite(BubbleMaterial);
     bubble_button.name = "bubble_button";
-    bubble_button.position.set(0, 0, 0);
-    //bubble_button.position.set( GetW(0), -h / 2 - GetH( 512 ) , 0);
+    //bubble_button.position.set( 0, 0 , 0);
+    bubble_button.position.set(GetW(0), -h / 2 - GetH(512), 0);
     bubble_button.scale.set(GetW(256), GetW(256), 1);
     bubble_button.visible = true;
     scene2d.add(bubble_button);
@@ -82,7 +81,6 @@ function init() {
     renderer.setPixelRatio(window.devicePixelRatio);
     var r = window.innerWidth / 480 * 640;
     renderer.setSize(window.innerWidth, r);
-    //renderer.setSize( window.innerWidth, window.innerHeight );
     document.body.appendChild(renderer.domElement);
     //
     window.addEventListener('resize', onWindowResize, false);
@@ -97,7 +95,7 @@ function checkWebcam() {
                 video.srcObject = stream;
                 video.play();
                 texture = new THREE.VideoTexture(video);
-                //scene.background = texture;
+                scene.background = texture;
             }).catch(function (error) {
                 console.error('Unable to access the camera/webcam.', error);
             });
@@ -118,22 +116,20 @@ function animate() {
     renderer.render(scene, camera);
     renderer.clearDepth();
     renderer.render(scene2d, camera2d);
-    // if (controls.beta_data >1.0 || controls.beta_data <-1.0)
-    // {
-    // 	let r:number = controls.beta_data > 1.0 ? 1.0 : controls.beta_data;
-    // 	r = r < 0.0 ? 0.0 : r;
-    // 	let h:number = window.innerHeight;
-    // 	bubble_button.position.set( GetW(0), (-h / 2 - GetH( 512 ) ) * (1-r)  , 0);
-    // }
+    if (controls.beta_data > 1.0 || controls.beta_data < -1.0) {
+        let r = controls.beta_data > 1.0 ? 1.0 : controls.beta_data;
+        r = r < 0.0 ? 0.0 : r;
+        let h = window.innerHeight;
+        bubble_button.position.set(GetW(0), (-h / 2 - GetH(512)) * (1 - r), 0);
+    }
 }
 function onWindowResize() {
     camera.aspect = ratio;
     camera.updateProjectionMatrix();
-    //camera2d.aspect = ratio;
+    camera2d.aspect = ratio;
     camera2d.updateProjectionMatrix();
     var r = window.innerWidth / 480 * 640;
     renderer.setSize(window.innerWidth, r);
-    //renderer.setSize( window.innerWidth, window.innerHeight );
 }
 function OnCapture() {
     var w = window.open('', '');
