@@ -24,8 +24,6 @@ function SaveImage() {
 	return fname;
 }
 
-//window.addEventListener('load', () => {SceneManager.Instance.OnClickStart();SceneManager.Instance.Init()});
-
 var camera, scene, renderer, controls,video,texture;
 var camera2d, scene2d;
 var bubble_button:THREE.Sprite;
@@ -119,6 +117,7 @@ function init() {
 
 	renderer = new THREE.WebGLRenderer( { antialias: true } );
 	renderer.setPixelRatio( window.devicePixelRatio );
+	renderer.autoClear=false;
 	
 	var r = window.innerWidth / 480 * 640;
 	renderer.setSize( window.innerWidth, r);
