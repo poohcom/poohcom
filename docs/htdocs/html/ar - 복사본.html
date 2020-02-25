@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>three.js webgl - materials - video - webcam</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<link type="text/css" rel="stylesheet" href="main.css">
+	</head>
+	<body>
+
+		<div id="overlay">
+			<div>
+				<button id="startButton">Start Demo8</button>
+				<p>Using device orientation might require a user interaction.</p>
+			</div>
+		</div>
+		
+
+		<div id="output" >
+			<p></p>
+		</div>
+		
+		<div id="capture" >
+			<button id="captureButton" >Capture</button>
+		</div>
+		
+		<video id="video" autoplay style="display:none" playsinline></video>
+		<script type="module">
+
+			import * as THREE from '../build/three.module.js';
+
+			import { DeviceOrientationControls } from './jsm/controls/DeviceOrientationControls.js';
+
+			var camera, scene, renderer, controls,video,texture;
+
+
+			var ratio = 480.0/640.0;
+			var startButton = document.getElementById( 'startButton' );
+			startButton.addEventListener( 'click', function () {
+
+				init();
+				animate();
+
+			}, false );
+			
+			var captureButton = document.getElementById( 'captureButton' );
+			captureButton.addEventListener( 'click', function () {
+
+				OnCapture();
+
+			}, false );
+			
+
+			video = document.getElementById( 'video' );
+
+			function init() {
+
+				var overlay = document.getElementById( 'overlay' );
+				overlay.remove();
+
+				camera = new THREE.PerspectiveCamera( 75, ratio, 1, 1100 );
+
+				controls = new DeviceOrientationControls( camera );
+
+				scene = new THREE.Scene();
+
+				
+
+				var geometry = new THREE.SphereBufferGeometry( 500, 60, 40 );
+				// invert the geometry on the x-axis so that all of the faces point inward
+				geometry.scale( - 1, 1, 1 );
+
+				var material = new THREE.MeshBasicMaterial( {
+					map: new THREE.TextureLoader().load( 'textures/sky.png' ),
+					transparent : true,
+					opacity: 1,
+					side: THREE.DoubleSide
+				} );
+
+				var mesh = new THREE.Mesh( geometry, material );
+				scene.add( mesh );
+
+				//var helperGeometry = new THREE.BoxBufferGeometry( 100, 100, 100, 4, 4, 4 );
+				//var helperMaterial = new THREE.MeshBasicMaterial( { color: 0xff00ff, wireframe: true } );
+				//var helper = new THREE.Mesh( helperGeometry, helperMaterial );
+				//scene.add( helper );
+
+				//
+
+				renderer = new THREE.WebGLRenderer( { antialias: true } );
+				renderer.setPixelRatio( window.devicePixelRatio );
+				
+				var r = window.innerWidth / 480 * 640;
+				renderer.setSize( window.innerWidth, r);
+
+				//renderer.setSize( window.innerWidth, window.innerHeight );
+				document.body.appendChild( renderer.domElement );
+
+				//
+
+				window.addEventListener( 'resize', onWindowResize, false );
+
+				window.setTimeout(checkWebcam, 1000);
+			}
+			
+			function checkWebcam() {
+			
+				if ( controls.is_check == 1 )
+				{
+					if ( navigator.mediaDevices && navigator.mediaDevices.getUserMedia ) 
+					{
+
+						var constraints = { video: { width: 640, height: 480, facingMode: 'environment' } };
+
+						navigator.mediaDevices.getUserMedia( constraints ).then( function ( stream ) {
+
+						// apply the stream to the video element used in the texture
+
+							video.srcObject = stream;
+							video.play();
+							texture = new THREE.VideoTexture( video );
+							scene.background = texture;
+
+
+						} ).catch( function ( error ) {
+
+						console.error( 'Unable to access the camera/webcam.', error );
+
+						} );
+
+					} else {
+
+						console.error( 'MediaDevices interface not available.' );
+					}
+				
+				}else
+				{
+					window.setTimeout(checkWebcam, 1000);
+				}
+			}
+			
+			
+
+			function animate() {
+
+				window.requestAnimationFrame( animate );
+
+				controls.update();
+				renderer.render( scene, camera );
+				
+				if (controls.beta_data >1.0 || controls.beta_data <-1.0)
+				{
+					//document.getElementById( 'output' ).innerHTML="<p>"+controls.alpha_data+":"+controls.beta_data +":"+controls.gamma_data +"</p>";
+					document.getElementById( 'output' ).innerHTML="<p>click</p>";
+				}
+			}
+
+			function onWindowResize() {
+
+				camera.aspect = ratio;
+				camera.updateProjectionMatrix();
+
+				var r = window.innerWidth / 480 * 640;
+				renderer.setSize( window.innerWidth, r);
+
+				//renderer.setSize( window.innerWidth, window.innerHeight );
+			}
+			
+			function OnCapture()
+			{
+					var w = window.open('', '');
+					w.document.title = "Screenshot";
+					var img = new Image();
+					renderer.render(scene, camera);
+					img.src = renderer.domElement.toDataURL();
+					w.document.body.appendChild(img);  
+
+			/*
+				// download file like this.
+				//
+				var a = document.createElement('a');
+				// Without 'preserveDrawingBuffer' set to true, we must render now
+				renderer.render(scene, camera);
+				a.href = renderer.domElement.toDataURL().replace("image/png", "image/octet-stream");
+				a.download = 'canvas.png'
+				a.click();
+			*/
+				
+			/*
+				// New version of file download using toBlob.
+				// toBlob should be faster than toDataUrl.
+				// But maybe not because also calling createOjectURL.
+				//
+				renderer.render(scene, camera);
+				renderer.domElement.toBlob(function(blob){
+					var a = document.createElement('a');
+				  var url = URL.createObjectURL(blob);
+				  a.href = url;
+				  a.download = 'canvas.png';
+				  a.click();
+				}, 'image/png', 1.0);
+			*/
+				
+			}
+
+		</script>
+
+
+	</body>
+</html>
