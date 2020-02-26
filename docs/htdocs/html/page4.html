@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="NIKE AF1 PARA-NOISE UTOPIA">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+    <title>NIKE :: AIR MESSAGE</title>
+    <link type="text/css" rel="stylesheet" href="../assets/css/reset.css"/>
+    <link type="text/css" rel="stylesheet" href="../assets/css/font.css"/>
+    <link type="text/css" rel="stylesheet" href="../assets/css/slick.css"/>
+    <link type="text/css" rel="stylesheet" href="../assets/css/common.css"/>
+    <script type="text/javascript" src="../assets/js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="../assets/js/jquery.textfill.min.js"></script>
+    <script type="text/javascript" src="../assets/js/slick.min.js"></script>
+    <script type="text/javascript" src="../assets/js/common.js"></script>
+</head>
+<body style="background:url('../assets/img/page3/bg_content3.png') no-repeat center bottom;background-size:cover;">
+
+<div id="wrap">
+
+    <div class="logo">
+        <a href="#"><img src="../assets/img/logo.png" alt="The future is in the air"></a>
+    </div>
+
+    <div id="container" class="page4">
+        <div class="section1">
+            <img src="../assets/img/page4/img_content4_1.png" class="before" alt="">
+            <div class="text-area">
+                <div class="text-wrap">
+                    <span>Start Text!!</span>
+                </div>
+                <label>
+                    <input type="text" id="textFild" maxlength="20" onkeyup="inputLengthCheck(this);">
+                </label>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="btn-wrap">
+                <a href="javascript:void(0);" class="hover"><img src="../assets/img/page5/img_content5_2.png" alt="BACK"></a>
+                <a href="page5.html" class="hover"><img src="../assets/img/page5/img_content5_3.png" alt="NEXT"></a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="popup pop4">
+    <div class="flex">
+        <div class="pop-cont">
+            <img src="../assets/img/img_pop4.png" alt="비속어는 사용 할 수 없습니다.">
+            <a href="javascript:void(0);" class="hover" onclick="popClose('.pop4');"><img src="../assets/img/btn_confirm.png" alt="확인"></a>
+        </div>
+    </div>
+</div>
+
+<div class="popup pop5">
+    <div class="flex">
+        <div class="pop-cont">
+            <img src="../assets/img/img_pop5.png" alt="한영 혼용 및 특수문자는 불가합니다.">
+            <a href="javascript:void(0);" class="hover" onclick="popClose('.pop5');"><img src="../assets/img/btn_confirm.png" alt="확인"></a>
+        </div>
+    </div>
+</div>
+
+<div class="popup pop6">
+    <div class="flex">
+        <div class="pop-cont">
+            <img src="../assets/img/img_pop6.png" alt="메시지를 입력해주세요.">
+            <a href="javascript:void(0);" class="hover" onclick="popClose('.pop6');"><img src="../assets/img/btn_confirm.png" alt="확인"></a>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('#textFild').on('keyup', function(){
+            update();
+        });
+        update();
+        textCheck();
+    });
+
+    function textCheck(){
+        var inVal = $('#textFild').val();
+        if(inVal != ''){
+            $('.page4').addClass('on');
+        }
+
+        $('#textFild').on('blur', function(){
+            var inVal = $('#textFild').val();
+            if(inVal != ''){
+                $('.page4').addClass('on');
+            } else {
+                $('.page4').removeClass('on');
+            }
+        });
+    }
+
+    function update() {
+        $('.text-wrap span').html($('#textFild').val());
+        $('.text-wrap').textfill({
+            maxFontPixels: 50,
+            minFontPixels: 28
+        });
+    }
+
+    function inputLengthCheck(eventInput){
+        var inputText = $(eventInput).val();
+        var inputMaxLength = $(eventInput).prop("maxlength");
+        var inputMaxSum = inputMaxLength+20;
+        var j = 0;
+        var count = 0;
+        for(var i = 0;i < inputText.length;i++) {
+            val = escape(inputText.charAt(i)).length;
+            if(val == 6){
+                j++;
+            }
+            j++;
+            if(j <= inputMaxSum){
+                count++;
+            }
+        }
+
+        if(j > inputMaxSum){
+            $(eventInput).val(inputText.substr(0, count));
+        }
+    }
+</script>
+
+</body>
+</html>

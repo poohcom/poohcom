@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="NIKE AF1 PARA-NOISE UTOPIA">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+    <title>NIKE :: AIR MESSAGE</title>
+    <link type="text/css" rel="stylesheet" href="../assets/css/reset.css"/>
+    <link type="text/css" rel="stylesheet" href="../assets/css/font.css"/>
+    <link type="text/css" rel="stylesheet" href="../assets/css/slick.css"/>
+    <link type="text/css" rel="stylesheet" href="../assets/css/common.css"/>
+    <script type="text/javascript" src="../assets/js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="../assets/js/slick.min.js"></script>
+    <script type="text/javascript" src="../assets/js/common.js"></script>
+</head>
+<body>
+
+<div id="wrap">
+
+    <div class="logo">
+        <a href="#"><img src="../assets/img/logo.png" alt="The future is in the air"></a>
+    </div>
+
+    <div id="container" class="page9">
+        <div class="inner">
+            <div class="section1">
+                <img src="../assets/img/page9/img_content9_1.png" oncontextmenu="return false" style="-webkit-touch-callout:none" alt="">
+            </div>
+            <div class="section2">
+                <img src="../assets/img/tmp_img1.png" alt="">
+            </div>
+            <div class="section3">
+                <img src="../assets/img/page9/img_content9_2.png" oncontextmenu="return false" style="-webkit-touch-callout:none" alt="">
+                <img src="../assets/img/page9/img_content9_2_hand.png" class="hand" oncontextmenu="return false" style="-webkit-touch-callout:none" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll-content"></div>
+
+</div>
+
+<script>
+    $(function(){
+        $(window).scrollTop(0);
+    });
+
+    $(window).on('scroll', function(){
+        var winST = $(window).scrollTop();
+        var winH = $(window).height();
+        $('.page9 .inner').css({'transform': 'translate3d(0px, ' + -winST + 'px, 0px)'});
+        if(winST > winH/2){
+            console.log('a');
+            location.href = 'page10.html';
+        }
+    });
+</script>
+
+</body>
+</html>
