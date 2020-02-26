@@ -7,18 +7,24 @@
 		<link type="text/css" rel="stylesheet" href="main.css">
 	</head>
 	<body>
-<h2>iOS</h2>
-<ul>
-  <li><a href="googlechrome://https://poohcom.github.io/poohcom/htdocs2/html/ar.html">May open Chrome on iOS</a></li>
-  <li><a href="safari-https://https://poohcom.github.io/poohcom/htdocs2/html/ar.html">May open on Safari</a></li>
-  <li><a href="firefox://open-url?url=https://poohcom.github.io/poohcom/htdocs2/html/ar.html">May open on Firefox</a></li>
-  <li><a href="opera-https://https://poohcom.github.io/poohcom/htdocs2/html/ar.html">May open on Opera</a></li>
-</ul>
 
-<h2>Android</h2>
-	<li><a href="googlechrome://navigate?url=https://poohcom.github.io/poohcom/htdocs2/html/ar.html">May open on Chrome</a></li>
-<ul>
-  <li><a href=""></a></li>
-</ul>
+		<div id="overlay">
+			<div>
+				<button id="startButton">Start0226</button>
+				<p>Using device orientation might require a user interaction.</p>
+			</div>
+		</div>
+
+		<div id="output" >
+			<p></p>
+		</div>
+		
+		<div id="capture" >
+			<button id="captureButton" >Capture</button>
+		</div>
+		<video id="video" autoplay style="display:none" playsinline></video>
+		<script type="module" src="./main/main.js"></script>
+	
+
 	</body>
 </html>

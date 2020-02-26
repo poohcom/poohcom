@@ -20,7 +20,11 @@ function SaveImage() {
 var camera, scene, renderer, controls, video, texture;
 var camera2d, scene2d;
 var bubble_button;
-var ratio = 480.0 / 640.0;
+//var camera_width = 640;
+//var camera_height = 480;
+var camera_width = 1280;
+var camera_height = 720;
+var ratio = camera_height / camera_width;
 var startButton = document.getElementById('startButton');
 startButton.addEventListener('click', function () {
     init();
@@ -32,10 +36,10 @@ captureButton.addEventListener('click', function () {
 }, false);
 video = document.getElementById('video');
 function GetW(w) {
-    return window.innerWidth * w / 480;
+    return window.innerWidth * w / camera_height;
 }
 function GetH(h) {
-    return window.innerHeight * h / 640;
+    return window.innerHeight * h / camera_width;
 }
 function init() {
     var overlay = document.getElementById('overlay');
@@ -79,7 +83,7 @@ function init() {
     renderer = new THREE.WebGLRenderer({ antialias: true });
     renderer.setPixelRatio(window.devicePixelRatio);
     renderer.autoClear = false;
-    var r = window.innerWidth / 480 * 640;
+    var r = window.innerWidth / camera_height * camera_width;
     renderer.setSize(window.innerWidth, r);
     document.body.appendChild(renderer.domElement);
     //
@@ -89,7 +93,7 @@ function init() {
 function checkWebcam() {
     if (controls.is_check == 1) {
         if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
-            var constraints = { video: { width: 640, height: 480, facingMode: 'environment' } };
+            var constraints = { video: { width: camera_width, height: camera_height, facingMode: 'environment' } };
             navigator.mediaDevices.getUserMedia(constraints).then(function (stream) {
                 // apply the stream to the video element used in the texture
                 video.srcObject = stream;
@@ -129,7 +133,7 @@ function onWindowResize() {
     camera.updateProjectionMatrix();
     camera2d.aspect = ratio;
     camera2d.updateProjectionMatrix();
-    var r = window.innerWidth / 480 * 640;
+    var r = window.innerWidth / camera_height * camera_width;
     renderer.setSize(window.innerWidth, r);
 }
 function OnCapture() {
@@ -137,6 +141,7 @@ function OnCapture() {
     w.document.title = "Screenshot";
     var img = new Image();
     renderer.render(scene, camera);
+    renderer.render(scene2d, camera2d);
     img.src = renderer.domElement.toDataURL();
     w.document.body.appendChild(img);
 }

@@ -28,8 +28,13 @@ var camera, scene, renderer, controls,video,texture;
 var camera2d, scene2d;
 var bubble_button:THREE.Sprite;
 
+//var camera_width = 640;
+//var camera_height = 480;
 
-var ratio = 480.0/ 640.0;
+var camera_width = 1280;
+var camera_height = 720;
+
+var ratio = camera_height/camera_width;
 var startButton:HTMLElement = document.getElementById( 'startButton' );
 startButton.addEventListener( 'click', function () {
 
@@ -50,11 +55,11 @@ video = document.getElementById( 'video' );
 
 
 function GetW(w:number):number{
-	return window.innerWidth* w /  480;
+	return window.innerWidth* w /  camera_height;
 }
 
 function GetH(h:number):number{
-	return window.innerHeight* h / 640;
+	return window.innerHeight* h / camera_width;
 }
 
 function init() {
@@ -119,7 +124,7 @@ function init() {
 	renderer.setPixelRatio( window.devicePixelRatio );
 	renderer.autoClear=false;
 	
-	var r = window.innerWidth / 480 * 640;
+	var r = window.innerWidth / camera_height * camera_width;
 	renderer.setSize( window.innerWidth, r);
 	
 	document.body.appendChild( renderer.domElement );
@@ -137,7 +142,7 @@ function checkWebcam() {
 		if ( navigator.mediaDevices && navigator.mediaDevices.getUserMedia ) 
 		{
 
-			var constraints = { video: { width: 640, height: 480, facingMode: 'environment' } };
+			var constraints = { video: { width: camera_width, height: camera_height, facingMode: 'environment' } };
 
 			navigator.mediaDevices.getUserMedia( constraints ).then( function ( stream ) {
 
@@ -199,7 +204,7 @@ function onWindowResize() {
 	camera2d.aspect = ratio;
 	camera2d.updateProjectionMatrix();
 
-	var r = window.innerWidth / 480 * 640;
+	var r = window.innerWidth / camera_height * camera_width;
 	renderer.setSize( window.innerWidth, r);
 }
 
@@ -209,6 +214,7 @@ function OnCapture()
 		w.document.title = "Screenshot";
 		var img = new Image();
 		renderer.render(scene, camera);
+		renderer.render(scene2d, camera2d);
 		img.src = renderer.domElement.toDataURL();
 		w.document.body.appendChild(img);  
 }
