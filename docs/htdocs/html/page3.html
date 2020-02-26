@@ -37,7 +37,7 @@
             <img src="../assets/img/page3/img_content3_1.png" class="before-txt" alt="">
             <img src="../assets/img/page3/img_content3_2.png" class="after-txt" alt="">
             <div class="btn-area">
-                <button type="button" class="btn-pic" onclick="location.href='page4.html'"><span class="hover">사진찍기</span></button>
+                <button type="button" class="btn-pic" id="captureButton"><span class="hover">사진찍기</span></button>
             </div>
         </div>
         <div class="layer-move">
@@ -48,13 +48,15 @@
 
 
 </div>
-
+<script type="module" src="./main/main.js"></script>
 <script>
+/*
     $(function(){
         setTimeout(function(){
             completeAngle();
         }, 3000);
     });
+	*/
 
     //각도 완료시
     function completeAngle(){
