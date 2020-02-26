@@ -24,6 +24,9 @@ button {
 
 canvas {
 	display: block;
+	position: absolute;
+    left: 0px;
+    top: 0px;
 }
 
 #info {
