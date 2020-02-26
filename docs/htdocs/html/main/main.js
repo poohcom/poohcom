@@ -140,13 +140,18 @@ function OnCapture() {
     var w = window.open('', '');
     w.document.title = "Screenshot";
     var img = new Image();
+    renderer.clear();
     renderer.render(scene, camera);
+    renderer.clearDepth();
     renderer.render(scene2d, camera2d);
     img.src = renderer.domElement.toDataURL();
     w.document.body.appendChild(img);
 }
 function GetCapture() {
     var img = new Image();
+    renderer.clear();
     renderer.render(scene, camera);
+    renderer.clearDepth();
+    renderer.render(scene2d, camera2d);
     return renderer.domElement.toDataURL();
 }
