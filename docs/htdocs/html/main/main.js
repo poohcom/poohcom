@@ -47,7 +47,7 @@ function init() {
     camera = new THREE.PerspectiveCamera(75, ratio, 1, 1100);
     controls = new DeviceOrientationControls(camera);
     scene = new THREE.Scene();
-    var geometry = new THREE.SphereBufferGeometry(500, 60, 40);
+    var geometry = new THREE.SphereBufferGeometry(500, 120, 80);
     // invert the geometry on the x-axis so that all of the faces point inward
     geometry.scale(-1, 1, 1);
     var BubbleMaterial = new THREE.SpriteMaterial({
