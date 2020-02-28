@@ -1,28 +1,5 @@
 import * as THREE from '../../build/three.module.js';
-
 import { DeviceOrientationControls } from '../jsm/controls/DeviceOrientationControls.js';
-
-function SaveImage() {
-	var fname = '';
-
-    $.ajax({
-        method: 'POST',
-		async: false,
-        url: 'photo_upload.php',
-        data: {
-            photo : GetCapture()
-        }, 
-		success: function(data) {
-			fname = data.result;
-
-			sessionStorage.setItem("my_image", fname); //이미지명 저장
-
-			//console.log('save image name to session : ' + sessionStorage.getItem("my_image"));
-		}
-    });
-
-	return fname;
-}
 
 var camera, scene, renderer, controls,video,texture;
 var camera2d, scene2d;
@@ -40,7 +17,7 @@ var startButton:HTMLElement = document.getElementById( 'startButton' );
 startButton.addEventListener( 'click', function () {
 
 	init();
-	animate();
+	//animate();
 
 }, false );
 
@@ -77,12 +54,10 @@ function init() {
 	// invert the geometry on the x-axis so that all of the faces point inward
 	geometry.scale( - 1, 1, 1 );
 
-
 	var BubbleMaterial = new THREE.SpriteMaterial( {
 		map: new THREE.TextureLoader().load( 'textures/bubble.png' ),
 		color: 0xffffff 
 	} );
-
 	
 	var material = new THREE.MeshBasicMaterial( {
 		map: new THREE.TextureLoader().load( 'textures/sky.png' ),
@@ -101,11 +76,9 @@ function init() {
 	
 	let w:number = window.innerWidth;
 	let h:number = window.innerHeight;
-
 	
 	bubble_button = new THREE.Sprite( BubbleMaterial );
 	bubble_button.name = "bubble_button";
-	//bubble_button.position.set( 0, 0 , 0);
 	bubble_button.position.set( GetW(0), -h / 2 - GetH( 512 ) , 0);
 	bubble_button.scale.set( GetW(256),GetH(256), 1 );
 	bubble_button.visible = true;
@@ -114,11 +87,6 @@ function init() {
 
 	var mesh = new THREE.Mesh( geometry, material );
 	scene.add( mesh );
-
-	//var helperGeometry = new THREE.BoxBufferGeometry( 100, 100, 100, 4, 4, 4 );
-	//var helperMaterial = new THREE.MeshBasicMaterial( { color: 0xff00ff, wireframe: true } );
-	//var helper = new THREE.Mesh( helperGeometry, helperMaterial );
-	//scene.add( helper );
 
 
 	renderer = new THREE.WebGLRenderer( { antialias: true } );
@@ -133,7 +101,7 @@ function init() {
 
 	window.addEventListener( 'resize', onWindowResize, false );
 
-	window.setTimeout(checkWebcam, 1000);
+	window.setTimeout(checkWebcam, 500);
 }
 
 function checkWebcam() {
@@ -144,14 +112,14 @@ function checkWebcam() {
 		{
 			var constraints = { video: { width: camera_width, height: camera_height, facingMode: 'environment' } };
 
-			navigator.mediaDevices.getUserMedia( constraints ).then( function ( stream ) {
-			// apply the stream to the video element used in the texture
+				navigator.mediaDevices.getUserMedia( constraints ).then( function ( stream ) {
+				// apply the stream to the video element used in the texture
 
 				video.srcObject = stream;
 				video.play();
 				texture = new THREE.VideoTexture( video );
 				scene.background = texture;
-
+				animate();
 
 			} ).catch( function ( error ) {
 
@@ -166,11 +134,9 @@ function checkWebcam() {
 	
 	}else
 	{
-		window.setTimeout(checkWebcam, 1000);
+		window.setTimeout(checkWebcam, 500);
 	}
 }
-
-
 
 function animate() {
 
