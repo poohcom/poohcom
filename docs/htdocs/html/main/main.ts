@@ -139,11 +139,8 @@ function checkWebcam() {
 }
 
 function animate() {
-
 	window.requestAnimationFrame( animate );
-
 	controls.update();
-	//renderer.render( scene, camera );
 	
 	renderer.clear();
 	renderer.render(scene, camera);
@@ -151,8 +148,6 @@ function animate() {
 	renderer.render(scene2d, camera2d);
 	
 	 //if (controls.beta_data > 1.0 || controls.beta_data <-1.0)
-	 
-	 
 	 {
 	 	let r:number = controls.beta_data > 1.0 ? 1.0 : controls.beta_data;
 		 r = r < 0.0 ? 0.0 : r;
@@ -173,7 +168,6 @@ function animate() {
 
 	 	bubble_button.position.set( GetW(0), (-h / 2 - GetH( 512 ) ) * (1-r)  , 0);
 	 }
-	
 }
 
 function onWindowResize() {
