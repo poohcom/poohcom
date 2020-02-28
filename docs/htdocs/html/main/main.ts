@@ -33,6 +33,7 @@ var bubble_button:THREE.Sprite;
 
 var camera_width = 1280;
 var camera_height = 720;
+var icon_visible = true;
 
 var ratio = camera_height/camera_width;
 var startButton:HTMLElement = document.getElementById( 'startButton' );
@@ -141,11 +142,9 @@ function checkWebcam() {
 	{
 		if ( navigator.mediaDevices && navigator.mediaDevices.getUserMedia ) 
 		{
-
 			var constraints = { video: { width: camera_width, height: camera_height, facingMode: 'environment' } };
 
 			navigator.mediaDevices.getUserMedia( constraints ).then( function ( stream ) {
-
 			// apply the stream to the video element used in the texture
 
 				video.srcObject = stream;
@@ -186,9 +185,24 @@ function animate() {
 	renderer.render(scene2d, camera2d);
 	
 	 //if (controls.beta_data > 1.0 || controls.beta_data <-1.0)
+	 
+	 
 	 {
 	 	let r:number = controls.beta_data > 1.0 ? 1.0 : controls.beta_data;
-	 	r = r < 0.0 ? 0.0 : r;
+		 r = r < 0.0 ? 0.0 : r;
+		 
+		if ( r>0.5 && icon_visible==true)
+		{
+			icon_visible = false;
+			$('.layer-move').hide();
+		}
+
+		if ( r<0.5 && icon_visible==false)
+		{
+			icon_visible = true;
+			$('.layer-move').show();
+		}
+
 	 	let h:number = window.innerHeight;
 
 	 	bubble_button.position.set( GetW(0), (-h / 2 - GetH( 512 ) ) * (1-r)  , 0);

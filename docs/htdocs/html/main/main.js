@@ -24,6 +24,7 @@ var bubble_button;
 //var camera_height = 480;
 var camera_width = 1280;
 var camera_height = 720;
+var icon_visible = true;
 var ratio = camera_height / camera_width;
 var startButton = document.getElementById('startButton');
 startButton.addEventListener('click', function () {
@@ -47,7 +48,7 @@ function init() {
     camera = new THREE.PerspectiveCamera(75, ratio, 1, 1100);
     controls = new DeviceOrientationControls(camera);
     scene = new THREE.Scene();
-    var geometry = new THREE.SphereBufferGeometry(500, 120, 80);
+    var geometry = new THREE.SphereBufferGeometry(500, 60, 40);
     // invert the geometry on the x-axis so that all of the faces point inward
     geometry.scale(-1, 1, 1);
     var BubbleMaterial = new THREE.SpriteMaterial({
@@ -124,6 +125,14 @@ function animate() {
     {
         let r = controls.beta_data > 1.0 ? 1.0 : controls.beta_data;
         r = r < 0.0 ? 0.0 : r;
+        if (r > 0.5 && icon_visible == true) {
+            icon_visible = false;
+            $('.layer-move').hide();
+        }
+        if (r < 0.5 && icon_visible == false) {
+            icon_visible = true;
+            $('.layer-move').show();
+        }
         let h = window.innerHeight;
         bubble_button.position.set(GetW(0), (-h / 2 - GetH(512)) * (1 - r), 0);
     }
