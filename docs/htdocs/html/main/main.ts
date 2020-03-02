@@ -13,20 +13,10 @@ var camera_height = 720;
 var icon_visible = true;
 
 var ratio = camera_height/camera_width;
-var startButton:HTMLElement = document.getElementById( 'startButton' );
-startButton.addEventListener( 'click', function () {
 
-	init();
-	//animate();
-
-}, false );
-
-var captureButton:HTMLElement = document.getElementById( 'captureButton' );
-captureButton.addEventListener( 'click', function () {
-
-	OnCapture();
-
-}, false );
+var textureLoader:THREE.TextureLoader = new THREE.TextureLoader();
+var sky;
+var bubble;
 
 
 video = document.getElementById( 'video' );
@@ -40,8 +30,35 @@ function GetH(h:number):number{
 	return window.innerHeight* h / camera_width;
 }
 
-function init() {
+function setup()
+{
+	sky = textureLoader.load( 'textures/sky.png' , function(texture){setup2();});
+}
 
+function setup2()
+{
+	bubble = textureLoader.load( 'textures/bubble.png', function(texture){setup3();});
+}
+
+function setup3()
+{
+	var startButton:HTMLElement = document.getElementById( 'startButton' );
+	startButton.addEventListener( 'click', function () {
+
+		init();
+
+	}, false );
+
+	var captureButton:HTMLElement = document.getElementById( 'captureButton' );
+	captureButton.addEventListener( 'click', function () {
+
+		OnCapture();
+
+	}, false );
+}
+
+function init() 
+{
 	var overlay = document.getElementById( 'overlay' );
 	overlay.remove();
 
@@ -55,12 +72,12 @@ function init() {
 	geometry.scale( - 1, 1, 1 );
 
 	var BubbleMaterial = new THREE.SpriteMaterial( {
-		map: new THREE.TextureLoader().load( 'textures/bubble.png' ),
+		map: bubble,
 		color: 0xffffff 
 	} );
 	
 	var material = new THREE.MeshBasicMaterial( {
-		map: new THREE.TextureLoader().load( 'textures/sky.png' ),
+		map: sky,
 		transparent : true,
 		opacity: 1,
 		side: THREE.DoubleSide
