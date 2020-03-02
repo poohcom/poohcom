@@ -18,7 +18,6 @@ var textureLoader:THREE.TextureLoader = new THREE.TextureLoader();
 var sky;
 var bubble;
 
-
 video = document.getElementById( 'video' );
 
 
@@ -30,18 +29,18 @@ function GetH(h:number):number{
 	return window.innerHeight* h / camera_width;
 }
 
-function setup()
-{
-	sky = textureLoader.load( 'textures/sky.png' , function(texture){setup2();});
-}
+console.log("setup");
+sky = textureLoader.load( 'textures/sky.png' , function(texture){setup2();});
 
 function setup2()
 {
+	console.log("setup2");
 	bubble = textureLoader.load( 'textures/bubble.png', function(texture){setup3();});
 }
 
 function setup3()
 {
+	console.log("setup3");
 	var startButton:HTMLElement = document.getElementById( 'startButton' );
 	startButton.addEventListener( 'click', function () {
 
